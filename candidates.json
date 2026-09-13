@@ -1,20 +1,146 @@
 {
-  "updated": "2026-09-13T02:30:31Z",
-  "count": 1030,
+  "updated": "2026-09-13T15:25:54Z",
+  "count": 1057,
   "candidates": [
     {
-      "id": "https://www.facebook.com/groups/518258159093897/posts/2167656757487354",
-      "url": "https://www.facebook.com/groups/518258159093897/posts/2167656757487354",
-      "title": "Why is Dynegy causing high AEP bills in Findlay, Ohio? - Facebook",
-      "snippet": "Go to Apple to apples and check rates available to you. You are free to opt out and get a new provider but after a check for myself Dynegy is the best rate for",
+      "id": "https://www.facebook.com/groups/1556478077754786/posts/28340397645602799",
+      "url": "https://www.facebook.com/groups/1556478077754786/posts/28340397645602799",
+      "title": "Wisconsin Energy requests rate increase - Facebook",
+      "snippet": "We Energies is seeking a 9.2% electric rate hike for all customers through 2028, according to filings submitted to state regulators April 1. See link below ⬇️",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Findlay, Ohio Neighbors Helping Neighbors",
-      "posted": "2026-09-12",
+      "group": "Whitewater Anything Forum",
+      "posted": "2026-09-10",
       "first_seen": "2026-09-13",
       "last_seen": "2026-09-13",
       "queries": [
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "5c1c5affd84b"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-13",
+      "group": "Findlay, Ohio Neighbors Helping Neighbors",
+      "id": "https://www.facebook.com/groups/518258159093897/posts/2167656757487354",
+      "last_seen": "2026-09-13",
+      "posted": "2026-09-12",
+      "production": {
+        "accepted": true,
+        "reason": "accepted",
+        "source": "rules"
+      },
+      "queries": [
         "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
+      ],
+      "rules": {
+        "accepted": true,
+        "freshness": "fresh",
+        "hard_exclusion": false,
+        "host": true,
+        "keyword": true,
+        "lead": true,
+        "ohio": true,
+        "reason": "accepted",
+        "semantic_accepted": true,
+        "version": "9703ff8bd3ba"
+      },
+      "snippet": "Go to Apple to apples and check rates available to you. You are free to opt out and get a new provider but after a check for myself Dynegy is the best rate for",
+      "source": "Facebook",
+      "title": "Why is Dynegy causing high AEP bills in Findlay, Ohio? - Facebook",
+      "url": "https://www.facebook.com/groups/518258159093897/posts/2167656757487354"
+    },
+    {
+      "id": "https://www.facebook.com/groups/369228190446898/posts/2049135042456196",
+      "url": "https://www.facebook.com/groups/369228190446898/posts/2049135042456196",
+      "title": "Why is AEP changing its name back to Zanesville, OH Power on my ...",
+      "snippet": "AEP Ohio customers are about to see another electric bill increase. The Public Utilities Commission of Ohio voted to approve a rate increase, taking effect in",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Zanesvilles Finest",
+      "posted": "2026-09-13",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-13",
+      "queries": [
+        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio",
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "intent",
+        "host": true,
+        "keyword": true,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "5c1c5affd84b"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "intent"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1970627793460230/posts/2452136161976055",
+      "url": "https://www.facebook.com/groups/1970627793460230/posts/2452136161976055",
+      "title": "Why have NAEC electric bills suddenly increased drastically?",
+      "snippet": "NAEC's 9.4% Increase: The Bigger Picture While the 9.4% rate hike may feel abrupt, it's actually catch-up, not overreach. Let's break that down: 🕰️",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "North Arkansas Electric Cooperative Members",
+      "posted": "2026-09-10",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-13",
+      "queries": [
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "5c1c5affd84b"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/619389758489669/posts/2623387598089865",
+      "url": "https://www.facebook.com/groups/619389758489669/posts/2623387598089865",
+      "title": "Why has AEP electricity bill increased despite stable usage?",
+      "snippet": "AEP Ohio won't profit from the rate increase. It passes along those costs to customers. This increase will remain in effect until May 31, 2024. #### This",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "What's Up in Delaware, OH",
+      "posted": "2026-09-11",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-13",
+      "queries": [
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
       ],
       "rules": {
         "accepted": true,
@@ -25,7 +151,7 @@
         "ohio": true,
         "lead": true,
         "hard_exclusion": false,
-        "version": "9703ff8bd3ba",
+        "version": "5c1c5affd84b",
         "freshness": "fresh"
       },
       "production": {
@@ -35,173 +161,18 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/369228190446898/posts/2049135042456196",
-      "url": "https://www.facebook.com/groups/369228190446898/posts/2049135042456196",
-      "title": "Why is AEP changing its name back to Zanesville, OH Power on my ...",
-      "snippet": "... Energy Choice Ohio, which is the state's official comparison site. Filter ... Please go to the Ohio PUCO Apples to Apples Comparison and do some homework.",
+      "id": "https://www.facebook.com/groups/wearegc/posts/4604149096568766",
+      "url": "https://www.facebook.com/groups/wearegc/posts/4604149096568766",
+      "title": "Why are two piggybacked outlets not working with no breaker ...",
+      "snippet": "Looking for advice or help with an electrical issue. Two outlets suddenly stopped working that are the only two on the wall, no breaker is flipped,or gfi",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Zanesvilles Finest",
-      "posted": "2026-09-13",
+      "group": "Grove City Connect",
+      "posted": "2026-09-09",
       "first_seen": "2026-09-13",
       "last_seen": "2026-09-13",
       "queries": [
-        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
-        "host": true,
-        "keyword": true,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "9703ff8bd3ba"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/highlandcountyohchat/posts/2229913067864076",
-      "url": "https://www.facebook.com/groups/highlandcountyohchat/posts/2229913067864076",
-      "title": "What electricity providers have users switched to in Highland County ...",
-      "snippet": "We have AEP currently and was looking at the apples to apples website. What has anyone switched to and haven't had issues? We used constellation when we had AES",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Highland County Chat",
-      "posted": "2026-09-08",
-      "first_seen": "2026-09-13",
-      "last_seen": "2026-09-13",
-      "queries": [
-        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
-        "host": true,
-        "keyword": true,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": false,
-        "version": "9703ff8bd3ba"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/2389792154490245/posts/3981408671995244",
-      "url": "https://www.facebook.com/groups/2389792154490245/posts/3981408671995244",
-      "title": "WEWS interview with First Energy on power outages and reliability ...",
-      "snippet": "FirstEnergy's utilities in Ohio – including the Illuminating Company. The company's transmission subsidiaries operate approximately 24,000 miles of",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Lakewood Ohio Community",
-      "posted": "2026-09-11",
-      "first_seen": "2026-09-13",
-      "last_seen": "2026-09-13",
-      "queries": [
-        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
-        "host": true,
-        "keyword": true,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "9703ff8bd3ba"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/662717436755426/posts/905325602494607",
-      "url": "https://www.facebook.com/groups/662717436755426/posts/905325602494607",
-      "title": "Voice of Ohio Teachers | First Energy Scandel News: Rate review stopped to protect Toledo Edison profits | Facebook",
-      "snippet": "Title: Voice of Ohio Teachers | First Energy Scandel News: Rate review stopped to protect Toledo Edison profits | Facebook\nVoice of Ohio Teachers | First Energy Scandel News: Rate review stopped to protect Toledo Edison profits | Facebook. Image 1 Voice of Ohio Teachers | First Energy Scandel News: …",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Voice of Ohio Teachers",
-      "posted": "2026-02-10",
-      "first_seen": "2026-09-13",
-      "last_seen": "2026-09-13",
-      "queries": [
-        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
-        "host": true,
-        "keyword": true,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "9703ff8bd3ba"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/662717436755426/posts/1095779900115842",
-      "url": "https://www.facebook.com/groups/662717436755426/posts/1095779900115842",
-      "title": "Vivek backtracks again? This time it is on closing colleges. - Facebook",
-      "snippet": "... companies to lure construction of massive data centers ... FirstEnergy's three Ohio utilities — Toledo Edison, the Illuminating Company, and Ohio Edison",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Voice of Ohio Teachers",
-      "posted": "2026-09-11",
-      "first_seen": "2026-09-13",
-      "last_seen": "2026-09-13",
-      "queries": [
-        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
-        "host": true,
-        "keyword": true,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "9703ff8bd3ba"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/PassengerRail/posts/6861560403865821",
-      "url": "https://www.facebook.com/groups/PassengerRail/posts/6861560403865821",
-      "title": "The National Network | # Apples to Oranges Comparison | Facebook",
-      "snippet": "Title: The National Network | # Apples to Oranges Comparison | Facebook\n# The National Network | # Apples to Oranges Comparison | Facebook. What is the blogger attempting to accomplish with this simple chart? Summarized by AI from the post below. ## The National Network ·. ### Apples to Oranges Comp…",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "The National Network",
-      "posted": "2023-08-21",
-      "first_seen": "2026-09-13",
-      "last_seen": "2026-09-13",
-      "queries": [
-        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
+        "site:facebook.com/groups/wearegc/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
@@ -212,7 +183,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "9703ff8bd3ba"
+        "version": "5c1c5affd84b"
       },
       "production": {
         "accepted": false,
@@ -221,18 +192,18 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/1725972127657416/posts/2827115497543068",
-      "url": "https://www.facebook.com/groups/1725972127657416/posts/2827115497543068",
-      "title": "The Language Nerds | In American English a fair comparison is \"apples to apples\" and a bad comparison is \"apples to oranges\" - what about other languages | Facebook",
-      "snippet": "Title: The Language Nerds | In American English a fair comparison is \"apples to apples\" and a bad comparison is \"apples to oranges\" - what about other languages | Facebook\nThe Language Nerds | In American English a fair comparison is \"apples to apples\" and a bad comparison is \"apples to oranges\" - w…",
+      "id": "https://www.facebook.com/groups/471728840133321/posts/2011667149472808",
+      "url": "https://www.facebook.com/groups/471728840133321/posts/2011667149472808",
+      "title": "Who else is affected by the price increase for lake area customers?",
+      "snippet": "Fuel rate: Rising from $41.50 to $43.50 per megawatt hour Adds to $2.40/month for a typical household using 1,200 kWh Effective Sept. 1, 2025 Environmental",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "The Language Nerds",
-      "posted": "2021-02-14",
+      "group": "Buckley Chatter",
+      "posted": "2026-09-11",
       "first_seen": "2026-09-13",
       "last_seen": "2026-09-13",
       "queries": [
-        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -243,7 +214,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "9703ff8bd3ba"
+        "version": "5c1c5affd84b"
       },
       "production": {
         "accepted": false,
@@ -252,18 +223,111 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/810550290960456/posts/1332785855403561",
-      "url": "https://www.facebook.com/groups/810550290960456/posts/1332785855403561",
-      "title": "Summer power bill expectations and strategies for efficiency",
-      "snippet": "FirstEnergy's Ohio utilities – The Illuminating Company, Ohio Edison and Toledo Edison— want you to have the tools and knowledge you need to effectively manage",
+      "id": "https://www.facebook.com/groups/andersonindianachatter/posts/1791217698680962",
+      "url": "https://www.facebook.com/groups/andersonindianachatter/posts/1791217698680962",
+      "title": "Who can install a 220 electric service on outside of a house and how ...",
+      "snippet": "Does anyone know what ONG may charge to set up new service to an all electric house ?I know it's only up to the meter and we are responsible to the house.",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Saving money and living life.",
+      "group": "Anderson Indiana EVENTS & the CHATTER Network Limited Edition",
       "posted": "2026-09-11",
       "first_seen": "2026-09-13",
       "last_seen": "2026-09-13",
       "queries": [
-        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+        "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "5c1c5affd84b"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/wearegc/posts/4603980483252294",
+      "url": "https://www.facebook.com/groups/wearegc/posts/4603980483252294",
+      "title": "What should I do about unpaid contractor work with unresolved ...",
+      "snippet": "Most recommend hiring a lawyer, documenting everything, and withholding payment until issues are resolved, Building Division is 614-277-3075, 4035 Broadway. Go",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Grove City Connect",
+      "posted": "2026-09-09",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-13",
+      "queries": [
+        "site:facebook.com/groups/wearegc/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "5c1c5affd84b"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-13",
+      "group": "Highland County Chat",
+      "id": "https://www.facebook.com/groups/highlandcountyohchat/posts/2229913067864076",
+      "last_seen": "2026-09-13",
+      "posted": "2026-09-08",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": false,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "9703ff8bd3ba"
+      },
+      "snippet": "We have AEP currently and was looking at the apples to apples website. What has anyone switched to and haven't had issues? We used constellation when we had AES",
+      "source": "Facebook",
+      "title": "What electricity providers have users switched to in Highland County ...",
+      "url": "https://www.facebook.com/groups/highlandcountyohchat/posts/2229913067864076"
+    },
+    {
+      "id": "https://www.facebook.com/groups/livingintemplebeltontx/posts/1057542380611583",
+      "url": "https://www.facebook.com/groups/livingintemplebeltontx/posts/1057542380611583",
+      "title": "What are typical water bills, internet recommendations, and electric ...",
+      "snippet": "Moving to Temple soon and need to find water company to set up utilities. Also electric company and internet suggestions? TIA! 0 reactions ·. 16 comments.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Living in Temple/Belton Tx",
+      "posted": "2026-09-11",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-13",
+      "queries": [
+        "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -274,7 +338,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": false,
-        "version": "9703ff8bd3ba"
+        "version": "5c1c5affd84b"
       },
       "production": {
         "accepted": false,
@@ -283,29 +347,339 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/BellevueHappenings/posts/2248681369256781",
-      "url": "https://www.facebook.com/groups/BellevueHappenings/posts/2248681369256781",
-      "title": "Starting TODAY 9/10-9/13 Lake Erie Arms in the Milan/Sandusky ...",
-      "snippet": "Adults - $20 Kids 12 & Under - $5 For vendor inquiries & more information email us at team@allamericanMGS.com. No external power needed – we're fully electric",
+      "id": "https://www.facebook.com/groups/wearegc/posts/4603045990012410",
+      "url": "https://www.facebook.com/groups/wearegc/posts/4603045990012410",
+      "title": "Weekly water delivery for residential hydroseed in Grove City",
+      "snippet": "The water rate increase is from $11.50 for a base rate a month to $17.25. The base sewer rate is increasing from $12 to $22. the cost of electricity or water",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Bellevue, Ohio Hometown Happenings",
-      "posted": "2026-09-10",
+      "group": "Grove City Connect",
+      "posted": "2026-09-08",
       "first_seen": "2026-09-13",
       "last_seen": "2026-09-13",
+      "queries": [
+        "site:facebook.com/groups/wearegc/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "5c1c5affd84b"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-13",
+      "group": "Lakewood Ohio Community",
+      "id": "https://www.facebook.com/groups/2389792154490245/posts/3981408671995244",
+      "last_seen": "2026-09-13",
+      "posted": "2026-09-11",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
+        "version": "9703ff8bd3ba"
+      },
+      "snippet": "FirstEnergy's utilities in Ohio – including the Illuminating Company. The company's transmission subsidiaries operate approximately 24,000 miles of",
+      "source": "Facebook",
+      "title": "WEWS interview with First Energy on power outages and reliability ...",
+      "url": "https://www.facebook.com/groups/2389792154490245/posts/3981408671995244"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-13",
+      "group": "Voice of Ohio Teachers",
+      "id": "https://www.facebook.com/groups/662717436755426/posts/905325602494607",
+      "last_seen": "2026-09-13",
+      "posted": "2026-02-10",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
+        "version": "9703ff8bd3ba"
+      },
+      "snippet": "Title: Voice of Ohio Teachers | First Energy Scandel News: Rate review stopped to protect Toledo Edison profits | Facebook\nVoice of Ohio Teachers | First Energy Scandel News: Rate review stopped to protect Toledo Edison profits | Facebook. Image 1 Voice of Ohio Teachers | First Energy Scandel News: …",
+      "source": "Facebook",
+      "title": "Voice of Ohio Teachers | First Energy Scandel News: Rate review stopped to protect Toledo Edison profits | Facebook",
+      "url": "https://www.facebook.com/groups/662717436755426/posts/905325602494607"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-13",
+      "group": "Voice of Ohio Teachers",
+      "id": "https://www.facebook.com/groups/662717436755426/posts/1095779900115842",
+      "last_seen": "2026-09-13",
+      "posted": "2026-09-11",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
+        "version": "9703ff8bd3ba"
+      },
+      "snippet": "... companies to lure construction of massive data centers ... FirstEnergy's three Ohio utilities — Toledo Edison, the Illuminating Company, and Ohio Edison",
+      "source": "Facebook",
+      "title": "Vivek backtracks again? This time it is on closing colleges. - Facebook",
+      "url": "https://www.facebook.com/groups/662717436755426/posts/1095779900115842"
+    },
+    {
+      "id": "https://www.facebook.com/groups/wearegc/posts/4602679666715709",
+      "url": "https://www.facebook.com/groups/wearegc/posts/4602679666715709",
+      "title": "Understanding Grove City, OH's 5-Year Rule for Homeowners",
+      "snippet": "It lets the City negotiate a group electricity rate on behalf of residents and small businesses. City selected Dynegy as the supplier at a fixed rate through",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Grove City Connect",
+      "posted": "2026-09-08",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-13",
+      "queries": [
+        "site:facebook.com/groups/wearegc/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "5c1c5affd84b"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/wearegc/posts/4602985543351788",
+      "url": "https://www.facebook.com/groups/wearegc/posts/4602985543351788",
+      "title": "The hidden cost of a running toilet: hundreds of gallons wasted",
+      "snippet": "... bill. ✓ Save water ✓ Lower your utility bill ✓ Prevent bigger plumbing problems Garner's got you—we'll help get your toilet running efficiently again!",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Grove City Connect",
+      "posted": "2026-09-08",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-13",
+      "queries": [
+        "site:facebook.com/groups/wearegc/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "5c1c5affd84b"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-13",
+      "group": "The National Network",
+      "id": "https://www.facebook.com/groups/PassengerRail/posts/6861560403865821",
+      "last_seen": "2026-09-13",
+      "posted": "2023-08-21",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "9703ff8bd3ba"
+      },
+      "snippet": "Title: The National Network | # Apples to Oranges Comparison | Facebook\n# The National Network | # Apples to Oranges Comparison | Facebook. What is the blogger attempting to accomplish with this simple chart? Summarized by AI from the post below. ## The National Network ·. ### Apples to Oranges Comp…",
+      "source": "Facebook",
+      "title": "The National Network | # Apples to Oranges Comparison | Facebook",
+      "url": "https://www.facebook.com/groups/PassengerRail/posts/6861560403865821"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-13",
+      "group": "The Language Nerds",
+      "id": "https://www.facebook.com/groups/1725972127657416/posts/2827115497543068",
+      "last_seen": "2026-09-13",
+      "posted": "2021-02-14",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "9703ff8bd3ba"
+      },
+      "snippet": "Title: The Language Nerds | In American English a fair comparison is \"apples to apples\" and a bad comparison is \"apples to oranges\" - what about other languages | Facebook\nThe Language Nerds | In American English a fair comparison is \"apples to apples\" and a bad comparison is \"apples to oranges\" - w…",
+      "source": "Facebook",
+      "title": "The Language Nerds | In American English a fair comparison is \"apples to apples\" and a bad comparison is \"apples to oranges\" - what about other languages | Facebook",
+      "url": "https://www.facebook.com/groups/1725972127657416/posts/2827115497543068"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-13",
+      "group": "Saving money and living life.",
+      "id": "https://www.facebook.com/groups/810550290960456/posts/1332785855403561",
+      "last_seen": "2026-09-13",
+      "posted": "2026-09-11",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": false,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "9703ff8bd3ba"
+      },
+      "snippet": "FirstEnergy's Ohio utilities – The Illuminating Company, Ohio Edison and Toledo Edison— want you to have the tools and knowledge you need to effectively manage",
+      "source": "Facebook",
+      "title": "Summer power bill expectations and strategies for efficiency",
+      "url": "https://www.facebook.com/groups/810550290960456/posts/1332785855403561"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-13",
+      "group": "Bellevue, Ohio Hometown Happenings",
+      "id": "https://www.facebook.com/groups/BellevueHappenings/posts/2248681369256781",
+      "last_seen": "2026-09-13",
+      "posted": "2026-09-10",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups/BellevueHappenings/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "9703ff8bd3ba"
+      },
+      "snippet": "Adults - $20 Kids 12 & Under - $5 For vendor inquiries & more information email us at team@allamericanMGS.com. No external power needed – we're fully electric",
+      "source": "Facebook",
+      "title": "Starting TODAY 9/10-9/13 Lake Erie Arms in the Milan/Sandusky ...",
+      "url": "https://www.facebook.com/groups/BellevueHappenings/posts/2248681369256781"
+    },
+    {
+      "id": "https://www.facebook.com/groups/wearegc/posts/4603234526660223",
+      "url": "https://www.facebook.com/groups/wearegc/posts/4603234526660223",
+      "title": "Roofing siding and gutter services from RSG Systems Plus in Grove ...",
+      "snippet": "We offer great pricing, quality materials, and. Great prices ✅ Honest recommendations … a free, no-obligation quote. 📞 614-906-8069 🌐 www.rsgsystemsplus.com.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Grove City Connect",
+      "posted": "2026-09-08",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-13",
+      "queries": [
+        "site:facebook.com/groups/wearegc/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
         "semantic_accepted": false,
         "reason": "keyword",
         "host": true,
         "keyword": false,
-        "ohio": true,
+        "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "9703ff8bd3ba"
+        "version": "5c1c5affd84b"
       },
       "production": {
         "accepted": false,
@@ -314,18 +688,204 @@
       }
     },
     {
+      "context": "facebook.com",
+      "first_seen": "2026-09-13",
+      "group": "Buckinghamshire Businesses",
       "id": "https://www.facebook.com/groups/344010042285919/posts/28700310132895864",
-      "url": "https://www.facebook.com/groups/344010042285919/posts/28700310132895864",
-      "title": "Preparing commercial buildings for winter with autumn electrical ...",
+      "last_seen": "2026-09-13",
+      "posted": "2026-09-11",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "9703ff8bd3ba"
+      },
       "snippet": "... FirstEnergy Corp. electric companies Ohio Edison, The Illuminating Company and Toledo Edison have completed inspections and maintenance to help support",
       "source": "Facebook",
+      "title": "Preparing commercial buildings for winter with autumn electrical ...",
+      "url": "https://www.facebook.com/groups/344010042285919/posts/28700310132895864"
+    },
+    {
+      "id": "https://www.facebook.com/groups/wearegc/posts/4601977626785913",
+      "url": "https://www.facebook.com/groups/wearegc/posts/4601977626785913",
+      "title": "Possible new Sam's Club location in Grove City? | Hilliard, OH",
+      "snippet": "It's how much NEW business would it generate? If it mostly bleeds off Hilliards customers that's the same profit with an extra buildings worth of cost. Most of",
+      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Buckinghamshire Businesses",
+      "group": "Grove City Connect",
+      "posted": "2026-09-07",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-13",
+      "queries": [
+        "site:facebook.com/groups/wearegc/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "5c1c5affd84b"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-13",
+      "group": "BELize Power Outages",
+      "id": "https://www.facebook.com/groups/2272940536395793/posts/2886648695024971",
+      "last_seen": "2026-09-13",
+      "posted": "2026-09-08",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
+        "version": "9703ff8bd3ba"
+      },
+      "snippet": "A FirstEnergy outage map shows that 2,214 customers were affected. The ... Toledo, OH Edison reports power outages and surges until 1 AM. Karen Stahl",
+      "source": "Facebook",
+      "title": "No power since about 1 AM in Hopeville Toledo District - Facebook",
+      "url": "https://www.facebook.com/groups/2272940536395793/posts/2886648695024971"
+    },
+    {
+      "id": "https://www.facebook.com/groups/wearegc/posts/4601262543524088",
+      "url": "https://www.facebook.com/groups/wearegc/posts/4601262543524088",
+      "title": "Mobile home plumber needed in Grove City, OH for bathroom tub ...",
+      "snippet": "I am looking for a plumber who can work on a mobile home. My second bathroom tub has been disconnected from the drain pipe. TIA.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Grove City Connect",
+      "posted": "2026-09-07",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-13",
+      "queries": [
+        "site:facebook.com/groups/wearegc/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "5c1c5affd84b"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/811891473035234/posts/2171774053713629",
+      "url": "https://www.facebook.com/groups/811891473035234/posts/2171774053713629",
+      "title": "How to set up utilities in Kenbridge, VA online? - Facebook",
+      "snippet": "Contact Southside Electrical Co-op or Dominion Energy to initiate setup, and visit kenbridgeva.net for forms and applications. Ohio, Union, and Webster",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Blackstone & Kenbridge Community Information",
+      "posted": "2026-09-10",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-13",
+      "queries": [
+        "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "5c1c5affd84b"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-13",
+      "group": "Massillon Sounding Board Open",
+      "id": "https://www.facebook.com/groups/388932512506431/posts/1570203891045948",
+      "last_seen": "2026-09-13",
+      "posted": "2026-09-10",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
+        "version": "9703ff8bd3ba"
+      },
+      "snippet": "FirstEnergy (Ohio Edison, Toledo Edison, Cleveland Electric Illuminating): You can decline the installation. you can pay a $41.72 fee to have it removed, plus",
+      "source": "Facebook",
+      "title": "How to opt out of smart meters in Massillon, OH? - Facebook",
+      "url": "https://www.facebook.com/groups/388932512506431/posts/1570203891045948"
+    },
+    {
+      "id": "https://www.facebook.com/groups/2071547749747734/posts/4568602180042266",
+      "url": "https://www.facebook.com/groups/2071547749747734/posts/4568602180042266",
+      "title": "Help us fight DTE's request for a yet another rate increase - Facebook",
+      "snippet": "7. DTE had sought a $344 million annual rate increase and had self-implemented a $245 million increase. Customers of Consumers energy are sure to see a rate",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Madison Heights,  MI Community Cares",
       "posted": "2026-09-11",
       "first_seen": "2026-09-13",
       "last_seen": "2026-09-13",
       "queries": [
-        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -336,7 +896,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "9703ff8bd3ba"
+        "version": "5c1c5affd84b"
       },
       "production": {
         "accepted": false,
@@ -345,80 +905,111 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/2272940536395793/posts/2886648695024971",
-      "url": "https://www.facebook.com/groups/2272940536395793/posts/2886648695024971",
-      "title": "No power since about 1 AM in Hopeville Toledo District - Facebook",
-      "snippet": "A FirstEnergy outage map shows that 2,214 customers were affected. The ... Toledo, OH Edison reports power outages and surges until 1 AM. Karen Stahl",
+      "id": "https://www.facebook.com/groups/4043762412517460/posts/4974987572728268",
+      "url": "https://www.facebook.com/groups/4043762412517460/posts/4974987572728268",
+      "title": "Has OG&E changed your bill due date unexpectedly? - Facebook",
+      "snippet": "An email announcing the increased price was sent to OG&E customers on Wednesday, saying the average customer will see a monthly increase of $12.65 per month.",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "BELize Power Outages",
-      "posted": "2026-09-08",
+      "group": "l     Midwest City",
+      "posted": "2026-09-12",
       "first_seen": "2026-09-13",
       "last_seen": "2026-09-13",
       "queries": [
-        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
       ],
       "rules": {
         "accepted": false,
         "semantic_accepted": false,
-        "reason": "intent",
+        "reason": "keyword",
         "host": true,
-        "keyword": true,
-        "ohio": true,
+        "keyword": false,
+        "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "9703ff8bd3ba"
+        "version": "5c1c5affd84b"
       },
       "production": {
         "accepted": false,
         "source": "rules",
-        "reason": "intent"
+        "reason": "keyword"
       }
     },
     {
-      "id": "https://www.facebook.com/groups/388932512506431/posts/1570203891045948",
-      "url": "https://www.facebook.com/groups/388932512506431/posts/1570203891045948",
-      "title": "How to opt out of smart meters in Massillon, OH? - Facebook",
-      "snippet": "FirstEnergy (Ohio Edison, Toledo Edison, Cleveland Electric Illuminating): You can decline the installation. you can pay a $41.72 fee to have it removed, plus",
+      "id": "https://www.facebook.com/groups/wearegc/posts/4603783189938690",
+      "url": "https://www.facebook.com/groups/wearegc/posts/4603783189938690",
+      "title": "Grooming shop owner responds to viral post about disputed pet ...",
+      "snippet": "What happened: A lady brought 2 pets in to be groomed. Due to poor cooperation and behavior, one wasn't able to be completed and the “elder” refused to pay for",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Massillon Sounding Board Open",
-      "posted": "2026-09-10",
+      "group": "Grove City Connect",
+      "posted": "2026-09-09",
       "first_seen": "2026-09-13",
       "last_seen": "2026-09-13",
       "queries": [
-        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+        "site:facebook.com/groups/wearegc/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
         "semantic_accepted": false,
-        "reason": "intent",
+        "reason": "keyword",
         "host": true,
-        "keyword": true,
-        "ohio": true,
+        "keyword": false,
+        "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "9703ff8bd3ba"
+        "version": "5c1c5affd84b"
       },
       "production": {
         "accepted": false,
         "source": "rules",
-        "reason": "intent"
+        "reason": "keyword"
       }
     },
     {
+      "context": "facebook.com",
+      "first_seen": "2026-09-13",
+      "group": "Historical Photos",
       "id": "https://www.facebook.com/groups/771673398258751/posts/1432059688886782",
-      "url": "https://www.facebook.com/groups/771673398258751/posts/1432059688886782",
-      "title": "First Commercial Electric Power Station in New York, 1882 - Facebook",
+      "last_seen": "2026-09-13",
+      "posted": "2026-09-06",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": false,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "9703ff8bd3ba"
+      },
       "snippet": "Thomas Edison of Milan, Ohio, established Edison Illuminating Company on December 17, 1880. it was the pioneer company of the electrical power industry.",
       "source": "Facebook",
+      "title": "First Commercial Electric Power Station in New York, 1882 - Facebook",
+      "url": "https://www.facebook.com/groups/771673398258751/posts/1432059688886782"
+    },
+    {
+      "id": "https://www.facebook.com/groups/2071547749747734/posts/4569622826606868",
+      "url": "https://www.facebook.com/groups/2071547749747734/posts/4569622826606868",
+      "title": "Everybody here about DTE is trying to raise the rates again - Facebook",
+      "snippet": "DTE faces scrutiny for a proposed rate hike which includes a 10% rate increase for residential customers. ... Your DTE bill is going up. Utility already has",
+      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Historical Photos",
-      "posted": "2026-09-06",
+      "group": "Madison Heights,  MI Community Cares",
+      "posted": "2026-09-12",
       "first_seen": "2026-09-13",
       "last_seen": "2026-09-13",
       "queries": [
-        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -428,8 +1019,39 @@
         "keyword": true,
         "ohio": false,
         "lead": false,
-        "hard_exclusion": false,
-        "version": "9703ff8bd3ba"
+        "hard_exclusion": true,
+        "version": "5c1c5affd84b"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/255128608579858/posts/2334703460622352",
+      "url": "https://www.facebook.com/groups/255128608579858/posts/2334703460622352",
+      "title": "Does anybody know who we contact to start the utilities? Or where ...",
+      "snippet": "WHO must one contact to get electricity and water on their property. It's going on four months and apua still can't get utilities set up on my friends land.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Kingsford Heights Community",
+      "posted": "2026-09-11",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-13",
+      "queries": [
+        "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "5c1c5affd84b"
       },
       "production": {
         "accepted": false,
@@ -441,7 +1063,7 @@
       "id": "https://www.facebook.com/groups/992766075569539/posts/1616553856524088",
       "url": "https://www.facebook.com/groups/992766075569539/posts/1616553856524088",
       "title": "Did anyone in Norwalk, Ohio receive a First Energy smart meter ...",
-      "snippet": "Please see options at Apples-to-Apples or www.energychoice.ohio.gov using comparison tools. Also, NOPEC will have virtual meetings April 22, 2023 from 2:00",
+      "snippet": "Your electric meter is about to get smarter! We're installing smart meters throughout our Ohio service territory as part of our ongoing grid modernization",
       "source": "Facebook",
       "context": "facebook.com",
       "group": "The Talk of Norwalk, Ohio",
@@ -449,7 +1071,8 @@
       "first_seen": "2026-09-13",
       "last_seen": "2026-09-13",
       "queries": [
-        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
+        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio",
+        "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -460,7 +1083,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "9703ff8bd3ba"
+        "version": "5c1c5affd84b"
       },
       "production": {
         "accepted": false,
@@ -469,65 +1092,283 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/761471874488562/posts/2064148500887553",
-      "url": "https://www.facebook.com/groups/761471874488562/posts/2064148500887553",
-      "title": "Best bang for the buck for energy providers? - Facebook",
-      "snippet": "I went to the PUCO site Apples to Apples and First energy Solutions (FES) ... Our energy comparison tool takes less than five minutes to use, and could",
+      "id": "https://www.facebook.com/groups/progressgrovecity/posts/1766874851213466",
+      "url": "https://www.facebook.com/groups/progressgrovecity/posts/1766874851213466",
+      "title": "Data Centers, Utility Costs, and Protecting Ohio's Water - Facebook",
+      "snippet": "The attraction is straightforward: Ohio offers abundant available power, fiber infrastructure, skilled construction labor, available land, and generous tax",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Ennis News and talk",
+      "group": "Grove City Area Progress",
       "posted": "2026-09-08",
       "first_seen": "2026-09-13",
       "last_seen": "2026-09-13",
+      "queries": [
+        "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "5c1c5affd84b"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-13",
+      "group": "Ennis News and talk",
+      "id": "https://www.facebook.com/groups/761471874488562/posts/2064148500887553",
+      "last_seen": "2026-09-13",
+      "posted": "2026-09-08",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "9703ff8bd3ba"
+      },
+      "snippet": "I went to the PUCO site Apples to Apples and First energy Solutions (FES) ... Our energy comparison tool takes less than five minutes to use, and could",
+      "source": "Facebook",
+      "title": "Best bang for the buck for energy providers? - Facebook",
+      "url": "https://www.facebook.com/groups/761471874488562/posts/2064148500887553"
+    },
+    {
+      "id": "https://www.facebook.com/groups/wearegc/posts/4601789143471428",
+      "url": "https://www.facebook.com/groups/wearegc/posts/4601789143471428",
+      "title": "Be kind to people working on your day off - Facebook",
+      "snippet": "Please be kind to all of those people having to work today, to help you enjoy your day off.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Grove City Connect",
+      "posted": "2026-09-07",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-13",
+      "queries": [
+        "site:facebook.com/groups/wearegc/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "9703ff8bd3ba"
+        "version": "5c1c5affd84b"
       },
       "production": {
         "accepted": false,
         "source": "rules",
-        "reason": "geography"
+        "reason": "keyword"
       }
     },
     {
-      "id": "https://www.facebook.com/groups/662717436755426/posts/1095194310174401",
-      "url": "https://www.facebook.com/groups/662717436755426/posts/1095194310174401",
-      "title": "Are publishing companies writing age appropriate material?",
-      "snippet": "FirstEnergy's three Ohio utilities — Toledo Edison, the Illuminating Company, and Ohio Edison — are using a new option that lets them propose three consecutive",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Voice of Ohio Teachers",
-      "posted": "2026-09-11",
       "first_seen": "2026-09-13",
+      "group": "Voice of Ohio Teachers",
+      "id": "https://www.facebook.com/groups/662717436755426/posts/1095194310174401",
       "last_seen": "2026-09-13",
+      "posted": "2026-09-11",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
+        "lead": false,
         "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
+        "version": "9703ff8bd3ba"
+      },
+      "snippet": "FirstEnergy's three Ohio utilities — Toledo Edison, the Illuminating Company, and Ohio Edison — are using a new option that lets them propose three consecutive",
+      "source": "Facebook",
+      "title": "Are publishing companies writing age appropriate material?",
+      "url": "https://www.facebook.com/groups/662717436755426/posts/1095194310174401"
+    },
+    {
+      "id": "https://www.facebook.com/groups/wearegc/posts/4606434336340242",
+      "url": "https://www.facebook.com/groups/wearegc/posts/4606434336340242",
+      "title": "Anyone work for a garage door company that works on the weekend?",
+      "snippet": "Candlestick Garage Door Solutions, Mathews Garage Doors, and Well Hung Doors are recommended for weekend service. Local, honest, dependable, affordable.. this",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Grove City Connect",
+      "posted": "2026-09-12",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-13",
+      "queries": [
+        "site:facebook.com/groups/wearegc/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "9703ff8bd3ba"
+        "version": "5c1c5affd84b"
       },
       "production": {
         "accepted": false,
         "source": "rules",
-        "reason": "intent"
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/842311032505584/posts/38386031747706708",
+      "url": "https://www.facebook.com/groups/842311032505584/posts/38386031747706708",
+      "title": "AES bill increase in Huber Heights, OH this month? - Facebook",
+      "snippet": "AES Ohio has asked the Public Utilities Commission of Ohio (PUCO) to raise your electric bill again. s would go up by about $143 million , that would increase",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Anything and Everything Huber Heights",
+      "posted": "2026-09-12",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-13",
+      "queries": [
+        "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
+      ],
+      "rules": {
+        "accepted": true,
+        "semantic_accepted": true,
+        "reason": "accepted",
+        "host": true,
+        "keyword": true,
+        "ohio": true,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "5c1c5affd84b",
+        "freshness": "fresh"
+      },
+      "production": {
+        "accepted": true,
+        "source": "rules",
+        "reason": "accepted"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/wearegc/posts/4602831090033900",
+      "url": "https://www.facebook.com/groups/wearegc/posts/4602831090033900",
+      "title": "@smallbusinesstuesday WE'RE HIRING! Adonis Pressure Wash ...",
+      "snippet": "$20–$25/hour based on experience. Call or text: 614-535-5115 🌐 AdonisPressureWash.com … role is $20- $25/hr depending on experience! Gas reimbursement program",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Grove City Connect",
+      "posted": "2026-09-08",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-13",
+      "queries": [
+        "site:facebook.com/groups/wearegc/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "5c1c5affd84b"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/wearegc/posts/4601675270149482",
+      "url": "https://www.facebook.com/groups/wearegc/posts/4601675270149482",
+      "title": "7 Brew doh balls free with drinks in Grove City (while supplies last)",
+      "snippet": "I quit the urge to drink coffee after taking methylene blue. Boosts the mitochondria in your cells which is what produces your cells energy. Would highly",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Grove City Connect",
+      "posted": "2026-09-07",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-13",
+      "queries": [
+        "site:facebook.com/groups/wearegc/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "5c1c5affd84b"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/wearegc/posts/4603172806666395",
+      "url": "https://www.facebook.com/groups/wearegc/posts/4603172806666395",
+      "title": "#smallbusinesstuesday - Facebook",
+      "snippet": "DM me or visit my link below to book your appointment today! https://electricavenue.glossgenius.com/ Thank you for supporting my dream! ✂️✨ - at Electric",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Grove City Connect",
+      "posted": "2026-09-08",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-13",
+      "queries": [
+        "site:facebook.com/groups/wearegc/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "5c1c5affd84b"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
       }
     },
     {
@@ -873,36 +1714,36 @@
       "url": "https://www.facebook.com/groups/pentictonlocals/posts/2122862474714960"
     },
     {
-      "id": "https://www.facebook.com/groups/1147276333067696/posts/1768363820958941",
-      "url": "https://www.facebook.com/groups/1147276333067696/posts/1768363820958941",
-      "title": "Ohio Edison customers in Ashland County can opt out of additional ...",
-      "snippet": "The Energy Choice Ohio website offers an \"Apples to Apples\" comparison tool that compares supplier plans, costs and contract terms so that you can make the",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Ashland Chatter NO RULES",
-      "posted": "2026-09-11",
       "first_seen": "2026-09-12",
+      "group": "Ashland Chatter NO RULES",
+      "id": "https://www.facebook.com/groups/1147276333067696/posts/1768363820958941",
       "last_seen": "2026-09-13",
+      "posted": "2026-09-11",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio",
         "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
         "version": "9703ff8bd3ba"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
+      "snippet": "The Energy Choice Ohio website offers an \"Apples to Apples\" comparison tool that compares supplier plans, costs and contract terms so that you can make the",
+      "source": "Facebook",
+      "title": "Ohio Edison customers in Ashland County can opt out of additional ...",
+      "url": "https://www.facebook.com/groups/1147276333067696/posts/1768363820958941"
     },
     {
       "context": "thorkitchen.com",
@@ -1911,7 +2752,8 @@
       "last_seen": "2026-09-13",
       "queries": [
         "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio",
-        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
+        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio",
+        "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -1922,7 +2764,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "9703ff8bd3ba"
+        "version": "5c1c5affd84b"
       },
       "production": {
         "accepted": false,
@@ -1931,36 +2773,37 @@
       }
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-09-12",
-      "group": "Rise for Climate",
       "id": "https://www.facebook.com/groups/290537574397934/posts/28251447081213608",
-      "last_seen": "2026-09-12",
+      "url": "https://www.facebook.com/groups/290537574397934/posts/28251447081213608",
+      "title": "\"Critics question sky-high electricity demand predictions for Ohio ...",
+      "snippet": "Ohio electric bills jumped 22% between February 2025 and February 2026 according to federal energy data, the second-highest increase in the entire country,",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Rise for Climate",
       "posted": "2026-09-10",
-      "production": {
-        "accepted": false,
-        "reason": "intent",
-        "source": "rules"
-      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-13",
       "queries": [
         "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio",
-        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio",
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": false,
+        "semantic_accepted": false,
+        "reason": "intent",
         "host": true,
         "keyword": true,
-        "lead": false,
         "ohio": true,
-        "reason": "intent",
-        "semantic_accepted": false,
-        "version": "49b0ff96ac62"
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "5c1c5affd84b"
       },
-      "snippet": "\"Critics question sky-high electricity demand predictions for Ohio, which rely on ambitious data center plans and put upward pressure on utility bills.\"",
-      "source": "Facebook",
-      "title": "\"Critics question sky-high electricity demand predictions for Ohio ...",
-      "url": "https://www.facebook.com/groups/290537574397934/posts/28251447081213608"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "intent"
+      }
     },
     {
       "context": "facebook.com",
@@ -3020,68 +3863,70 @@
       "url": "https://www.facebook.com/groups/1507129072837539/posts/4390662707817480"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-09-11",
-      "group": "Federal Way Community Group",
       "id": "https://www.facebook.com/groups/FederalWayCommunityGroup/posts/2608120809608202",
-      "last_seen": "2026-09-11",
+      "url": "https://www.facebook.com/groups/FederalWayCommunityGroup/posts/2608120809608202",
+      "title": "PSE requests 30% utility rate increase for data center expansion costs",
+      "snippet": "increase its electric bill rates by nearly 30% and gas bills nearly 20% by 2029 for residential rate payers. natural gas bills raised by $14.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Federal Way Community Group",
       "posted": "2026-09-10",
-      "production": {
-        "accepted": false,
-        "reason": "geography",
-        "source": "rules"
-      },
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-13",
       "queries": [
-        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)",
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": true,
+        "semantic_accepted": false,
+        "reason": "geography",
         "host": true,
         "keyword": true,
-        "lead": false,
         "ohio": false,
-        "reason": "geography",
-        "semantic_accepted": false,
-        "version": "69ec3b93deb6"
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "5c1c5affd84b"
       },
-      "snippet": "PSE has formally submitted their request to the Wa State Utility board to approve a 30% increase in our utility bill beginning 2027. The reason for the request",
-      "source": "Facebook",
-      "title": "PSE has formally submitted their request to the Wa State Utility ...",
-      "url": "https://www.facebook.com/groups/FederalWayCommunityGroup/posts/2608120809608202"
-    },
-    {
-      "context": "facebook.com",
-      "first_seen": "2026-09-11",
-      "group": "Stark County Residents Against Data Centers",
-      "id": "https://www.facebook.com/groups/2038191386747489/posts/2194092517824041",
-      "last_seen": "2026-09-12",
-      "posted": "2026-09-09",
       "production": {
         "accepted": false,
-        "reason": "keyword",
-        "source": "rules"
-      },
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/2038191386747489/posts/2194092517824041",
+      "url": "https://www.facebook.com/groups/2038191386747489/posts/2194092517824041",
+      "title": "Ohio residents face rising power bills amid data center growth",
+      "snippet": "Data centers are now required to pay for at least 85% of the electricity they reserve, whether they use it or not, up from 65% under the previous rule. And on",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Stark County Residents Against Data Centers",
+      "posted": "2026-09-09",
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-13",
       "queries": [
         "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio",
         "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio",
-        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio",
+        "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": true,
-        "host": true,
-        "keyword": false,
-        "lead": false,
-        "ohio": true,
-        "reason": "keyword",
         "semantic_accepted": false,
-        "version": "49b0ff96ac62"
+        "reason": "intent",
+        "host": true,
+        "keyword": true,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "5c1c5affd84b"
       },
-      "snippet": "OCR: Good morning Ohio residents are facing rising power bills and data centers are poised to make them worse utilities are forecasting skyrocketing power",
-      "source": "Facebook",
-      "title": "Ohio residents face rising power bills amid data center growth",
-      "url": "https://www.facebook.com/groups/2038191386747489/posts/2194092517824041"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "intent"
+      }
     },
     {
       "context": "facebook.com",
@@ -3549,36 +4394,36 @@
       "url": "https://www.facebook.com/groups/365290727876426/posts/1719941345744684"
     },
     {
-      "id": "https://www.facebook.com/groups/228772355414000/posts/1596755505282338",
-      "url": "https://www.facebook.com/groups/228772355414000/posts/1596755505282338",
-      "title": "If you have ever switched electrical suppliers who did you go with",
-      "snippet": "We had someone i cant remember who but got switched back to Ohio edison. I know their rate is higher than most. I looked at apples to apples to compare but im",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "T County Finest Original",
-      "posted": "2026-09-10",
       "first_seen": "2026-09-11",
+      "group": "T County Finest Original",
+      "id": "https://www.facebook.com/groups/228772355414000/posts/1596755505282338",
       "last_seen": "2026-09-13",
+      "posted": "2026-09-10",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio",
         "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "9703ff8bd3ba"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "We had someone i cant remember who but got switched back to Ohio edison. I know their rate is higher than most. I looked at apples to apples to compare but im",
+      "source": "Facebook",
+      "title": "If you have ever switched electrical suppliers who did you go with",
+      "url": "https://www.facebook.com/groups/228772355414000/posts/1596755505282338"
     },
     {
       "context": "facebook.com",
@@ -4111,36 +4956,36 @@
       "url": "https://www.facebook.com/groups/fixingyorkpa/posts/2638432042977123"
     },
     {
-      "id": "https://www.facebook.com/groups/662717436755426/posts/1094447186915780",
-      "url": "https://www.facebook.com/groups/662717436755426/posts/1094447186915780",
-      "title": "FirstEnergy proposes 3-year rate plan with monthly increases | Ohio",
-      "snippet": "FirstEnergy's three Ohio utilities — Toledo Edison, the Illuminating Company, and Ohio Edison — are using a new option that lets them propose three consecutive",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Voice of Ohio Teachers",
-      "posted": "2026-09-10",
       "first_seen": "2026-09-11",
+      "group": "Voice of Ohio Teachers",
+      "id": "https://www.facebook.com/groups/662717436755426/posts/1094447186915780",
       "last_seen": "2026-09-13",
+      "posted": "2026-09-10",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio",
         "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
         "version": "9703ff8bd3ba"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
+      "snippet": "FirstEnergy's three Ohio utilities — Toledo Edison, the Illuminating Company, and Ohio Edison — are using a new option that lets them propose three consecutive",
+      "source": "Facebook",
+      "title": "FirstEnergy proposes 3-year rate plan with monthly increases | Ohio",
+      "url": "https://www.facebook.com/groups/662717436755426/posts/1094447186915780"
     },
     {
       "context": "facebook.com",
@@ -4454,37 +5299,38 @@
       "url": "https://www.facebook.com/groups/4621444061235163/posts/28358264957126407"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-09-10",
-      "group": "HAMPTON COUNTY ANNOUNCEMENTS",
       "id": "https://www.facebook.com/groups/hamptoncountyannouncement/posts/4580725372251424",
-      "last_seen": "2026-09-11",
+      "url": "https://www.facebook.com/groups/hamptoncountyannouncement/posts/4580725372251424",
+      "title": "Why did my electric bill increase despite reducing usage with ...",
+      "snippet": "High bills persist despite reduced usage, with suspected causes including old water heaters, lack of insulation, and rate increases.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "HAMPTON COUNTY ANNOUNCEMENTS",
       "posted": "2026-09-10",
-      "production": {
-        "accepted": false,
-        "reason": "geography",
-        "source": "rules"
-      },
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-09-13",
       "queries": [
         "site:facebook.com/groups (\"bill shock\" OR \"bill doubled\" OR \"bill tripled\" OR \"through the roof\") Ohio (electric OR gas)",
         "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)",
-        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)",
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": false,
+        "semantic_accepted": false,
+        "reason": "geography",
         "host": true,
         "keyword": true,
-        "lead": true,
         "ohio": false,
-        "reason": "geography",
-        "semantic_accepted": false,
-        "version": "0cfd47e76f50"
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "5c1c5affd84b"
       },
-      "snippet": "Just to have Electricity per day is $0.36, plus the first 800KW is $0.15, and then if you use anything over 800 KW per hour it goes up to $0.17 per hour",
-      "source": "Facebook",
-      "title": "Why did my electric bill increase despite reducing usage with ...",
-      "url": "https://www.facebook.com/groups/hamptoncountyannouncement/posts/4580725372251424"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
     },
     {
       "context": "facebook.com",
@@ -5263,16 +6109,17 @@
       "url": "https://www.facebook.com/groups/huntleychat/posts/2499400977239847"
     },
     {
-      "id": "https://www.facebook.com/groups/marionohiopolitics/posts/2546517362510211",
-      "url": "https://www.facebook.com/groups/marionohiopolitics/posts/2546517362510211",
-      "title": "Opt-out deadline for PIPP customers in Marion County, Ohio",
-      "snippet": "For those who wish to explore other options, Energy Choice Ohio may offer an opportunity to secure different pricing. ... Energy Choice Ohio - Apples to Apples.",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Marion & Ohio Issues & Politics",
-      "posted": "2026-09-09",
       "first_seen": "2026-09-10",
+      "group": "Marion & Ohio Issues & Politics",
+      "id": "https://www.facebook.com/groups/marionohiopolitics/posts/2546517362510211",
       "last_seen": "2026-09-13",
+      "posted": "2026-09-09",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"door to door\" OR \"knocked on my door\" OR scam) (electric OR gas OR energy) Ohio",
         "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio",
@@ -5280,20 +6127,19 @@
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
         "version": "9703ff8bd3ba"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
+      "snippet": "For those who wish to explore other options, Energy Choice Ohio may offer an opportunity to secure different pricing. ... Energy Choice Ohio - Apples to Apples.",
+      "source": "Facebook",
+      "title": "Opt-out deadline for PIPP customers in Marion County, Ohio",
+      "url": "https://www.facebook.com/groups/marionohiopolitics/posts/2546517362510211"
     },
     {
       "context": "facebook.com",
@@ -5544,35 +6390,35 @@
       "url": "https://www.facebook.com/groups/1690333341208171/posts/4050878538486961"
     },
     {
-      "id": "https://www.facebook.com/groups/BellevueHappenings/posts/2246036349521283",
-      "url": "https://www.facebook.com/groups/BellevueHappenings/posts/2246036349521283",
-      "title": "My Aide Moving Service offers kitchen island assembly and more",
-      "snippet": "Labor Day? We're still putting in the work! Yesterday it was a gazebo. Today, My Aide is back at it — assembling a kitchen island! 🛠️ From",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Bellevue, Ohio Hometown Happenings",
-      "posted": "2026-09-07",
       "first_seen": "2026-09-10",
+      "group": "Bellevue, Ohio Hometown Happenings",
+      "id": "https://www.facebook.com/groups/BellevueHappenings/posts/2246036349521283",
       "last_seen": "2026-09-13",
+      "posted": "2026-09-07",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups/BellevueHappenings/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "9703ff8bd3ba"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "snippet": "Labor Day? We're still putting in the work! Yesterday it was a gazebo. Today, My Aide is back at it — assembling a kitchen island! 🛠️ From",
+      "source": "Facebook",
+      "title": "My Aide Moving Service offers kitchen island assembly and more",
+      "url": "https://www.facebook.com/groups/BellevueHappenings/posts/2246036349521283"
     },
     {
       "context": "facebook.com",
@@ -5606,35 +6452,35 @@
       "url": "https://www.facebook.com/groups/2024756377560895/posts/8796012723768526"
     },
     {
-      "id": "https://www.facebook.com/groups/BellevueHappenings/posts/2247235179401400",
-      "url": "https://www.facebook.com/groups/BellevueHappenings/posts/2247235179401400",
-      "title": "MK Recycling thanks Bellevue, Ohio customers for their business",
-      "snippet": "New prices paid for all metals: We purchase copper, brass, aluminum, lead, batteries, electric motors, just to name. Friday 8am to 4pm",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Bellevue, Ohio Hometown Happenings",
-      "posted": "2026-09-09",
       "first_seen": "2026-09-10",
+      "group": "Bellevue, Ohio Hometown Happenings",
+      "id": "https://www.facebook.com/groups/BellevueHappenings/posts/2247235179401400",
       "last_seen": "2026-09-13",
+      "posted": "2026-09-09",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups/BellevueHappenings/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "9703ff8bd3ba"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "snippet": "New prices paid for all metals: We purchase copper, brass, aluminum, lead, batteries, electric motors, just to name. Friday 8am to 4pm",
+      "source": "Facebook",
+      "title": "MK Recycling thanks Bellevue, Ohio customers for their business",
+      "url": "https://www.facebook.com/groups/BellevueHappenings/posts/2247235179401400"
     },
     {
       "context": "facebook.com",
@@ -6819,97 +7665,97 @@
       "url": "https://www.facebook.com/groups/1018836315358721/posts/2250249722217368"
     },
     {
+      "context": "facebook.com",
+      "first_seen": "2026-09-10",
+      "group": "Bellevue, Ohio Hometown Happenings",
       "id": "https://www.facebook.com/groups/BellevueHappenings/posts/1968682710589983",
-      "url": "https://www.facebook.com/groups/BellevueHappenings/posts/1968682710589983",
-      "title": "Bellevue, Ohio Hometown Happenings | Below is a letter from almost all the Bishops of the Evangelical Lutheran Church in America to the church | Facebook",
+      "last_seen": "2026-09-13",
+      "posted": "2025-10-10",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups/BellevueHappenings/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "9703ff8bd3ba"
+      },
       "snippet": "The gospel we proclaim insists that our neighbor’s need is the occasion for our love and that our public life is shaped by justice, mercy, and a commitment to the common good. Likewise, our recently adopted Social Statement Faith and Civic Life affirms that Christians are called to be “a public witn…",
       "source": "Facebook",
+      "title": "Bellevue, Ohio Hometown Happenings | Below is a letter from almost all the Bishops of the Evangelical Lutheran Church in America to the church | Facebook",
+      "url": "https://www.facebook.com/groups/BellevueHappenings/posts/1968682710589983"
+    },
+    {
       "context": "facebook.com",
-      "group": "Bellevue, Ohio Hometown Happenings",
-      "posted": "2025-10-10",
       "first_seen": "2026-09-10",
+      "group": "Bellevue, Ohio Hometown Happenings",
+      "id": "https://www.facebook.com/groups/BellevueHappenings/posts/2246990612759190",
       "last_seen": "2026-09-13",
+      "posted": "2026-09-08",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups/BellevueHappenings/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "9703ff8bd3ba"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/BellevueHappenings/posts/2246990612759190",
-      "url": "https://www.facebook.com/groups/BellevueHappenings/posts/2246990612759190",
-      "title": "Bellevue, OH Chamber of Commerce golf outing gift bag with local ...",
       "snippet": "Bellevue, OH Chamber of Commerce golf outing gift bag with local favorites. Summarized by AI from the post below. Bellevue, Ohio Hometown Happenings.",
       "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Bellevue, Ohio Hometown Happenings",
-      "posted": "2026-09-08",
-      "first_seen": "2026-09-10",
-      "last_seen": "2026-09-13",
-      "queries": [
-        "site:facebook.com/groups/BellevueHappenings/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "9703ff8bd3ba"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "title": "Bellevue, OH Chamber of Commerce golf outing gift bag with local ...",
+      "url": "https://www.facebook.com/groups/BellevueHappenings/posts/2246990612759190"
     },
     {
-      "id": "https://www.facebook.com/groups/BellevueHappenings/posts/2245423722915879",
-      "url": "https://www.facebook.com/groups/BellevueHappenings/posts/2245423722915879",
-      "title": "Bellevue, OH CVS sale: FIFA merch 90% off, summer items discounted",
-      "snippet": "FIFA merch is now 90% off! summer items are 75% off while supplies last!",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Bellevue, Ohio Hometown Happenings",
-      "posted": "2026-09-06",
       "first_seen": "2026-09-10",
+      "group": "Bellevue, Ohio Hometown Happenings",
+      "id": "https://www.facebook.com/groups/BellevueHappenings/posts/2245423722915879",
       "last_seen": "2026-09-13",
+      "posted": "2026-09-06",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups/BellevueHappenings/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "9703ff8bd3ba"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "snippet": "FIFA merch is now 90% off! summer items are 75% off while supplies last!",
+      "source": "Facebook",
+      "title": "Bellevue, OH CVS sale: FIFA merch 90% off, summer items discounted",
+      "url": "https://www.facebook.com/groups/BellevueHappenings/posts/2245423722915879"
     },
     {
       "context": "facebook.com",
@@ -8128,35 +8974,36 @@
       "url": "https://www.facebook.com/groups/1152674196318450/posts/1632809474971584"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-09-09",
-      "group": "Best of Olympia",
       "id": "https://www.facebook.com/groups/3095425464093996/posts/4032543633715503",
-      "last_seen": "2026-09-09",
+      "url": "https://www.facebook.com/groups/3095425464093996/posts/4032543633715503",
+      "title": "PSE proposes 17.75% rate increase for Olympia electric customers",
+      "snippet": "PSE is requesting a three-year rate increase, and electric customers could see a 17.75% increase starting in January 2027! I don't know about you, but I'm",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Best of Olympia",
       "posted": "2026-09-08",
-      "production": {
-        "accepted": false,
-        "reason": "geography",
-        "source": "rules"
-      },
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-13",
       "queries": [
-        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio",
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": false,
+        "semantic_accepted": false,
+        "reason": "geography",
         "host": true,
         "keyword": true,
-        "lead": false,
         "ohio": false,
-        "reason": "geography",
-        "semantic_accepted": false,
-        "version": "127fe65d30b4"
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "5c1c5affd84b"
       },
-      "snippet": "The company said it would ask for a rate increase that would raise monthly electric bills by $21.75, a more than 14% increase for customers using a certain",
-      "source": "Facebook",
-      "title": "PSE proposes 17.75% rate increase for Olympia electric customers",
-      "url": "https://www.facebook.com/groups/3095425464093996/posts/4032543633715503"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
     },
     {
       "context": "facebook.com",
@@ -8377,16 +9224,17 @@
       "url": "https://www.facebook.com/groups/661762725717284/posts/1535001398393408"
     },
     {
-      "id": "https://www.facebook.com/groups/1072209104111576/posts/1749751703023976",
-      "url": "https://www.facebook.com/groups/1072209104111576/posts/1749751703023976",
-      "title": "Medina County natural gas aggregation: opt-in or opt-out? - Facebook",
-      "snippet": "Check the PUCO Apples to Apes site. You can compare rates and contracts to get the best rates and contracts. Many scammers are out there. 59m.",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Medina, Ohio News and Street Talk",
-      "posted": "2026-09-08",
       "first_seen": "2026-09-09",
+      "group": "Medina, Ohio News and Street Talk",
+      "id": "https://www.facebook.com/groups/1072209104111576/posts/1749751703023976",
       "last_seen": "2026-09-13",
+      "posted": "2026-09-08",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Provision Power\" OR \"Shipley Choice\" OR \"Powervine\" OR \"Eligo Energy\" OR \"CleanSky\") Ohio",
         "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio",
@@ -8394,20 +9242,19 @@
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
         "version": "9703ff8bd3ba"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
+      "snippet": "Check the PUCO Apples to Apes site. You can compare rates and contracts to get the best rates and contracts. Many scammers are out there. 59m.",
+      "source": "Facebook",
+      "title": "Medina County natural gas aggregation: opt-in or opt-out? - Facebook",
+      "url": "https://www.facebook.com/groups/1072209104111576/posts/1749751703023976"
     },
     {
       "context": "facebook.com",
@@ -8441,35 +9288,36 @@
       "url": "https://www.facebook.com/groups/michiganbusinessowners/posts/28044225885206563"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-09-09",
-      "group": "Northern Suburbs Community Notice Board Adelaide SA",
       "id": "https://www.facebook.com/groups/northernsuburbsadelaide/posts/28294682736819006",
-      "last_seen": "2026-09-09",
+      "url": "https://www.facebook.com/groups/northernsuburbsadelaide/posts/28294682736819006",
+      "title": "Looking for recommendations on electricity and internet companies",
+      "snippet": "What are the best companies and prices for electricity, gas, and internet services in Lorain, Ohio? Ellie Choiniere ▻ Lorain, Ohio. 1y ·",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Northern Suburbs Community Notice Board Adelaide SA",
       "posted": "2026-09-09",
-      "production": {
-        "accepted": false,
-        "reason": "geography",
-        "source": "rules"
-      },
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-13",
       "queries": [
-        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio",
+        "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": false,
+        "semantic_accepted": false,
+        "reason": "geography",
         "host": true,
         "keyword": true,
-        "lead": true,
         "ohio": false,
-        "reason": "geography",
-        "semantic_accepted": false,
-        "version": "127fe65d30b4"
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "5c1c5affd84b"
       },
-      "snippet": "he suggested switching companies every year on 1st July. What are the best companies and prices for electricity, gas, and internet services in Lorain, Ohio?",
-      "source": "Facebook",
-      "title": "Looking for recommendations on electricity and internet companies",
-      "url": "https://www.facebook.com/groups/northernsuburbsadelaide/posts/28294682736819006"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
     },
     {
       "context": "facebook.com",
@@ -14195,35 +15043,35 @@
       "url": "https://www.facebook.com/groups/365290727876426/posts/1721508822254603"
     },
     {
-      "id": "https://www.facebook.com/groups/wearegc/posts/3965018237148525",
-      "url": "https://www.facebook.com/groups/wearegc/posts/3965018237148525",
-      "title": "Y'all look out for the Direct Energy scammers asking to see your",
-      "snippet": "Y'all look out for the Direct Energy scammers asking to see your electric bills to \"get you to a lower rate\". Just had one stop by and tell me that Direct Energy owns AEP and they are trying to make sure people aren't getting scammed by suppliers. Do not show them your bills or entertain them. They …",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Grove City Connect",
-      "posted": "2024-12-31",
       "first_seen": "2026-09-06",
+      "group": "Grove City Connect",
+      "id": "https://www.facebook.com/groups/wearegc/posts/3965018237148525",
       "last_seen": "2026-09-13",
+      "posted": "2024-12-31",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "9703ff8bd3ba"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "Y'all look out for the Direct Energy scammers asking to see your electric bills to \"get you to a lower rate\". Just had one stop by and tell me that Direct Energy owns AEP and they are trying to make sure people aren't getting scammed by suppliers. Do not show them your bills or entertain them. They …",
+      "source": "Facebook",
+      "title": "Y'all look out for the Direct Energy scammers asking to see your",
+      "url": "https://www.facebook.com/groups/wearegc/posts/3965018237148525"
     },
     {
       "context": "facebook.com",
@@ -14446,66 +15294,66 @@
       "url": "https://www.facebook.com/groups/194430493950148/posts/28463559276610558"
     },
     {
-      "id": "https://www.facebook.com/groups/1373219110158627/posts/2154006072079923",
-      "url": "https://www.facebook.com/groups/1373219110158627/posts/2154006072079923",
-      "title": "Westpark Cleveland, Ohio Community | Attention West Side residents | Facebook",
-      "snippet": "Title: Westpark Cleveland, Ohio Community | Attention West Side residents | Facebook\n# Westpark Cleveland, Ohio Community | Attention West Side residents | Facebook. ## Westpark Cleveland, Ohio Community ·. · March 12 at 4:43 PM ·. We need to start holding 1st Energy and our elected officials respon…",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Westpark Cleveland, Ohio Community",
-      "posted": "2026-03-12",
       "first_seen": "2026-09-06",
+      "group": "Westpark Cleveland, Ohio Community",
+      "id": "https://www.facebook.com/groups/1373219110158627/posts/2154006072079923",
       "last_seen": "2026-09-13",
+      "posted": "2026-03-12",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "9703ff8bd3ba"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "snippet": "Title: Westpark Cleveland, Ohio Community | Attention West Side residents | Facebook\n# Westpark Cleveland, Ohio Community | Attention West Side residents | Facebook. ## Westpark Cleveland, Ohio Community ·. · March 12 at 4:43 PM ·. We need to start holding 1st Energy and our elected officials respon…",
+      "source": "Facebook",
+      "title": "Westpark Cleveland, Ohio Community | Attention West Side residents | Facebook",
+      "url": "https://www.facebook.com/groups/1373219110158627/posts/2154006072079923"
     },
     {
-      "id": "https://www.facebook.com/groups/westchesterliberty/posts/1850322509046537",
-      "url": "https://www.facebook.com/groups/westchesterliberty/posts/1850322509046537",
-      "title": "West Chester and Liberty Township, Ohio Neighborhood Group | Duke vs Dynegy- Let’s compare apples to apples, for 30 days- my usage was 2141 kWh and it cost me $308.29, if you have Duke and close to my usage, p... | Facebook",
-      "snippet": "Duke vs Dynegy: 30-day usage comparison needed Summarized by AI from the post below West Chester and Liberty Township, Ohio Neighborhood Group · Duke vs Dynegy- Let’s compare apples to apples, for 30 days- my usage was 2141 kWh and it cost me $308.29, if you have Duke and close to my usage, please s…",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "",
-      "posted": "2025-02-19",
       "first_seen": "2026-09-06",
+      "group": "",
+      "id": "https://www.facebook.com/groups/westchesterliberty/posts/1850322509046537",
       "last_seen": "2026-09-13",
+      "posted": "2025-02-19",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
         "version": "9703ff8bd3ba"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
+      "snippet": "Duke vs Dynegy: 30-day usage comparison needed Summarized by AI from the post below West Chester and Liberty Township, Ohio Neighborhood Group · Duke vs Dynegy- Let’s compare apples to apples, for 30 days- my usage was 2141 kWh and it cost me $308.29, if you have Duke and close to my usage, please s…",
+      "source": "Facebook",
+      "title": "West Chester and Liberty Township, Ohio Neighborhood Group | Duke vs Dynegy- Let’s compare apples to apples, for 30 days- my usage was 2141 kWh and it cost me $308.29, if you have Duke and close to my usage, p... | Facebook",
+      "url": "https://www.facebook.com/groups/westchesterliberty/posts/1850322509046537"
     },
     {
       "context": "facebook.com",
@@ -14540,35 +15388,35 @@
       "url": "https://www.facebook.com/groups/westchesterliberty/posts/2033505604061559"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-09-06",
-      "group": "Welcome To Springfield",
       "id": "https://www.facebook.com/groups/welcometospringfield/posts/1760655324866101",
-      "last_seen": "2026-09-06",
+      "url": "https://www.facebook.com/groups/welcometospringfield/posts/1760655324866101",
+      "title": "Welcome To Springfield | Moving to Springfield next week and need to get utilities set up | Facebook",
+      "snippet": "Title: Welcome To Springfield | Moving to Springfield next week and need to get utilities set up | Facebook\nWelcome To Springfield | Moving to Springfield next week and need to get utilities set up | Facebook. What are the best utility companies in Springfield for trash, gas, water, electric, and in…",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Welcome To Springfield",
       "posted": "2025-05-09",
-      "production": {
-        "accepted": false,
-        "reason": "keyword",
-        "source": "rules"
-      },
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-13",
       "queries": [
         "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": true,
+        "semantic_accepted": false,
+        "reason": "keyword",
         "host": true,
         "keyword": false,
-        "lead": false,
         "ohio": false,
-        "reason": "keyword",
-        "semantic_accepted": false,
-        "version": "560ca8cbd3f0"
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "5c1c5affd84b"
       },
-      "snippet": "Title: Welcome To Springfield | Moving to Springfield next week and need to get utilities set up | Facebook\nWelcome To Springfield | Moving to Springfield next week and need to get utilities set up | Facebook. What are the best utility companies in Springfield for trash, gas, water, electric, and in…",
-      "source": "Facebook",
-      "title": "Welcome To Springfield | Moving to Springfield next week and need to get utilities set up | Facebook",
-      "url": "https://www.facebook.com/groups/welcometospringfield/posts/1760655324866101"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
     },
     {
       "context": "facebook.com",
@@ -14633,66 +15481,66 @@
       "url": "https://www.facebook.com/groups/778766775601723/posts/4243375939140772"
     },
     {
+      "context": "facebook.com",
+      "first_seen": "2026-09-06",
+      "group": "Voice of Ohio Teachers",
       "id": "https://www.facebook.com/groups/662717436755426/posts/936736779353489",
-      "url": "https://www.facebook.com/groups/662717436755426/posts/936736779353489",
-      "title": "Voice of Ohio Teachers | Husted under oath | Facebook",
+      "last_seen": "2026-09-13",
+      "posted": "2026-03-18",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
+        "version": "9703ff8bd3ba"
+      },
       "snippet": "Title: Voice of Ohio Teachers | Husted under oath | Facebook\n# Voice of Ohio Teachers | Husted under oath | Facebook. We learned that above all else from Mr. Husted’s testimony as a defense witness in the felony trial of FirstEnergy executives charged with masterminding the bribery scandal behind a …",
       "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Voice of Ohio Teachers",
-      "posted": "2026-03-18",
-      "first_seen": "2026-09-06",
-      "last_seen": "2026-09-13",
-      "queries": [
-        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
-        "host": true,
-        "keyword": true,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "9703ff8bd3ba"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
+      "title": "Voice of Ohio Teachers | Husted under oath | Facebook",
+      "url": "https://www.facebook.com/groups/662717436755426/posts/936736779353489"
     },
     {
-      "id": "https://www.facebook.com/groups/662717436755426/permalink/865386156488552",
-      "url": "https://www.facebook.com/groups/662717436755426/permalink/865386156488552",
-      "title": "Voice of Ohio Teachers | Electric rates affect everyone's pocketbook | Facebook",
-      "snippet": "PUCO is ripe for reform — and now is the time. Our editorial board has called before for top-down PUCO reform, both within the commission and by state lawmakers in the laws that govern the body. Now, with a commissioner vacancy looming in April, and a search to fill it getting under way, Republican …",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Voice of Ohio Teachers",
-      "posted": "2025-12-26",
       "first_seen": "2026-09-06",
+      "group": "Voice of Ohio Teachers",
+      "id": "https://www.facebook.com/groups/662717436755426/permalink/865386156488552",
       "last_seen": "2026-09-13",
+      "posted": "2025-12-26",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
         "version": "9703ff8bd3ba"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
+      "snippet": "PUCO is ripe for reform — and now is the time. Our editorial board has called before for top-down PUCO reform, both within the commission and by state lawmakers in the laws that govern the body. Now, with a commissioner vacancy looming in April, and a search to fill it getting under way, Republican …",
+      "source": "Facebook",
+      "title": "Voice of Ohio Teachers | Electric rates affect everyone's pocketbook | Facebook",
+      "url": "https://www.facebook.com/groups/662717436755426/permalink/865386156488552"
     },
     {
       "context": "facebook.com",
@@ -15007,35 +15855,35 @@
       "url": "https://www.facebook.com/groups/somerville.ma.community/posts/1613982595855665"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-09-06",
-      "group": "Service Trucks Anonymous",
       "id": "https://www.facebook.com/groups/483964356970950/posts/695504089150308",
-      "last_seen": "2026-09-06",
+      "url": "https://www.facebook.com/groups/483964356970950/posts/695504089150308",
+      "title": "Service Trucks Anonymous | My junk I picked up yesterday it’s a start gonna try and move up in the world what’ y’all charge per mile to do a service on cars trucks equipme... | Facebook",
+      "snippet": "Title: Service Trucks Anonymous | My junk I picked up yesterday it’s a start gonna try and move up in the world what’ y’all charge per mile to do a service on cars trucks equipme... | Facebook\nService Trucks Anonymous | My junk I picked up yesterday it’s a start gonna try and move up in the world wh…",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Service Trucks Anonymous",
       "posted": "2024-02-15",
-      "production": {
-        "accepted": false,
-        "reason": "keyword",
-        "source": "rules"
-      },
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-13",
       "queries": [
         "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": true,
+        "semantic_accepted": false,
+        "reason": "keyword",
         "host": true,
         "keyword": false,
-        "lead": false,
         "ohio": false,
-        "reason": "keyword",
-        "semantic_accepted": false,
-        "version": "560ca8cbd3f0"
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "5c1c5affd84b"
       },
-      "snippet": "Title: Service Trucks Anonymous | My junk I picked up yesterday it’s a start gonna try and move up in the world what’ y’all charge per mile to do a service on cars trucks equipme... | Facebook\nService Trucks Anonymous | My junk I picked up yesterday it’s a start gonna try and move up in the world wh…",
-      "source": "Facebook",
-      "title": "Service Trucks Anonymous | My junk I picked up yesterday it’s a start gonna try and move up in the world what’ y’all charge per mile to do a service on cars trucks equipme... | Facebook",
-      "url": "https://www.facebook.com/groups/483964356970950/posts/695504089150308"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
     },
     {
       "context": "facebook.com",
@@ -15255,35 +16103,35 @@
       "url": "https://www.facebook.com/groups/205788216142564/posts/28141640475463963"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-09-06",
-      "group": "Plainview . Texas 79072 . My Hometown",
       "id": "https://www.facebook.com/groups/bestofplainviewtexas/posts/3194155864019879",
-      "last_seen": "2026-09-06",
+      "url": "https://www.facebook.com/groups/bestofplainviewtexas/posts/3194155864019879",
+      "title": "Plainview . Texas 79072 . My Hometown | Xcel Energy and electric co-ops and municipal utilities that purchase energy from the company’s power plants will now start service interruptions | Facebook",
+      "snippet": "Xcel Energy and electric co-ops and municipal utilities that purchase energy from the company’s power plants will now start service interruptions. The company will interrupt power to pre-selected electric circuits for up to one hour at a time. More than one service interruption is possible. Customer…",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Plainview . Texas 79072 . My Hometown",
       "posted": "2021-02-15",
-      "production": {
-        "accepted": false,
-        "reason": "keyword",
-        "source": "rules"
-      },
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-13",
       "queries": [
         "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
         "host": true,
         "keyword": false,
-        "lead": false,
         "ohio": false,
-        "reason": "keyword",
-        "semantic_accepted": false,
-        "version": "560ca8cbd3f0"
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "5c1c5affd84b"
       },
-      "snippet": "Xcel Energy and electric co-ops and municipal utilities that purchase energy from the company’s power plants will now start service interruptions. The company will interrupt power to pre-selected electric circuits for up to one hour at a time. More than one service interruption is possible. Customer…",
-      "source": "Facebook",
-      "title": "Plainview . Texas 79072 . My Hometown | Xcel Energy and electric co-ops and municipal utilities that purchase energy from the company’s power plants will now start service interruptions | Facebook",
-      "url": "https://www.facebook.com/groups/bestofplainviewtexas/posts/3194155864019879"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
     },
     {
       "context": "facebook.com",
@@ -15503,35 +16351,35 @@
       "url": "https://www.facebook.com/groups/2071547749747734/posts/4220773728158448"
     },
     {
-      "id": "https://www.facebook.com/groups/lorainoh/posts/2112772379479544",
-      "url": "https://www.facebook.com/groups/lorainoh/posts/2112772379479544",
-      "title": "Lorain, Ohio. | Does anyone know who passed away  at Apples grocery store today  | Facebook",
-      "snippet": "Title: Lorain, Ohio. | Does anyone know who passed away  at Apples grocery store today  | Facebook\n# Lorain, Ohio. | Does anyone know who passed away at Apples grocery store today | Facebook. who passed away at apples grocery store today? Summarized by AI from the post below. ## Lorain, Ohio. Does a…",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Lorain, Ohio.",
-      "posted": "2025-10-04",
       "first_seen": "2026-09-06",
+      "group": "Lorain, Ohio.",
+      "id": "https://www.facebook.com/groups/lorainoh/posts/2112772379479544",
       "last_seen": "2026-09-13",
+      "posted": "2025-10-04",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "9703ff8bd3ba"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "snippet": "Title: Lorain, Ohio. | Does anyone know who passed away  at Apples grocery store today  | Facebook\n# Lorain, Ohio. | Does anyone know who passed away at Apples grocery store today | Facebook. who passed away at apples grocery store today? Summarized by AI from the post below. ## Lorain, Ohio. Does a…",
+      "source": "Facebook",
+      "title": "Lorain, Ohio. | Does anyone know who passed away  at Apples grocery store today  | Facebook",
+      "url": "https://www.facebook.com/groups/lorainoh/posts/2112772379479544"
     },
     {
       "context": "facebook.com",
@@ -15658,35 +16506,35 @@
       "url": "https://www.facebook.com/groups/205788216142564/posts/28143279508633393"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-09-06",
-      "group": "",
       "id": "https://www.facebook.com/groups/cincinnatibengalsnation/posts/2055640808179784",
-      "last_seen": "2026-09-06",
+      "url": "https://www.facebook.com/groups/cincinnatibengalsnation/posts/2055640808179784",
+      "title": "I grew up in Ohio | Remnants of The Lake Shore Electric Railway, in Bay Village, OH | Facebook",
+      "snippet": "Lake Shore Electric Railway history in Ohio. Summarized by AI from the post below. I grew up in Ohio ·. Remnants of The Lake Shore Electric Railway, in Bay Village, OH. The LSE was formed in 1901 and was composed of four predecessor streetcar and interurban lines, all owned by the Everett-Moore Synd…",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "",
       "posted": "",
-      "production": {
-        "accepted": false,
-        "reason": "keyword",
-        "source": "rules"
-      },
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-13",
       "queries": [
         "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
         "host": true,
         "keyword": false,
-        "lead": false,
         "ohio": true,
-        "reason": "keyword",
-        "semantic_accepted": false,
-        "version": "560ca8cbd3f0"
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "5c1c5affd84b"
       },
-      "snippet": "Lake Shore Electric Railway history in Ohio. Summarized by AI from the post below. I grew up in Ohio ·. Remnants of The Lake Shore Electric Railway, in Bay Village, OH. The LSE was formed in 1901 and was composed of four predecessor streetcar and interurban lines, all owned by the Everett-Moore Synd…",
-      "source": "Facebook",
-      "title": "I grew up in Ohio | Remnants of The Lake Shore Electric Railway, in Bay Village, OH | Facebook",
-      "url": "https://www.facebook.com/groups/cincinnatibengalsnation/posts/2055640808179784"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
     },
     {
       "context": "facebook.com",
@@ -15847,35 +16695,35 @@
       "url": "https://www.facebook.com/groups/3840468082852855/posts/4909678722598447"
     },
     {
-      "id": "https://www.facebook.com/groups/GreaterColerainCommUNITYGroup/posts/1921247608503894",
-      "url": "https://www.facebook.com/groups/GreaterColerainCommUNITYGroup/posts/1921247608503894",
-      "title": "Greater Colerain CommUNITY Group | POWER-OUTAGES to INCREASE in Colerain  | Facebook",
-      "snippet": "Title: Greater Colerain CommUNITY Group | POWER-OUTAGES to INCREASE in Colerain  | Facebook\nGreater Colerain CommUNITY Group | POWER-OUTAGES to INCREASE in Colerain | Facebook. POWER-OUTAGES to INCREASE in Colerain. First Energy, et al, are literally asking for permission from our representatives (B…",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Greater Colerain CommUNITY Group",
-      "posted": "2026-01-18",
       "first_seen": "2026-09-06",
+      "group": "Greater Colerain CommUNITY Group",
+      "id": "https://www.facebook.com/groups/GreaterColerainCommUNITYGroup/posts/1921247608503894",
       "last_seen": "2026-09-13",
+      "posted": "2026-01-18",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "9703ff8bd3ba"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "Title: Greater Colerain CommUNITY Group | POWER-OUTAGES to INCREASE in Colerain  | Facebook\nGreater Colerain CommUNITY Group | POWER-OUTAGES to INCREASE in Colerain | Facebook. POWER-OUTAGES to INCREASE in Colerain. First Energy, et al, are literally asking for permission from our representatives (B…",
+      "source": "Facebook",
+      "title": "Greater Colerain CommUNITY Group | POWER-OUTAGES to INCREASE in Colerain  | Facebook",
+      "url": "https://www.facebook.com/groups/GreaterColerainCommUNITYGroup/posts/1921247608503894"
     },
     {
       "context": "facebook.com",
@@ -16095,35 +16943,35 @@
       "url": "https://www.facebook.com/groups/194430493950148/posts/28381929334773553"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-09-06",
-      "group": "Expats move to France",
       "id": "https://www.facebook.com/groups/23814372316/posts/10163368109207317",
-      "last_seen": "2026-09-06",
+      "url": "https://www.facebook.com/groups/23814372316/posts/10163368109207317",
+      "title": "Expats move to France | I'm trying to set up my utilities and it seems like I might have to wait over a week to get fiber optic internet service set up | Facebook",
+      "snippet": "Title: Expats move to France | I'm trying to set up my utilities and it seems like I might have to wait over a week to get fiber optic internet service set up | Facebook\n# Expats move to France | I'm trying to set up my utilities and it seems like I might have to wait over a week to get fiber optic …",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Expats move to France",
       "posted": "2025-08-13",
-      "production": {
-        "accepted": false,
-        "reason": "keyword",
-        "source": "rules"
-      },
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-13",
       "queries": [
         "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": true,
+        "semantic_accepted": false,
+        "reason": "keyword",
         "host": true,
         "keyword": false,
-        "lead": false,
         "ohio": false,
-        "reason": "keyword",
-        "semantic_accepted": false,
-        "version": "560ca8cbd3f0"
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "5c1c5affd84b"
       },
-      "snippet": "Title: Expats move to France | I'm trying to set up my utilities and it seems like I might have to wait over a week to get fiber optic internet service set up | Facebook\n# Expats move to France | I'm trying to set up my utilities and it seems like I might have to wait over a week to get fiber optic …",
-      "source": "Facebook",
-      "title": "Expats move to France | I'm trying to set up my utilities and it seems like I might have to wait over a week to get fiber optic internet service set up | Facebook",
-      "url": "https://www.facebook.com/groups/23814372316/posts/10163368109207317"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
     },
     {
       "context": "facebook.com",
@@ -16468,35 +17316,35 @@
       "url": "https://www.facebook.com/groups/CrossvilleNews/posts/2346677265837751"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-09-06",
-      "group": "",
       "id": "https://www.facebook.com/groups/359640684902059/posts/1692303294969118",
-      "last_seen": "2026-09-06",
+      "url": "https://www.facebook.com/groups/359640684902059/posts/1692303294969118",
+      "title": "Covington Park Community Homeowners & Renters | invitation homes renters: I have a question about utilities and I cant get a single mfer to ever answer their phone | Facebook",
+      "snippet": "What is the standard process for setting up utilities with Invitation Homes, and what does the chargeback on the rent invoice mean? Summarized by AI from the post below. Covington Park Community Homeowners & Renters ·. invitation homes renters: I have a question about utilities and I cant get a sing…",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "",
       "posted": "2025-01-30",
-      "production": {
-        "accepted": false,
-        "reason": "keyword",
-        "source": "rules"
-      },
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-13",
       "queries": [
         "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": true,
+        "semantic_accepted": false,
+        "reason": "keyword",
         "host": true,
         "keyword": false,
-        "lead": false,
         "ohio": false,
-        "reason": "keyword",
-        "semantic_accepted": false,
-        "version": "560ca8cbd3f0"
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "5c1c5affd84b"
       },
-      "snippet": "What is the standard process for setting up utilities with Invitation Homes, and what does the chargeback on the rent invoice mean? Summarized by AI from the post below. Covington Park Community Homeowners & Renters ·. invitation homes renters: I have a question about utilities and I cant get a sing…",
-      "source": "Facebook",
-      "title": "Covington Park Community Homeowners & Renters | invitation homes renters: I have a question about utilities and I cant get a single mfer to ever answer their phone | Facebook",
-      "url": "https://www.facebook.com/groups/359640684902059/posts/1692303294969118"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
     },
     {
       "context": "facebook.com",
@@ -16530,35 +17378,35 @@
       "url": "https://www.facebook.com/groups/1795874100584152/posts/3291205207717693"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-09-06",
-      "group": "Community Of Little Elm",
       "id": "https://www.facebook.com/groups/CitizensofLittleElm/posts/2920642648123016",
-      "last_seen": "2026-09-06",
+      "url": "https://www.facebook.com/groups/CitizensofLittleElm/posts/2920642648123016",
+      "title": "Community Of Little Elm | Moving to the area this weekend and working on setting up utilities | Facebook",
+      "snippet": "Title: Community Of Little Elm | Moving to the area this weekend and working on setting up utilities | Facebook\nCommunity Of Little Elm | Moving to the area this weekend and working on setting up utilities | Facebook. Recommendations for cable and internet in Little Elm, TX? Summarized by AI from th…",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Community Of Little Elm",
       "posted": "2026-01-14",
-      "production": {
-        "accepted": false,
-        "reason": "keyword",
-        "source": "rules"
-      },
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-13",
       "queries": [
         "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": true,
+        "semantic_accepted": false,
+        "reason": "keyword",
         "host": true,
         "keyword": false,
-        "lead": false,
         "ohio": false,
-        "reason": "keyword",
-        "semantic_accepted": false,
-        "version": "560ca8cbd3f0"
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "5c1c5affd84b"
       },
-      "snippet": "Title: Community Of Little Elm | Moving to the area this weekend and working on setting up utilities | Facebook\nCommunity Of Little Elm | Moving to the area this weekend and working on setting up utilities | Facebook. Recommendations for cable and internet in Little Elm, TX? Summarized by AI from th…",
-      "source": "Facebook",
-      "title": "Community Of Little Elm | Moving to the area this weekend and working on setting up utilities | Facebook",
-      "url": "https://www.facebook.com/groups/CitizensofLittleElm/posts/2920642648123016"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
     },
     {
       "context": "facebook.com",
@@ -16623,35 +17471,35 @@
       "url": "https://www.facebook.com/groups/312357244860536/posts/1068026005960319"
     },
     {
-      "id": "https://www.facebook.com/groups/2574702002596546/posts/26198483013125113",
-      "url": "https://www.facebook.com/groups/2574702002596546/posts/26198483013125113",
-      "title": "Building A Better Butler | PSA by Commissioner Boozel | Facebook",
-      "snippet": "Title: Building A Better Butler | PSA by Commissioner Boozel | Facebook\nFirstEnergy prepares for strong winds and potential outages. FirstEnergy Crews Preparing for Strong Winds on Friday; Offers Customers Tips to Prepare and Stay Safe. AKRON, Ohio – With a severe windstorm expected to move through …",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Building A Better Butler",
-      "posted": "2026-03-13",
       "first_seen": "2026-09-06",
+      "group": "Building A Better Butler",
+      "id": "https://www.facebook.com/groups/2574702002596546/posts/26198483013125113",
       "last_seen": "2026-09-13",
+      "posted": "2026-03-13",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "9703ff8bd3ba"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "Title: Building A Better Butler | PSA by Commissioner Boozel | Facebook\nFirstEnergy prepares for strong winds and potential outages. FirstEnergy Crews Preparing for Strong Winds on Friday; Offers Customers Tips to Prepare and Stay Safe. AKRON, Ohio – With a severe windstorm expected to move through …",
+      "source": "Facebook",
+      "title": "Building A Better Butler | PSA by Commissioner Boozel | Facebook",
+      "url": "https://www.facebook.com/groups/2574702002596546/posts/26198483013125113"
     },
     {
       "context": "facebook.com",
@@ -16747,97 +17595,97 @@
       "url": "https://www.facebook.com/groups/205788216142564/posts/28152680464359964"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-09-06",
-      "group": "Belleville Neighbours",
       "id": "https://www.facebook.com/groups/1029364787229190/posts/2512190035613317",
-      "last_seen": "2026-09-06",
+      "url": "https://www.facebook.com/groups/1029364787229190/posts/2512190035613317",
+      "title": "Belleville Neighbours | hey! Looking for some advice 🙂 I’m moving into a new place, and I’m paying utilities - I’ve never had utilities under my name before | Facebook",
+      "snippet": "Setting up utilities in your name: deposit required? Advice on hydro, water, and internet companies in Belleville? Summarized by AI from the post below. Looking for some advice : 🙂 I’m moving into a new place, and I’m paying utilities - I’ve never had utilities under my name before. My new landlord …",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Belleville Neighbours",
       "posted": "2023-05-07",
-      "production": {
-        "accepted": false,
-        "reason": "keyword",
-        "source": "rules"
-      },
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-13",
       "queries": [
         "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": true,
+        "semantic_accepted": false,
+        "reason": "keyword",
         "host": true,
         "keyword": false,
-        "lead": false,
         "ohio": false,
-        "reason": "keyword",
-        "semantic_accepted": false,
-        "version": "560ca8cbd3f0"
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "5c1c5affd84b"
       },
-      "snippet": "Setting up utilities in your name: deposit required? Advice on hydro, water, and internet companies in Belleville? Summarized by AI from the post below. Looking for some advice : 🙂 I’m moving into a new place, and I’m paying utilities - I’ve never had utilities under my name before. My new landlord …",
-      "source": "Facebook",
-      "title": "Belleville Neighbours | hey! Looking for some advice 🙂 I’m moving into a new place, and I’m paying utilities - I’ve never had utilities under my name before | Facebook",
-      "url": "https://www.facebook.com/groups/1029364787229190/posts/2512190035613317"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
     },
     {
+      "context": "facebook.com",
+      "first_seen": "2026-09-06",
+      "group": "Bay Village behindthescenes",
       "id": "https://www.facebook.com/groups/bvbehindthescenes/posts/25578646361787135",
-      "url": "https://www.facebook.com/groups/bvbehindthescenes/posts/25578646361787135",
-      "title": "Bay Village behindthescenes | Should our city not join Lakewood and Cleveland in the PUCO hearings to oppose First Energy's request to decrease response times | Facebook",
+      "last_seen": "2026-09-13",
+      "posted": "2026-01-12",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
+        "version": "9703ff8bd3ba"
+      },
       "snippet": "Should city oppose First Energy's request? Summarized by AI from the post below. Should our city not join Lakewood and Cleveland in the PUCO hearings to oppose First Energy's request to decrease response times? We could at least send a letter. I know this is an issue that affects a lot of Bay reside…",
       "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Bay Village behindthescenes",
-      "posted": "2026-01-12",
-      "first_seen": "2026-09-06",
-      "last_seen": "2026-09-13",
-      "queries": [
-        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
-        "host": true,
-        "keyword": true,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "9703ff8bd3ba"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
+      "title": "Bay Village behindthescenes | Should our city not join Lakewood and Cleveland in the PUCO hearings to oppose First Energy's request to decrease response times | Facebook",
+      "url": "https://www.facebook.com/groups/bvbehindthescenes/posts/25578646361787135"
     },
     {
-      "id": "https://www.facebook.com/groups/531171832472989/posts/1054318993491601",
-      "url": "https://www.facebook.com/groups/531171832472989/posts/1054318993491601",
-      "title": "Barberton Neighbors | With the lack luster effort put forth by Ohio Edison/FirstEnergy on July 7th's City Counsel meeting, I urge everyone to write a complaint letter about... | Facebook",
-      "snippet": "Title: Barberton Neighbors | With the lack luster effort put forth by Ohio Edison/FirstEnergy on July 7th's City Counsel meeting, I urge everyone to write a complaint letter about... | Facebook\nBarberton Neighbors | With the lack luster effort put forth by Ohio Edison/FirstEnergy on July 7th's City …",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "",
-      "posted": "",
       "first_seen": "2026-09-06",
+      "group": "",
+      "id": "https://www.facebook.com/groups/531171832472989/posts/1054318993491601",
       "last_seen": "2026-09-13",
+      "posted": "",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
         "version": "9703ff8bd3ba"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
+      "snippet": "Title: Barberton Neighbors | With the lack luster effort put forth by Ohio Edison/FirstEnergy on July 7th's City Counsel meeting, I urge everyone to write a complaint letter about... | Facebook\nBarberton Neighbors | With the lack luster effort put forth by Ohio Edison/FirstEnergy on July 7th's City …",
+      "source": "Facebook",
+      "title": "Barberton Neighbors | With the lack luster effort put forth by Ohio Edison/FirstEnergy on July 7th's City Counsel meeting, I urge everyone to write a complaint letter about... | Facebook",
+      "url": "https://www.facebook.com/groups/531171832472989/posts/1054318993491601"
     },
     {
       "context": "facebook.com",
@@ -18053,36 +18901,36 @@
       "url": "https://www.facebook.com/groups/2847148148647702/posts/29139869748948850"
     },
     {
-      "id": "https://www.facebook.com/groups/525368422576637/posts/1160257029087770",
-      "url": "https://www.facebook.com/groups/525368422576637/posts/1160257029087770",
-      "title": "The Real Lafayette Township - Medina, OH | A break on the electric bill - maybe | Facebook",
-      "snippet": "FirstEnergy to refund customers $180 million. Summarized by AI from the post below. The Real Lafayette Township - Medina, OH ·. · November 19 at 11:48 PM ·. A break on the electric bill - maybe? Today, FirstEnergy was ordered to pay $250 million in penalties and restitution due to violations of stat…",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "",
-      "posted": "2025-11-19",
       "first_seen": "2026-09-05",
+      "group": "",
+      "id": "https://www.facebook.com/groups/525368422576637/posts/1160257029087770",
       "last_seen": "2026-09-13",
+      "posted": "2025-11-19",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio",
         "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
         "version": "9703ff8bd3ba"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
+      "snippet": "FirstEnergy to refund customers $180 million. Summarized by AI from the post below. The Real Lafayette Township - Medina, OH ·. · November 19 at 11:48 PM ·. A break on the electric bill - maybe? Today, FirstEnergy was ordered to pay $250 million in penalties and restitution due to violations of stat…",
+      "source": "Facebook",
+      "title": "The Real Lafayette Township - Medina, OH | A break on the electric bill - maybe | Facebook",
+      "url": "https://www.facebook.com/groups/525368422576637/posts/1160257029087770"
     },
     {
       "context": "facebook.com",
@@ -25107,16 +25955,17 @@
       "url": "https://www.facebook.com/groups/1736397829918785/posts/5229875473904319"
     },
     {
-      "id": "https://www.facebook.com/groups/984284611714204/posts/2764300517045929",
-      "url": "https://www.facebook.com/groups/984284611714204/posts/2764300517045929",
-      "title": "The New Nelsonville Tribune | Because so many of us are facing electric price increases from Ohio AEP and other providers, here's the Ohio Public Utilities's Apples-to-Apples syste... | Facebook",
-      "snippet": "Ohio electric price comparison and renewable options. Summarized by AI from the post below. Because so many of us are facing electric price increases from Ohio AEP and other providers, here's the Ohio Public Utilities's Apples-to-Apples system for getting comparison of prices (including all costs, n…",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "The New Nelsonville Tribune",
-      "posted": "2023-05-18",
       "first_seen": "2026-09-02",
+      "group": "The New Nelsonville Tribune",
+      "id": "https://www.facebook.com/groups/984284611714204/posts/2764300517045929",
       "last_seen": "2026-09-13",
+      "posted": "2023-05-18",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio",
         "site:facebook.com/groups (\"cancel my\" OR \"cancellation fee\" OR \"early termination fee\") (electric OR gas) Ohio",
@@ -25126,20 +25975,19 @@
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
         "version": "9703ff8bd3ba"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
+      "snippet": "Ohio electric price comparison and renewable options. Summarized by AI from the post below. Because so many of us are facing electric price increases from Ohio AEP and other providers, here's the Ohio Public Utilities's Apples-to-Apples system for getting comparison of prices (including all costs, n…",
+      "source": "Facebook",
+      "title": "The New Nelsonville Tribune | Because so many of us are facing electric price increases from Ohio AEP and other providers, here's the Ohio Public Utilities's Apples-to-Apples syste... | Facebook",
+      "url": "https://www.facebook.com/groups/984284611714204/posts/2764300517045929"
     },
     {
       "context": "news.ycombinator.com",
