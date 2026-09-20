@@ -1,36 +1,67 @@
 {
-  "updated": "2026-09-20T02:46:53Z",
-  "count": 1047,
+  "updated": "2026-09-20T15:14:15Z",
+  "count": 1086,
   "candidates": [
     {
-      "id": "https://www.facebook.com/groups/shriner/posts/28438907235742296",
-      "url": "https://www.facebook.com/groups/shriner/posts/28438907235742296",
-      "title": "World Famous Zenobia Tiffin Hornets in Tiffin, Ohio - Facebook",
-      "snippet": "World Famous Zenobia Tiffin Hornets Our Home Town Tiffin Ohio USA 250 Years.",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Shriners Around The World",
-      "posted": "2026-09-19",
       "first_seen": "2026-09-20",
+      "group": "Shriners Around The World",
+      "id": "https://www.facebook.com/groups/shriner/posts/28438907235742296",
       "last_seen": "2026-09-20",
+      "posted": "2026-09-19",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
+        "lead": false,
         "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "15934c8e62fd"
+      },
+      "snippet": "World Famous Zenobia Tiffin Hornets Our Home Town Tiffin Ohio USA 250 Years.",
+      "source": "Facebook",
+      "title": "World Famous Zenobia Tiffin Hornets in Tiffin, Ohio - Facebook",
+      "url": "https://www.facebook.com/groups/shriner/posts/28438907235742296"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Wi-Fi",
+      "url": "https://en.wikipedia.org/wiki/Wi-Fi",
+      "title": "Wi-Fi - Wikipedia",
+      "snippet": "Bluetooth Low Energy, a low-power variant of Bluetooth\n Bluetooth, a short-distance network\n Cellular networks, used by smartphones\n LoRa, for long-range wireless with low data rate\n NearLink, a short-range wireless technology standard\n WiMAX, for providing long-range wireless internet connectivity\n…",
+      "source": "en.wikipedia.org",
+      "context": "en.wikipedia.org",
+      "group": "",
+      "posted": "",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "host",
+        "host": false,
+        "keyword": false,
+        "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "15934c8e62fd"
+        "version": "57158ebcd4c9"
       },
       "production": {
         "accepted": false,
         "source": "rules",
-        "reason": "keyword"
+        "reason": "host"
       }
     },
     {
@@ -45,7 +76,8 @@
       "first_seen": "2026-09-20",
       "last_seen": "2026-09-20",
       "queries": [
-        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio",
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -56,7 +88,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "15934c8e62fd"
+        "version": "57158ebcd4c9"
       },
       "production": {
         "accepted": false,
@@ -65,18 +97,49 @@
       }
     },
     {
+      "context": "facebook.com",
+      "first_seen": "2026-09-20",
+      "group": "Army America",
       "id": "https://www.facebook.com/groups/821134430085449/posts/1409768317888721",
-      "url": "https://www.facebook.com/groups/821134430085449/posts/1409768317888721",
-      "title": "Why Physics Is So Much Fun to Learn - Facebook",
+      "last_seen": "2026-09-20",
+      "posted": "2026-09-13",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups/821134430085449/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "15934c8e62fd"
+      },
       "snippet": "Physics indeed for some people tend to be very theoretical and complex, because of the many disciplines related to physics, for example mathematics and",
       "source": "Facebook",
+      "title": "Why Physics Is So Much Fun to Learn - Facebook",
+      "url": "https://www.facebook.com/groups/821134430085449/posts/1409768317888721"
+    },
+    {
+      "id": "https://www.facebook.com/groups/2608026882909065/posts/2918034468574970",
+      "url": "https://www.facebook.com/groups/2608026882909065/posts/2918034468574970",
+      "title": "Who in Wellington thinks everyday Kiwis are getting ahead with ...",
+      "snippet": "Petrol is $3.25 a litre, mortgage rates are up, and your rates bill just landed... who in Wellington thinks everyday Kiwis are getting ahead?",
+      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Army America",
-      "posted": "2026-09-13",
+      "group": "New Zealand Political Discussion and Research Group",
+      "posted": "2026-09-19",
       "first_seen": "2026-09-20",
       "last_seen": "2026-09-20",
       "queries": [
-        "site:facebook.com/groups/821134430085449/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -87,7 +150,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "15934c8e62fd"
+        "version": "57158ebcd4c9"
       },
       "production": {
         "accepted": false,
@@ -96,80 +159,18 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/821134430085449/posts/1410651964467023",
-      "url": "https://www.facebook.com/groups/821134430085449/posts/1410651964467023",
-      "title": "What would happen if the USA attacked Canada? - Facebook",
-      "snippet": "almost a third of the US would lose It Natural gas supply (at least for the first winter). it would end up costing the US several $trillion dollars to repair",
+      "id": "https://www.facebook.com/groups/842311032505584/posts/38422895227353693",
+      "url": "https://www.facebook.com/groups/842311032505584/posts/38422895227353693",
+      "title": "Where to find 2 awg copper electrical wire and 100 amp breaker box",
+      "snippet": "Looking for some 2 awg electrical wire about 45 ft with copper. Also 100 amp breaker box with a shut off in about eight breaker box. And ground wire as",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Army America",
+      "group": "Anything and Everything Huber Heights",
       "posted": "2026-09-14",
       "first_seen": "2026-09-20",
       "last_seen": "2026-09-20",
       "queries": [
-        "site:facebook.com/groups/821134430085449/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
-        "host": true,
-        "keyword": true,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "15934c8e62fd"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/194430493950148/posts/28656658170634000",
-      "url": "https://www.facebook.com/groups/194430493950148/posts/28656658170634000",
-      "title": "What is the average electric bill for a 2,500 sq foot 2-story home in ...",
-      "snippet": "What's the best electric Company cost wise we are using ohio edison . And the electric bill is outrageous , . Deborah Ventura-Leffew and 13 others. 14",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "You know you're from Brunswick if...",
-      "posted": "2026-09-19",
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20",
-      "queries": [
-        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
-        "host": true,
-        "keyword": true,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": false,
-        "version": "15934c8e62fd"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/2539632746325476/posts/4567055360249861",
-      "url": "https://www.facebook.com/groups/2539632746325476/posts/4567055360249861",
-      "title": "What happened to the Capital One Bank near Ihop in North ...",
-      "snippet": "The Capital One bank closed in 2020, with some branches remaining in nearby Edison and Iselin. s a branch in Edison. It closed in 2020.",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "North Brunswick Community Group",
-      "posted": "2026-09-19",
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20",
-      "queries": [
-        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+        "site:facebook.com/groups/842311032505584/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
@@ -177,10 +178,10 @@
         "reason": "keyword",
         "host": true,
         "keyword": false,
-        "ohio": false,
+        "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "15934c8e62fd"
+        "version": "57158ebcd4c9"
       },
       "production": {
         "accepted": false,
@@ -189,111 +190,18 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/821134430085449/posts/1413381050860781",
-      "url": "https://www.facebook.com/groups/821134430085449/posts/1413381050860781",
-      "title": "The future of naval warfare: Coastal Defense Railgun technology",
-      "snippet": "Railguns need a substantial and rapid supply of electricity, often necessitating the use of capacitors that can store and release energy quickly.",
+      "id": "https://www.facebook.com/groups/842311032505584/posts/38570468002596414",
+      "url": "https://www.facebook.com/groups/842311032505584/posts/38570468002596414",
+      "title": "Where are food donation boxes located in Huber Heights? - Facebook",
+      "snippet": "Need ID and utility bill or lease Please bring your own bags St Peter Food Pantry 6161 Chambersburg Rd, Huber Heights, 45424 937-233-1503 Saturdays 10 -noon",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Army America",
-      "posted": "2026-09-17",
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20",
-      "queries": [
-        "site:facebook.com/groups/821134430085449/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
-        "host": true,
-        "keyword": true,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "15934c8e62fd"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/237428961724127/posts/1435208191946192",
-      "url": "https://www.facebook.com/groups/237428961724127/posts/1435208191946192",
-      "title": "The building that use to be for Fountain tire,what is that now used for?",
-      "snippet": "Ford started a plant in nearby Long Beach at about the same time. There's a good chance both Ford and Edison walked through this doorway at one time or another.",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Estevan Rant & Rave 2.0",
+      "group": "Anything and Everything Huber Heights",
       "posted": "2026-09-19",
       "first_seen": "2026-09-20",
       "last_seen": "2026-09-20",
       "queries": [
-        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "15934c8e62fd"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/911643801855026/posts/1061675313518540",
-      "url": "https://www.facebook.com/groups/911643801855026/posts/1061675313518540",
-      "title": "Tablets down in Trumbull? Anyone know? - Facebook",
-      "snippet": "Ohio Edison has estimated restoration to be around 9:30pm. Please check their site for updates every 15 minutes. FirstEnergy Storm Center OH. Mary Miller and",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Gtl-Securus Are We Talking To The Same Inmate",
-      "posted": "2026-09-19",
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20",
-      "queries": [
-        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
-        "host": true,
-        "keyword": true,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "15934c8e62fd"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/313706328308015/posts/823871747291468",
-      "url": "https://www.facebook.com/groups/313706328308015/posts/823871747291468",
-      "title": "Solar United Neighbors of Ohio (public) | **❤️ Protect Solar Credits — PUCO Needs to Hear From Us | Facebook",
-      "snippet": "Solar United Neighbors of Ohio (public) ·. · November 26 at 11:25 PM ·. **: ❤️ Protect Solar Credits — PUCO Needs to Hear From Us!**. Friends — the AEP Ohio just filed for a last-minute change at the Public Utilities Commission of Ohio (PUCO) that would drastically reduce or eliminate fair compensat…",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Solar United Neighbors of Ohio public",
-      "posted": "2025-11-26",
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20",
-      "queries": [
-        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
+        "site:facebook.com/groups/842311032505584/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
@@ -304,7 +212,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "15934c8e62fd"
+        "version": "57158ebcd4c9"
       },
       "production": {
         "accepted": false,
@@ -313,60 +221,184 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/medinacountyohio/posts/4694069704194912",
-      "url": "https://www.facebook.com/groups/medinacountyohio/posts/4694069704194912",
-      "title": "Pumpkins, mums, and gourds for sale at Medina County farm stand",
-      "snippet": "We also have gourds, we still have some remaining produce such as Ohio apples. 494 W Cherry St. Pumpkins are now your choice for $5, large gourds for $5 each",
+      "id": "https://www.facebook.com/groups/1347863722403871/posts/2455982271592005",
+      "url": "https://www.facebook.com/groups/1347863722403871/posts/2455982271592005",
+      "title": "What's the average monthly electric bill and how do you save?",
+      "snippet": "Average bills range from $30 to $500, with common savings tips including using natural light, turning off lights, and utilizing fans instead of AC.",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Medina County Ohio - News, Info and Discussions",
+      "group": "Frugal living tips and hacks",
       "posted": "2026-09-19",
       "first_seen": "2026-09-20",
       "last_seen": "2026-09-20",
       "queries": [
-        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
       ],
       "rules": {
         "accepted": false,
         "semantic_accepted": false,
-        "reason": "keyword",
+        "reason": "geography",
         "host": true,
-        "keyword": false,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "15934c8e62fd"
+        "keyword": true,
+        "ohio": false,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "57158ebcd4c9"
       },
       "production": {
         "accepted": false,
         "source": "rules",
-        "reason": "keyword"
+        "reason": "geography"
       }
     },
     {
-      "id": "https://www.facebook.com/groups/2611894735785130/posts/3616262785348315",
-      "url": "https://www.facebook.com/groups/2611894735785130/posts/3616262785348315",
-      "title": "Oregon Ohio Community | Data Centers -The real kicker is it doesn't matter where they build them, prices are  going up regardless | Facebook",
-      "snippet": "Title: Oregon Ohio Community | Data Centers -The real kicker is it doesn't matter where they build them, prices are  going up regardless | Facebook\n# Oregon Ohio Community | Data Centers -The real kicker is it doesn't matter where they build them, prices are going up regardless | Facebook. ## Oregon…",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Oregon Ohio Community",
-      "posted": "2025-08-17",
       "first_seen": "2026-09-20",
+      "group": "Army America",
+      "id": "https://www.facebook.com/groups/821134430085449/posts/1410651964467023",
       "last_seen": "2026-09-20",
+      "posted": "2026-09-14",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups/821134430085449/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "15934c8e62fd"
+      },
+      "snippet": "almost a third of the US would lose It Natural gas supply (at least for the first winter). it would end up costing the US several $trillion dollars to repair",
+      "source": "Facebook",
+      "title": "What would happen if the USA attacked Canada? - Facebook",
+      "url": "https://www.facebook.com/groups/821134430085449/posts/1410651964467023"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-20",
+      "group": "You know you're from Brunswick if...",
+      "id": "https://www.facebook.com/groups/194430493950148/posts/28656658170634000",
+      "last_seen": "2026-09-20",
+      "posted": "2026-09-19",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
       ],
       "rules": {
         "accepted": false,
+        "hard_exclusion": false,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "15934c8e62fd"
+      },
+      "snippet": "What's the best electric Company cost wise we are using ohio edison . And the electric bill is outrageous , . Deborah Ventura-Leffew and 13 others. 14",
+      "source": "Facebook",
+      "title": "What is the average electric bill for a 2,500 sq foot 2-story home in ...",
+      "url": "https://www.facebook.com/groups/194430493950148/posts/28656658170634000"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-20",
+      "group": "North Brunswick Community Group",
+      "id": "https://www.facebook.com/groups/2539632746325476/posts/4567055360249861",
+      "last_seen": "2026-09-20",
+      "posted": "2026-09-19",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "15934c8e62fd"
+      },
+      "snippet": "The Capital One bank closed in 2020, with some branches remaining in nearby Edison and Iselin. s a branch in Edison. It closed in 2020.",
+      "source": "Facebook",
+      "title": "What happened to the Capital One Bank near Ihop in North ...",
+      "url": "https://www.facebook.com/groups/2539632746325476/posts/4567055360249861"
+    },
+    {
+      "id": "https://www.facebook.com/groups/1159148100958975/posts/3358420151031748",
+      "url": "https://www.facebook.com/groups/1159148100958975/posts/3358420151031748",
+      "title": "We can't keep voting this PO   in office!!!! Wake up Illinois ... - Facebook",
+      "snippet": "Here we are, with $8 billion in rate increases on the people of Illinois. In 2019, electricity was 8.6 cents per kilowatt-hour. In the summer of this year, it",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Flip Illinois Red",
+      "posted": "2026-09-19",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/270560640035606/posts/588384218253245",
+      "url": "https://www.facebook.com/groups/270560640035606/posts/588384218253245",
+      "title": "Vancouver Island EV Owners Group | The BC Utilities Commission appears to be winding up Phase 1 of its Inquiry into BCUC Regulation of Electric Vehicle Charging Service | Facebook",
+      "snippet": "BCUC inquiry into EV charging regulation. Summarized by AI from the post below. Vancouver Island EV Owners Group ·. The BC Utilities Commission appears to be winding up Phase 1 of its Inquiry into BCUC Regulation of Electric Vehicle Charging Service. Its main conclusion, from my point of view, is th…",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Vancouver Island EV Owners Group",
+      "posted": "2018-11-26",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
         "semantic_accepted": false,
         "reason": "keyword",
         "host": true,
         "keyword": false,
-        "ohio": true,
+        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
-        "version": "15934c8e62fd"
+        "hard_exclusion": false,
+        "version": "57158ebcd4c9"
       },
       "production": {
         "accepted": false,
@@ -375,10 +407,537 @@
       }
     },
     {
+      "id": "https://www.facebook.com/groups/842311032505584/posts/38570591342584080",
+      "url": "https://www.facebook.com/groups/842311032505584/posts/38570591342584080",
+      "title": "Used items for sale in Huber Heights, including electric bike and toys",
+      "snippet": "Free items for pickup at Huber Heights, OH curb, including Christmas craft supplies, gift bags, books, and household items.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Anything and Everything Huber Heights",
+      "posted": "2026-09-19",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups/842311032505584/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/uncensoredscny/posts/38648713138076942",
+      "url": "https://www.facebook.com/groups/uncensoredscny/posts/38648713138076942",
+      "title": "UNCENSORED SULLIVAN COUNTY NEW YORK NEWS and ...",
+      "snippet": "... percentage [increase].” Agreeing with Scott, McPhillips pointed to the committee's resolution that calls upon the United States Congress to enact a two-year",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "",
+      "posted": "2026-09-20",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/227042928732039/posts/1568461897923462",
+      "url": "https://www.facebook.com/groups/227042928732039/posts/1568461897923462",
+      "title": "UK energy bills forecast to rise by 26% in January - Facebook",
+      "snippet": "One recent forecast suggests the typical household figure could rise by around 26%, potentially taking it to around £2,165 a year. That could mean an increase",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Mansfield Local",
+      "posted": "2026-09-19",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-20",
+      "group": "Army America",
+      "id": "https://www.facebook.com/groups/821134430085449/posts/1413381050860781",
+      "last_seen": "2026-09-20",
+      "posted": "2026-09-17",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups/821134430085449/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "15934c8e62fd"
+      },
+      "snippet": "Railguns need a substantial and rapid supply of electricity, often necessitating the use of capacitors that can store and release energy quickly.",
+      "source": "Facebook",
+      "title": "The future of naval warfare: Coastal Defense Railgun technology",
+      "url": "https://www.facebook.com/groups/821134430085449/posts/1413381050860781"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-20",
+      "group": "Estevan Rant & Rave 2.0",
+      "id": "https://www.facebook.com/groups/237428961724127/posts/1435208191946192",
+      "last_seen": "2026-09-20",
+      "posted": "2026-09-19",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "15934c8e62fd"
+      },
+      "snippet": "Ford started a plant in nearby Long Beach at about the same time. There's a good chance both Ford and Edison walked through this doorway at one time or another.",
+      "source": "Facebook",
+      "title": "The building that use to be for Fountain tire,what is that now used for?",
+      "url": "https://www.facebook.com/groups/237428961724127/posts/1435208191946192"
+    },
+    {
+      "id": "https://www.facebook.com/groups/highlandcountyohchat/posts/2240558080132908",
+      "url": "https://www.facebook.com/groups/highlandcountyohchat/posts/2240558080132908",
+      "title": "The Gas prices in Highland County are higher than Afroman ! It's ...",
+      "snippet": "Prices range from $4.59 to $4.79, with some finding them cheaper than nearby areas. Wolf Creek Rental.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Highland County Chat",
+      "posted": "2026-09-19",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-20",
+      "group": "Gtl-Securus Are We Talking To The Same Inmate",
+      "id": "https://www.facebook.com/groups/911643801855026/posts/1061675313518540",
+      "last_seen": "2026-09-20",
+      "posted": "2026-09-19",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "15934c8e62fd"
+      },
+      "snippet": "Ohio Edison has estimated restoration to be around 9:30pm. Please check their site for updates every 15 minutes. FirstEnergy Storm Center OH. Mary Miller and",
+      "source": "Facebook",
+      "title": "Tablets down in Trumbull? Anyone know? - Facebook",
+      "url": "https://www.facebook.com/groups/911643801855026/posts/1061675313518540"
+    },
+    {
+      "id": "https://www.facebook.com/groups/842311032505584/posts/38524068950569653",
+      "url": "https://www.facebook.com/groups/842311032505584/posts/38524068950569653",
+      "title": "Sturdy table and lockable cases for sale in Huber Heights, OH",
+      "snippet": "This utility table is versatile and perfect for many uses, such as in retail stores, machine shops, and mechanic shops. The top has a sleek veneer finish,",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Anything and Everything Huber Heights",
+      "posted": "2026-09-17",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups/842311032505584/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-20",
+      "group": "Solar United Neighbors of Ohio public",
+      "id": "https://www.facebook.com/groups/313706328308015/posts/823871747291468",
+      "last_seen": "2026-09-20",
+      "posted": "2025-11-26",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
+        "version": "15934c8e62fd"
+      },
+      "snippet": "Solar United Neighbors of Ohio (public) ·. · November 26 at 11:25 PM ·. **: ❤️ Protect Solar Credits — PUCO Needs to Hear From Us!**. Friends — the AEP Ohio just filed for a last-minute change at the Public Utilities Commission of Ohio (PUCO) that would drastically reduce or eliminate fair compensat…",
+      "source": "Facebook",
+      "title": "Solar United Neighbors of Ohio (public) | **❤️ Protect Solar Credits — PUCO Needs to Hear From Us | Facebook",
+      "url": "https://www.facebook.com/groups/313706328308015/posts/823871747291468"
+    },
+    {
+      "id": "https://www.facebook.com/groups/483964356970950/posts/820249960009053",
+      "url": "https://www.facebook.com/groups/483964356970950/posts/820249960009053",
+      "title": "Service Trucks Anonymous | How do you go about setting up contracts with companies | Facebook",
+      "snippet": "Title: Service Trucks Anonymous | How do you go about setting up contracts with companies | Facebook\n# Service Trucks Anonymous | How do you go about setting up contracts with companies | Facebook. How to set up contracts with companies for managing their fleet? Summarized by AI from the post below.…",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Service Trucks Anonymous",
+      "posted": "2024-09-27",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/842311032505584/posts/38524534747189740",
+      "url": "https://www.facebook.com/groups/842311032505584/posts/38524534747189740",
+      "title": "Selling for 75.00 Brand new, never been used. 50” long, 29 1/2 inch ...",
+      "snippet": "Selling for 75.00 Brand new, never been used. 50” long, 29 1/2 inch wide. Electric fireplace insert for sale in Rolla/Salem Mo area. Photos from Bill Blunden's",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Anything and Everything Huber Heights",
+      "posted": "2026-09-17",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups/842311032505584/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.speedguide.net/forums",
+      "url": "https://www.speedguide.net/forums",
+      "title": "SG Broadband Community - Index page",
+      "snippet": "|  |  |  |  |\n ---  --- |\n| News Glossary of Terms | FAQs | Links SG Teams | SG Premium Services SG Gear Store |\n\n|  |  |  |  |\n ---  --- |\n| Registry Tweaks Broadband Tools | Downloads/Patches Broadband Hardware | SG Ports Database Security | Default Passwords User Stories |\n\n|  |  |  |\n --- \n| Bro…",
+      "source": "speedguide.net",
+      "context": "speedguide.net",
+      "group": "",
+      "posted": "",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "host",
+        "host": false,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "host"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-20",
+      "group": "Medina County Ohio - News, Info and Discussions",
+      "id": "https://www.facebook.com/groups/medinacountyohio/posts/4694069704194912",
+      "last_seen": "2026-09-20",
+      "posted": "2026-09-19",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "15934c8e62fd"
+      },
+      "snippet": "We also have gourds, we still have some remaining produce such as Ohio apples. 494 W Cherry St. Pumpkins are now your choice for $5, large gourds for $5 each",
+      "source": "Facebook",
+      "title": "Pumpkins, mums, and gourds for sale at Medina County farm stand",
+      "url": "https://www.facebook.com/groups/medinacountyohio/posts/4694069704194912"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-20",
+      "group": "Oregon Ohio Community",
+      "id": "https://www.facebook.com/groups/2611894735785130/posts/3616262785348315",
+      "last_seen": "2026-09-20",
+      "posted": "2025-08-17",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "15934c8e62fd"
+      },
+      "snippet": "Title: Oregon Ohio Community | Data Centers -The real kicker is it doesn't matter where they build them, prices are  going up regardless | Facebook\n# Oregon Ohio Community | Data Centers -The real kicker is it doesn't matter where they build them, prices are going up regardless | Facebook. ## Oregon…",
+      "source": "Facebook",
+      "title": "Oregon Ohio Community | Data Centers -The real kicker is it doesn't matter where they build them, prices are  going up regardless | Facebook",
+      "url": "https://www.facebook.com/groups/2611894735785130/posts/3616262785348315"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-20",
+      "group": "Elyria's Front Porch Part of Elyvation",
       "id": "https://www.facebook.com/groups/1793910257599300/posts/4677507252572905",
-      "url": "https://www.facebook.com/groups/1793910257599300/posts/4677507252572905",
-      "title": "Mayor's proactive approach to street light issues in Cornell | Elyria, OH",
+      "last_seen": "2026-09-20",
+      "posted": "2026-09-19",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "15934c8e62fd"
+      },
       "snippet": "This partnership and project with Siemens and the LED conversion not only reduces our city's carbon footprint and energy costs, it enhances public safety and",
+      "source": "Facebook",
+      "title": "Mayor's proactive approach to street light issues in Cornell | Elyria, OH",
+      "url": "https://www.facebook.com/groups/1793910257599300/posts/4677507252572905"
+    },
+    {
+      "id": "https://www.facebook.com/groups/842311032505584/posts/38575200712123143",
+      "url": "https://www.facebook.com/groups/842311032505584/posts/38575200712123143",
+      "title": "Lynch Mob concert at The Rose in Huber Heights, OH has great bass",
+      "snippet": "Lynch Mob Live July 12th at The Hobart Art Theater Lynch Mob coming to the Theater in July!!!! George Lynch is an awesome Guitarist.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Anything and Everything Huber Heights",
+      "posted": "2026-09-20",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups/842311032505584/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1392371578346740/posts/2225037645080125",
+      "url": "https://www.facebook.com/groups/1392371578346740/posts/2225037645080125",
+      "title": "Just got someone from Xcel going door to door in our neighborhood ...",
+      "snippet": "Just got someone from Xcel going door to door in our neighborhood letting us know that our energy bill will be going up due to the new data center. Is",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Greeley Anything still goes",
+      "posted": "2026-09-19",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1793910257599300/posts/4678196399170657",
+      "url": "https://www.facebook.com/groups/1793910257599300/posts/4678196399170657",
+      "title": "Is gas at Sam's Club still $3.69? | South Lorain, OH - Facebook",
+      "snippet": "Yes, gas at Sam's Club is still $3.69, a 32 cents hike...everybody … they are at $4.99...that's 80 cents hike. Gas Stations went to $4.99...that's",
       "source": "Facebook",
       "context": "facebook.com",
       "group": "Elyria's Front Porch Part of Elyvation",
@@ -386,7 +945,7 @@
       "first_seen": "2026-09-20",
       "last_seen": "2026-09-20",
       "queries": [
-        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -397,7 +956,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "15934c8e62fd"
+        "version": "57158ebcd4c9"
       },
       "production": {
         "accepted": false,
@@ -406,18 +965,142 @@
       }
     },
     {
+      "id": "https://www.facebook.com/groups/335103792746637/posts/1073491188907890",
+      "url": "https://www.facebook.com/groups/335103792746637/posts/1073491188907890",
+      "title": "I hope is true. These fuel prices are getting out of control - Facebook",
+      "snippet": "I really hope we all stand together and not be affected by the rise in fuel prices and stand together to demand the rates go up with higher fuel costs.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "UBER DRIVERS & UBER EATS GROUP",
+      "posted": "2026-09-20",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/trxckwrld/posts/1774576004375367",
+      "url": "https://www.facebook.com/groups/trxckwrld/posts/1774576004375367",
+      "title": "How do gas prices relate to the war and fuel shortages? - Facebook",
+      "snippet": "Gas prices go up when we are at war. Same as lumber prices when we are natural disasters. It's the price we pay for freedom. It sucks so bad to pay higher",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Trxckwrld.com",
+      "posted": "2026-09-19",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.twinspires.com/",
+      "url": "https://www.twinspires.com",
+      "title": "Horse Racing Betting | Bet Online with TwinSpires",
+      "snippet": "### Kelly OHara\n\n2:46 AM\n\n### Remington Park\n\nRace 8\n\nPurse: $30,000 CLM 3yo+ | 1M | Turf\n\nSky Racing World's Profile\n\n### Sky Racing World\n\n2:55 AM\n\n### AUS Sunshine Coast\n\nRace 1\n\nPurse: $20,160 HCP 3yo | 5F | Turf\n\nRandy Waples's Profile\n\n### Randy Waples\n\n2:56 AM\n\n### Woodbine Mohawk\n\nRace 12\n\nP…",
+      "source": "twinspires.com",
+      "context": "twinspires.com",
+      "group": "",
+      "posted": "",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "host",
+        "host": false,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "host"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-20",
+      "group": "Keystone of Galvez Residents",
       "id": "https://www.facebook.com/groups/476681813096442/posts/2305668826864389",
-      "url": "https://www.facebook.com/groups/476681813096442/posts/2305668826864389",
-      "title": "Homemade, fresh caramel apples!! These are truly the best   Made ...",
+      "last_seen": "2026-09-20",
+      "posted": "2026-09-19",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "15934c8e62fd"
+      },
       "snippet": "best Made with real cream and butter!! $10 each or 2 for $17. Available October 21st- 22nd & 27th-28th. Bellevue, Ohio",
       "source": "Facebook",
+      "title": "Homemade, fresh caramel apples!! These are truly the best   Made ...",
+      "url": "https://www.facebook.com/groups/476681813096442/posts/2305668826864389"
+    },
+    {
+      "id": "https://www.facebook.com/groups/4708779159232859/posts/28372797539071022",
+      "url": "https://www.facebook.com/groups/4708779159232859/posts/28372797539071022",
+      "title": "Highest fill up yet @215.6/liter, East Coast Canada. - Facebook",
+      "snippet": "Drivers in Eastern Canada could see big increases in gas prices because of various factors, especially the higher cost of the summer blend, industry analysts",
+      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Keystone of Galvez Residents",
+      "group": "Subaru VB 2022 WRX Owners Group",
       "posted": "2026-09-19",
       "first_seen": "2026-09-20",
       "last_seen": "2026-09-20",
       "queries": [
-        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -428,7 +1111,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "15934c8e62fd"
+        "version": "57158ebcd4c9"
       },
       "production": {
         "accepted": false,
@@ -437,18 +1120,173 @@
       }
     },
     {
+      "id": "https://www.facebook.com/groups/842311032505584/posts/38540335455609669",
+      "url": "https://www.facebook.com/groups/842311032505584/posts/38540335455609669",
+      "title": "High diesel prices make it so electric semi-trucks will be ... - Facebook",
+      "snippet": "There are US based companies using battery powered semi trucks now. High diesel prices make it so electric semi-trucks will be economically feasible. charge",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Anything and Everything Huber Heights",
+      "posted": "2026-09-18",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups/842311032505584/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "57158ebcd4c9"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1308162864586745/posts/1424708156265548",
+      "url": "https://www.facebook.com/groups/1308162864586745/posts/1424708156265548",
+      "title": "Gas: $3.40 → $5.80/gal (Costco SoCal) - Facebook",
+      "snippet": "$3.40 → $5.80/gal … gas went from **13¢ → 22¢ per mile**. gas price increase. That's 70% increase in your bottomline. Nevermind the acceptance rate.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "DoorDash Community- DoorDash Delivery Driver",
+      "posted": "2026-09-20",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/4114770678657983/posts/4318664938268555",
+      "url": "https://www.facebook.com/groups/4114770678657983/posts/4318664938268555",
+      "title": "Gas prices rising at Amoco stations - Facebook",
+      "snippet": "The national average has also climbed to around $4.10 per gallon. The state's fuel prices are up 38 cents from a week ago, according to AAA. This price is a",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Battys",
+      "posted": "2026-09-19",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/559823787042943/posts/1065493306475986",
+      "url": "https://www.facebook.com/groups/559823787042943/posts/1065493306475986",
+      "title": "GAS IS VERY HIGH - Facebook",
+      "snippet": "Our gas just raised to $3.80. Central Ohio reach $4.99. Public Gas in north central Ohio just went up to $4.99 a gallon.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "INSTACART SHOPPERS GROUP UNOFF.",
+      "posted": "2026-09-20",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-20",
+      "group": "Current Events in Defiance, OH",
       "id": "https://www.facebook.com/groups/defianceohio/posts/4112812735515355",
-      "url": "https://www.facebook.com/groups/defianceohio/posts/4112812735515355",
-      "title": "Fresh produce market in Defiance, OH this Saturday - Facebook",
+      "last_seen": "2026-09-20",
+      "posted": "2026-09-19",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "15934c8e62fd"
+      },
       "snippet": "Defiance Farmers Market Saturday 9am. Open 11-5 Today Thursday and Friday. Market 9-1 901 Ottawa Ave. Apples, Macintosh Apples, Honeycrisp Apples,",
       "source": "Facebook",
+      "title": "Fresh produce market in Defiance, OH this Saturday - Facebook",
+      "url": "https://www.facebook.com/groups/defianceohio/posts/4112812735515355"
+    },
+    {
+      "id": "https://www.facebook.com/groups/842311032505584/posts/38513928458250369",
+      "url": "https://www.facebook.com/groups/842311032505584/posts/38513928458250369",
+      "title": "Free post-op breast cancer care items in Huber Heights - Facebook",
+      "snippet": "Noble Circle group is a great cancer support group . They offer free nutrition and emotional support for cancer survivors. Check it out. Continued success on",
+      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Current Events in Defiance, OH",
-      "posted": "2026-09-19",
+      "group": "Anything and Everything Huber Heights",
+      "posted": "2026-09-17",
       "first_seen": "2026-09-20",
       "last_seen": "2026-09-20",
       "queries": [
-        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
+        "site:facebook.com/groups/842311032505584/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
@@ -459,7 +1297,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "15934c8e62fd"
+        "version": "57158ebcd4c9"
       },
       "production": {
         "accepted": false,
@@ -468,18 +1306,80 @@
       }
     },
     {
+      "id": "https://www.hamqth.com/",
+      "url": "https://www.hamqth.com",
+      "title": "Free hamradio callbook",
+      "snippet": "Language:\n\n  \n  \n  \n  \n\n1,784,971 callsigns in database | About | News | DX Cluster | Login | 31 Jul 2026 | 06:41 UTC\n\nInvite a friend | FAQ | For developers | Banners | Twitter | Facebook | Statistics | Contact",
+      "source": "hamqth.com",
+      "context": "hamqth.com",
+      "group": "",
+      "posted": "",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "host",
+        "host": false,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "host"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-20",
+      "group": "Army America",
       "id": "https://www.facebook.com/groups/821134430085449/posts/1409707437894809",
-      "url": "https://www.facebook.com/groups/821134430085449/posts/1409707437894809",
-      "title": "Forest Camping Dusk 🏕️ NaItO - Facebook",
+      "last_seen": "2026-09-20",
+      "posted": "2026-09-13",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups/821134430085449/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "15934c8e62fd"
+      },
       "snippet": "A twilight bushcraft camp in a dense forest with an elevated log shelter, warm lantern glow, and a muted monochrome survival atmosphere 🌫️ #bushcraft",
       "source": "Facebook",
+      "title": "Forest Camping Dusk 🏕️ NaItO - Facebook",
+      "url": "https://www.facebook.com/groups/821134430085449/posts/1409707437894809"
+    },
+    {
+      "id": "https://www.facebook.com/groups/1907775149829780/permalink/2090233461583947",
+      "url": "https://www.facebook.com/groups/1907775149829780/permalink/2090233461583947",
+      "title": "Fantastic service as normal. 8k wow - Facebook",
+      "snippet": "Fantastic service as normal. 8k wow easy setup 👍 - in Scotland, United Kingdom. 318 318 reactions · 232 comments",
+      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Army America",
-      "posted": "2026-09-13",
+      "group": "Tivimate & FireStick Support",
+      "posted": "2026-09-17",
       "first_seen": "2026-09-20",
       "last_seen": "2026-09-20",
       "queries": [
-        "site:facebook.com/groups/821134430085449/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+        "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -490,7 +1390,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "15934c8e62fd"
+        "version": "57158ebcd4c9"
       },
       "production": {
         "accepted": false,
@@ -499,18 +1399,173 @@
       }
     },
     {
+      "context": "facebook.com",
+      "first_seen": "2026-09-20",
+      "group": "The Talk of Fremont Uncut NW Ohio",
       "id": "https://www.facebook.com/groups/771914848092993/posts/1461621099122361",
-      "url": "https://www.facebook.com/groups/771914848092993/posts/1461621099122361",
-      "title": "Fall menu options at The Talk of Fremont in NW Ohio - Facebook",
+      "last_seen": "2026-09-20",
+      "posted": "2026-09-19",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "15934c8e62fd"
+      },
       "snippet": "A grilled crust topped with crispy bacon, juicy apples, and melted cheddar cheese. The sweet and salty combo is like a taste of apple- picking season, all in",
       "source": "Facebook",
+      "title": "Fall menu options at The Talk of Fremont in NW Ohio - Facebook",
+      "url": "https://www.facebook.com/groups/771914848092993/posts/1461621099122361"
+    },
+    {
+      "id": "https://www.facebook.com/groups/1959587334362143/posts/4553278284993022",
+      "url": "https://www.facebook.com/groups/1959587334362143/posts/4553278284993022",
+      "title": "Diesel fuel prices surge in New Jersey to nearly $7 a gallon",
+      "snippet": "The price of gas went up 7 cents overnight in NJ. The increase, AAA says is seasonal and because a main shipping channel is disrupted in the Middle East.",
+      "source": "Facebook",
       "context": "facebook.com",
-      "group": "The Talk of Fremont Uncut NW Ohio",
+      "group": "Route 80 Rant TM.. commute in New Jersey",
+      "posted": "2026-09-20",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1022138886160487/posts/1638263461214690",
+      "url": "https://www.facebook.com/groups/1022138886160487/posts/1638263461214690",
+      "title": "Crunch At The Pump As Gas Prices Surge — Why So Many Supply ...",
+      "snippet": "a $1.43 per gallon hike since May 2021. gas now averages $5.07, fuel prices are driving up overall inflation $5 per gallon of gas increases the cost of",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Biloxi Talk Of The Town",
       "posted": "2026-09-19",
       "first_seen": "2026-09-20",
       "last_seen": "2026-09-20",
       "queries": [
-        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/458269283584945/posts/1072353675509833",
+      "url": "https://www.facebook.com/groups/458269283584945/posts/1072353675509833",
+      "title": "Crunch At The Pump As Gas Prices Surge — Why So Many Supply ...",
+      "snippet": "Gas Buddy and AAA told Channel 13 the cause of the price hike is due to unforeseen disruptions and planned maintenance issues with oil refineries that service",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Ocean Springs Talk Of The Town",
+      "posted": "2026-09-19",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.creativelive.com/",
+      "url": "https://www.creativelive.com",
+      "title": "CreativeLive Home",
+      "snippet": "### Start Late, Finish Rich\n\nDavid Bach\n\nThe Power of Body Language with Vanessa Van Edwards\n\n### The Power of Body Language\n\nVanessa Van Edwards\n\nAI for Business with ChatGPT and Copilot.png)\n\n### AI for Business with ChatGPT and Copilot\n\nUnfuk YourSELF with Gary John Bishop\n\n### Unfu\\k YourSELF\n\nG…",
+      "source": "creativelive.com",
+      "context": "creativelive.com",
+      "group": "",
+      "posted": "",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "host",
+        "host": false,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "host"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/842311032505584/posts/38514029638240251",
+      "url": "https://www.facebook.com/groups/842311032505584/posts/38514029638240251",
+      "title": "Cotton candy machine with the supplies $10 - Facebook",
+      "snippet": "Carnival King Cotton Candy Machine perfect for birthday or family night fun! Photos from Tracie Lee's post. 0 reactions.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Anything and Everything Huber Heights",
+      "posted": "2026-09-17",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups/842311032505584/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
@@ -521,7 +1576,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "15934c8e62fd"
+        "version": "57158ebcd4c9"
       },
       "production": {
         "accepted": false,
@@ -530,18 +1585,80 @@
       }
     },
     {
+      "id": "https://www.corvetteforum.com/",
+      "url": "https://www.corvetteforum.com",
+      "title": "CorvetteForum",
+      "snippet": "C1 & C2 CORVETTES\n\n1962, 327, wrong manifold, carburetor thinking of a aftermarket fuel...\n\nIf FI is what you want, I'd suggest using a late 80's-early '90's OEM GM-TBI. The parts are plentiful, and they are bullet-proof simple. Howell FI...\n\n32\n\nReplies\n\n716\n\nViews\n\nBy: AZDoug | September 19, 2026,…",
+      "source": "corvetteforum.com",
+      "context": "corvetteforum.com",
+      "group": "CorvetteForum - Chevrolet Corvette News and Rumors",
+      "posted": "",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "host",
+        "host": false,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "host"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-20",
+      "group": "The Talk of Norwalk, Ohio",
       "id": "https://www.facebook.com/groups/992766075569539/posts/1623055255873948",
-      "url": "https://www.facebook.com/groups/992766075569539/posts/1623055255873948",
-      "title": "Congratulations Roxy and Derione! - Facebook",
+      "last_seen": "2026-09-20",
+      "posted": "2026-09-19",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "15934c8e62fd"
+      },
       "snippet": "Roxy Clifton and Derione Johnson were named 2026 homecoming queen and king prior to tonight's football game against Edison.",
       "source": "Facebook",
+      "title": "Congratulations Roxy and Derione! - Facebook",
+      "url": "https://www.facebook.com/groups/992766075569539/posts/1623055255873948"
+    },
+    {
+      "id": "https://www.facebook.com/groups/842311032505584/posts/38444510345192181",
+      "url": "https://www.facebook.com/groups/842311032505584/posts/38444510345192181",
+      "title": "Car still hasn't been recovered!!!! - Facebook",
+      "snippet": "There is no reason in this age of technology that more of the work done by Congressional committees isn't completed through online coordination and meetings.",
+      "source": "Facebook",
       "context": "facebook.com",
-      "group": "The Talk of Norwalk, Ohio",
-      "posted": "2026-09-19",
+      "group": "Anything and Everything Huber Heights",
+      "posted": "2026-09-15",
       "first_seen": "2026-09-20",
       "last_seen": "2026-09-20",
       "queries": [
-        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+        "site:facebook.com/groups/842311032505584/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
@@ -552,7 +1669,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "15934c8e62fd"
+        "version": "57158ebcd4c9"
       },
       "production": {
         "accepted": false,
@@ -561,18 +1678,80 @@
       }
     },
     {
+      "id": "https://www.facebook.com/groups/842311032505584/posts/38510827741893774",
+      "url": "https://www.facebook.com/groups/842311032505584/posts/38510827741893774",
+      "title": "Big Mother has two Wayne High School Grads in it and they are one ...",
+      "snippet": "Big Mother has two Wayne High School Grads in it and they are one of the best bands around!! Come out to St Peter on Saturday for some excellent",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Anything and Everything Huber Heights",
+      "posted": "2026-09-17",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20",
+      "queries": [
+        "site:facebook.com/groups/842311032505584/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-20",
+      "group": "The Talk of Norwalk, Ohio",
       "id": "https://www.facebook.com/groups/992766075569539/posts/1623563752489765",
-      "url": "https://www.facebook.com/groups/992766075569539/posts/1623563752489765",
-      "title": "Best menu items at Lakeview Farms in Norwalk, Ohio - Facebook",
+      "last_seen": "2026-09-20",
+      "posted": "2026-09-19",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "15934c8e62fd"
+      },
       "snippet": "Apples Grown, gathered, and made right here on the farm. -11786 Sunburst Ave Lakeview Ohio 43331 -Open 24/7 bigger selection Saturday and Sunday",
       "source": "Facebook",
+      "title": "Best menu items at Lakeview Farms in Norwalk, Ohio - Facebook",
+      "url": "https://www.facebook.com/groups/992766075569539/posts/1623563752489765"
+    },
+    {
+      "id": "https://www.facebook.com/groups/914081927880758/posts/1077817978173818",
+      "url": "https://www.facebook.com/groups/914081927880758/posts/1077817978173818",
+      "title": "Are they going to increase Amazon flex rates cause in Ohio gas is ...",
+      "snippet": "Ohio gas is $4.59. Ohio gas prices may spike tomorrow morning. Ohio spiking about 10 cents higher than the rest of the state.",
+      "source": "Facebook",
       "context": "facebook.com",
-      "group": "The Talk of Norwalk, Ohio",
+      "group": "Amazon Flex Drivers",
       "posted": "2026-09-19",
       "first_seen": "2026-09-20",
       "last_seen": "2026-09-20",
       "queries": [
-        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -583,7 +1762,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "15934c8e62fd"
+        "version": "57158ebcd4c9"
       },
       "production": {
         "accepted": false,
@@ -592,173 +1771,18 @@
       }
     },
     {
-      "id": "https://www.webmd.com/food-recipes/benefits-apples",
-      "url": "https://www.webmd.com/food-recipes/benefits-apples",
-      "title": "Apples: Nutrition and Health Benefits",
-      "snippet": "### Find more top doctors on\n\n### Related Links\n\n Food & Recipes News\n Food & Recipes Reference\n Food & Recipes Slideshows\n Food & Recipes Quizzes\n Food & Recipes Videos\n Food Calculator\n Healthy Eating\n Food Safety\n Food Poisoning\n Weight Loss\n Fitness & Exercise\n Diabetes\n Cholesterol Management […",
-      "source": "webmd.com",
-      "context": "webmd.com",
-      "group": "",
-      "posted": "",
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20",
-      "queries": [
-        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "host",
-        "host": false,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "15934c8e62fd"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "host"
-      }
-    },
-    {
-      "id": "https://www.healthline.com/nutrition/foods/apples",
-      "url": "https://www.healthline.com/nutrition/foods/apples",
-      "title": "Apples 101: Nutrition Facts and Health Benefits",
-      "snippet": "Quercetin: A nutrient that also occurs in many plant foods, quercetin may have anti-inflammatory, antiviral, anticancer, and antidepressant effects.\n Catechin: Catechin is a natural antioxidant. It is present in large amounts in green tea, and it is also present in apples. It may help improve mitoch…",
-      "source": "healthline.com",
-      "context": "healthline.com",
-      "group": "Apples 101 Nutrition Facts and Health Benefits",
-      "posted": "",
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20",
-      "queries": [
-        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "host",
-        "host": false,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "15934c8e62fd"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "host"
-      }
-    },
-    {
-      "id": "https://www.britannica.com/plant/apple-fruit-and-tree",
-      "url": "https://www.britannica.com/plant/apple-fruit-and-tree",
-      "title": "Apple | Fruit, Types, Nutrition, Cultivation, & Facts | Britannica",
-      "snippet": "Over the centuries, improved selections have been made, and distinct varieties were recognized more than 2,000 years ago. Hundreds of varieties were recognized in Europe before the settlement of the Americas. As the wave of colonial settlement moved across North America, it was accompanied by the di…",
-      "source": "britannica.com",
-      "context": "britannica.com",
-      "group": "",
-      "posted": "",
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20",
-      "queries": [
-        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "host",
-        "host": false,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "15934c8e62fd"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "host"
-      }
-    },
-    {
-      "id": "https://pickyourown.org/applevarieties-descriptions.php",
-      "url": "https://pickyourown.org/applevarieties-descriptions.php",
-      "title": "Apple varieties - An alphabetical chart of which apple to pick and why!",
-      "snippet": "Macoun appleMacoun\n\n Named after a famous fruit grower in Canada\n Best for: eating, sauce, salad\n Very good, sweet, all-around apple\n cross between the 'McIntosh' and 'Jersey Black' cultivars.\n developed at the New York State Agricultural Experiment Station in Geneva,\n first introduced in 1923,\n\nMcI…",
-      "source": "pickyourown.org",
-      "context": "pickyourown.org",
-      "group": "",
-      "posted": "",
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20",
-      "queries": [
-        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "host",
-        "host": false,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "15934c8e62fd"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "host"
-      }
-    },
-    {
-      "id": "https://en.wikipedia.org/wiki/Apple",
-      "url": "https://en.wikipedia.org/wiki/Apple",
-      "title": "Apple - Wikipedia",
-      "snippet": "Fruit trees of the orchard or domestic apple (Malus domestica), the most widely grown in the genus, are cultivated worldwide. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found.",
-      "source": "en.wikipedia.org",
-      "context": "en.wikipedia.org",
-      "group": "",
-      "posted": "",
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20",
-      "queries": [
-        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "host",
-        "host": false,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "15934c8e62fd"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "host"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/305032536593579/posts/2629294930833983",
-      "url": "https://www.facebook.com/groups/305032536593579/posts/2629294930833983",
-      "title": "Anyone know what's up with the random power outages on CR 10 in ...",
-      "snippet": "There is a power outage affecting Golden. You can reach out to Xcel power services at my.xcelenergy. com/s/state-selector for updates on the power.",
+      "id": "https://www.facebook.com/groups/454954768894863/posts/1737250330665294",
+      "url": "https://www.facebook.com/groups/454954768894863/posts/1737250330665294",
+      "title": "Are Temple, TX water bills doubling or tripling? - Facebook",
+      "snippet": "Some commenters suspect leaks or new water meters, while others blame data centers and increased rates for doubling or tripling bills. Marcy Goodfleisch. Check",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "What's Up, Belmont, MS",
+      "group": "Temple, TX - City Watchers",
       "posted": "2026-09-19",
       "first_seen": "2026-09-20",
       "last_seen": "2026-09-20",
       "queries": [
-        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -769,7 +1793,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "15934c8e62fd"
+        "version": "57158ebcd4c9"
       },
       "production": {
         "accepted": false,
@@ -778,66 +1802,252 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/821134430085449/posts/1409722801226606",
-      "url": "https://www.facebook.com/groups/821134430085449/posts/1409722801226606",
-      "title": "Amazing physics experiments and science facts - Facebook",
-      "snippet": "Fun Science Experiments Science can be fun for the entire family. This original video is produced by Network Media, Life with Coco and The Gooch.",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Army America",
-      "posted": "2026-09-13",
+      "context": "webmd.com",
       "first_seen": "2026-09-20",
+      "group": "",
+      "id": "https://www.webmd.com/food-recipes/benefits-apples",
       "last_seen": "2026-09-20",
+      "posted": "",
+      "production": {
+        "accepted": false,
+        "reason": "host",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": false,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "host",
+        "semantic_accepted": false,
+        "version": "15934c8e62fd"
+      },
+      "snippet": "### Find more top doctors on\n\n### Related Links\n\n Food & Recipes News\n Food & Recipes Reference\n Food & Recipes Slideshows\n Food & Recipes Quizzes\n Food & Recipes Videos\n Food Calculator\n Healthy Eating\n Food Safety\n Food Poisoning\n Weight Loss\n Fitness & Exercise\n Diabetes\n Cholesterol Management […",
+      "source": "webmd.com",
+      "title": "Apples: Nutrition and Health Benefits",
+      "url": "https://www.webmd.com/food-recipes/benefits-apples"
+    },
+    {
+      "context": "healthline.com",
+      "first_seen": "2026-09-20",
+      "group": "Apples 101 Nutrition Facts and Health Benefits",
+      "id": "https://www.healthline.com/nutrition/foods/apples",
+      "last_seen": "2026-09-20",
+      "posted": "",
+      "production": {
+        "accepted": false,
+        "reason": "host",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": false,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "host",
+        "semantic_accepted": false,
+        "version": "15934c8e62fd"
+      },
+      "snippet": "Quercetin: A nutrient that also occurs in many plant foods, quercetin may have anti-inflammatory, antiviral, anticancer, and antidepressant effects.\n Catechin: Catechin is a natural antioxidant. It is present in large amounts in green tea, and it is also present in apples. It may help improve mitoch…",
+      "source": "healthline.com",
+      "title": "Apples 101: Nutrition Facts and Health Benefits",
+      "url": "https://www.healthline.com/nutrition/foods/apples"
+    },
+    {
+      "context": "britannica.com",
+      "first_seen": "2026-09-20",
+      "group": "",
+      "id": "https://www.britannica.com/plant/apple-fruit-and-tree",
+      "last_seen": "2026-09-20",
+      "posted": "",
+      "production": {
+        "accepted": false,
+        "reason": "host",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": false,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "host",
+        "semantic_accepted": false,
+        "version": "15934c8e62fd"
+      },
+      "snippet": "Over the centuries, improved selections have been made, and distinct varieties were recognized more than 2,000 years ago. Hundreds of varieties were recognized in Europe before the settlement of the Americas. As the wave of colonial settlement moved across North America, it was accompanied by the di…",
+      "source": "britannica.com",
+      "title": "Apple | Fruit, Types, Nutrition, Cultivation, & Facts | Britannica",
+      "url": "https://www.britannica.com/plant/apple-fruit-and-tree"
+    },
+    {
+      "context": "pickyourown.org",
+      "first_seen": "2026-09-20",
+      "group": "",
+      "id": "https://pickyourown.org/applevarieties-descriptions.php",
+      "last_seen": "2026-09-20",
+      "posted": "",
+      "production": {
+        "accepted": false,
+        "reason": "host",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": false,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "host",
+        "semantic_accepted": false,
+        "version": "15934c8e62fd"
+      },
+      "snippet": "Macoun appleMacoun\n\n Named after a famous fruit grower in Canada\n Best for: eating, sauce, salad\n Very good, sweet, all-around apple\n cross between the 'McIntosh' and 'Jersey Black' cultivars.\n developed at the New York State Agricultural Experiment Station in Geneva,\n first introduced in 1923,\n\nMcI…",
+      "source": "pickyourown.org",
+      "title": "Apple varieties - An alphabetical chart of which apple to pick and why!",
+      "url": "https://pickyourown.org/applevarieties-descriptions.php"
+    },
+    {
+      "context": "en.wikipedia.org",
+      "first_seen": "2026-09-20",
+      "group": "",
+      "id": "https://en.wikipedia.org/wiki/Apple",
+      "last_seen": "2026-09-20",
+      "posted": "",
+      "production": {
+        "accepted": false,
+        "reason": "host",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": false,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "host",
+        "semantic_accepted": false,
+        "version": "15934c8e62fd"
+      },
+      "snippet": "Fruit trees of the orchard or domestic apple (Malus domestica), the most widely grown in the genus, are cultivated worldwide. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found.",
+      "source": "en.wikipedia.org",
+      "title": "Apple - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Apple"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-20",
+      "group": "What's Up, Belmont, MS",
+      "id": "https://www.facebook.com/groups/305032536593579/posts/2629294930833983",
+      "last_seen": "2026-09-20",
+      "posted": "2026-09-19",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "15934c8e62fd"
+      },
+      "snippet": "There is a power outage affecting Golden. You can reach out to Xcel power services at my.xcelenergy. com/s/state-selector for updates on the power.",
+      "source": "Facebook",
+      "title": "Anyone know what's up with the random power outages on CR 10 in ...",
+      "url": "https://www.facebook.com/groups/305032536593579/posts/2629294930833983"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-20",
+      "group": "Army America",
+      "id": "https://www.facebook.com/groups/821134430085449/posts/1409722801226606",
+      "last_seen": "2026-09-20",
+      "posted": "2026-09-13",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups/821134430085449/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "15934c8e62fd"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "snippet": "Fun Science Experiments Science can be fun for the entire family. This original video is produced by Network Media, Life with Coco and The Gooch.",
+      "source": "Facebook",
+      "title": "Amazing physics experiments and science facts - Facebook",
+      "url": "https://www.facebook.com/groups/821134430085449/posts/1409722801226606"
     },
     {
-      "id": "https://www.healthline.com/nutrition/10-health-benefits-of-apples",
-      "url": "https://www.healthline.com/nutrition/10-health-benefits-of-apples",
-      "title": "10 Impressive Health Benefits of Apples",
-      "snippet": "Health Conditions\n\n  All\n  + Breast Cancer\n  + Cancer Care\n  + Caregiving for Alzheimer's Disease\n  + Chronic Kidney Disease\n  + Chronic Obstructive Pulmonary Disease (COPD)\n  + Digestive Health\n  + Eye Health\n  + Heart Health\n  + Menopause\n  + Mental Health\n  + Migraine\n  + Multiple Sclerosis (MS)\n…",
-      "source": "healthline.com",
       "context": "healthline.com",
-      "group": "10 Benefits of Apples",
-      "posted": "",
       "first_seen": "2026-09-20",
+      "group": "10 Benefits of Apples",
+      "id": "https://www.healthline.com/nutrition/10-health-benefits-of-apples",
       "last_seen": "2026-09-20",
+      "posted": "",
+      "production": {
+        "accepted": false,
+        "reason": "host",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "host",
+        "hard_exclusion": true,
         "host": false,
         "keyword": false,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "host",
+        "semantic_accepted": false,
         "version": "15934c8e62fd"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "host"
-      }
+      "snippet": "Health Conditions\n\n  All\n  + Breast Cancer\n  + Cancer Care\n  + Caregiving for Alzheimer's Disease\n  + Chronic Kidney Disease\n  + Chronic Obstructive Pulmonary Disease (COPD)\n  + Digestive Health\n  + Eye Health\n  + Heart Health\n  + Menopause\n  + Mental Health\n  + Migraine\n  + Multiple Sclerosis (MS)\n…",
+      "source": "healthline.com",
+      "title": "10 Impressive Health Benefits of Apples",
+      "url": "https://www.healthline.com/nutrition/10-health-benefits-of-apples"
     },
     {
       "context": "facebook.com",
@@ -1336,36 +2546,36 @@
       "url": "https://www.facebook.com/groups/418537698529210/posts/2851715431878079"
     },
     {
-      "id": "https://www.facebook.com/groups/194430493950148/posts/28645787078387776",
-      "url": "https://www.facebook.com/groups/194430493950148/posts/28645787078387776",
-      "title": "Understanding Brunswick, OH Edison and NOPEC NextEra Energy ...",
-      "snippet": "Ohio Edison is your transmission cost- there is no generation supplier on apples to apples called that. current charges are $571.11, NOPEC is a non-profit",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "You know you're from Brunswick if...",
-      "posted": "2026-09-18",
       "first_seen": "2026-09-19",
+      "group": "You know you're from Brunswick if...",
+      "id": "https://www.facebook.com/groups/194430493950148/posts/28645787078387776",
       "last_seen": "2026-09-20",
+      "posted": "2026-09-18",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio",
         "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
         "version": "15934c8e62fd"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
+      "snippet": "Ohio Edison is your transmission cost- there is no generation supplier on apples to apples called that. current charges are $571.11, NOPEC is a non-profit",
+      "source": "Facebook",
+      "title": "Understanding Brunswick, OH Edison and NOPEC NextEra Energy ...",
+      "url": "https://www.facebook.com/groups/194430493950148/posts/28645787078387776"
     },
     {
       "context": "facebook.com",
@@ -7517,35 +8727,36 @@
       "url": "https://www.facebook.com/groups/1444684962459417/posts/4484249885169561"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-09-17",
-      "group": "Anything and Everything Huber Heights",
       "id": "https://www.facebook.com/groups/842311032505584/posts/38444353781874504",
-      "last_seen": "2026-09-17",
+      "url": "https://www.facebook.com/groups/842311032505584/posts/38444353781874504",
+      "title": "CenterPoint and National Fuel sale details for Huber Heights, OH ...",
+      "snippet": "ATTENTION CenterPoint Energy customers: CenterPoint Energy has proposed a significant 25% rate increase for natural gas customers in its service areas,",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Anything and Everything Huber Heights",
       "posted": "2026-09-15",
-      "production": {
-        "accepted": false,
-        "reason": "keyword",
-        "source": "rules"
-      },
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-20",
       "queries": [
-        "site:facebook.com/groups (\"bill shock\" OR \"bill doubled\" OR \"bill tripled\" OR \"through the roof\") Ohio (electric OR gas)"
+        "site:facebook.com/groups (\"bill shock\" OR \"bill doubled\" OR \"bill tripled\" OR \"through the roof\") Ohio (electric OR gas)",
+        "site:facebook.com/groups/842311032505584/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": true,
-        "host": true,
-        "keyword": false,
-        "lead": false,
-        "ohio": false,
-        "reason": "keyword",
         "semantic_accepted": false,
-        "version": "26ea868c8183"
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
       },
-      "snippet": "Customer Impact: The proposed increase will raise a typical monthly residential bill from $91.96 to $115.34, representing a substantial burden for households",
-      "source": "Facebook",
-      "title": "CenterPoint and National Fuel sale details for Huber Heights, OH ...",
-      "url": "https://www.facebook.com/groups/842311032505584/posts/38444353781874504"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
     },
     {
       "context": "facebook.com",
@@ -11007,36 +12218,36 @@
       "url": "https://www.facebook.com/groups/222218581879206/posts/2308124136621963"
     },
     {
-      "id": "https://www.facebook.com/groups/215286701356083/posts/659293010288781",
-      "url": "https://www.facebook.com/groups/215286701356083/posts/659293010288781",
-      "title": "Sidney Ohio Community | Did anyone else get this letter | Facebook",
-      "snippet": "Did anyone else get this letter? Is this a good thing? Direct Energy is the name. Look on Apples to Apples and find the cheapest FIXED rate. I would not be comfortable with a variable rate. I've used Direct Energy - decent company as far as I can tell. Compare, Shop and Save on Ohio Electricity and …",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Sidney Ohio Community",
-      "posted": "2025-04-18",
       "first_seen": "2026-09-15",
+      "group": "Sidney Ohio Community",
+      "id": "https://www.facebook.com/groups/215286701356083/posts/659293010288781",
       "last_seen": "2026-09-20",
+      "posted": "2025-04-18",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"price to compare\" OR \"variable rate\" OR \"fixed rate\") Ohio energy",
         "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
         "version": "15934c8e62fd"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
+      "snippet": "Did anyone else get this letter? Is this a good thing? Direct Energy is the name. Look on Apples to Apples and find the cheapest FIXED rate. I would not be comfortable with a variable rate. I've used Direct Energy - decent company as far as I can tell. Compare, Shop and Save on Ohio Electricity and …",
+      "source": "Facebook",
+      "title": "Sidney Ohio Community | Did anyone else get this letter | Facebook",
+      "url": "https://www.facebook.com/groups/215286701356083/posts/659293010288781"
     },
     {
       "context": "booking.com",
@@ -14964,35 +16175,35 @@
       "url": "https://www.facebook.com/groups/2389792154490245/posts/3981408671995244"
     },
     {
-      "id": "https://www.facebook.com/groups/662717436755426/posts/905325602494607",
-      "url": "https://www.facebook.com/groups/662717436755426/posts/905325602494607",
-      "title": "Voice of Ohio Teachers | First Energy Scandel News: Rate review stopped to protect Toledo Edison profits | Facebook",
-      "snippet": "Title: Voice of Ohio Teachers | First Energy Scandel News: Rate review stopped to protect Toledo Edison profits | Facebook\nVoice of Ohio Teachers | First Energy Scandel News: Rate review stopped to protect Toledo Edison profits | Facebook. Image 1 Voice of Ohio Teachers | First Energy Scandel News: …",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Voice of Ohio Teachers",
-      "posted": "2026-02-10",
       "first_seen": "2026-09-13",
+      "group": "Voice of Ohio Teachers",
+      "id": "https://www.facebook.com/groups/662717436755426/posts/905325602494607",
       "last_seen": "2026-09-20",
+      "posted": "2026-02-10",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
         "version": "15934c8e62fd"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
+      "snippet": "Title: Voice of Ohio Teachers | First Energy Scandel News: Rate review stopped to protect Toledo Edison profits | Facebook\nVoice of Ohio Teachers | First Energy Scandel News: Rate review stopped to protect Toledo Edison profits | Facebook. Image 1 Voice of Ohio Teachers | First Energy Scandel News: …",
+      "source": "Facebook",
+      "title": "Voice of Ohio Teachers | First Energy Scandel News: Rate review stopped to protect Toledo Edison profits | Facebook",
+      "url": "https://www.facebook.com/groups/662717436755426/posts/905325602494607"
     },
     {
       "context": "facebook.com",
@@ -29622,35 +30833,35 @@
       "url": "https://www.facebook.com/groups/365290727876426/posts/1721508822254603"
     },
     {
-      "id": "https://www.facebook.com/groups/wearegc/posts/3965018237148525",
-      "url": "https://www.facebook.com/groups/wearegc/posts/3965018237148525",
-      "title": "Y'all look out for the Direct Energy scammers asking to see your",
-      "snippet": "Y'all look out for the Direct Energy scammers asking to see your electric bills to \"get you to a lower rate\". Just had one stop by and tell me that Direct Energy owns AEP and they are trying to make sure people aren't getting scammed by suppliers. Do not show them your bills or entertain them. They …",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Grove City Connect",
-      "posted": "2024-12-31",
       "first_seen": "2026-09-06",
+      "group": "Grove City Connect",
+      "id": "https://www.facebook.com/groups/wearegc/posts/3965018237148525",
       "last_seen": "2026-09-20",
+      "posted": "2024-12-31",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "15934c8e62fd"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "Y'all look out for the Direct Energy scammers asking to see your electric bills to \"get you to a lower rate\". Just had one stop by and tell me that Direct Energy owns AEP and they are trying to make sure people aren't getting scammed by suppliers. Do not show them your bills or entertain them. They …",
+      "source": "Facebook",
+      "title": "Y'all look out for the Direct Energy scammers asking to see your",
+      "url": "https://www.facebook.com/groups/wearegc/posts/3965018237148525"
     },
     {
       "context": "facebook.com",
@@ -29873,35 +31084,35 @@
       "url": "https://www.facebook.com/groups/194430493950148/posts/28463559276610558"
     },
     {
-      "id": "https://www.facebook.com/groups/1373219110158627/posts/2154006072079923",
-      "url": "https://www.facebook.com/groups/1373219110158627/posts/2154006072079923",
-      "title": "Westpark Cleveland, Ohio Community | Attention West Side residents | Facebook",
-      "snippet": "Title: Westpark Cleveland, Ohio Community | Attention West Side residents | Facebook\n# Westpark Cleveland, Ohio Community | Attention West Side residents | Facebook. ## Westpark Cleveland, Ohio Community ·. · March 12 at 4:43 PM ·. We need to start holding 1st Energy and our elected officials respon…",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Westpark Cleveland, Ohio Community",
-      "posted": "2026-03-12",
       "first_seen": "2026-09-06",
+      "group": "Westpark Cleveland, Ohio Community",
+      "id": "https://www.facebook.com/groups/1373219110158627/posts/2154006072079923",
       "last_seen": "2026-09-20",
+      "posted": "2026-03-12",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "15934c8e62fd"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "snippet": "Title: Westpark Cleveland, Ohio Community | Attention West Side residents | Facebook\n# Westpark Cleveland, Ohio Community | Attention West Side residents | Facebook. ## Westpark Cleveland, Ohio Community ·. · March 12 at 4:43 PM ·. We need to start holding 1st Energy and our elected officials respon…",
+      "source": "Facebook",
+      "title": "Westpark Cleveland, Ohio Community | Attention West Side residents | Facebook",
+      "url": "https://www.facebook.com/groups/1373219110158627/posts/2154006072079923"
     },
     {
       "context": "facebook.com",
@@ -29967,35 +31178,35 @@
       "url": "https://www.facebook.com/groups/westchesterliberty/posts/2033505604061559"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-09-06",
-      "group": "Welcome To Springfield",
       "id": "https://www.facebook.com/groups/welcometospringfield/posts/1760655324866101",
-      "last_seen": "2026-09-13",
+      "url": "https://www.facebook.com/groups/welcometospringfield/posts/1760655324866101",
+      "title": "Welcome To Springfield | Moving to Springfield next week and need to get utilities set up | Facebook",
+      "snippet": "Title: Welcome To Springfield | Moving to Springfield next week and need to get utilities set up | Facebook\nWelcome To Springfield | Moving to Springfield next week and need to get utilities set up | Facebook. What are the best utility companies in Springfield for trash, gas, water, electric, and in…",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Welcome To Springfield",
       "posted": "2025-05-09",
-      "production": {
-        "accepted": false,
-        "reason": "keyword",
-        "source": "rules"
-      },
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-20",
       "queries": [
         "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": true,
+        "semantic_accepted": false,
+        "reason": "keyword",
         "host": true,
         "keyword": false,
-        "lead": false,
         "ohio": false,
-        "reason": "keyword",
-        "semantic_accepted": false,
-        "version": "5c1c5affd84b"
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
       },
-      "snippet": "Title: Welcome To Springfield | Moving to Springfield next week and need to get utilities set up | Facebook\nWelcome To Springfield | Moving to Springfield next week and need to get utilities set up | Facebook. What are the best utility companies in Springfield for trash, gas, water, electric, and in…",
-      "source": "Facebook",
-      "title": "Welcome To Springfield | Moving to Springfield next week and need to get utilities set up | Facebook",
-      "url": "https://www.facebook.com/groups/welcometospringfield/posts/1760655324866101"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
     },
     {
       "context": "facebook.com",
@@ -30060,97 +31271,97 @@
       "url": "https://www.facebook.com/groups/778766775601723/posts/4243375939140772"
     },
     {
+      "context": "facebook.com",
+      "first_seen": "2026-09-06",
+      "group": "Voice of Ohio Teachers",
       "id": "https://www.facebook.com/groups/662717436755426/posts/936736779353489",
-      "url": "https://www.facebook.com/groups/662717436755426/posts/936736779353489",
-      "title": "Voice of Ohio Teachers | Husted under oath | Facebook",
+      "last_seen": "2026-09-20",
+      "posted": "2026-03-18",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
+        "version": "15934c8e62fd"
+      },
       "snippet": "Title: Voice of Ohio Teachers | Husted under oath | Facebook\n# Voice of Ohio Teachers | Husted under oath | Facebook. We learned that above all else from Mr. Husted’s testimony as a defense witness in the felony trial of FirstEnergy executives charged with masterminding the bribery scandal behind a …",
       "source": "Facebook",
+      "title": "Voice of Ohio Teachers | Husted under oath | Facebook",
+      "url": "https://www.facebook.com/groups/662717436755426/posts/936736779353489"
+    },
+    {
       "context": "facebook.com",
-      "group": "Voice of Ohio Teachers",
-      "posted": "2026-03-18",
       "first_seen": "2026-09-06",
+      "group": "Voice of Ohio Teachers",
+      "id": "https://www.facebook.com/groups/662717436755426/permalink/865386156488552",
       "last_seen": "2026-09-20",
+      "posted": "2025-12-26",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
         "version": "15934c8e62fd"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/662717436755426/permalink/865386156488552",
-      "url": "https://www.facebook.com/groups/662717436755426/permalink/865386156488552",
-      "title": "Voice of Ohio Teachers | Electric rates affect everyone's pocketbook | Facebook",
       "snippet": "PUCO is ripe for reform — and now is the time. Our editorial board has called before for top-down PUCO reform, both within the commission and by state lawmakers in the laws that govern the body. Now, with a commissioner vacancy looming in April, and a search to fill it getting under way, Republican …",
       "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Voice of Ohio Teachers",
-      "posted": "2025-12-26",
-      "first_seen": "2026-09-06",
-      "last_seen": "2026-09-20",
-      "queries": [
-        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
-        "host": true,
-        "keyword": true,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": false,
-        "version": "15934c8e62fd"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
+      "title": "Voice of Ohio Teachers | Electric rates affect everyone's pocketbook | Facebook",
+      "url": "https://www.facebook.com/groups/662717436755426/permalink/865386156488552"
     },
     {
-      "id": "https://www.facebook.com/groups/VermilionOhio/posts/1959497617791890",
-      "url": "https://www.facebook.com/groups/VermilionOhio/posts/1959497617791890",
-      "title": "Vermilion Ohio | I received a notification today giving me the option to opt out of NOPEC | Facebook",
-      "snippet": "Benefits and cons of NoPEC. Summarized by AI from the post below. I received a notification today giving me the option to opt out of NOPEC. I’m curious as to opinions on benefits and/or cons of NOPEC. I permanently opted out (took a special process to do this) because my choices were being flipped b…",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Vermilion Ohio",
-      "posted": "2025-04-15",
       "first_seen": "2026-09-06",
+      "group": "Vermilion Ohio",
+      "id": "https://www.facebook.com/groups/VermilionOhio/posts/1959497617791890",
       "last_seen": "2026-09-20",
+      "posted": "2025-04-15",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
         "version": "15934c8e62fd"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
+      "snippet": "Benefits and cons of NoPEC. Summarized by AI from the post below. I received a notification today giving me the option to opt out of NOPEC. I’m curious as to opinions on benefits and/or cons of NOPEC. I permanently opted out (took a special process to do this) because my choices were being flipped b…",
+      "source": "Facebook",
+      "title": "Vermilion Ohio | I received a notification today giving me the option to opt out of NOPEC | Facebook",
+      "url": "https://www.facebook.com/groups/VermilionOhio/posts/1959497617791890"
     },
     {
       "context": "facebook.com",
@@ -30434,35 +31645,35 @@
       "url": "https://www.facebook.com/groups/somerville.ma.community/posts/1613982595855665"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-09-06",
-      "group": "Service Trucks Anonymous",
       "id": "https://www.facebook.com/groups/483964356970950/posts/695504089150308",
-      "last_seen": "2026-09-13",
+      "url": "https://www.facebook.com/groups/483964356970950/posts/695504089150308",
+      "title": "Service Trucks Anonymous | My junk I picked up yesterday it’s a start gonna try and move up in the world what’ y’all charge per mile to do a service on cars trucks equipme... | Facebook",
+      "snippet": "Title: Service Trucks Anonymous | My junk I picked up yesterday it’s a start gonna try and move up in the world what’ y’all charge per mile to do a service on cars trucks equipme... | Facebook\nService Trucks Anonymous | My junk I picked up yesterday it’s a start gonna try and move up in the world wh…",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Service Trucks Anonymous",
       "posted": "2024-02-15",
-      "production": {
-        "accepted": false,
-        "reason": "keyword",
-        "source": "rules"
-      },
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-20",
       "queries": [
         "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": true,
+        "semantic_accepted": false,
+        "reason": "keyword",
         "host": true,
         "keyword": false,
-        "lead": false,
         "ohio": false,
-        "reason": "keyword",
-        "semantic_accepted": false,
-        "version": "5c1c5affd84b"
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
       },
-      "snippet": "Title: Service Trucks Anonymous | My junk I picked up yesterday it’s a start gonna try and move up in the world what’ y’all charge per mile to do a service on cars trucks equipme... | Facebook\nService Trucks Anonymous | My junk I picked up yesterday it’s a start gonna try and move up in the world wh…",
-      "source": "Facebook",
-      "title": "Service Trucks Anonymous | My junk I picked up yesterday it’s a start gonna try and move up in the world what’ y’all charge per mile to do a service on cars trucks equipme... | Facebook",
-      "url": "https://www.facebook.com/groups/483964356970950/posts/695504089150308"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
     },
     {
       "context": "facebook.com",
@@ -30682,35 +31893,35 @@
       "url": "https://www.facebook.com/groups/205788216142564/posts/28141640475463963"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-09-06",
-      "group": "Plainview . Texas 79072 . My Hometown",
       "id": "https://www.facebook.com/groups/bestofplainviewtexas/posts/3194155864019879",
-      "last_seen": "2026-09-13",
+      "url": "https://www.facebook.com/groups/bestofplainviewtexas/posts/3194155864019879",
+      "title": "Plainview . Texas 79072 . My Hometown | Xcel Energy and electric co-ops and municipal utilities that purchase energy from the company’s power plants will now start service interruptions | Facebook",
+      "snippet": "Xcel Energy and electric co-ops and municipal utilities that purchase energy from the company’s power plants will now start service interruptions. The company will interrupt power to pre-selected electric circuits for up to one hour at a time. More than one service interruption is possible. Customer…",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Plainview . Texas 79072 . My Hometown",
       "posted": "2021-02-15",
-      "production": {
-        "accepted": false,
-        "reason": "keyword",
-        "source": "rules"
-      },
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-20",
       "queries": [
         "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
         "host": true,
         "keyword": false,
-        "lead": false,
         "ohio": false,
-        "reason": "keyword",
-        "semantic_accepted": false,
-        "version": "5c1c5affd84b"
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "57158ebcd4c9"
       },
-      "snippet": "Xcel Energy and electric co-ops and municipal utilities that purchase energy from the company’s power plants will now start service interruptions. The company will interrupt power to pre-selected electric circuits for up to one hour at a time. More than one service interruption is possible. Customer…",
-      "source": "Facebook",
-      "title": "Plainview . Texas 79072 . My Hometown | Xcel Energy and electric co-ops and municipal utilities that purchase energy from the company’s power plants will now start service interruptions | Facebook",
-      "url": "https://www.facebook.com/groups/bestofplainviewtexas/posts/3194155864019879"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
     },
     {
       "context": "facebook.com",
@@ -31085,35 +32296,35 @@
       "url": "https://www.facebook.com/groups/205788216142564/posts/28143279508633393"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-09-06",
-      "group": "",
       "id": "https://www.facebook.com/groups/cincinnatibengalsnation/posts/2055640808179784",
-      "last_seen": "2026-09-13",
+      "url": "https://www.facebook.com/groups/cincinnatibengalsnation/posts/2055640808179784",
+      "title": "I grew up in Ohio | Remnants of The Lake Shore Electric Railway, in Bay Village, OH | Facebook",
+      "snippet": "Lake Shore Electric Railway history in Ohio. Summarized by AI from the post below. I grew up in Ohio ·. Remnants of The Lake Shore Electric Railway, in Bay Village, OH. The LSE was formed in 1901 and was composed of four predecessor streetcar and interurban lines, all owned by the Everett-Moore Synd…",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "",
       "posted": "",
-      "production": {
-        "accepted": false,
-        "reason": "keyword",
-        "source": "rules"
-      },
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-20",
       "queries": [
         "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
         "host": true,
         "keyword": false,
-        "lead": false,
         "ohio": true,
-        "reason": "keyword",
-        "semantic_accepted": false,
-        "version": "5c1c5affd84b"
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "57158ebcd4c9"
       },
-      "snippet": "Lake Shore Electric Railway history in Ohio. Summarized by AI from the post below. I grew up in Ohio ·. Remnants of The Lake Shore Electric Railway, in Bay Village, OH. The LSE was formed in 1901 and was composed of four predecessor streetcar and interurban lines, all owned by the Everett-Moore Synd…",
-      "source": "Facebook",
-      "title": "I grew up in Ohio | Remnants of The Lake Shore Electric Railway, in Bay Village, OH | Facebook",
-      "url": "https://www.facebook.com/groups/cincinnatibengalsnation/posts/2055640808179784"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
     },
     {
       "context": "facebook.com",
@@ -31274,35 +32485,35 @@
       "url": "https://www.facebook.com/groups/3840468082852855/posts/4909678722598447"
     },
     {
-      "id": "https://www.facebook.com/groups/GreaterColerainCommUNITYGroup/posts/1921247608503894",
-      "url": "https://www.facebook.com/groups/GreaterColerainCommUNITYGroup/posts/1921247608503894",
-      "title": "Greater Colerain CommUNITY Group | POWER-OUTAGES to INCREASE in Colerain  | Facebook",
-      "snippet": "Title: Greater Colerain CommUNITY Group | POWER-OUTAGES to INCREASE in Colerain  | Facebook\nGreater Colerain CommUNITY Group | POWER-OUTAGES to INCREASE in Colerain | Facebook. POWER-OUTAGES to INCREASE in Colerain. First Energy, et al, are literally asking for permission from our representatives (B…",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Greater Colerain CommUNITY Group",
-      "posted": "2026-01-18",
       "first_seen": "2026-09-06",
+      "group": "Greater Colerain CommUNITY Group",
+      "id": "https://www.facebook.com/groups/GreaterColerainCommUNITYGroup/posts/1921247608503894",
       "last_seen": "2026-09-20",
+      "posted": "2026-01-18",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "15934c8e62fd"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "Title: Greater Colerain CommUNITY Group | POWER-OUTAGES to INCREASE in Colerain  | Facebook\nGreater Colerain CommUNITY Group | POWER-OUTAGES to INCREASE in Colerain | Facebook. POWER-OUTAGES to INCREASE in Colerain. First Energy, et al, are literally asking for permission from our representatives (B…",
+      "source": "Facebook",
+      "title": "Greater Colerain CommUNITY Group | POWER-OUTAGES to INCREASE in Colerain  | Facebook",
+      "url": "https://www.facebook.com/groups/GreaterColerainCommUNITYGroup/posts/1921247608503894"
     },
     {
       "context": "facebook.com",
@@ -31522,35 +32733,35 @@
       "url": "https://www.facebook.com/groups/194430493950148/posts/28381929334773553"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-09-06",
-      "group": "Expats move to France",
       "id": "https://www.facebook.com/groups/23814372316/posts/10163368109207317",
-      "last_seen": "2026-09-13",
+      "url": "https://www.facebook.com/groups/23814372316/posts/10163368109207317",
+      "title": "Expats move to France | I'm trying to set up my utilities and it seems like I might have to wait over a week to get fiber optic internet service set up | Facebook",
+      "snippet": "Title: Expats move to France | I'm trying to set up my utilities and it seems like I might have to wait over a week to get fiber optic internet service set up | Facebook\n# Expats move to France | I'm trying to set up my utilities and it seems like I might have to wait over a week to get fiber optic …",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Expats move to France",
       "posted": "2025-08-13",
-      "production": {
-        "accepted": false,
-        "reason": "keyword",
-        "source": "rules"
-      },
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-20",
       "queries": [
         "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": true,
+        "semantic_accepted": false,
+        "reason": "keyword",
         "host": true,
         "keyword": false,
-        "lead": false,
         "ohio": false,
-        "reason": "keyword",
-        "semantic_accepted": false,
-        "version": "5c1c5affd84b"
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
       },
-      "snippet": "Title: Expats move to France | I'm trying to set up my utilities and it seems like I might have to wait over a week to get fiber optic internet service set up | Facebook\n# Expats move to France | I'm trying to set up my utilities and it seems like I might have to wait over a week to get fiber optic …",
-      "source": "Facebook",
-      "title": "Expats move to France | I'm trying to set up my utilities and it seems like I might have to wait over a week to get fiber optic internet service set up | Facebook",
-      "url": "https://www.facebook.com/groups/23814372316/posts/10163368109207317"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
     },
     {
       "context": "facebook.com",
@@ -31895,35 +33106,35 @@
       "url": "https://www.facebook.com/groups/CrossvilleNews/posts/2346677265837751"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-09-06",
-      "group": "",
       "id": "https://www.facebook.com/groups/359640684902059/posts/1692303294969118",
-      "last_seen": "2026-09-13",
+      "url": "https://www.facebook.com/groups/359640684902059/posts/1692303294969118",
+      "title": "Covington Park Community Homeowners & Renters | invitation homes renters: I have a question about utilities and I cant get a single mfer to ever answer their phone | Facebook",
+      "snippet": "What is the standard process for setting up utilities with Invitation Homes, and what does the chargeback on the rent invoice mean? Summarized by AI from the post below. Covington Park Community Homeowners & Renters ·. invitation homes renters: I have a question about utilities and I cant get a sing…",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "",
       "posted": "2025-01-30",
-      "production": {
-        "accepted": false,
-        "reason": "keyword",
-        "source": "rules"
-      },
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-20",
       "queries": [
         "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": true,
+        "semantic_accepted": false,
+        "reason": "keyword",
         "host": true,
         "keyword": false,
-        "lead": false,
         "ohio": false,
-        "reason": "keyword",
-        "semantic_accepted": false,
-        "version": "5c1c5affd84b"
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
       },
-      "snippet": "What is the standard process for setting up utilities with Invitation Homes, and what does the chargeback on the rent invoice mean? Summarized by AI from the post below. Covington Park Community Homeowners & Renters ·. invitation homes renters: I have a question about utilities and I cant get a sing…",
-      "source": "Facebook",
-      "title": "Covington Park Community Homeowners & Renters | invitation homes renters: I have a question about utilities and I cant get a single mfer to ever answer their phone | Facebook",
-      "url": "https://www.facebook.com/groups/359640684902059/posts/1692303294969118"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
     },
     {
       "context": "facebook.com",
@@ -31957,35 +33168,35 @@
       "url": "https://www.facebook.com/groups/1795874100584152/posts/3291205207717693"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-09-06",
-      "group": "Community Of Little Elm",
       "id": "https://www.facebook.com/groups/CitizensofLittleElm/posts/2920642648123016",
-      "last_seen": "2026-09-13",
+      "url": "https://www.facebook.com/groups/CitizensofLittleElm/posts/2920642648123016",
+      "title": "Community Of Little Elm | Moving to the area this weekend and working on setting up utilities | Facebook",
+      "snippet": "Title: Community Of Little Elm | Moving to the area this weekend and working on setting up utilities | Facebook\nCommunity Of Little Elm | Moving to the area this weekend and working on setting up utilities | Facebook. Recommendations for cable and internet in Little Elm, TX? Summarized by AI from th…",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Community Of Little Elm",
       "posted": "2026-01-14",
-      "production": {
-        "accepted": false,
-        "reason": "keyword",
-        "source": "rules"
-      },
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-20",
       "queries": [
         "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": true,
+        "semantic_accepted": false,
+        "reason": "keyword",
         "host": true,
         "keyword": false,
-        "lead": false,
         "ohio": false,
-        "reason": "keyword",
-        "semantic_accepted": false,
-        "version": "5c1c5affd84b"
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
       },
-      "snippet": "Title: Community Of Little Elm | Moving to the area this weekend and working on setting up utilities | Facebook\nCommunity Of Little Elm | Moving to the area this weekend and working on setting up utilities | Facebook. Recommendations for cable and internet in Little Elm, TX? Summarized by AI from th…",
-      "source": "Facebook",
-      "title": "Community Of Little Elm | Moving to the area this weekend and working on setting up utilities | Facebook",
-      "url": "https://www.facebook.com/groups/CitizensofLittleElm/posts/2920642648123016"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
     },
     {
       "context": "facebook.com",
@@ -32050,35 +33261,35 @@
       "url": "https://www.facebook.com/groups/312357244860536/posts/1068026005960319"
     },
     {
-      "id": "https://www.facebook.com/groups/2574702002596546/posts/26198483013125113",
-      "url": "https://www.facebook.com/groups/2574702002596546/posts/26198483013125113",
-      "title": "Building A Better Butler | PSA by Commissioner Boozel | Facebook",
-      "snippet": "Title: Building A Better Butler | PSA by Commissioner Boozel | Facebook\nFirstEnergy prepares for strong winds and potential outages. FirstEnergy Crews Preparing for Strong Winds on Friday; Offers Customers Tips to Prepare and Stay Safe. AKRON, Ohio – With a severe windstorm expected to move through …",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Building A Better Butler",
-      "posted": "2026-03-13",
       "first_seen": "2026-09-06",
+      "group": "Building A Better Butler",
+      "id": "https://www.facebook.com/groups/2574702002596546/posts/26198483013125113",
       "last_seen": "2026-09-20",
+      "posted": "2026-03-13",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "15934c8e62fd"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "Title: Building A Better Butler | PSA by Commissioner Boozel | Facebook\nFirstEnergy prepares for strong winds and potential outages. FirstEnergy Crews Preparing for Strong Winds on Friday; Offers Customers Tips to Prepare and Stay Safe. AKRON, Ohio – With a severe windstorm expected to move through …",
+      "source": "Facebook",
+      "title": "Building A Better Butler | PSA by Commissioner Boozel | Facebook",
+      "url": "https://www.facebook.com/groups/2574702002596546/posts/26198483013125113"
     },
     {
       "context": "facebook.com",
@@ -32174,97 +33385,97 @@
       "url": "https://www.facebook.com/groups/205788216142564/posts/28152680464359964"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-09-06",
-      "group": "Belleville Neighbours",
       "id": "https://www.facebook.com/groups/1029364787229190/posts/2512190035613317",
-      "last_seen": "2026-09-13",
+      "url": "https://www.facebook.com/groups/1029364787229190/posts/2512190035613317",
+      "title": "Belleville Neighbours | hey! Looking for some advice 🙂 I’m moving into a new place, and I’m paying utilities - I’ve never had utilities under my name before | Facebook",
+      "snippet": "Setting up utilities in your name: deposit required? Advice on hydro, water, and internet companies in Belleville? Summarized by AI from the post below. Looking for some advice : 🙂 I’m moving into a new place, and I’m paying utilities - I’ve never had utilities under my name before. My new landlord …",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Belleville Neighbours",
       "posted": "2023-05-07",
-      "production": {
-        "accepted": false,
-        "reason": "keyword",
-        "source": "rules"
-      },
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-20",
       "queries": [
         "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": true,
+        "semantic_accepted": false,
+        "reason": "keyword",
         "host": true,
         "keyword": false,
-        "lead": false,
         "ohio": false,
-        "reason": "keyword",
-        "semantic_accepted": false,
-        "version": "5c1c5affd84b"
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "57158ebcd4c9"
       },
-      "snippet": "Setting up utilities in your name: deposit required? Advice on hydro, water, and internet companies in Belleville? Summarized by AI from the post below. Looking for some advice : 🙂 I’m moving into a new place, and I’m paying utilities - I’ve never had utilities under my name before. My new landlord …",
-      "source": "Facebook",
-      "title": "Belleville Neighbours | hey! Looking for some advice 🙂 I’m moving into a new place, and I’m paying utilities - I’ve never had utilities under my name before | Facebook",
-      "url": "https://www.facebook.com/groups/1029364787229190/posts/2512190035613317"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
     },
     {
+      "context": "facebook.com",
+      "first_seen": "2026-09-06",
+      "group": "Bay Village behindthescenes",
       "id": "https://www.facebook.com/groups/bvbehindthescenes/posts/25578646361787135",
-      "url": "https://www.facebook.com/groups/bvbehindthescenes/posts/25578646361787135",
-      "title": "Bay Village behindthescenes | Should our city not join Lakewood and Cleveland in the PUCO hearings to oppose First Energy's request to decrease response times | Facebook",
+      "last_seen": "2026-09-20",
+      "posted": "2026-01-12",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
+        "version": "15934c8e62fd"
+      },
       "snippet": "Should city oppose First Energy's request? Summarized by AI from the post below. Should our city not join Lakewood and Cleveland in the PUCO hearings to oppose First Energy's request to decrease response times? We could at least send a letter. I know this is an issue that affects a lot of Bay reside…",
       "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Bay Village behindthescenes",
-      "posted": "2026-01-12",
-      "first_seen": "2026-09-06",
-      "last_seen": "2026-09-20",
-      "queries": [
-        "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
-        "host": true,
-        "keyword": true,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "15934c8e62fd"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
+      "title": "Bay Village behindthescenes | Should our city not join Lakewood and Cleveland in the PUCO hearings to oppose First Energy's request to decrease response times | Facebook",
+      "url": "https://www.facebook.com/groups/bvbehindthescenes/posts/25578646361787135"
     },
     {
-      "id": "https://www.facebook.com/groups/531171832472989/posts/1054318993491601",
-      "url": "https://www.facebook.com/groups/531171832472989/posts/1054318993491601",
-      "title": "Barberton Neighbors | With the lack luster effort put forth by Ohio Edison/FirstEnergy on July 7th's City Counsel meeting, I urge everyone to write a complaint letter about... | Facebook",
-      "snippet": "Title: Barberton Neighbors | With the lack luster effort put forth by Ohio Edison/FirstEnergy on July 7th's City Counsel meeting, I urge everyone to write a complaint letter about... | Facebook\nBarberton Neighbors | With the lack luster effort put forth by Ohio Edison/FirstEnergy on July 7th's City …",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "",
-      "posted": "",
       "first_seen": "2026-09-06",
+      "group": "",
+      "id": "https://www.facebook.com/groups/531171832472989/posts/1054318993491601",
       "last_seen": "2026-09-20",
+      "posted": "",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
         "version": "15934c8e62fd"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
+      "snippet": "Title: Barberton Neighbors | With the lack luster effort put forth by Ohio Edison/FirstEnergy on July 7th's City Counsel meeting, I urge everyone to write a complaint letter about... | Facebook\nBarberton Neighbors | With the lack luster effort put forth by Ohio Edison/FirstEnergy on July 7th's City …",
+      "source": "Facebook",
+      "title": "Barberton Neighbors | With the lack luster effort put forth by Ohio Edison/FirstEnergy on July 7th's City Counsel meeting, I urge everyone to write a complaint letter about... | Facebook",
+      "url": "https://www.facebook.com/groups/531171832472989/posts/1054318993491601"
     },
     {
       "context": "facebook.com",
