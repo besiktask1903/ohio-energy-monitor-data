@@ -1,167 +1,230 @@
 {
-  "updated": "2026-09-25T02:52:24Z",
-  "count": 1018,
+  "updated": "2026-09-25T16:16:56Z",
+  "count": 1054,
   "candidates": [
     {
+      "id": "https://www.facebook.com/groups/947482678322168/posts/1021969814206787",
+      "url": "https://www.facebook.com/groups/947482678322168/posts/1021969814206787",
+      "title": "which is a reminder that when they say data centers ...",
+      "snippet": "The data center build out already drove up energy costs 10-15% in Ohio. Brace yourself for another 5% next year. 21 WFMJ: https:bit.ly/3HU6pvx We have an",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Citizens For Responsible Development C4RD - Defiance",
+      "posted": "2026-09-18",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "bf9e2e1615af"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "Travel Nursing Housing & Furnished Finder /Airbnb & Short-Term Rentals",
       "id": "https://www.facebook.com/groups/676463311556779/posts/1101833682353071",
-      "url": "https://www.facebook.com/groups/676463311556779/posts/1101833682353071",
-      "title": "no pets - Facebook",
+      "last_seen": "2026-09-25",
+      "posted": "2026-09-18",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
       "snippet": "Fully furnished! A low-cost monthly energy bill. Airbnb-inspired well- insulated brick ranch house. Completely furnished 1 bedroom with 1 queen-size bed and 2",
       "source": "Facebook",
+      "title": "no pets - Facebook",
+      "url": "https://www.facebook.com/groups/676463311556779/posts/1101833682353071"
+    },
+    {
       "context": "facebook.com",
-      "group": "Travel Nursing Housing & Furnished Finder /Airbnb & Short-Term Rentals",
-      "posted": "2026-09-18",
       "first_seen": "2026-09-25",
+      "group": "Arizona Group",
+      "id": "https://www.facebook.com/groups/626917158761196/posts/1570136524439250",
       "last_seen": "2026-09-25",
+      "posted": "2026-09-24",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
-        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
+        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "f95cb84b64f0"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/626917158761196/posts/1570136524439250",
-      "url": "https://www.facebook.com/groups/626917158761196/posts/1570136524439250",
-      "title": "but I want move to Arizona any information y'all got - on jobs housing",
       "snippet": "High cost of living, low wages, and intense heat are common concerns, es. Gas is $5.50 gallon. Summer electric $150+ monthly. electric is way higher than 150 a",
       "source": "Facebook",
+      "title": "but I want move to Arizona any information y'all got - on jobs housing",
+      "url": "https://www.facebook.com/groups/626917158761196/posts/1570136524439250"
+    },
+    {
+      "id": "https://www.facebook.com/groups/4450690691822493/posts/4564290923795802",
+      "url": "https://www.facebook.com/groups/4450690691822493/posts/4564290923795802",
+      "title": "Why is my Ohio Edison electricity bill increasing drastically?",
+      "snippet": "How does my bill keep going up-and-up and up every month when I live in a small 3 bedroom house It went from $150-500 From the beginning of the year",
+      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Arizona Group",
-      "posted": "2026-09-24",
+      "group": "Barberton Neighbors 2.0",
+      "posted": "2026-09-23",
       "first_seen": "2026-09-25",
       "last_seen": "2026-09-25",
       "queries": [
-        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
       ],
       "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "accepted": true,
+        "semantic_accepted": true,
+        "reason": "accepted",
         "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "f95cb84b64f0"
+        "keyword": true,
+        "ohio": true,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "bf9e2e1615af",
+        "freshness": "fresh"
       },
       "production": {
-        "accepted": false,
+        "accepted": true,
         "source": "rules",
-        "reason": "keyword"
+        "reason": "accepted"
       }
     },
     {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "CONNECTED Networking Group",
       "id": "https://www.facebook.com/groups/connectednetworkers/posts/3402588223246458",
-      "url": "https://www.facebook.com/groups/connectednetworkers/posts/3402588223246458",
-      "title": "Why Shouldn't My Electricity Pricing Be Custom Too? - Facebook",
+      "last_seen": "2026-09-25",
+      "posted": "2026-09-18",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": false,
+        "host": true,
+        "keyword": true,
+        "lead": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
       "snippet": "14¢ 1,001+ kWh 18¢ … 8¢ So a light-use apartment pays more per unit than a big house, even if their total bill is smaller.",
       "source": "Facebook",
-      "context": "facebook.com",
-      "group": "CONNECTED Networking Group",
-      "posted": "2026-09-18",
-      "first_seen": "2026-09-25",
-      "last_seen": "2026-09-25",
-      "queries": [
-        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
-        "host": true,
-        "keyword": true,
-        "ohio": false,
-        "lead": true,
-        "hard_exclusion": false,
-        "version": "f95cb84b64f0"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "title": "Why Shouldn't My Electricity Pricing Be Custom Too? - Facebook",
+      "url": "https://www.facebook.com/groups/connectednetworkers/posts/3402588223246458"
     },
     {
-      "id": "https://www.facebook.com/groups/OnlyInNorthside/posts/10163995509997058",
-      "url": "https://www.facebook.com/groups/OnlyInNorthside/posts/10163995509997058",
-      "title": "Who to contact about high rental prices in Northside? - Facebook",
-      "snippet": "$995 plus water/net/dishwasher but split energy bill/in winter can be higher ... Housing has a carrying cost, and rent has to support that cost or eventually",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "...only in Northside",
-      "posted": "2026-09-22",
       "first_seen": "2026-09-25",
+      "group": "...only in Northside",
+      "id": "https://www.facebook.com/groups/OnlyInNorthside/posts/10163995509997058",
       "last_seen": "2026-09-25",
+      "posted": "2026-09-22",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "f95cb84b64f0"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "snippet": "$995 plus water/net/dishwasher but split energy bill/in winter can be higher ... Housing has a carrying cost, and rent has to support that cost or eventually",
+      "source": "Facebook",
+      "title": "Who to contact about high rental prices in Northside? - Facebook",
+      "url": "https://www.facebook.com/groups/OnlyInNorthside/posts/10163995509997058"
     },
     {
-      "id": "https://www.facebook.com/groups/9624990684257975/posts/28443454201985006",
-      "url": "https://www.facebook.com/groups/9624990684257975/posts/28443454201985006",
-      "title": "Who do you use for electricity. Our rates just went up last month.",
-      "snippet": "The reason our electric bills are going sky high is because the data centers are using a ton of electricity and we 're paying for it 2h",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "CYPRESS COMMUNITY PAGE",
-      "posted": "2026-09-24",
       "first_seen": "2026-09-25",
+      "group": "CYPRESS COMMUNITY PAGE",
+      "id": "https://www.facebook.com/groups/9624990684257975/posts/28443454201985006",
       "last_seen": "2026-09-25",
+      "posted": "2026-09-24",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": true,
-        "hard_exclusion": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "f95cb84b64f0"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "The reason our electric bills are going sky high is because the data centers are using a ton of electricity and we 're paying for it 2h",
+      "source": "Facebook",
+      "title": "Who do you use for electricity. Our rates just went up last month.",
+      "url": "https://www.facebook.com/groups/9624990684257975/posts/28443454201985006"
     },
     {
       "id": "https://www.facebook.com/groups/608271143994964/posts/1648114633343938",
       "url": "https://www.facebook.com/groups/608271143994964/posts/1648114633343938",
-      "title": "What's every one's electric bills??? - Facebook",
-      "snippet": "Bills range from $87 to $450, with many reporting significant increases. Our electric bill came in at $545.",
+      "title": "What's every one's electric bills???",
+      "snippet": "What’s every one’s electric bills???",
       "source": "Facebook",
       "context": "facebook.com",
       "group": "Whats Happening in Lancaster Ky",
@@ -169,69 +232,132 @@
       "first_seen": "2026-09-25",
       "last_seen": "2026-09-25",
       "queries": [
-        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)",
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
       ],
       "rules": {
         "accepted": false,
         "semantic_accepted": false,
-        "reason": "geography",
+        "reason": "keyword",
         "host": true,
-        "keyword": true,
+        "keyword": false,
         "ohio": false,
         "lead": true,
         "hard_exclusion": false,
-        "version": "f95cb84b64f0"
+        "version": "bf9e2e1615af"
       },
       "production": {
         "accepted": false,
         "source": "rules",
-        "reason": "geography"
+        "reason": "keyword"
       }
     },
     {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "Tallahassee Ask Anything",
       "id": "https://www.facebook.com/groups/1598602887057211/posts/4496407027276768",
-      "url": "https://www.facebook.com/groups/1598602887057211/posts/4496407027276768",
-      "title": "What places help pay utilities bill? - Facebook",
+      "last_seen": "2026-09-25",
+      "posted": "2026-09-24",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
       "snippet": "Places like 211, churches, and community action agencies may offer utility bill assistance, with some suggesting to call the utility company for budget plans.",
       "source": "Facebook",
+      "title": "What places help pay utilities bill? - Facebook",
+      "url": "https://www.facebook.com/groups/1598602887057211/posts/4496407027276768"
+    },
+    {
+      "id": "https://www.facebook.com/groups/1805965986426027/posts/2836077916748157",
+      "url": "https://www.facebook.com/groups/1805965986426027/posts/2836077916748157",
+      "title": "What is the monthly cost of gas heating in Collegeville?",
+      "snippet": "Gas heating costs range from $30-50 in warm months to $300 in winter, with efficiency upgrades and dual fuel systems recommended for cost savings. Joe Majuri.",
+      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Tallahassee Ask Anything",
-      "posted": "2026-09-24",
+      "group": "Collegeville Community",
+      "posted": "2026-09-20",
       "first_seen": "2026-09-25",
       "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "bf9e2e1615af"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "Bribie Island Community",
+      "id": "https://www.facebook.com/groups/BribieIsland/posts/5627788037447236",
+      "last_seen": "2026-09-25",
+      "posted": "2026-09-24",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
+        "lead": true,
         "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "f95cb84b64f0"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/BribieIsland/posts/5627788037447236",
-      "url": "https://www.facebook.com/groups/BribieIsland/posts/5627788037447236",
-      "title": "What is the cheapest electricity company - Facebook",
       "snippet": "My electricity contract will be up soon and I'm looking for some recommendations for a less expensive company. My electricity bill was $179 this month! Im",
       "source": "Facebook",
+      "title": "What is the cheapest electricity company - Facebook",
+      "url": "https://www.facebook.com/groups/BribieIsland/posts/5627788037447236"
+    },
+    {
+      "id": "https://www.facebook.com/groups/590059708662362/posts/1817724862562501",
+      "url": "https://www.facebook.com/groups/590059708662362/posts/1817724862562501",
+      "title": "What is everyone else's electric bill????",
+      "snippet": "Edith N Archie its $60 a month, but the power we don't use that we collect goes back to the power company and we get a stipend on our yearly anniversary",
+      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Bribie Island Community",
-      "posted": "2026-09-24",
+      "group": "Williamstown Community Talk",
+      "posted": "2026-09-20",
       "first_seen": "2026-09-25",
       "last_seen": "2026-09-25",
       "queries": [
-        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
       ],
       "rules": {
         "accepted": false,
@@ -242,7 +368,7 @@
         "ohio": false,
         "lead": true,
         "hard_exclusion": false,
-        "version": "f95cb84b64f0"
+        "version": "bf9e2e1615af"
       },
       "production": {
         "accepted": false,
@@ -251,18 +377,111 @@
       }
     },
     {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "Whats Up, Waterville Maine",
       "id": "https://www.facebook.com/groups/377859419867490/posts/1853118269008257",
-      "url": "https://www.facebook.com/groups/377859419867490/posts/1853118269008257",
-      "title": "What does everyone think about heating with natural gas? Yah or ...",
+      "last_seen": "2026-09-25",
+      "posted": "2026-09-24",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": false,
+        "host": true,
+        "keyword": true,
+        "lead": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
       "snippet": "Our gas bill this month was $790. I am on the budget plan and pay $290 per month. We are all being forced to transition to electric heat for the green mandates.",
       "source": "Facebook",
+      "title": "What does everyone think about heating with natural gas? Yah or ...",
+      "url": "https://www.facebook.com/groups/377859419867490/posts/1853118269008257"
+    },
+    {
+      "id": "https://www.facebook.com/groups/cakebakingdecorating/posts/3187289294813931",
+      "url": "https://www.facebook.com/groups/cakebakingdecorating/posts/3187289294813931",
+      "title": "What are your summer electric bills like with oven and AC ...",
+      "snippet": "Air Condtioning kills me in the Summer months...July $358.00 electric bill, August $316.00... and lower only because I would shut it down unless absolutely",
+      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Whats Up, Waterville Maine",
-      "posted": "2026-09-24",
+      "group": "Cake Baking & Decorating",
+      "posted": "2026-09-22",
       "first_seen": "2026-09-25",
       "last_seen": "2026-09-25",
       "queries": [
-        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "bf9e2e1615af"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1307253756040375/posts/28164785756527144",
+      "url": "https://www.facebook.com/groups/1307253756040375/posts/28164785756527144",
+      "title": "What are opinions on high temperature heat source pumps?",
+      "snippet": "High temperature heat pumps can reach 160° fahrenheit and by adding one to your home you can immediately save 55% off your energy costs without changing your",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Life in La Creuse Dept. 23",
+      "posted": "2026-09-22",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "bf9e2e1615af"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/528659894665516/posts/2182529172611905",
+      "url": "https://www.facebook.com/groups/528659894665516/posts/2182529172611905",
+      "title": "What are cheaper electric companies than AES in ...",
+      "snippet": "What’s a good electric company to go through I go through aes but I’m moving trailers and want to see if there’s cheaper options",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "The Meadows community nlb",
+      "posted": "2026-09-18",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -273,7 +492,7 @@
         "ohio": false,
         "lead": true,
         "hard_exclusion": false,
-        "version": "f95cb84b64f0"
+        "version": "bf9e2e1615af"
       },
       "production": {
         "accepted": false,
@@ -282,204 +501,142 @@
       }
     },
     {
+      "id": "https://www.facebook.com/groups/WeThePeopleOhioGroup",
+      "url": "https://www.facebook.com/groups/WeThePeopleOhioGroup",
+      "title": "We the People - Ohio Group - Facebook",
+      "snippet": "2 hours ago · A group to respectfully (lol) discuss political issues, legislation, and actions from all perspectives on the federal, state and local level.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "",
+      "posted": "",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "bf9e2e1615af"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.energy.gov/hgeo/articles/us-oil-and-natural-gas-providing-energy-security-and-supporting-our-quality-life-0",
+      "url": "https://www.energy.gov/hgeo/articles/us-oil-and-natural-gas-providing-energy-security-and-supporting-our-quality-life-0",
+      "title": "U.S. Oil and Natural Gas: Providing Energy Security and Supporting Our Quality of Life | Department of Energy",
+      "snippet": "An official website of the United States government\n\nHere's how you know\n\nDot gov\n\nOfficial websites use .gov   \n A .gov website belongs to an official government organization in the United States.\n\nHttps\n\nSecure .gov websites use HTTPS   \n A lock (   ) or  means you’ve safely connected to the .gov …",
+      "source": "energy.gov",
+      "context": "energy.gov",
+      "group": "U.S. Oil and Natural Gas Providing Energy Security and Supporting Our Quality of Life",
+      "posted": "",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups/3017593358393980/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "host",
+        "host": false,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "bf9e2e1615af"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "host"
+      }
+    },
+    {
+      "id": "https://www.wsj.com/finance/commodities-futures/european-gas-prices-rise-as-storage-levels-worry-market-2ac6836d",
+      "url": "https://www.wsj.com/finance/commodities-futures/european-gas-prices-rise-as-storage-levels-worry-market-2ac6836d",
+      "title": "U.S. Natural Gas Futures Rise Sharply on Pipeline Outage",
+      "snippet": "0821 GMT – European natural-gas prices rise in early trading as market focus remains on storage levels ahead of the winter heating season. The benchmark Dutch TTF contract gains 3% to 74 euros a megawatt-hour with diplomatic talks between the U.S. and Iran showing little sign of meaningful progress,…",
+      "source": "wsj.com",
+      "context": "wsj.com",
+      "group": "",
+      "posted": "",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups/3017593358393980/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "host",
+        "host": false,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "bf9e2e1615af"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "host"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "PORT ST. LUCIE RECOMMENDATIONS",
       "id": "https://www.facebook.com/groups/1174823293639953/posts/1923083605480581",
-      "url": "https://www.facebook.com/groups/1174823293639953/posts/1923083605480581",
-      "title": "Those that use the FPL budget billing option, do you think it's worth it?",
+      "last_seen": "2026-09-25",
+      "posted": "2026-09-24",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
       "snippet": "FPL itself says Budget Billing is not a savings program, you still pay for the electricity you actually use over time. It just smooths the cost across the year.",
       "source": "Facebook",
-      "context": "facebook.com",
-      "group": "PORT ST. LUCIE RECOMMENDATIONS",
-      "posted": "2026-09-24",
-      "first_seen": "2026-09-25",
-      "last_seen": "2026-09-25",
-      "queries": [
-        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
-        "host": true,
-        "keyword": true,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "f95cb84b64f0"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "title": "Those that use the FPL budget billing option, do you think it's worth it?",
+      "url": "https://www.facebook.com/groups/1174823293639953/posts/1923083605480581"
     },
     {
-      "id": "https://www.facebook.com/groups/292168769511709/posts/1440225208039387",
-      "url": "https://www.facebook.com/groups/292168769511709/posts/1440225208039387",
-      "title": "Our Duke bill is nearly $400. Doubled from 6 months ago and ...",
-      "snippet": "budget billing mine went up to 275. Budget billing is different, it will fluctuate thru the year. averaged $250-$280 through Dec-Mar.",
+      "id": "https://www.facebook.com/groups/218864382174719/posts/2157933668267771",
+      "url": "https://www.facebook.com/groups/218864382174719/posts/2157933668267771",
+      "title": "Propane combination unit recommendations and ...",
+      "snippet": "Looking to upgrade from an oil fired boiler and eliminate an electric hot water heater and transition to a propane combination unit. Recommendations",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Ellettsville  Hi Neighbor",
-      "posted": "2026-09-24",
-      "first_seen": "2026-09-25",
-      "last_seen": "2026-09-25",
-      "queries": [
-        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
-        "host": true,
-        "keyword": true,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "f95cb84b64f0"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/292168769511709/posts/1440225318039376",
-      "url": "https://www.facebook.com/groups/292168769511709/posts/1440225318039376",
-      "title": "Our Duke bill is nearly $400. Doubled from 6 months ago and ...",
-      "snippet": "Our Duke bill is nearly $400. Ours is 600.00 per month County? Just curious, is anyone seeing crazy high electricity bills from Duke? 2 months in a row our",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Ellettsville  Hi Neighbor",
-      "posted": "2026-09-24",
-      "first_seen": "2026-09-25",
-      "last_seen": "2026-09-25",
-      "queries": [
-        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
-        "host": true,
-        "keyword": true,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "f95cb84b64f0"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/BYUIrentals/posts/2622604014868127",
-      "url": "https://www.facebook.com/groups/BYUIrentals/posts/2622604014868127",
-      "title": "Lease Transfer 2 bed 1 bath - Facebook",
-      "snippet": "Fees Rent: $2,200/mo Utilities (everything but electricity): $42/mo (flat fee) Pet rent: $30/mo/pet (dogs + cats allowed) Electricity: ~$100/mo Security deposit",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Rexburg Student Rentals - Apartments, Contracts, Condos, Housing",
+      "group": "Oregon, Ohio Community Neighbors",
       "posted": "2026-09-21",
       "first_seen": "2026-09-25",
       "last_seen": "2026-09-25",
       "queries": [
-        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
-        "host": true,
-        "keyword": true,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "f95cb84b64f0"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/143328435730340/posts/26377782341858258",
-      "url": "https://www.facebook.com/groups/143328435730340/posts/26377782341858258",
-      "title": "Landlord and Tenant Legal Advice Group | My tenant broke the lease and sublet the apartment | Facebook",
-      "snippet": "Title: Landlord and Tenant Legal Advice Group | My tenant broke the lease and sublet the apartment | Facebook\nTenant broke lease and sublet apartment, landlord unsure who to collect rent from. Summarized by AI from the post below. ## Landlord and Tenant Legal Advice Group ·. My tenant broke the leas…",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Landlord and Tenant Legal Advice Group",
-      "posted": "2026-03-24",
-      "first_seen": "2026-09-25",
-      "last_seen": "2026-09-25",
-      "queries": [
-        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "f95cb84b64f0"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/LandlordTenantLawyersDirectory/posts/1520803215315214",
-      "url": "https://www.facebook.com/groups/LandlordTenantLawyersDirectory/posts/1520803215315214",
-      "title": "Landlord Tenant Lawyers Q & A | Upstate NY - I haven’t been staying at my apartment since Christmas Eve | Facebook",
-      "snippet": "Title: Landlord Tenant Lawyers Q & A | Upstate NY - I haven’t been staying at my apartment since Christmas Eve | Facebook\n# Landlord Tenant Lawyers Q & A | Upstate NY - I haven’t been staying at my apartment since Christmas Eve | Facebook. Upstate NY - Shared Meter Law and Electric Bills. Upstate NY…",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Landlord Tenant Lawyers Q & A",
-      "posted": "2024-04-04",
-      "first_seen": "2026-09-25",
-      "last_seen": "2026-09-25",
-      "queries": [
-        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "f95cb84b64f0"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/LandlordTenantLawyersDirectory/posts/1515313072530895",
-      "url": "https://www.facebook.com/groups/LandlordTenantLawyersDirectory/posts/1515313072530895",
-      "title": "Landlord Tenant Lawyers Q & A | Toledo, Ohio - Lucas County  | Facebook",
-      "snippet": "Title: Landlord Tenant Lawyers Q & A | Toledo, Ohio - Lucas County  | Facebook\n# Landlord Tenant Lawyers Q & A | Toledo, Ohio - Lucas County | Facebook. How to handle stepfather living in inherited house without a lease? Summarized by AI from the post below. ## Landlord Tenant Lawyers Q & A ·. New h…",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Landlord Tenant Lawyers Q & A",
-      "posted": "2024-03-26",
-      "first_seen": "2026-09-25",
-      "last_seen": "2026-09-25",
-      "queries": [
-        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
       ],
       "rules": {
         "accepted": false,
@@ -490,7 +647,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "f95cb84b64f0"
+        "version": "bf9e2e1615af"
       },
       "production": {
         "accepted": false,
@@ -499,122 +656,122 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/LandlordTenantLawyersDirectory/posts/1028937341168473",
-      "url": "https://www.facebook.com/groups/LandlordTenantLawyersDirectory/posts/1028937341168473",
-      "title": "Landlord Tenant Lawyers Q & A | Hi I need some advice if anyone here is in Georgia and familiar with the tenant landlord rights because I’ve done research but I can’t find what I... | Facebook",
-      "snippet": "Title: Landlord Tenant Lawyers Q & A | Hi I need some advice if anyone here is in Georgia and familiar with the tenant landlord rights because I’ve done research but I can’t find what I... | Facebook\n# Landlord Tenant Lawyers Q & A | Hi I need some advice if anyone here is in Georgia and familiar wi…",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Landlord Tenant Lawyers Q & A",
-      "posted": "2022-01-27",
+      "id": "https://www.plexonline.com/modules/systemadministration/login/index.aspx",
+      "url": "https://www.plexonline.com/modules/systemadministration/login/index.aspx",
+      "title": "PLEX Online",
+      "snippet": "No information is available for this page.Learn why",
+      "source": "plexonline.com",
+      "context": "plexonline.com",
+      "group": "Plex Manufacturing Cloud - Login",
+      "posted": "",
       "first_seen": "2026-09-25",
       "last_seen": "2026-09-25",
       "queries": [
-        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
+        "site:facebook.com/groups/3017593358393980/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
         "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
+        "reason": "host",
+        "host": false,
         "keyword": false,
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "f95cb84b64f0"
+        "version": "bf9e2e1615af"
       },
       "production": {
         "accepted": false,
         "source": "rules",
-        "reason": "keyword"
+        "reason": "host"
       }
     },
     {
-      "id": "https://www.facebook.com/groups/LandlordTenantLawyersDirectory/posts/1575280069867528",
-      "url": "https://www.facebook.com/groups/LandlordTenantLawyersDirectory/posts/1575280069867528",
-      "title": "Landlord Tenant Lawyers Q & A | Hello all, | Facebook",
-      "snippet": "Title: Landlord Tenant Lawyers Q & A | Hello all, | Facebook\nWhat legal recourse for tenant in uninhabitable Philadelphia rental? ## Landlord Tenant Lawyers Q & A ·. I am a tenant in philadelphia,PA. I moved into a place through a DV shelter. (They paid half of the move in costs). The landlord moved…",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Landlord Tenant Lawyers Q & A",
-      "posted": "2024-06-30",
       "first_seen": "2026-09-25",
+      "group": "Ellettsville  Hi Neighbor",
+      "id": "https://www.facebook.com/groups/292168769511709/posts/1440225208039387",
       "last_seen": "2026-09-25",
-      "queries": [
-        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "f95cb84b64f0"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/LandlordTenantLawyersDirectory/posts/1426754211386782",
-      "url": "https://www.facebook.com/groups/LandlordTenantLawyersDirectory/posts/1426754211386782",
-      "title": "Landlord Tenant Lawyers Q & A | ***update*** | Facebook",
-      "snippet": "Title: Landlord Tenant Lawyers Q & A | ***update*** | Facebook\nCan a California tenant deduct utility reimbursement from rent? Summarised by AI from the post below. ## Landlord Tenant Lawyers Q & A ·. I called the utility company again today. Explained the situation and found out water and sewer are…",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Landlord Tenant Lawyers Q & A",
-      "posted": "2023-10-18",
-      "first_seen": "2026-09-25",
-      "last_seen": "2026-09-25",
-      "queries": [
-        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "f95cb84b64f0"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/2442414209355164/posts/4425658987697333",
-      "url": "https://www.facebook.com/groups/2442414209355164/posts/4425658987697333",
-      "title": "It's frightening how quickly we normalize $4 gas. - Facebook",
-      "snippet": "Adjusted for inflation, for example, gas in mid-2008 would work out to be well above $5 per gallon in today's dollars. the national average for regular",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Riverview Word of Mouth  John 316",
       "posted": "2026-09-24",
-      "first_seen": "2026-09-25",
-      "last_seen": "2026-09-25",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
       ],
       "rules": {
         "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
+      "snippet": "budget billing mine went up to 275. Budget billing is different, it will fluctuate thru the year. averaged $250-$280 through Dec-Mar.",
+      "source": "Facebook",
+      "title": "Our Duke bill is nearly $400. Doubled from 6 months ago and ...",
+      "url": "https://www.facebook.com/groups/292168769511709/posts/1440225208039387"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "Ellettsville  Hi Neighbor",
+      "id": "https://www.facebook.com/groups/292168769511709/posts/1440225318039376",
+      "last_seen": "2026-09-25",
+      "posted": "2026-09-24",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
+      "snippet": "Our Duke bill is nearly $400. Ours is 600.00 per month County? Just curious, is anyone seeing crazy high electricity bills from Duke? 2 months in a row our",
+      "source": "Facebook",
+      "title": "Our Duke bill is nearly $400. Doubled from 6 months ago and ...",
+      "url": "https://www.facebook.com/groups/292168769511709/posts/1440225318039376"
+    },
+    {
+      "id": "https://business.facebook.com/groups/218864382174719",
+      "url": "https://business.facebook.com/groups/218864382174719",
+      "title": "Oregon, Ohio Community Neighbors | Facebook",
+      "snippet": "2 days ago · This is an open group to share community info with our neighbors in Oregon, Ohio & surrounding areas.",
+      "source": "Facebook",
+      "context": "business.facebook.com",
+      "group": "",
+      "posted": "",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
         "semantic_accepted": false,
         "reason": "keyword",
         "host": true,
         "keyword": false,
-        "ohio": false,
+        "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "f95cb84b64f0"
+        "version": "bf9e2e1615af"
       },
       "production": {
         "accepted": false,
@@ -623,91 +780,959 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/1611890492374767/posts/4735417783355340",
-      "url": "https://www.facebook.com/groups/1611890492374767/posts/4735417783355340",
-      "title": "Is it legal to charge 4,500/ kw electric bill? If not, what can I do about it?",
-      "snippet": "Flat rates like 4,000 to 5,000 VND per kWh commonly seen in tenants for electricity face administrative fines ranging from 20 million to 30 million VND.",
+      "id": "https://business.facebook.com/groups/ohiobuyselltrade",
+      "url": "https://business.facebook.com/groups/ohiobuyselltrade",
+      "title": "OHIO - BUY • SELL • TRADE | Facebook",
+      "snippet": "20 hours ago · OHIO & Surrounding Area - BUY • SELL • TRADE Use common sense when buying, selling or trading! You are also buying, selling and trading at your own risk. If it seems to good to be true it probably is, research and ask questions! DO NOT SPAM the group!",
+      "source": "Facebook",
+      "context": "business.facebook.com",
+      "group": "",
+      "posted": "",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "bf9e2e1615af"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/hvacbusinessownerscontractors/posts/1848356076517935",
+      "url": "https://www.facebook.com/groups/hvacbusinessownerscontractors/posts/1848356076517935",
+      "title": "My curiosity about Cold climate heat pumps are growing. I ...",
+      "snippet": "I live in Southern Ohio.. Bosch and Mitsubishi are top picks for cold climate heat pumps, with many recommending them for reliability and performance. Get",
       "source": "Facebook",
       "context": "facebook.com",
+      "group": "HVAC Business Owners & Contractors",
+      "posted": "2026-09-22",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "bf9e2e1615af"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "Rexburg Student Rentals - Apartments, Contracts, Condos, Housing",
+      "id": "https://www.facebook.com/groups/BYUIrentals/posts/2622604014868127",
+      "last_seen": "2026-09-25",
+      "posted": "2026-09-21",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
+      "snippet": "Fees Rent: $2,200/mo Utilities (everything but electricity): $42/mo (flat fee) Pet rent: $30/mo/pet (dogs + cats allowed) Electricity: ~$100/mo Security deposit",
+      "source": "Facebook",
+      "title": "Lease Transfer 2 bed 1 bath - Facebook",
+      "url": "https://www.facebook.com/groups/BYUIrentals/posts/2622604014868127"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "Landlord and Tenant Legal Advice Group",
+      "id": "https://www.facebook.com/groups/143328435730340/posts/26377782341858258",
+      "last_seen": "2026-09-25",
+      "posted": "2026-03-24",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
+      "snippet": "Title: Landlord and Tenant Legal Advice Group | My tenant broke the lease and sublet the apartment | Facebook\nTenant broke lease and sublet apartment, landlord unsure who to collect rent from. Summarized by AI from the post below. ## Landlord and Tenant Legal Advice Group ·. My tenant broke the leas…",
+      "source": "Facebook",
+      "title": "Landlord and Tenant Legal Advice Group | My tenant broke the lease and sublet the apartment | Facebook",
+      "url": "https://www.facebook.com/groups/143328435730340/posts/26377782341858258"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "Landlord Tenant Lawyers Q & A",
+      "id": "https://www.facebook.com/groups/LandlordTenantLawyersDirectory/posts/1520803215315214",
+      "last_seen": "2026-09-25",
+      "posted": "2024-04-04",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
+      "snippet": "Title: Landlord Tenant Lawyers Q & A | Upstate NY - I haven’t been staying at my apartment since Christmas Eve | Facebook\n# Landlord Tenant Lawyers Q & A | Upstate NY - I haven’t been staying at my apartment since Christmas Eve | Facebook. Upstate NY - Shared Meter Law and Electric Bills. Upstate NY…",
+      "source": "Facebook",
+      "title": "Landlord Tenant Lawyers Q & A | Upstate NY - I haven’t been staying at my apartment since Christmas Eve | Facebook",
+      "url": "https://www.facebook.com/groups/LandlordTenantLawyersDirectory/posts/1520803215315214"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "Landlord Tenant Lawyers Q & A",
+      "id": "https://www.facebook.com/groups/LandlordTenantLawyersDirectory/posts/1515313072530895",
+      "last_seen": "2026-09-25",
+      "posted": "2024-03-26",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
+      "snippet": "Title: Landlord Tenant Lawyers Q & A | Toledo, Ohio - Lucas County  | Facebook\n# Landlord Tenant Lawyers Q & A | Toledo, Ohio - Lucas County | Facebook. How to handle stepfather living in inherited house without a lease? Summarized by AI from the post below. ## Landlord Tenant Lawyers Q & A ·. New h…",
+      "source": "Facebook",
+      "title": "Landlord Tenant Lawyers Q & A | Toledo, Ohio - Lucas County  | Facebook",
+      "url": "https://www.facebook.com/groups/LandlordTenantLawyersDirectory/posts/1515313072530895"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "Landlord Tenant Lawyers Q & A",
+      "id": "https://www.facebook.com/groups/LandlordTenantLawyersDirectory/posts/1028937341168473",
+      "last_seen": "2026-09-25",
+      "posted": "2022-01-27",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
+      "snippet": "Title: Landlord Tenant Lawyers Q & A | Hi I need some advice if anyone here is in Georgia and familiar with the tenant landlord rights because I’ve done research but I can’t find what I... | Facebook\n# Landlord Tenant Lawyers Q & A | Hi I need some advice if anyone here is in Georgia and familiar wi…",
+      "source": "Facebook",
+      "title": "Landlord Tenant Lawyers Q & A | Hi I need some advice if anyone here is in Georgia and familiar with the tenant landlord rights because I’ve done research but I can’t find what I... | Facebook",
+      "url": "https://www.facebook.com/groups/LandlordTenantLawyersDirectory/posts/1028937341168473"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "Landlord Tenant Lawyers Q & A",
+      "id": "https://www.facebook.com/groups/LandlordTenantLawyersDirectory/posts/1575280069867528",
+      "last_seen": "2026-09-25",
+      "posted": "2024-06-30",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
+      "snippet": "Title: Landlord Tenant Lawyers Q & A | Hello all, | Facebook\nWhat legal recourse for tenant in uninhabitable Philadelphia rental? ## Landlord Tenant Lawyers Q & A ·. I am a tenant in philadelphia,PA. I moved into a place through a DV shelter. (They paid half of the move in costs). The landlord moved…",
+      "source": "Facebook",
+      "title": "Landlord Tenant Lawyers Q & A | Hello all, | Facebook",
+      "url": "https://www.facebook.com/groups/LandlordTenantLawyersDirectory/posts/1575280069867528"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "Landlord Tenant Lawyers Q & A",
+      "id": "https://www.facebook.com/groups/LandlordTenantLawyersDirectory/posts/1426754211386782",
+      "last_seen": "2026-09-25",
+      "posted": "2023-10-18",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
+      "snippet": "Title: Landlord Tenant Lawyers Q & A | ***update*** | Facebook\nCan a California tenant deduct utility reimbursement from rent? Summarised by AI from the post below. ## Landlord Tenant Lawyers Q & A ·. I called the utility company again today. Explained the situation and found out water and sewer are…",
+      "source": "Facebook",
+      "title": "Landlord Tenant Lawyers Q & A | ***update*** | Facebook",
+      "url": "https://www.facebook.com/groups/LandlordTenantLawyersDirectory/posts/1426754211386782"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "Riverview Word of Mouth  John 316",
+      "id": "https://www.facebook.com/groups/2442414209355164/posts/4425658987697333",
+      "last_seen": "2026-09-25",
+      "posted": "2026-09-24",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
+      "snippet": "Adjusted for inflation, for example, gas in mid-2008 would work out to be well above $5 per gallon in today's dollars. the national average for regular",
+      "source": "Facebook",
+      "title": "It's frightening how quickly we normalize $4 gas. - Facebook",
+      "url": "https://www.facebook.com/groups/2442414209355164/posts/4425658987697333"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
       "group": "NHA TRANG EXPATS & LOCALS",
+      "id": "https://www.facebook.com/groups/1611890492374767/posts/4735417783355340",
+      "last_seen": "2026-09-25",
+      "posted": "2026-09-19",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": false,
+        "host": true,
+        "keyword": true,
+        "lead": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
+      "snippet": "Flat rates like 4,000 to 5,000 VND per kWh commonly seen in tenants for electricity face administrative fines ranging from 20 million to 30 million VND.",
+      "source": "Facebook",
+      "title": "Is it legal to charge 4,500/ kw electric bill? If not, what can I do about it?",
+      "url": "https://www.facebook.com/groups/1611890492374767/posts/4735417783355340"
+    },
+    {
+      "id": "https://www.wsj.com/business/energy-oil/is-3-d-printing-the-answer-to-ais-gas-turbine-crunch-865ae5d0",
+      "url": "https://www.wsj.com/business/energy-oil/is-3-d-printing-the-answer-to-ais-gas-turbine-crunch-865ae5d0",
+      "title": "Is 3-D Printing the Answer to AI's Gas Turbine Crunch?",
+      "snippet": "A tiny California startup founded earlier this year is taking the “Bring Your Own Power” trend that is dominating the AI race to a whole new level—it is relying on 3-D printing technology to help make backlogged power equipment.\n\nParallax, which was founded by a Stanford University graduate who prev…",
+      "source": "wsj.com",
+      "context": "wsj.com",
+      "group": "",
+      "posted": "",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups/3017593358393980/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "host",
+        "host": false,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "bf9e2e1615af"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "host"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1854210748209867/posts/4234316390199279",
+      "url": "https://www.facebook.com/groups/1854210748209867/posts/4234316390199279",
+      "title": "I am working on an idea and would like ...",
+      "snippet": "1) Monetary savings on their electric bill; guaranteed drop in kWh by at least 5%. 2) Reducing the amount of energy waste, a plus for the environment",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Electrify Everything",
+      "posted": "2026-09-22",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "bf9e2e1615af"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/417279821759412/posts/3651641308323231",
+      "url": "https://www.facebook.com/groups/417279821759412/posts/3651641308323231",
+      "title": "How to schedule a free virtual home energy walkthrough ...",
+      "snippet": "If Your Energy Bill Is Up\nFood for thought \n\nhttps://www.aepohio.com/savings/home/money-saving-programs/virtual-home-energy-walkthrough/",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Johnstown Ohio Info Wall",
+      "posted": "2026-09-24",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "bf9e2e1615af"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/708860491132938/posts/1438976818121298",
+      "url": "https://www.facebook.com/groups/708860491132938/posts/1438976818121298",
+      "title": "How to prepare your heat pump for summer in Kerepeehi?",
+      "snippet": "Set a steady temperature – 20–22°C is ideal for comfort and efficiency. please call or message Mitch on 021765590",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Kerepeehi Community Page",
+      "posted": "2026-09-23",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "bf9e2e1615af"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "The Official Minehead Conversation Group",
+      "id": "https://www.facebook.com/groups/1928761517299434/posts/3850506678458232",
+      "last_seen": "2026-09-25",
+      "posted": "2026-09-24",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
+      "snippet": "Budget billing can turn high seasonal utility bills into manageable monthly ones! The program allows you to pay a set amount for your utilities each month",
+      "source": "Facebook",
+      "title": "How to prepare for seasonal changes in utility bills - Facebook",
+      "url": "https://www.facebook.com/groups/1928761517299434/posts/3850506678458232"
+    },
+    {
+      "id": "https://www.energy.gov/hgeo/how-obtain-authorization-import-andor-export-natural-gas-and-lng",
+      "url": "https://www.energy.gov/hgeo/how-obtain-authorization-import-andor-export-natural-gas-and-lng",
+      "title": "How to Obtain Authorization to Import and/or Export Natural ...",
+      "snippet": "ALL LONG TERM APPLICATIONS SHOULD INCLUDE:\n\nFor long-term applications, describe the major provisions of the gas purchase or sales contract, including base price, volume requirements, take-or-pay obligations, make-up provisions, transportation, reservation fees, and other costs.\n\nThe Application mus…",
+      "source": "energy.gov",
+      "context": "energy.gov",
+      "group": "",
+      "posted": "",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups/3017593358393980/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "host",
+        "host": false,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "bf9e2e1615af"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "host"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "College Baseball The Other Side",
+      "id": "https://www.facebook.com/groups/1098058294844129/posts/1802622274387724",
+      "last_seen": "2026-09-25",
+      "posted": "2026-09-24",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
+      "snippet": "My son is on a meal plan...we do a grocery pickup weekly that is anywhere from $60-$80 and then give him $100-$150ish a week for spending money/gas etc. 3h.",
+      "source": "Facebook",
+      "title": "How much do you budget per week for your athlete for food, gas ...",
+      "url": "https://www.facebook.com/groups/1098058294844129/posts/1802622274387724"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "Reseller Community Tips & BOLOs",
+      "id": "https://www.facebook.com/groups/2356868454775088/posts/2619319778529953",
+      "last_seen": "2026-09-25",
+      "posted": "2026-09-24",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
+      "snippet": "Utility bills can increase as energy becomes more expensive to produce and transport. For families already watching their budgets carefully, those changes add",
+      "source": "Facebook",
+      "title": "How are high fuel prices changing your thrifting and yard sale trips?",
+      "url": "https://www.facebook.com/groups/2356868454775088/posts/2619319778529953"
+    },
+    {
+      "id": "https://www.ucs.org/resources/how-natural-gas-works",
+      "url": "https://www.ucs.org/resources/how-natural-gas-works",
+      "title": "How Natural Gas Works | Union of Concerned Scientists",
+      "snippet": "en español  Donate\n\nDonate\n\nTake Action  Donate\n\nDonate\n\nMenu\n\nClose×\n\nReports & Multimedia / Explainer\n\n# How Natural Gas Works\n\nPublished Jul 15, 2008 Updated May 9, 2023\n\nNatural gas, also known as methane or just \"gas,\" is used in heating, cooking, electricity production, transportation, and as …",
+      "source": "ucs.org",
+      "context": "ucs.org",
+      "group": "How Natural Gas Works",
+      "posted": "",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups/3017593358393980/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "host",
+        "host": false,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "bf9e2e1615af"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "host"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "Stillwater Community Page No Rules",
+      "id": "https://www.facebook.com/groups/stillwatercommunity/posts/3190029481184625",
+      "last_seen": "2026-09-25",
+      "posted": "2026-09-23",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": false,
+        "host": true,
+        "keyword": true,
+        "lead": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
+      "snippet": "Mine has always been around 400$ around this time of year. About $150 a month in summer for a 4 bedroom home. Single bedroom apartment electricity bill",
+      "source": "Facebook",
+      "title": "High electric bills in Stillwater, OK? - Facebook",
+      "url": "https://www.facebook.com/groups/stillwatercommunity/posts/3190029481184625"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "Twenty One Pilots Superfans",
+      "id": "https://www.facebook.com/groups/725344146086353/posts/1354057699881658",
+      "last_seen": "2026-09-25",
+      "posted": "2026-09-24",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
+      "snippet": "we are trying to think of the best way to go to Ohio whilst balling on a budget as students and varsity athletes! balling on a student budget!",
+      "source": "Facebook",
+      "title": "Hello All! I've been hoping to attend the Ohio show for so",
+      "url": "https://www.facebook.com/groups/725344146086353/posts/1354057699881658"
+    },
+    {
+      "id": "https://www.facebook.com/groups/SouthKnoxvilleSpeaksOut/posts/28397911496534030",
+      "url": "https://www.facebook.com/groups/SouthKnoxvilleSpeaksOut/posts/28397911496534030",
+      "title": "Has anyone saved on bills by switching from a gas furnace ...",
+      "snippet": "Has anyone changed out their gas furnace for a heat pump and experienced any savings on bills? I'll check with KUB but I'm sure KUB has an agenda. Also,",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "South Knoxville Speaks Out SKSO",
+      "posted": "2026-09-23",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "bf9e2e1615af"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/226442408501477/posts/1781434986335537",
+      "url": "https://www.facebook.com/groups/226442408501477/posts/1781434986335537",
+      "title": "Has anyone else's electric gone up like an insane amount??",
+      "snippet": "Many residents report significant electric bill increases, with some citing rates over 20 cents per kWh and bills doubling or more, amid the heat wave.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "helpful information  around mt.carmel Illinois and surrounding areas",
+      "posted": "2026-09-21",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "bf9e2e1615af"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/279222398924061/posts/3408306129348990",
+      "url": "https://www.facebook.com/groups/279222398924061/posts/3408306129348990",
+      "title": "Gotta love when your electric bill is only $28.57",
+      "snippet": "Fixed Fee for monthly Service Charge is $24.81 per month. With tax it would be 28.53. all electric appliances and heat - less than 100 in the summer months.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "LOYALIST CITY NEWSCHASERS",
+      "posted": "2026-09-21",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "bf9e2e1615af"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "Metro Detroit Real Estate Investors, Contractors, Builders, Flippers",
+      "id": "https://www.facebook.com/groups/1036455453903927/posts/2116595235889938",
+      "last_seen": "2026-09-25",
+      "posted": "2026-09-24",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
+      "snippet": "Goodman 5 burner furnace $500 right now. Payments as Low as $44/month with qualifying credit. High heating bills burn us up, too. open your utility bill, so we",
+      "source": "Facebook",
+      "title": "Goodman 5 burner furnace $500 right now. - Facebook",
+      "url": "https://www.facebook.com/groups/1036455453903927/posts/2116595235889938"
+    },
+    {
+      "id": "https://www.facebook.com/groups/swipswapfreeandcheap/posts/3685035888327308",
+      "url": "https://www.facebook.com/groups/swipswapfreeandcheap/posts/3685035888327308",
+      "title": "Get your heatpump or electric heat ready for fall/winter.",
+      "snippet": "Ours is an all electric home with an air-source heatpump. In an all-electric home, the backup heat is electric resistance. Our old heatpump can usually handle",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Swip Swap free or cheap northside/oceanway/san mateo/river city",
+      "posted": "2026-09-20",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "bf9e2e1615af"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "Fostoria 44830 - Talk of the Town",
+      "id": "https://www.facebook.com/groups/273821537435387/posts/1159521225532076",
+      "last_seen": "2026-09-25",
+      "posted": "2024-12-16",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups/273821537435387/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
+      "snippet": "Add details to local business reviews Summarized by AI from the post below Fostoria 44830 - Talk of the Town · Members please, when posting a good or great review of a local establishment, do them and all other members a great justice, Add information of what exceptional or outstanding service was d…",
+      "source": "Facebook",
+      "title": "Fostoria 44830 - Talk of the Town | Members please, when posting a good or great review of a local establishment,  do them and all other members a great justice,  Add information of what... | Facebook",
+      "url": "https://www.facebook.com/groups/273821537435387/posts/1159521225532076"
+    },
+    {
+      "id": "https://ytgloves.com/products/fr-emergency-gas-glove",
+      "url": "https://ytgloves.com/products/fr-emergency-gas-glove",
+      "title": "FR Emergency Gas Glove — Arc Rated Kevlar Lined Glove for Emergency Gas Response | Youngstown Glove",
+      "snippet": "Skip to content\n\nFREE SHIPPING ON US ORDERS $25+ (excluding HI, AK, PR)\n\nMenu  Youngstown Glove\n\nSearch\n\n Shop All Gloves\n Shop Accessories\n Glove Categories \n  + FLAME RESISTANT\n  + CUT RESISTANT\n  + WINTER GLOVES\n  + HIGH VISIBILITY\n  + ARC RATED\n  + LEATHER PROTECTORS\n Testing Methods\n About Us\n …",
+      "source": "ytgloves.com",
+      "context": "ytgloves.com",
+      "group": "FR Emergency Gas Glove  Arc Rated Kevlar Lined Glove for Emergency Gas Response",
+      "posted": "",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups/3017593358393980/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "host",
+        "host": false,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "bf9e2e1615af"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "host"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "Two Rivers WI News and Information",
+      "id": "https://www.facebook.com/groups/2485945731418343/posts/29098110203108534",
+      "last_seen": "2026-09-25",
+      "posted": "2026-09-23",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
+      "snippet": "We Energies rates went up for 2025 and 2026. The Public Service Commission of Wisconsin approved an 8.79% overall electric rate increase over the two years.",
+      "source": "Facebook",
+      "title": "Electricity bill increases in Two Rivers, WI after new meter installation",
+      "url": "https://www.facebook.com/groups/2485945731418343/posts/29098110203108534"
+    },
+    {
+      "id": "https://www.facebook.com/groups/637529959937311/posts/3097391500617799",
+      "url": "https://www.facebook.com/groups/637529959937311/posts/3097391500617799",
+      "title": "Electric heat pump covers for above ground pools in NE ...",
+      "snippet": "Any recommendations for an electric heat pump cover for the winter in NE Ohio… We can not bring it in, because it is hardwired.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Above Ground Swimming Pools Group",
       "posted": "2026-09-19",
       "first_seen": "2026-09-25",
       "last_seen": "2026-09-25",
       "queries": [
-        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
       ],
       "rules": {
         "accepted": false,
         "semantic_accepted": false,
-        "reason": "geography",
+        "reason": "keyword",
         "host": true,
-        "keyword": true,
+        "keyword": false,
         "ohio": false,
-        "lead": true,
+        "lead": false,
         "hard_exclusion": false,
-        "version": "f95cb84b64f0"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/1928761517299434/posts/3850506678458232",
-      "url": "https://www.facebook.com/groups/1928761517299434/posts/3850506678458232",
-      "title": "How to prepare for seasonal changes in utility bills - Facebook",
-      "snippet": "Budget billing can turn high seasonal utility bills into manageable monthly ones! The program allows you to pay a set amount for your utilities each month",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "The Official Minehead Conversation Group",
-      "posted": "2026-09-24",
-      "first_seen": "2026-09-25",
-      "last_seen": "2026-09-25",
-      "queries": [
-        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
-        "host": true,
-        "keyword": true,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "f95cb84b64f0"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/1098058294844129/posts/1802622274387724",
-      "url": "https://www.facebook.com/groups/1098058294844129/posts/1802622274387724",
-      "title": "How much do you budget per week for your athlete for food, gas ...",
-      "snippet": "My son is on a meal plan...we do a grocery pickup weekly that is anywhere from $60-$80 and then give him $100-$150ish a week for spending money/gas etc. 3h.",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "College Baseball The Other Side",
-      "posted": "2026-09-24",
-      "first_seen": "2026-09-25",
-      "last_seen": "2026-09-25",
-      "queries": [
-        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "f95cb84b64f0"
+        "version": "bf9e2e1615af"
       },
       "production": {
         "accepted": false,
@@ -716,328 +1741,49 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/2356868454775088/posts/2619319778529953",
-      "url": "https://www.facebook.com/groups/2356868454775088/posts/2619319778529953",
-      "title": "How are high fuel prices changing your thrifting and yard sale trips?",
-      "snippet": "Utility bills can increase as energy becomes more expensive to produce and transport. For families already watching their budgets carefully, those changes add",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Reseller Community Tips & BOLOs",
-      "posted": "2026-09-24",
       "first_seen": "2026-09-25",
-      "last_seen": "2026-09-25",
-      "queries": [
-        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "f95cb84b64f0"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/stillwatercommunity/posts/3190029481184625",
-      "url": "https://www.facebook.com/groups/stillwatercommunity/posts/3190029481184625",
-      "title": "High electric bills in Stillwater, OK? - Facebook",
-      "snippet": "Mine has always been around 400$ around this time of year. About $150 a month in summer for a 4 bedroom home. Single bedroom apartment electricity bill",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Stillwater Community Page No Rules",
-      "posted": "2026-09-23",
-      "first_seen": "2026-09-25",
-      "last_seen": "2026-09-25",
-      "queries": [
-        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
-        "host": true,
-        "keyword": true,
-        "ohio": false,
-        "lead": true,
-        "hard_exclusion": false,
-        "version": "f95cb84b64f0"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/725344146086353/posts/1354057699881658",
-      "url": "https://www.facebook.com/groups/725344146086353/posts/1354057699881658",
-      "title": "Hello All! I've been hoping to attend the Ohio show for so",
-      "snippet": "we are trying to think of the best way to go to Ohio whilst balling on a budget as students and varsity athletes! balling on a student budget!",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Twenty One Pilots Superfans",
-      "posted": "2026-09-24",
-      "first_seen": "2026-09-25",
-      "last_seen": "2026-09-25",
-      "queries": [
-        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "f95cb84b64f0"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/1036455453903927/posts/2116595235889938",
-      "url": "https://www.facebook.com/groups/1036455453903927/posts/2116595235889938",
-      "title": "Goodman 5 burner furnace $500 right now. - Facebook",
-      "snippet": "Goodman 5 burner furnace $500 right now. Payments as Low as $44/month with qualifying credit. High heating bills burn us up, too. open your utility bill, so we",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Metro Detroit Real Estate Investors, Contractors, Builders, Flippers",
-      "posted": "2026-09-24",
-      "first_seen": "2026-09-25",
-      "last_seen": "2026-09-25",
-      "queries": [
-        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
-        "host": true,
-        "keyword": true,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "f95cb84b64f0"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/273821537435387/posts/1159521225532076",
-      "url": "https://www.facebook.com/groups/273821537435387/posts/1159521225532076",
-      "title": "Fostoria 44830 - Talk of the Town | Members please, when posting a good or great review of a local establishment,  do them and all other members a great justice,  Add information of what... | Facebook",
-      "snippet": "Add details to local business reviews Summarized by AI from the post below Fostoria 44830 - Talk of the Town · Members please, when posting a good or great review of a local establishment, do them and all other members a great justice, Add information of what exceptional or outstanding service was d…",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Fostoria 44830 - Talk of the Town",
-      "posted": "2024-12-16",
-      "first_seen": "2026-09-25",
-      "last_seen": "2026-09-25",
-      "queries": [
-        "site:facebook.com/groups/273821537435387/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "f95cb84b64f0"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/2485945731418343/posts/29098110203108534",
-      "url": "https://www.facebook.com/groups/2485945731418343/posts/29098110203108534",
-      "title": "Electricity bill increases in Two Rivers, WI after new meter installation",
-      "snippet": "We Energies rates went up for 2025 and 2026. The Public Service Commission of Wisconsin approved an 8.79% overall electric rate increase over the two years.",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Two Rivers WI News and Information",
-      "posted": "2026-09-23",
-      "first_seen": "2026-09-25",
-      "last_seen": "2026-09-25",
-      "queries": [
-        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
-        "host": true,
-        "keyword": true,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "f95cb84b64f0"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
-    },
-    {
+      "group": "Physics Facts",
       "id": "https://www.facebook.com/groups/3227689050868500/posts/4072502926387104",
-      "url": "https://www.facebook.com/groups/3227689050868500/posts/4072502926387104",
-      "title": "E.ON installs Germany's millionth smart meter in 2026 - Facebook",
+      "last_seen": "2026-09-25",
+      "posted": "2026-09-24",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
       "snippet": "Ohio is undertaking a four-year program to install 495,000 smart meters to our customers. we plan to be finished in June of 2025.",
       "source": "Facebook",
+      "title": "E.ON installs Germany's millionth smart meter in 2026 - Facebook",
+      "url": "https://www.facebook.com/groups/3227689050868500/posts/4072502926387104"
+    },
+    {
+      "id": "https://www.facebook.com/groups/whatshappeninginpalatine/posts/4495606734013116",
+      "url": "https://www.facebook.com/groups/whatshappeninginpalatine/posts/4495606734013116",
+      "title": "Does anyone have a connection for a third party electric bill ...",
+      "snippet": "Does anyone have a connection for a third party electric bill provider?",
+      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Physics Facts",
+      "group": "What's Happening in Palatine, Illinois",
       "posted": "2026-09-24",
       "first_seen": "2026-09-25",
       "last_seen": "2026-09-25",
       "queries": [
-        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "f95cb84b64f0"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/851295265302302/posts/2601727940259017",
-      "url": "https://www.facebook.com/groups/851295265302302/posts/2601727940259017",
-      "title": "Cost to install a new hot water heater in Highland County - Facebook",
-      "snippet": "Mid Range: Around $1,500–$2,500 for a standard-size tank with some extra services. High End: $3,000–$6,500 for tankless, hybrid, or high- efficiency units with",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Highland County Real Chat",
-      "posted": "2026-09-23",
-      "first_seen": "2026-09-25",
-      "last_seen": "2026-09-25",
-      "queries": [
-        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "f95cb84b64f0"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/doingbizinmalaysia/posts/1339637318014751",
-      "url": "https://www.facebook.com/groups/doingbizinmalaysia/posts/1339637318014751",
-      "title": "CCS E-Invoice Sharing Hub - 看趋势看财税看CCS | Does a company need to include utilities amount in the rental invoice if the utilities is under landlord company name but tenant pays directly to util... | Facebook",
-      "snippet": "Title: CCS E-Invoice Sharing Hub - 看趋势看财税看CCS | Does a company need to include utilities amount in the rental invoice if the utilities is under landlord company name but tenant pays directly to util... | Facebook\nDo landlords include utilities in rental invoices when tenants pay directly? Summarized…",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "CCS E-Invoice Sharing Hub - 看趋势看财税看CCS",
-      "posted": "2026-05-26",
-      "first_seen": "2026-09-25",
-      "last_seen": "2026-09-25",
-      "queries": [
-        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "f95cb84b64f0"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/273821537435387/posts/1687619696055557",
-      "url": "https://www.facebook.com/groups/273821537435387/posts/1687619696055557",
-      "title": "BRING THE FAM BAM THIS SATURDAY IS AN ALL FREE EVENT ...",
-      "snippet": "BRING THE FAM BAM THIS SATURDAY IS AN ALL FREE EVENT FOR THE WHOLE FAMILY ❤️ - KIDSFEST 2026- 2:00 to 5:00 PM.",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Fostoria 44830 - Talk of the Town",
-      "posted": "2026-09-22",
-      "first_seen": "2026-09-25",
-      "last_seen": "2026-09-25",
-      "queries": [
-        "site:facebook.com/groups/273821537435387/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "f95cb84b64f0"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/2306755636080057/posts/28536367382692191",
-      "url": "https://www.facebook.com/groups/2306755636080057/posts/28536367382692191",
-      "title": "Are others seeing lower NYSEG bills? - Facebook",
-      "snippet": "Some users report lower NYSEG bills, citing reduced usage or being between AC and furnace seasons. a few cents up and down. electricity thats it gas and other",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Elmira is Crazy",
-      "posted": "2026-09-24",
-      "first_seen": "2026-09-25",
-      "last_seen": "2026-09-25",
-      "queries": [
-        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -1046,9 +1792,9 @@
         "host": true,
         "keyword": true,
         "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "f95cb84b64f0"
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "bf9e2e1615af"
       },
       "production": {
         "accepted": false,
@@ -1057,18 +1803,49 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/619389758489669/posts/2633570937071531",
-      "url": "https://www.facebook.com/groups/619389758489669/posts/2633570937071531",
-      "title": "Apartment or roommate wanted in Lewis Center for college student",
-      "snippet": "Electricity costs around $100 to $200 a month … total cost will likely be around $765 a month, with utilities varying slightly.",
+      "id": "https://www.facebook.com/groups/2509406035804899/posts/28232149566437193",
+      "url": "https://www.facebook.com/groups/2509406035804899/posts/28232149566437193",
+      "title": "Custom Electricity Pricing Options for Ohio Homes and ...",
+      "snippet": "Best 12-month fixed rate electricity plan in Ohio with no early termination fee. Our $0.0494 rate plan is expiring and rates have more than doubled with Duke's",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "What's Up in Delaware, OH",
-      "posted": "2026-09-22",
+      "group": "Small Business Ohio",
+      "posted": "2026-09-21",
       "first_seen": "2026-09-25",
       "last_seen": "2026-09-25",
       "queries": [
-        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "intent",
+        "host": true,
+        "keyword": true,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "bf9e2e1615af"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "intent"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1384977578793164/posts/2224716571485923",
+      "url": "https://www.facebook.com/groups/1384977578793164/posts/2224716571485923",
+      "title": "Custom Electricity Pricing Options for Homeowners and ...",
+      "snippet": "Need a good electric rate on your electricity for your office, home, or business? Elite-Energy Partners is a trusted full-scale energy management firm. We are",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Stark county Ohio, news, events & More",
+      "posted": "2026-09-18",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -1079,7 +1856,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "f95cb84b64f0"
+        "version": "bf9e2e1615af"
       },
       "production": {
         "accepted": false,
@@ -1088,18 +1865,18 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/701426013209102/posts/28953546790903646",
-      "url": "https://www.facebook.com/groups/701426013209102/posts/28953546790903646",
-      "title": "A reminder Accountability is important - Cincinnati - Facebook",
-      "snippet": "There are real results and impacts when Policy, Legislation, and Funding is controlled by one group versus a balance to ensure that all voices and Ohioans can",
+      "id": "https://www.facebook.com/groups/3017593358393980/posts/3678876132265696",
+      "url": "https://www.facebook.com/groups/3017593358393980/posts/3678876132265696",
+      "title": "Crestline Ohio Chatter Uncensored | Looking for a job | Facebook",
+      "snippet": "Title: Crestline Ohio Chatter Uncensored | Looking for a job | Facebook\nJob opportunities in Crestline, OH for someone with banking and customer service experience. Summarised by AI from the post below. ## Crestline Ohio Chatter Uncensored ·. I moved here two months ago. I’ve got banking experience,…",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Greater Cincinnati Politics",
-      "posted": "2026-09-24",
+      "group": "Crestline Ohio Chatter Uncensored",
+      "posted": "2026-07-22",
       "first_seen": "2026-09-25",
       "last_seen": "2026-09-25",
       "queries": [
-        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+        "site:facebook.com/groups/3017593358393980/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
@@ -1110,13 +1887,354 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "f95cb84b64f0"
+        "version": "bf9e2e1615af"
       },
       "production": {
         "accepted": false,
         "source": "rules",
         "reason": "keyword"
       }
+    },
+    {
+      "id": "https://www.facebook.com/groups/3017593358393980/posts/3400246260128686",
+      "url": "https://www.facebook.com/groups/3017593358393980/posts/3400246260128686",
+      "title": "Crestline Chatter Uncensored | I have 3 kids (4 year old boy, 19 month old boy and 3 month old girl) | Facebook",
+      "snippet": "Title: Crestline Chatter Uncensored | I have 3 kids (4 year old boy, 19 month old boy and 3 month old girl) | Facebook\nCrestline Chatter Uncensored | I have 3 kids (4 year old boy, 19 month old boy and 3 month old girl) | Facebook. Choosing between Crestline and other schools for kids? Summarized by…",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Crestline Ohio Chatter Uncensored",
+      "posted": "2025-11-23",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups/3017593358393980/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "bf9e2e1615af"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/3017593358393980/posts/3491013087718669",
+      "url": "https://www.facebook.com/groups/3017593358393980/posts/3491013087718669",
+      "title": "Crestline Chatter Uncensored | Anyone know any hvac companies that are hiring I just finished hvac school and looking to getting my career started | Facebook",
+      "snippet": "Title: Crestline Chatter Uncensored | Anyone know any hvac companies that are hiring I just finished hvac school and looking to getting my career started | Facebook\nCrestline Chatter Uncensored | Anyone know any hvac companies that are hiring I just finished hvac school and looking to getting my car…",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Crestline Ohio Chatter Uncensored",
+      "posted": "2026-02-12",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups/3017593358393980/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "bf9e2e1615af"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "Highland County Real Chat",
+      "id": "https://www.facebook.com/groups/851295265302302/posts/2601727940259017",
+      "last_seen": "2026-09-25",
+      "posted": "2026-09-23",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
+      "snippet": "Mid Range: Around $1,500–$2,500 for a standard-size tank with some extra services. High End: $3,000–$6,500 for tankless, hybrid, or high- efficiency units with",
+      "source": "Facebook",
+      "title": "Cost to install a new hot water heater in Highland County - Facebook",
+      "url": "https://www.facebook.com/groups/851295265302302/posts/2601727940259017"
+    },
+    {
+      "id": "https://www.facebook.com/groups/columbus.ohio.residents",
+      "url": "https://www.facebook.com/groups/columbus.ohio.residents",
+      "title": "Columbus, Ohio Residents - Facebook",
+      "snippet": "15 hours ago · The jobs opportunity and the salaries good luck those area good house or school rate the rent is around 2,000 up. I can try to do a effort and pay that amount yes if you have something and want to make business let me know.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "",
+      "posted": "",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "bf9e2e1615af"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "CCS E-Invoice Sharing Hub - 看趋势看财税看CCS",
+      "id": "https://www.facebook.com/groups/doingbizinmalaysia/posts/1339637318014751",
+      "last_seen": "2026-09-25",
+      "posted": "2026-05-26",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
+      "snippet": "Title: CCS E-Invoice Sharing Hub - 看趋势看财税看CCS | Does a company need to include utilities amount in the rental invoice if the utilities is under landlord company name but tenant pays directly to util... | Facebook\nDo landlords include utilities in rental invoices when tenants pay directly? Summarized…",
+      "source": "Facebook",
+      "title": "CCS E-Invoice Sharing Hub - 看趋势看财税看CCS | Does a company need to include utilities amount in the rental invoice if the utilities is under landlord company name but tenant pays directly to util... | Facebook",
+      "url": "https://www.facebook.com/groups/doingbizinmalaysia/posts/1339637318014751"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "Fostoria 44830 - Talk of the Town",
+      "id": "https://www.facebook.com/groups/273821537435387/posts/1687619696055557",
+      "last_seen": "2026-09-25",
+      "posted": "2026-09-22",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups/273821537435387/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
+      "snippet": "BRING THE FAM BAM THIS SATURDAY IS AN ALL FREE EVENT FOR THE WHOLE FAMILY ❤️ - KIDSFEST 2026- 2:00 to 5:00 PM.",
+      "source": "Facebook",
+      "title": "BRING THE FAM BAM THIS SATURDAY IS AN ALL FREE EVENT ...",
+      "url": "https://www.facebook.com/groups/273821537435387/posts/1687619696055557"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "Elmira is Crazy",
+      "id": "https://www.facebook.com/groups/2306755636080057/posts/28536367382692191",
+      "last_seen": "2026-09-25",
+      "posted": "2026-09-24",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
+      "snippet": "Some users report lower NYSEG bills, citing reduced usage or being between AC and furnace seasons. a few cents up and down. electricity thats it gas and other",
+      "source": "Facebook",
+      "title": "Are others seeing lower NYSEG bills? - Facebook",
+      "url": "https://www.facebook.com/groups/2306755636080057/posts/28536367382692191"
+    },
+    {
+      "id": "https://www.facebook.com/groups/370157573488744/posts/2620697721768040",
+      "url": "https://www.facebook.com/groups/370157573488744/posts/2620697721768040",
+      "title": "Are electric heat pumps worth the cost in Golcar?",
+      "snippet": "YES! It's estimated that more than 60% of your home energy costs ・ installing a heat pump could ・ saving you hundreds of dollars every year. While a heat",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Golcar group no banning everyone welcome",
+      "posted": "2026-09-22",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "bf9e2e1615af"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "What's Up in Delaware, OH",
+      "id": "https://www.facebook.com/groups/619389758489669/posts/2633570937071531",
+      "last_seen": "2026-09-25",
+      "posted": "2026-09-22",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
+      "snippet": "Electricity costs around $100 to $200 a month … total cost will likely be around $765 a month, with utilities varying slightly.",
+      "source": "Facebook",
+      "title": "Apartment or roommate wanted in Lewis Center for college student",
+      "url": "https://www.facebook.com/groups/619389758489669/posts/2633570937071531"
+    },
+    {
+      "id": "https://www.facebook.com/groups/963562167543630/posts/2255796464986854",
+      "url": "https://www.facebook.com/groups/963562167543630/posts/2255796464986854",
+      "title": "Alternative electric companies in Clearfield, PA with ...",
+      "snippet": "For those who want to check on your electricity rates, CleanChoice Energy is offering $0.079/kwh, fixed for 12 months. This is significantly better than the",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Clearfield live",
+      "posted": "2026-09-21",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "queries": [
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "bf9e2e1615af"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-09-25",
+      "group": "Greater Cincinnati Politics",
+      "id": "https://www.facebook.com/groups/701426013209102/posts/28953546790903646",
+      "last_seen": "2026-09-25",
+      "posted": "2026-09-24",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "f95cb84b64f0"
+      },
+      "snippet": "There are real results and impacts when Policy, Legislation, and Funding is controlled by one group versus a balance to ensure that all voices and Ohioans can",
+      "source": "Facebook",
+      "title": "A reminder Accountability is important - Cincinnati - Facebook",
+      "url": "https://www.facebook.com/groups/701426013209102/posts/28953546790903646"
     },
     {
       "context": "facebook.com",
@@ -5120,35 +6238,36 @@
       "url": "https://www.facebook.com/groups/969688853087229/posts/28719209754375099"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-09-23",
-      "group": "What's happening on the Divide",
       "id": "https://www.facebook.com/groups/WHOTD/posts/10175492571225082",
-      "last_seen": "2026-09-23",
+      "url": "https://www.facebook.com/groups/WHOTD/posts/10175492571225082",
+      "title": "No Bull electric review: Envi heat system installation",
+      "snippet": "(~ $23k). supplies 90% of my heating load still. 3 - I wanted to fully electrify ・ hot water heating done by the HP ・ heating all day long",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "What's happening on the Divide",
       "posted": "2026-09-22",
-      "production": {
-        "accepted": false,
-        "reason": "keyword",
-        "source": "rules"
-      },
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-09-25",
       "queries": [
-        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
+        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio",
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
         "host": true,
         "keyword": false,
-        "lead": false,
         "ohio": false,
-        "reason": "keyword",
-        "semantic_accepted": false,
-        "version": "5f319789a93d"
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "bf9e2e1615af"
       },
-      "snippet": "90% of the time my bill for cooling 1400sq ft was $165 to $180 a month. This months bill was only $110",
-      "source": "Facebook",
-      "title": "No Bull electric review: Envi heat system installation - Facebook",
-      "url": "https://www.facebook.com/groups/WHOTD/posts/10175492571225082"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
     },
     {
       "context": "facebook.com",
@@ -8475,8 +9594,8 @@
     {
       "id": "https://www.facebook.com/groups/405994365566/posts/10175157133860567",
       "url": "https://www.facebook.com/groups/405994365566/posts/10175157133860567",
-      "title": "1200 a month electricity incuded - Facebook",
-      "snippet": "On average it's $99-200 … $1500 =$125 a month - for car charging, major appliances, daily work and use. $0.1651 per kWh.",
+      "title": "1200 a month electricity incuded",
+      "snippet": "On average it's $99-200 … $1500 =$125 a month - for car charging, major appliances, daily work and use. Not bad at all. an all electric house? Home is all",
       "source": "Facebook",
       "context": "facebook.com",
       "group": "St. Augustine Real Estate",
@@ -8485,7 +9604,8 @@
       "last_seen": "2026-09-25",
       "queries": [
         "site:facebook.com/groups (\"summer electric bill\" OR \"AC bill\" OR \"air conditioning bill\" OR \"bill this summer\") Ohio",
-        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
+        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")",
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
       ],
       "rules": {
         "accepted": false,
@@ -8496,7 +9616,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": false,
-        "version": "f95cb84b64f0"
+        "version": "bf9e2e1615af"
       },
       "production": {
         "accepted": false,
@@ -8940,37 +10060,38 @@
       "url": "https://www.facebook.com/groups/aaccohio/posts/1403071665251665"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-09-21",
-      "group": "Point Place",
       "id": "https://www.facebook.com/groups/PointPlace/posts/10168463340729488",
-      "last_seen": "2026-09-22",
+      "url": "https://www.facebook.com/groups/PointPlace/posts/10168463340729488",
+      "title": "What electric suppliers offer fixed rates in Point Place?",
+      "snippet": "Electric supplier\nWho does everyone go thru for electric? Recently got a letter in the mail that my supplier changed to variable rate & can change",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Point Place",
       "posted": "2026-09-21",
-      "production": {
-        "accepted": false,
-        "reason": "geography",
-        "source": "rules"
-      },
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-25",
       "queries": [
         "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio",
         "site:facebook.com/groups (\"price to compare\" OR \"variable rate\" OR \"fixed rate\") Ohio energy",
-        "site:facebook.com (\"electric supplier\" OR \"gas supplier\") Ohio"
+        "site:facebook.com (\"electric supplier\" OR \"gas supplier\") Ohio",
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": false,
+        "semantic_accepted": false,
+        "reason": "geography",
         "host": true,
         "keyword": true,
-        "lead": true,
         "ohio": false,
-        "reason": "geography",
-        "semantic_accepted": false,
-        "version": "d3c52b3a0391"
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "bf9e2e1615af"
       },
-      "snippet": "What are good electric and gas suppliers in Ohio? Toledo Edison and Columbia Gas is a part of the Energychoice Ohio program,",
-      "source": "Facebook",
-      "title": "What electric suppliers offer fixed rates in Point Place? - Facebook",
-      "url": "https://www.facebook.com/groups/PointPlace/posts/10168463340729488"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
     },
     {
       "context": "facebook.com",
@@ -10652,36 +11773,37 @@
       "url": "https://en.wikipedia.org/wiki/Wi-Fi"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-09-20",
-      "group": "Sheffield / Sheffield Lake Ohio Community Page",
       "id": "https://www.facebook.com/groups/1950496001645637/posts/29390026990599168",
-      "last_seen": "2026-09-20",
+      "url": "https://www.facebook.com/groups/1950496001645637/posts/29390026990599168",
+      "title": "Why are smart meters in Sheffield, Ohio still estimating bills",
+      "snippet": "What in the hell is the point in these new SMART METERS if they are still estimating our bills up to $500!! Im noooot understanding 🤬",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Sheffield / Sheffield Lake Ohio Community Page",
       "posted": "2026-09-19",
-      "production": {
-        "accepted": false,
-        "reason": "intent",
-        "source": "rules"
-      },
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-25",
       "queries": [
         "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio",
-        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio"
+        "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio",
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": true,
-        "host": true,
-        "keyword": true,
-        "lead": false,
-        "ohio": true,
-        "reason": "intent",
         "semantic_accepted": false,
-        "version": "57158ebcd4c9"
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "bf9e2e1615af"
       },
-      "snippet": "Many residents report higher bills, up to $500, despite having smart meters, with some suggesting tracking usage and contacting the electric company for",
-      "source": "Facebook",
-      "title": "Why are smart meters in Sheffield, Ohio still estimating bills - Facebook",
-      "url": "https://www.facebook.com/groups/1950496001645637/posts/29390026990599168"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
     },
     {
       "context": "facebook.com",
@@ -10873,8 +11995,8 @@
     {
       "id": "https://www.facebook.com/groups/194430493950148/posts/28656658170634000",
       "url": "https://www.facebook.com/groups/194430493950148/posts/28656658170634000",
-      "title": "What is the average electric bill for a 2,500 sq foot 2-story home in ...",
-      "snippet": "Typically $83 a month. Ohio is in the top 20 states for highest electric costs across the US. believe by 5% each year?",
+      "title": "What is the average electric bill for a 2500 sq foot 2-story ...",
+      "snippet": "I saw a post about high electric bills in Brunswick. We will be moving back to ohio soon, can someone tell me the average electric bill for a aprox 2500-3500",
       "source": "Facebook",
       "context": "facebook.com",
       "group": "You know you're from Brunswick if...",
@@ -10883,7 +12005,8 @@
       "last_seen": "2026-09-25",
       "queries": [
         "site:facebook.com/groups (\"Ohio Edison\" OR \"Illuminating Company\" OR \"Toledo Edison\" OR \"FirstEnergy\") Ohio",
-        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
+        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")",
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -10894,7 +12017,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": false,
-        "version": "f95cb84b64f0"
+        "version": "bf9e2e1615af"
       },
       "production": {
         "accepted": false,
@@ -13135,39 +14258,40 @@
       "url": "https://www.facebook.com/groups/418537698529210/posts/2851715431878079"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-09-19",
-      "group": "You know you're from Brunswick if...",
       "id": "https://www.facebook.com/groups/194430493950148/posts/28645787078387776",
-      "last_seen": "2026-09-22",
+      "url": "https://www.facebook.com/groups/194430493950148/posts/28645787078387776",
+      "title": "Understanding Brunswick, OH Edison and NOPEC ...",
+      "snippet": "Can someone help me understand this Ohio Edison Bill I’m being charged by both Edison and NOPEC NextEra it’s. It making sense. Thanks",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "You know you're from Brunswick if...",
       "posted": "2026-09-18",
-      "production": {
-        "accepted": false,
-        "reason": "intent",
-        "source": "rules"
-      },
+      "first_seen": "2026-09-19",
+      "last_seen": "2026-09-25",
       "queries": [
         "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio",
         "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio",
         "site:facebook.com/groups (\"no longer be part\" OR \"leaving the aggregation\" OR \"village aggregation\" OR \"township aggregation\") Ohio",
         "site:facebook.com/groups (\"price to compare\" OR \"variable rate\" OR \"fixed rate\") Ohio energy",
-        "site:facebook.com/groups (\"summer electric bill\" OR \"AC bill\" OR \"air conditioning bill\" OR \"bill this summer\") Ohio"
+        "site:facebook.com/groups (\"summer electric bill\" OR \"AC bill\" OR \"air conditioning bill\" OR \"bill this summer\") Ohio",
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": false,
+        "semantic_accepted": false,
+        "reason": "intent",
         "host": true,
         "keyword": true,
-        "lead": false,
         "ohio": true,
-        "reason": "intent",
-        "semantic_accepted": false,
-        "version": "d3c52b3a0391"
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "bf9e2e1615af"
       },
-      "snippet": "In Ohio's deregulated energy market, your electric bill is split into two parts: delivery and supply. You are not being double-charged for the same service;",
-      "source": "Facebook",
-      "title": "Understanding Brunswick, OH Edison and NOPEC NextEra Energy ...",
-      "url": "https://www.facebook.com/groups/194430493950148/posts/28645787078387776"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "intent"
+      }
     },
     {
       "context": "facebook.com",
@@ -13576,36 +14700,36 @@
       "url": "https://www.facebook.com/groups/727505665141589/posts/1731980518027427"
     },
     {
-      "id": "https://www.facebook.com/groups/1086887121670772/posts/2919575305068602",
-      "url": "https://www.facebook.com/groups/1086887121670772/posts/2919575305068602",
-      "title": "Moving into a new home next month and curious to know cheapest ...",
-      "snippet": "What can I expect a monthly electric bill to run on average for a 3bed 2 bath home? My current electric bill runs approx $200 month here in Missouri. Final",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Schonsee/ Crystallina Nera Community Network",
-      "posted": "2026-09-18",
       "first_seen": "2026-09-19",
+      "group": "Schonsee/ Crystallina Nera Community Network",
+      "id": "https://www.facebook.com/groups/1086887121670772/posts/2919575305068602",
       "last_seen": "2026-09-25",
+      "posted": "2026-09-18",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio",
         "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "f95cb84b64f0"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "What can I expect a monthly electric bill to run on average for a 3bed 2 bath home? My current electric bill runs approx $200 month here in Missouri. Final",
+      "source": "Facebook",
+      "title": "Moving into a new home next month and curious to know cheapest ...",
+      "url": "https://www.facebook.com/groups/1086887121670772/posts/2919575305068602"
     },
     {
       "context": "facebook.com",
@@ -28556,66 +29680,66 @@
       "url": "https://www.facebook.com/groups/300580480147028/posts/3343410145864031"
     },
     {
-      "id": "https://www.facebook.com/groups/273821537435387/posts/885130902971111",
-      "url": "https://www.facebook.com/groups/273821537435387/posts/885130902971111",
-      "title": "Fostoria 44830 - Talk of the Town | Does anyone know the cheapest weekly rate for a motel in town | Facebook",
-      "snippet": "Cheapest weekly motel rates in town. Summarized by AI from the post below. Fostoria 44830 - Talk of the Town ·. Does anyone know the cheapest weekly rate for a motel in town? Trying to put up a homeless couple. It's getting cold outside. The motel by jb twisters. They have done a lot of work to them…",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Fostoria 44830 - Talk of the Town",
-      "posted": "2023-09-30",
       "first_seen": "2026-09-12",
+      "group": "Fostoria 44830 - Talk of the Town",
+      "id": "https://www.facebook.com/groups/273821537435387/posts/885130902971111",
       "last_seen": "2026-09-25",
+      "posted": "2023-09-30",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups/273821537435387/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "f95cb84b64f0"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "snippet": "Cheapest weekly motel rates in town. Summarized by AI from the post below. Fostoria 44830 - Talk of the Town ·. Does anyone know the cheapest weekly rate for a motel in town? Trying to put up a homeless couple. It's getting cold outside. The motel by jb twisters. They have done a lot of work to them…",
+      "source": "Facebook",
+      "title": "Fostoria 44830 - Talk of the Town | Does anyone know the cheapest weekly rate for a motel in town | Facebook",
+      "url": "https://www.facebook.com/groups/273821537435387/posts/885130902971111"
     },
     {
-      "id": "https://www.facebook.com/groups/273821537435387/posts/1446143106869885",
-      "url": "https://www.facebook.com/groups/273821537435387/posts/1446143106869885",
-      "title": "Fostoria 44830 - Talk of the Town | Does anyone got a bill with the number of that aggregate place they are trying to force on us, I need to opt out of it but seem to have lost the numbe... | Facebook",
-      "snippet": "Opt out of aggregate place in Fostoria, OH? Summarized by AI from the post below. Fostoria 44830 - Talk of the Town ·. Does anyone got a bill with the number of that aggregate place they are trying to force on us, I need to opt out of it but seem to have lost the number and name of the place. Look o…",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Fostoria 44830 - Talk of the Town",
-      "posted": "2025-12-16",
       "first_seen": "2026-09-12",
+      "group": "Fostoria 44830 - Talk of the Town",
+      "id": "https://www.facebook.com/groups/273821537435387/posts/1446143106869885",
       "last_seen": "2026-09-25",
+      "posted": "2025-12-16",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups/273821537435387/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
         "version": "f95cb84b64f0"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
+      "snippet": "Opt out of aggregate place in Fostoria, OH? Summarized by AI from the post below. Fostoria 44830 - Talk of the Town ·. Does anyone got a bill with the number of that aggregate place they are trying to force on us, I need to opt out of it but seem to have lost the number and name of the place. Look o…",
+      "source": "Facebook",
+      "title": "Fostoria 44830 - Talk of the Town | Does anyone got a bill with the number of that aggregate place they are trying to force on us, I need to opt out of it but seem to have lost the numbe... | Facebook",
+      "url": "https://www.facebook.com/groups/273821537435387/posts/1446143106869885"
     },
     {
       "context": "facebook.com",
@@ -30596,35 +31720,35 @@
       "url": "https://www.facebook.com/groups/2393746017427632/posts/3212260865576139"
     },
     {
-      "id": "https://www.facebook.com/groups/2393746017427632/posts/3333587563443468",
-      "url": "https://www.facebook.com/groups/2393746017427632/posts/3333587563443468",
-      "title": "LANDLORD & TENANT LEGAL ADVICE & SUPPORT GROUP | My landlord wants to decorate my whole property from top to bottom and put new flooring down in the kitchen/bathroom | Facebook",
-      "snippet": "Title: LANDLORD & TENANT LEGAL ADVICE & SUPPORT GROUP | My landlord wants to decorate my whole property from top to bottom and put new flooring down in the kitchen/bathroom | Facebook\nLANDLORD & TENANT LEGAL ADVICE & SUPPORT GROUP | My landlord wants to decorate my whole property from top to bottom …",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "",
-      "posted": "2025-02-06",
       "first_seen": "2026-09-11",
+      "group": "",
+      "id": "https://www.facebook.com/groups/2393746017427632/posts/3333587563443468",
       "last_seen": "2026-09-25",
+      "posted": "2025-02-06",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "f95cb84b64f0"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "snippet": "Title: LANDLORD & TENANT LEGAL ADVICE & SUPPORT GROUP | My landlord wants to decorate my whole property from top to bottom and put new flooring down in the kitchen/bathroom | Facebook\nLANDLORD & TENANT LEGAL ADVICE & SUPPORT GROUP | My landlord wants to decorate my whole property from top to bottom …",
+      "source": "Facebook",
+      "title": "LANDLORD & TENANT LEGAL ADVICE & SUPPORT GROUP | My landlord wants to decorate my whole property from top to bottom and put new flooring down in the kitchen/bathroom | Facebook",
+      "url": "https://www.facebook.com/groups/2393746017427632/posts/3333587563443468"
     },
     {
       "context": "facebook.com",
@@ -31253,35 +32377,35 @@
       "url": "https://www.facebook.com/groups/wakullacitizens/posts/2112309386050152"
     },
     {
-      "id": "https://www.facebook.com/groups/freelegaladvice/posts/4259790057405833",
-      "url": "https://www.facebook.com/groups/freelegaladvice/posts/4259790057405833",
-      "title": "Free Legal Advice | Can a utilities company hold a landlord responsible for a tenant's unpaid bill. | Facebook",
-      "snippet": "Can a utilities company hold a landlord responsible for a tenant's unpaid bill. I was told at a citizens advice meeting that electric bill debts can't be enforced, not 100% on this. But it can be wiped off if you are in receipt of benefits. And prove hardship that it will put you in a hardship to pa…",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Free Legal Advice",
-      "posted": "2021-04-21",
       "first_seen": "2026-09-11",
+      "group": "Free Legal Advice",
+      "id": "https://www.facebook.com/groups/freelegaladvice/posts/4259790057405833",
       "last_seen": "2026-09-25",
+      "posted": "2021-04-21",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "f95cb84b64f0"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "Can a utilities company hold a landlord responsible for a tenant's unpaid bill. I was told at a citizens advice meeting that electric bill debts can't be enforced, not 100% on this. But it can be wiped off if you are in receipt of benefits. And prove hardship that it will put you in a hardship to pa…",
+      "source": "Facebook",
+      "title": "Free Legal Advice | Can a utilities company hold a landlord responsible for a tenant's unpaid bill. | Facebook",
+      "url": "https://www.facebook.com/groups/freelegaladvice/posts/4259790057405833"
     },
     {
       "context": "facebook.com",
@@ -31315,35 +32439,35 @@
       "url": "https://www.facebook.com/groups/wakullacitizens/posts/2109725496308541"
     },
     {
-      "id": "https://www.facebook.com/groups/fixingyorkpa/posts/2638432042977123",
-      "url": "https://www.facebook.com/groups/fixingyorkpa/posts/2638432042977123",
-      "title": "Fixing York PA | Question: when moving into a townhouse does the landlord put the utility bills in their name and the tenant pays the bill every month | Facebook",
-      "snippet": "Do tenants or landlords pay utility bills in a townhouse? Summarized by AI from the post below. Question: when moving into a townhouse does the landlord put the utility bills in their name and the tenant pays the bill every month? Or does the tenant of the townhouse open up utility accounts in their…",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Fixing York PA",
-      "posted": "2023-09-19",
       "first_seen": "2026-09-11",
+      "group": "Fixing York PA",
+      "id": "https://www.facebook.com/groups/fixingyorkpa/posts/2638432042977123",
       "last_seen": "2026-09-25",
+      "posted": "2023-09-19",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "f95cb84b64f0"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "snippet": "Do tenants or landlords pay utility bills in a townhouse? Summarized by AI from the post below. Question: when moving into a townhouse does the landlord put the utility bills in their name and the tenant pays the bill every month? Or does the tenant of the townhouse open up utility accounts in their…",
+      "source": "Facebook",
+      "title": "Fixing York PA | Question: when moving into a townhouse does the landlord put the utility bills in their name and the tenant pays the bill every month | Facebook",
+      "url": "https://www.facebook.com/groups/fixingyorkpa/posts/2638432042977123"
     },
     {
       "context": "facebook.com",
