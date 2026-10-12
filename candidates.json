@@ -1,20 +1,20 @@
 {
-  "updated": "2026-10-12T03:40:26Z",
-  "count": 966,
+  "updated": "2026-10-12T20:42:22Z",
+  "count": 1000,
   "candidates": [
     {
-      "id": "https://www.facebook.com/groups/630526143723491/posts/28455987437417321",
-      "url": "https://www.facebook.com/groups/630526143723491/posts/28455987437417321",
-      "title": "super gas ⛽️ saver 35-38 mpg, smooth driving small suv ...",
-      "snippet": "Super nice one owner AWD gas saver!!! If you're looking for a gas saver and want a suv this is it!! AWD and LT which is rare!! Sunroof and clean as a pin",
+      "id": "https://www.facebook.com/groups/progressgrovecity/posts/1793279848572966",
+      "url": "https://www.facebook.com/groups/progressgrovecity/posts/1793279848572966",
+      "title": "the task force plans to visit Hilliard on Tuesday, October 20 ...",
+      "snippet": "Air emissions. Staff said the city doesn't set emissions standards; Ohio EPA and federal rules do. The city has helped walk past projects through the EPA permit",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "",
-      "posted": "2026-10-11",
+      "group": "Grove City Area Progress",
+      "posted": "2026-10-08",
       "first_seen": "2026-10-12",
       "last_seen": "2026-10-12",
       "queries": [
-        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
+        "site:facebook.com/groups (\"no longer be part\" OR \"leaving the aggregation\" OR \"village aggregation\" OR \"township aggregation\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -25,7 +25,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "9730bce4e393"
+        "version": "2a832b93d558"
       },
       "production": {
         "accepted": false,
@@ -34,18 +34,49 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/1557119015001224/posts/2029897504390037",
-      "url": "https://www.facebook.com/groups/1557119015001224/posts/2029897504390037",
-      "title": "Why are Eversource natural gas burners discolored?",
-      "snippet": "What people are saying Orange flames may be due to dirty burners, improper gas-to-oxygen mixture, low gas pressure, or incorrect stove conversion.",
+      "context": "facebook.com",
+      "first_seen": "2026-10-12",
+      "group": "",
+      "id": "https://www.facebook.com/groups/630526143723491/posts/28455987437417321",
+      "last_seen": "2026-10-12",
+      "posted": "2026-10-11",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "9730bce4e393"
+      },
+      "snippet": "Super nice one owner AWD gas saver!!! If you're looking for a gas saver and want a suv this is it!! AWD and LT which is rare!! Sunroof and clean as a pin",
+      "source": "Facebook",
+      "title": "super gas ⛽️ saver 35-38 mpg, smooth driving small suv ...",
+      "url": "https://www.facebook.com/groups/630526143723491/posts/28455987437417321"
+    },
+    {
+      "id": "https://www.facebook.com/groups/992130641143812/posts/3010102109346645",
+      "url": "https://www.facebook.com/groups/992130641143812/posts/3010102109346645",
+      "title": "Why is my electric bill increasing? | Harvest, AL",
+      "snippet": "Depending on b your billing cycle you will be billed for consumption. Ecobee helps. in Ohio I got my bill from 80$ to 490$ per month due to data center.",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Citizens Against Eversource",
-      "posted": "2026-10-11",
+      "group": "What's Happening in Huntsville, Madison, Athens",
+      "posted": "2026-10-12",
       "first_seen": "2026-10-12",
       "last_seen": "2026-10-12",
       "queries": [
-        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
+        "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -56,7 +87,7 @@
         "ohio": false,
         "lead": true,
         "hard_exclusion": false,
-        "version": "9730bce4e393"
+        "version": "2a832b93d558"
       },
       "production": {
         "accepted": false,
@@ -65,49 +96,266 @@
       }
     },
     {
+      "context": "facebook.com",
+      "first_seen": "2026-10-12",
+      "group": "Citizens Against Eversource",
+      "id": "https://www.facebook.com/groups/1557119015001224/posts/2029897504390037",
+      "last_seen": "2026-10-12",
+      "posted": "2026-10-11",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": false,
+        "host": true,
+        "keyword": true,
+        "lead": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "9730bce4e393"
+      },
+      "snippet": "What people are saying Orange flames may be due to dirty burners, improper gas-to-oxygen mixture, low gas pressure, or incorrect stove conversion.",
+      "source": "Facebook",
+      "title": "Why are Eversource natural gas burners discolored?",
+      "url": "https://www.facebook.com/groups/1557119015001224/posts/2029897504390037"
+    },
+    {
+      "id": "https://www.facebook.com/groups/465666090986912/posts/2101216464098525",
+      "url": "https://www.facebook.com/groups/465666090986912/posts/2101216464098525",
+      "title": "Who is Sharonville using for gas & electric this year",
+      "snippet": "Shalersville (Ohio) Shallersville have an an Electric aggregate program provider for the community... Sharp energy is clearly no longer a company to be trusted.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Neighbors- Sharonville, Ohio",
+      "posted": "2026-10-05",
+      "first_seen": "2026-10-12",
+      "last_seen": "2026-10-12",
+      "queries": [
+        "site:facebook.com/groups (\"no longer be part\" OR \"leaving the aggregation\" OR \"village aggregation\" OR \"township aggregation\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "2a832b93d558"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/389175173820560/posts/1095015396569864",
+      "url": "https://www.facebook.com/groups/389175173820560/posts/1095015396569864",
+      "title": "Which electric pressure canner do you recommend",
+      "snippet": "Which electric pressure canner do you recommend\nWhich one do you have. Which is easy to use. Do you have to put your jars in to get them hot or can",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Canning Your Way with Electric Pressure Canners",
+      "posted": "2026-10-11",
+      "first_seen": "2026-10-12",
+      "last_seen": "2026-10-12",
+      "queries": [
+        "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "2a832b93d558"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1622582694754492/posts/2990256814653733",
+      "url": "https://www.facebook.com/groups/1622582694754492/posts/2990256814653733",
+      "title": "What should I expect to pay for electricity in a 2 bedroom ...",
+      "snippet": "The electricity rate is based on individual units. A unit with lower consumption has a better rate. The energy past renters consumed is what establishing",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Canadians in Huatulco",
+      "posted": "2026-10-11",
+      "first_seen": "2026-10-12",
+      "last_seen": "2026-10-12",
+      "queries": [
+        "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "2a832b93d558"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/571980808729438/posts/1154979557096224",
+      "url": "https://www.facebook.com/groups/571980808729438/posts/1154979557096224",
+      "title": "What is better for a car wash, electric or gas power?",
+      "snippet": "Public electric is better than gas Anne Klander-Henderson. Electric pressure washers cost less on average, are easier to start and weigh less than gas models.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Harbor Freight Tool Junkies",
+      "posted": "2026-10-11",
+      "first_seen": "2026-10-12",
+      "last_seen": "2026-10-12",
+      "queries": [
+        "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "2a832b93d558"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/COGICHistoryPage/posts/2313628629178582",
+      "url": "https://www.facebook.com/groups/COGICHistoryPage/posts/2313628629178582",
+      "title": "We are just a few weeks away from the 111th Holy ...",
+      "snippet": "Enjoy! We invite you to join our aggregation of singers and musicians at the 111th Annual Holy Convocation! Online registration is available now: http://www.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "The COGIC History Page",
+      "posted": "2026-10-05",
+      "first_seen": "2026-10-12",
+      "last_seen": "2026-10-12",
+      "queries": [
+        "site:facebook.com/groups (\"no longer be part\" OR \"leaving the aggregation\" OR \"village aggregation\" OR \"township aggregation\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "2a832b93d558"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-12",
+      "group": "Fallout",
       "id": "https://www.facebook.com/groups/1374497390170218/posts/2259861478300467",
-      "url": "https://www.facebook.com/groups/1374497390170218/posts/2259861478300467",
-      "title": "Visiting Starlight Drive-In from a neighboring state",
+      "last_seen": "2026-10-12",
+      "posted": "2026-10-11",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "9730bce4e393"
+      },
       "snippet": "The Starlight Drive-In Rt.127 119 has served Maria Stein, Ohio since 1949. Only $25 a carload for two movies (or $10 for 13+ and $5 for ages 4-12)!",
       "source": "Facebook",
+      "title": "Visiting Starlight Drive-In from a neighboring state",
+      "url": "https://www.facebook.com/groups/1374497390170218/posts/2259861478300467"
+    },
+    {
       "context": "facebook.com",
-      "group": "Fallout",
-      "posted": "2026-10-11",
       "first_seen": "2026-10-12",
+      "group": "JUAL BELI UNIQLO SECOND INDONESIA",
+      "id": "https://www.facebook.com/groups/742959070133606/posts/1741076336988536",
       "last_seen": "2026-10-12",
+      "posted": "2026-10-11",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "9730bce4e393"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/742959070133606/posts/1741076336988536",
-      "url": "https://www.facebook.com/groups/742959070133606/posts/1741076336988536",
-      "title": "Utility shorts, longslave new balance",
       "snippet": "Utility shorts, longslave new balance. Silver Dominion — Gold & Silver 21w · Public Have shorts now finally let silver go and find its fair/ natural value?",
       "source": "Facebook",
+      "title": "Utility shorts, longslave new balance",
+      "url": "https://www.facebook.com/groups/742959070133606/posts/1741076336988536"
+    },
+    {
+      "id": "https://www.facebook.com/groups/2005062616516815/posts/2901431300213271",
+      "url": "https://www.facebook.com/groups/2005062616516815/posts/2901431300213271",
+      "title": "Updated Services and Updated prices!! Call me at any time ...",
+      "snippet": "Updated Services and Updated prices!! Call me at any time of day 24/7. 309-350-5088.",
+      "source": "Facebook",
       "context": "facebook.com",
-      "group": "JUAL BELI UNIQLO SECOND INDONESIA",
+      "group": "Hanoverton talk uncensored",
       "posted": "2026-10-11",
       "first_seen": "2026-10-12",
       "last_seen": "2026-10-12",
       "queries": [
-        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
+        "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -118,7 +366,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "9730bce4e393"
+        "version": "2a832b93d558"
       },
       "production": {
         "accepted": false,
@@ -127,18 +375,18 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/1061696584460490/posts/2149361292360675",
-      "url": "https://www.facebook.com/groups/1061696584460490/posts/2149361292360675",
-      "title": "Trump's deal with Putin for Russian diesel sparks concerns ...",
-      "snippet": "Trump just struck a deal with Putin for MILLIONS of tonnes of Russian diesel, relaxing U.S. sanctions. So Canadian goods get 50% tariffs while Russia",
+      "id": "https://www.facebook.com/groups/2347767252110778/posts/4730142027206610",
+      "url": "https://www.facebook.com/groups/2347767252110778/posts/4730142027206610",
+      "title": "Upcoming Etna Community bond and tax ballot measures ...",
+      "snippet": "💥💥💥COMING SOON:\nI plan to make some posts over the next few weeks that will, hopefully, give you a fuller picture of the coming Southwest Licking",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "SVE O UKRAJINI",
-      "posted": "2026-10-11",
+      "group": "Etna Community",
+      "posted": "2026-10-09",
       "first_seen": "2026-10-12",
       "last_seen": "2026-10-12",
       "queries": [
-        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
+        "site:facebook.com/groups (\"no longer be part\" OR \"leaving the aggregation\" OR \"village aggregation\" OR \"township aggregation\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -149,13 +397,44 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "9730bce4e393"
+        "version": "2a832b93d558"
       },
       "production": {
         "accepted": false,
         "source": "rules",
         "reason": "keyword"
       }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-12",
+      "group": "SVE O UKRAJINI",
+      "id": "https://www.facebook.com/groups/1061696584460490/posts/2149361292360675",
+      "last_seen": "2026-10-12",
+      "posted": "2026-10-11",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "9730bce4e393"
+      },
+      "snippet": "Trump just struck a deal with Putin for MILLIONS of tonnes of Russian diesel, relaxing U.S. sanctions. So Canadian goods get 50% tariffs while Russia",
+      "source": "Facebook",
+      "title": "Trump's deal with Putin for Russian diesel sparks concerns ...",
+      "url": "https://www.facebook.com/groups/1061696584460490/posts/2149361292360675"
     },
     {
       "id": "https://www.facebook.com/groups/405393253947626/posts/1832546691232268",
@@ -169,7 +448,8 @@
       "first_seen": "2026-10-12",
       "last_seen": "2026-10-12",
       "queries": [
-        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
+        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio",
+        "site:facebook.com/groups (\"no longer be part\" OR \"leaving the aggregation\" OR \"village aggregation\" OR \"township aggregation\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -180,7 +460,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "9730bce4e393"
+        "version": "2a832b93d558"
       },
       "production": {
         "accepted": false,
@@ -189,49 +469,49 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/605181626330199/posts/3483662861815380",
-      "url": "https://www.facebook.com/groups/605181626330199/posts/3483662861815380",
-      "title": "The inland in Geneva has fuel, gas, ice and is taking cards. ...",
-      "snippet": "We are operating on generator power. We have gas, ice, snacks, beer and much more. Fuel pumps available 24 hours with credit card as long as network remains",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Let's Talk Geneva, AL",
-      "posted": "2026-10-11",
       "first_seen": "2026-10-12",
+      "group": "Let's Talk Geneva, AL",
+      "id": "https://www.facebook.com/groups/605181626330199/posts/3483662861815380",
       "last_seen": "2026-10-12",
+      "posted": "2026-10-11",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "9730bce4e393"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "snippet": "We are operating on generator power. We have gas, ice, snacks, beer and much more. Fuel pumps available 24 hours with credit card as long as network remains",
+      "source": "Facebook",
+      "title": "The inland in Geneva has fuel, gas, ice and is taking cards. ...",
+      "url": "https://www.facebook.com/groups/605181626330199/posts/3483662861815380"
     },
     {
-      "id": "https://www.facebook.com/groups/BaltimoreLift/posts/4396735477308443",
-      "url": "https://www.facebook.com/groups/BaltimoreLift/posts/4396735477308443",
-      "title": "State Center community update meeting on October 12",
-      "snippet": "Residents will not need to do anything to be included in the aggregation. If residents choose not to participate, they will need to opt out. Specific",
+      "id": "https://www.facebook.com/groups/385621204854581/posts/28654631257526864",
+      "url": "https://www.facebook.com/groups/385621204854581/posts/28654631257526864",
+      "title": "The Commission approved an electric rate increase and ...",
+      "snippet": "The Commission approved an electric rate increase and are trying to justify their actions. Now, imagine what will happen when huge expenditures are",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Baltimore Lift",
-      "posted": "2026-10-09",
+      "group": "The WWN What Weston Needs ........",
+      "posted": "2026-10-12",
       "first_seen": "2026-10-12",
       "last_seen": "2026-10-12",
       "queries": [
-        "site:facebook.com/groups (\"aggregation is ending\" OR \"aggregation ending\" OR \"opt out letter\" OR \"community aggregation\") Ohio"
+        "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -242,7 +522,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "9730bce4e393"
+        "version": "2a832b93d558"
       },
       "production": {
         "accepted": false,
@@ -251,80 +531,142 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/446755724931575/posts/1119107094363098",
-      "url": "https://www.facebook.com/groups/446755724931575/posts/1119107094363098",
-      "title": "Sister-in-Law Humiliates Children with Gifts, Exposes ...",
-      "snippet": "The gas card in Julian's wallet was connected to my account. Their family phone plan came out of my account too. So did roadside assistance, cloud storage",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Soup Lovers",
-      "posted": "2026-10-11",
       "first_seen": "2026-10-12",
+      "group": "Baltimore Lift",
+      "id": "https://www.facebook.com/groups/BaltimoreLift/posts/4396735477308443",
       "last_seen": "2026-10-12",
-      "queries": [
-        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "9730bce4e393"
-      },
+      "posted": "2026-10-09",
       "production": {
         "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/1872564703059712/posts/4489941944655295",
-      "url": "https://www.facebook.com/groups/1872564703059712/posts/4489941944655295",
-      "title": "Sample ballot for Eaton, Ohio, November 3, 2026",
-      "snippet": "Official General Election Ballot, November 3, 2026. OT ending 1-3-2029) The last day to register to vote is April 6th. There are 7 issues on the ballot on",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Residents and Neighbors of West Alexandria",
-      "posted": "2026-10-07",
-      "first_seen": "2026-10-12",
-      "last_seen": "2026-10-12",
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"aggregation is ending\" OR \"aggregation ending\" OR \"opt out letter\" OR \"community aggregation\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": true,
-        "lead": false,
         "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "9730bce4e393"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "snippet": "Residents will not need to do anything to be included in the aggregation. If residents choose not to participate, they will need to opt out. Specific",
+      "source": "Facebook",
+      "title": "State Center community update meeting on October 12",
+      "url": "https://www.facebook.com/groups/BaltimoreLift/posts/4396735477308443"
     },
     {
+      "context": "facebook.com",
+      "first_seen": "2026-10-12",
+      "group": "Soup Lovers",
+      "id": "https://www.facebook.com/groups/446755724931575/posts/1119107094363098",
+      "last_seen": "2026-10-12",
+      "posted": "2026-10-11",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "9730bce4e393"
+      },
+      "snippet": "The gas card in Julian's wallet was connected to my account. Their family phone plan came out of my account too. So did roadside assistance, cloud storage",
+      "source": "Facebook",
+      "title": "Sister-in-Law Humiliates Children with Gifts, Exposes ...",
+      "url": "https://www.facebook.com/groups/446755724931575/posts/1119107094363098"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-12",
+      "group": "Residents and Neighbors of West Alexandria",
+      "id": "https://www.facebook.com/groups/1872564703059712/posts/4489941944655295",
+      "last_seen": "2026-10-12",
+      "posted": "2026-10-07",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"aggregation is ending\" OR \"aggregation ending\" OR \"opt out letter\" OR \"community aggregation\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "9730bce4e393"
+      },
+      "snippet": "Official General Election Ballot, November 3, 2026. OT ending 1-3-2029) The last day to register to vote is April 6th. There are 7 issues on the ballot on",
+      "source": "Facebook",
+      "title": "Sample ballot for Eaton, Ohio, November 3, 2026",
+      "url": "https://www.facebook.com/groups/1872564703059712/posts/4489941944655295"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-12",
+      "group": "Michio Kaku",
       "id": "https://www.facebook.com/groups/303649262041653/posts/1137590241980880",
-      "url": "https://www.facebook.com/groups/303649262041653/posts/1137590241980880",
-      "title": "Rising demand for rare earth elements may slow offshore ...",
+      "last_seen": "2026-10-12",
+      "posted": "2026-10-11",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "9730bce4e393"
+      },
       "snippet": "Rising demand for rare earth elements could slow the rapid growth of offshore wind power around the world.",
       "source": "Facebook",
+      "title": "Rising demand for rare earth elements may slow offshore ...",
+      "url": "https://www.facebook.com/groups/303649262041653/posts/1137590241980880"
+    },
+    {
+      "id": "https://www.facebook.com/groups/194430493950148/posts/28920308060935675",
+      "url": "https://www.facebook.com/groups/194430493950148/posts/28920308060935675",
+      "title": "Reliable electricians for whole-home electrical safety ...",
+      "snippet": "Hi neighbors! Looking for recommendations for a reliable electrician who does whole-home electrical safety inspections.\n\nSeveral of our outlets don’t",
+      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Michio Kaku",
-      "posted": "2026-10-11",
+      "group": "You know you're from Brunswick if...",
+      "posted": "2026-10-09",
       "first_seen": "2026-10-12",
       "last_seen": "2026-10-12",
       "queries": [
-        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
+        "site:facebook.com/groups/194430493950148/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
@@ -335,7 +677,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "9730bce4e393"
+        "version": "2a832b93d558"
       },
       "production": {
         "accepted": false,
@@ -355,7 +697,8 @@
       "first_seen": "2026-10-12",
       "last_seen": "2026-10-12",
       "queries": [
-        "site:facebook.com/groups (\"aggregation is ending\" OR \"aggregation ending\" OR \"opt out letter\" OR \"community aggregation\") Ohio"
+        "site:facebook.com/groups (\"aggregation is ending\" OR \"aggregation ending\" OR \"opt out letter\" OR \"community aggregation\") Ohio",
+        "site:facebook.com/groups (\"no longer be part\" OR \"leaving the aggregation\" OR \"village aggregation\" OR \"township aggregation\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -366,7 +709,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "9730bce4e393"
+        "version": "2a832b93d558"
       },
       "production": {
         "accepted": false,
@@ -375,49 +718,18 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/1491177607792441/posts/4542827195960785",
-      "url": "https://www.facebook.com/groups/1491177607792441/posts/4542827195960785",
-      "title": "Oxford students' death caused by substance use, not kratom",
-      "snippet": "Authorities have not determined that kratom or 7-OH caused or contributed to the students' deaths. The deaths have raised new concerns",
+      "id": "https://www.facebook.com/groups/636666573872143/posts/2188700468668738",
+      "url": "https://www.facebook.com/groups/636666573872143/posts/2188700468668738",
+      "title": "Oxygen tank assistance in Walton County during power ...",
+      "snippet": "Contact your local electric company, fire, and police departments and let them know you require electricity to use home medical equipment such as supplemental",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "COLUMBUS MS What's Going On Sponsored by Florals On 5th",
+      "group": "Walton County Visions and Ideas Non-Partisan Version.",
       "posted": "2026-10-11",
       "first_seen": "2026-10-12",
       "last_seen": "2026-10-12",
       "queries": [
-        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "9730bce4e393"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/742615063631642/posts/1776209410272197",
-      "url": "https://www.facebook.com/groups/742615063631642/posts/1776209410272197",
-      "title": "Office of Regulatory Staff helps with gas company dispute",
-      "snippet": "Public Rochester Gas & Electric Corp. and New York State Electric and Gas have filed a proposed rate settlement case for their gas and electric services.",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "City of Camden Utilities Discussion",
-      "posted": "2026-10-11",
-      "first_seen": "2026-10-12",
-      "last_seen": "2026-10-12",
-      "queries": [
-        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
+        "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -427,8 +739,8 @@
         "keyword": true,
         "ohio": false,
         "lead": false,
-        "hard_exclusion": false,
-        "version": "9730bce4e393"
+        "hard_exclusion": true,
+        "version": "2a832b93d558"
       },
       "production": {
         "accepted": false,
@@ -437,83 +749,83 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/rockcreekalovelyplacetolive/posts/28446973574913513",
-      "url": "https://www.facebook.com/groups/rockcreekalovelyplacetolive/posts/28446973574913513",
-      "title": "NOPEC Energy Workshop for Businesses and Nonprofits ...",
-      "snippet": "NOPEC is a governmental aggregation chosen by 240 Ohio communities to provide natural gas and/or electricity to residents and small businesses in their",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Rock Creek a wonderful place to live",
-      "posted": "2026-10-05",
       "first_seen": "2026-10-12",
+      "group": "COLUMBUS MS What's Going On Sponsored by Florals On 5th",
+      "id": "https://www.facebook.com/groups/1491177607792441/posts/4542827195960785",
       "last_seen": "2026-10-12",
-      "queries": [
-        "site:facebook.com/groups (\"aggregation is ending\" OR \"aggregation ending\" OR \"opt out letter\" OR \"community aggregation\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
-        "host": true,
-        "keyword": true,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": false,
-        "version": "9730bce4e393"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/937436246788754/posts/2379442359254795",
-      "url": "https://www.facebook.com/groups/937436246788754/posts/2379442359254795",
-      "title": "Mpower Energy representatives in Mt. Healthy asking for ...",
-      "snippet": "Mpower Energy was on Compton Lake yesterday asking to see energy bills. In a small white car and a white van! It was a bunch of young black adults 8-12",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Mt. Healthy Neighborhood Circle",
-      "posted": "2026-10-10",
-      "first_seen": "2026-10-12",
-      "last_seen": "2026-10-12",
-      "queries": [
-        "site:facebook.com/groups (\"aggregation is ending\" OR \"aggregation ending\" OR \"opt out letter\" OR \"community aggregation\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "9730bce4e393"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/1729385521069478/posts/2039954703345890",
-      "url": "https://www.facebook.com/groups/1729385521069478/posts/2039954703345890",
-      "title": "I lost my pup and found Vessel around the same time.",
-      "snippet": "I lost my pup and found Vessel around the same time.\nWorship",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "The Summoned - Sleep Token Community",
       "posted": "2026-10-11",
-      "first_seen": "2026-10-12",
-      "last_seen": "2026-10-12",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
       ],
       "rules": {
         "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "9730bce4e393"
+      },
+      "snippet": "Authorities have not determined that kratom or 7-OH caused or contributed to the students' deaths. The deaths have raised new concerns",
+      "source": "Facebook",
+      "title": "Oxford students' death caused by substance use, not kratom",
+      "url": "https://www.facebook.com/groups/1491177607792441/posts/4542827195960785"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-12",
+      "group": "City of Camden Utilities Discussion",
+      "id": "https://www.facebook.com/groups/742615063631642/posts/1776209410272197",
+      "last_seen": "2026-10-12",
+      "posted": "2026-10-11",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": false,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "9730bce4e393"
+      },
+      "snippet": "Public Rochester Gas & Electric Corp. and New York State Electric and Gas have filed a proposed rate settlement case for their gas and electric services.",
+      "source": "Facebook",
+      "title": "Office of Regulatory Staff helps with gas company dispute",
+      "url": "https://www.facebook.com/groups/742615063631642/posts/1776209410272197"
+    },
+    {
+      "id": "https://www.facebook.com/groups/1098639985849069/posts/1157084366671297",
+      "url": "https://www.facebook.com/groups/1098639985849069/posts/1157084366671297",
+      "title": "No grid growth documentation for Fairfield County",
+      "snippet": "Fairfield County commissioners' land-use plan shows more commercial and residential growth in northern part of county, worrying long-time residents. New",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "No Grid Growth Fairfield County",
+      "posted": "2026-10-11",
+      "first_seen": "2026-10-12",
+      "last_seen": "2026-10-12",
+      "queries": [
+        "site:facebook.com/groups (\"no longer be part\" OR \"leaving the aggregation\" OR \"village aggregation\" OR \"township aggregation\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
         "semantic_accepted": false,
         "reason": "keyword",
         "host": true,
@@ -521,12 +833,199 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "9730bce4e393"
+        "version": "2a832b93d558"
       },
       "production": {
         "accepted": false,
         "source": "rules",
         "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-12",
+      "group": "Rock Creek a wonderful place to live",
+      "id": "https://www.facebook.com/groups/rockcreekalovelyplacetolive/posts/28446973574913513",
+      "last_seen": "2026-10-12",
+      "posted": "2026-10-05",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"aggregation is ending\" OR \"aggregation ending\" OR \"opt out letter\" OR \"community aggregation\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": false,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
+        "version": "9730bce4e393"
+      },
+      "snippet": "NOPEC is a governmental aggregation chosen by 240 Ohio communities to provide natural gas and/or electricity to residents and small businesses in their",
+      "source": "Facebook",
+      "title": "NOPEC Energy Workshop for Businesses and Nonprofits ...",
+      "url": "https://www.facebook.com/groups/rockcreekalovelyplacetolive/posts/28446973574913513"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-12",
+      "group": "Mt. Healthy Neighborhood Circle",
+      "id": "https://www.facebook.com/groups/937436246788754/posts/2379442359254795",
+      "last_seen": "2026-10-12",
+      "posted": "2026-10-10",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"aggregation is ending\" OR \"aggregation ending\" OR \"opt out letter\" OR \"community aggregation\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "9730bce4e393"
+      },
+      "snippet": "Mpower Energy was on Compton Lake yesterday asking to see energy bills. In a small white car and a white van! It was a bunch of young black adults 8-12",
+      "source": "Facebook",
+      "title": "Mpower Energy representatives in Mt. Healthy asking for ...",
+      "url": "https://www.facebook.com/groups/937436246788754/posts/2379442359254795"
+    },
+    {
+      "id": "https://www.facebook.com/groups/355730114468582/posts/39152058751075568",
+      "url": "https://www.facebook.com/groups/355730114468582/posts/39152058751075568",
+      "title": "Looking for electrician to do some electrical work",
+      "snippet": "Looking for electrician to do some electrical work",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Stark County Everything",
+      "posted": "2026-10-11",
+      "first_seen": "2026-10-12",
+      "last_seen": "2026-10-12",
+      "queries": [
+        "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "2a832b93d558"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-12",
+      "group": "The Summoned - Sleep Token Community",
+      "id": "https://www.facebook.com/groups/1729385521069478/posts/2039954703345890",
+      "last_seen": "2026-10-12",
+      "posted": "2026-10-11",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "9730bce4e393"
+      },
+      "snippet": "I lost my pup and found Vessel around the same time.\nWorship",
+      "source": "Facebook",
+      "title": "I lost my pup and found Vessel around the same time.",
+      "url": "https://www.facebook.com/groups/1729385521069478/posts/2039954703345890"
+    },
+    {
+      "id": "https://www.facebook.com/groups/335103792746637/posts/1093596083564067",
+      "url": "https://www.facebook.com/groups/335103792746637/posts/1093596083564067",
+      "title": "How's everyone dealing with these gas prices?",
+      "snippet": "How’s everyone dealing with these gas prices?",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "UBER DRIVERS & UBER EATS GROUP",
+      "posted": "2026-10-11",
+      "first_seen": "2026-10-12",
+      "last_seen": "2026-10-12",
+      "queries": [
+        "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "2a832b93d558"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/883614447630574/posts/1074298125228871",
+      "url": "https://www.facebook.com/groups/883614447630574/posts/1074298125228871",
+      "title": "How will Oregon, OH data centers affect your electricity bill?",
+      "snippet": "Ohio's electric grid can't handle the demand, driving up electricity prices for in areas served by AEP, but the state also subsidizes data center expansion",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Oregon Ohio Community",
+      "posted": "2026-10-11",
+      "first_seen": "2026-10-12",
+      "last_seen": "2026-10-12",
+      "queries": [
+        "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": true,
+        "semantic_accepted": true,
+        "reason": "accepted",
+        "host": true,
+        "keyword": true,
+        "ohio": true,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "2a832b93d558",
+        "freshness": "fresh"
+      },
+      "production": {
+        "accepted": true,
+        "source": "rules",
+        "reason": "accepted"
       }
     },
     {
@@ -541,7 +1040,8 @@
       "first_seen": "2026-10-12",
       "last_seen": "2026-10-12",
       "queries": [
-        "site:facebook.com/groups (\"aggregation is ending\" OR \"aggregation ending\" OR \"opt out letter\" OR \"community aggregation\") Ohio"
+        "site:facebook.com/groups (\"aggregation is ending\" OR \"aggregation ending\" OR \"opt out letter\" OR \"community aggregation\") Ohio",
+        "site:facebook.com/groups (\"no longer be part\" OR \"leaving the aggregation\" OR \"village aggregation\" OR \"township aggregation\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -552,7 +1052,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "9730bce4e393"
+        "version": "2a832b93d558"
       },
       "production": {
         "accepted": false,
@@ -561,49 +1061,18 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/1379778119009272/posts/4648048062182245",
-      "url": "https://www.facebook.com/groups/1379778119009272/posts/4648048062182245",
-      "title": "Hardly ever used space heater natural gas.",
-      "snippet": "Just sharing our slow progress toward weaning off natural gas. Last month our gas use was 53.8% what it was in 2021, when there was a comparable number of",
+      "id": "https://www.facebook.com/groups/318544692832614/posts/1837177017636033",
+      "url": "https://www.facebook.com/groups/318544692832614/posts/1837177017636033",
+      "title": "Hey, anyone recommend a gas fireplace tech?",
+      "snippet": "Hey, anyone recommend a gas fireplace tech?",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Marshall County and surrounding area trading post",
-      "posted": "2026-10-11",
+      "group": "SBC South Baltimore Community",
+      "posted": "2026-10-12",
       "first_seen": "2026-10-12",
       "last_seen": "2026-10-12",
       "queries": [
-        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
-        "host": true,
-        "keyword": true,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": false,
-        "version": "9730bce4e393"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/BGHomesForSale/posts/28985440941089638",
-      "url": "https://www.facebook.com/groups/BGHomesForSale/posts/28985440941089638",
-      "title": "Gas Club Car Golf Cart Road Ready- Turn Signals, Brake ...",
-      "snippet": "contact Carts & Parts at (937) 459-8891 today. offer service, golf cart rentals, accessories, and financing to the residents of Ohio, Indiana, and beyond.",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Bowling Green For Sale By Owner FSBO",
-      "posted": "2026-10-11",
-      "first_seen": "2026-10-12",
-      "last_seen": "2026-10-12",
-      "queries": [
-        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
+        "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -614,7 +1083,193 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
+        "version": "2a832b93d558"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1438075996412256/posts/4833178633568625",
+      "url": "https://www.facebook.com/groups/1438075996412256/posts/4833178633568625",
+      "title": "Has everyone got there gas bill yet I got my elec bill last ...",
+      "snippet": "If you use natural gas check out what you are paying on your bill this year. In 3 months we have been charged 251.32. So Im wondering in April when the tax",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Woonsocket Community Page",
+      "posted": "2026-10-12",
+      "first_seen": "2026-10-12",
+      "last_seen": "2026-10-12",
+      "queries": [
+        "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "2a832b93d558"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-12",
+      "group": "Marshall County and surrounding area trading post",
+      "id": "https://www.facebook.com/groups/1379778119009272/posts/4648048062182245",
+      "last_seen": "2026-10-12",
+      "posted": "2026-10-11",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": false,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "9730bce4e393"
+      },
+      "snippet": "Just sharing our slow progress toward weaning off natural gas. Last month our gas use was 53.8% what it was in 2021, when there was a comparable number of",
+      "source": "Facebook",
+      "title": "Hardly ever used space heater natural gas.",
+      "url": "https://www.facebook.com/groups/1379778119009272/posts/4648048062182245"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-12",
+      "group": "Bowling Green For Sale By Owner FSBO",
+      "id": "https://www.facebook.com/groups/BGHomesForSale/posts/28985440941089638",
+      "last_seen": "2026-10-12",
+      "posted": "2026-10-11",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "9730bce4e393"
+      },
+      "snippet": "contact Carts & Parts at (937) 459-8891 today. offer service, golf cart rentals, accessories, and financing to the residents of Ohio, Indiana, and beyond.",
+      "source": "Facebook",
+      "title": "Gas Club Car Golf Cart Road Ready- Turn Signals, Brake ...",
+      "url": "https://www.facebook.com/groups/BGHomesForSale/posts/28985440941089638"
+    },
+    {
+      "id": "https://www.facebook.com/groups/919599004812822/posts/27561040606908633",
+      "url": "https://www.facebook.com/groups/919599004812822/posts/27561040606908633",
+      "title": "From back when the Columbus, Ohio streetcar system was ...",
+      "snippet": "When the electric power company was added the name was changed to the Columbus Railway & Light Company and later changed again to the Columbus Railway, Power &",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Trolleys Streetcars & Interurbans of America",
+      "posted": "2026-10-12",
+      "first_seen": "2026-10-12",
+      "last_seen": "2026-10-12",
+      "queries": [
+        "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "2a832b93d558"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/194430493950148/posts/28943463238620157",
+      "url": "https://www.facebook.com/groups/194430493950148/posts/28943463238620157",
+      "title": "Free scrap appliances and items for pickup in Brunswick",
+      "snippet": "We have 8 used appliances, 1 hot water tank, 2 gas grills, and a steel tube go cart frame, that are for scrap. They are located at 3474 Grafton road. Companies",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "You know you're from Brunswick if...",
+      "posted": "2026-10-11",
+      "first_seen": "2026-10-12",
+      "last_seen": "2026-10-12",
+      "queries": [
+        "site:facebook.com/groups/194430493950148/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "2a832b93d558"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/308970609727145/posts/2186134008677453",
+      "url": "https://www.facebook.com/groups/308970609727145/posts/2186134008677453",
+      "title": "Forest Park Ohio group administrators investigating post ...",
+      "snippet": "A Note from Your Group Administrators** We're aware that some posts and comments are being automatically declined, and we understand the frustration",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Forest Park Ohio Friends & Neighbors",
+      "posted": "2026-10-07",
+      "first_seen": "2026-10-12",
+      "last_seen": "2026-10-12",
+      "queries": [
+        "site:facebook.com/groups (\"no longer be part\" OR \"leaving the aggregation\" OR \"village aggregation\" OR \"township aggregation\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "2a832b93d558"
       },
       "production": {
         "accepted": false,
@@ -626,7 +1281,7 @@
       "id": "https://www.facebook.com/groups/403552061484699/posts/1645681217271771",
       "url": "https://www.facebook.com/groups/403552061484699/posts/1645681217271771",
       "title": "Feedback on Westlight Energy programs? | San Bruno, CA",
-      "snippet": "Westport electricity aggregation program? West Milton, Ohio 9y. Total Cost: $8,753.95 • Expected Annual Savings: $4,347",
+      "snippet": "I just got a letter in the mail from Village Of Westville aggregation electricity program, stating they selected constellation newenergy, inc. If you go",
       "source": "Facebook",
       "context": "facebook.com",
       "group": "San Bruno Improvement Group Inc.",
@@ -634,7 +1289,8 @@
       "first_seen": "2026-10-12",
       "last_seen": "2026-10-12",
       "queries": [
-        "site:facebook.com/groups (\"aggregation is ending\" OR \"aggregation ending\" OR \"opt out letter\" OR \"community aggregation\") Ohio"
+        "site:facebook.com/groups (\"aggregation is ending\" OR \"aggregation ending\" OR \"opt out letter\" OR \"community aggregation\") Ohio",
+        "site:facebook.com/groups (\"no longer be part\" OR \"leaving the aggregation\" OR \"village aggregation\" OR \"township aggregation\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -645,7 +1301,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "9730bce4e393"
+        "version": "2a832b93d558"
       },
       "production": {
         "accepted": false,
@@ -654,142 +1310,18 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/3542831095812945/posts/28431739586495418",
-      "url": "https://www.facebook.com/groups/3542831095812945/posts/28431739586495418",
-      "title": "Claimed By His Uncle: The Lycan's Forbidden Mate Novel",
-      "snippet": "I ran straight into my adoptive sister, Domenica. The air reeked of damp concrete, gasoline, and motor oil. He was a monster who ruled the Blackmoon Dominion",
+      "id": "https://www.facebook.com/groups/617092377172319/posts/1424858923062323",
+      "url": "https://www.facebook.com/groups/617092377172319/posts/1424858923062323",
+      "title": "Electricity and internet plans for White Oak homes starting ...",
+      "snippet": "The Village of Whitehouse staff and Council continue to work towards starting the new electric aggregation program for the Village, which is intended to reduce",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "GoodNovel-Love Romance Stories",
-      "posted": "2026-10-11",
+      "group": "All things White Oak",
+      "posted": "2026-10-07",
       "first_seen": "2026-10-12",
       "last_seen": "2026-10-12",
       "queries": [
-        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "9730bce4e393"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/whatshappeningpensacolafl/posts/1663791412005040",
-      "url": "https://www.facebook.com/groups/whatshappeningpensacolafl/posts/1663791412005040",
-      "title": "Circle k on sorrento road is now 24/7 as of 730am and ...",
-      "snippet": "Circle k on sorrento road is now 24/7 as of 730am and open ・ they have non ethanol, diesel and regular gas ・ fuel, food, & grocery stores open.",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "What's Happening Pensacola, FL",
-      "posted": "2026-10-11",
-      "first_seen": "2026-10-12",
-      "last_seen": "2026-10-12",
-      "queries": [
-        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "9730bce4e393"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/lancasterscwhatsup/posts/4260049244294436",
-      "url": "https://www.facebook.com/groups/lancasterscwhatsup/posts/4260049244294436",
-      "title": "Can Lancaster, SC's current electrical infrastructure ...",
-      "snippet": "Ok I'ma ask cause I don't know and I'm very interested to know the facts. Can our current electrical infrastructure support a data center? If so then",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Lancaster, SC Town Talk",
-      "posted": "2026-10-11",
-      "first_seen": "2026-10-12",
-      "last_seen": "2026-10-12",
-      "queries": [
-        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "9730bce4e393"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/41570683984/posts/10163894123048985",
-      "url": "https://www.facebook.com/groups/41570683984/posts/10163894123048985",
-      "title": "Boys from the Black Stuff perform Shane MacGowan & ...",
-      "snippet": "2 weeks tonight Bank holiday Sunday 25th Oct Boys from the Black Stuff perform the songs of Shane MacGowan & The Pogues with guests Mundy Looking",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "The Nottingham Gig Guide",
-      "posted": "2026-10-11",
-      "first_seen": "2026-10-12",
-      "last_seen": "2026-10-12",
-      "queries": [
-        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "9730bce4e393"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/AllAboutShepherdsville/posts/4491801244419303",
-      "url": "https://www.facebook.com/groups/AllAboutShepherdsville/posts/4491801244419303",
-      "title": "Assistance programs for Salt River payments in ...",
-      "snippet": "Columbia Gas of Ohio 1y · Public Assistance is available to customers who are struggling to pay their natural gas utility bill.",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "All about Shepherdsville",
-      "posted": "2026-10-11",
-      "first_seen": "2026-10-12",
-      "last_seen": "2026-10-12",
-      "queries": [
-        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
+        "site:facebook.com/groups (\"no longer be part\" OR \"leaving the aggregation\" OR \"village aggregation\" OR \"township aggregation\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -799,8 +1331,8 @@
         "keyword": true,
         "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
-        "version": "9730bce4e393"
+        "hard_exclusion": false,
+        "version": "2a832b93d558"
       },
       "production": {
         "accepted": false,
@@ -809,18 +1341,18 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/675562302480945/posts/28673243562286110",
-      "url": "https://www.facebook.com/groups/675562302480945/posts/28673243562286110",
-      "title": "Asking $20.00 Must PU in Lewisburg PM me if interested ...",
-      "snippet": "Money goes toward gas to help me visit my father in the hospital. Public REQUEST: Lewisburg, Columbia, surrounding areas!",
+      "id": "https://www.facebook.com/groups/194430493950148/posts/28932499526383195",
+      "url": "https://www.facebook.com/groups/194430493950148/posts/28932499526383195",
+      "title": "Electrician referrals for baseboard heating units in ...",
+      "snippet": "Looking for an electrician to look at some baseboard heating units in an all electic home. Does anyone know of someone they could refer me to?",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "troy ohio buy sale or trade",
-      "posted": "2026-10-11",
+      "group": "You know you're from Brunswick if...",
+      "posted": "2026-10-10",
       "first_seen": "2026-10-12",
       "last_seen": "2026-10-12",
       "queries": [
-        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
+        "site:facebook.com/groups/194430493950148/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
@@ -828,10 +1360,10 @@
         "reason": "keyword",
         "host": true,
         "keyword": false,
-        "ohio": true,
+        "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "9730bce4e393"
+        "version": "2a832b93d558"
       },
       "production": {
         "accepted": false,
@@ -840,18 +1372,18 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/whatsupcolerain/posts/2357789648354128",
-      "url": "https://www.facebook.com/groups/whatsupcolerain/posts/2357789648354128",
-      "title": "AEP Energy aggregation issues in Colerain",
-      "snippet": "I had to cancel another aggregation for the gas and electric company this is the second or third time I've lost count in the last couple years what a",
+      "id": "https://www.facebook.com/groups/1262670367123033/posts/28944475895182441",
+      "url": "https://www.facebook.com/groups/1262670367123033/posts/28944475895182441",
+      "title": "Electrical projects for winter preparation in Franklin/Tilton/ ...",
+      "snippet": "FirstEnergy Corp. electric companies Ohio Edison, The Illuminating Company and Toledo Edison have completed inspections and maintenance to help support",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "What's Up Colerain",
-      "posted": "2026-10-05",
+      "group": "Franklin/Tilton/Northfield What's going on",
+      "posted": "2026-10-12",
       "first_seen": "2026-10-12",
       "last_seen": "2026-10-12",
       "queries": [
-        "site:facebook.com/groups (\"aggregation is ending\" OR \"aggregation ending\" OR \"opt out letter\" OR \"community aggregation\") Ohio"
+        "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -862,7 +1394,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "9730bce4e393"
+        "version": "2a832b93d558"
       },
       "production": {
         "accepted": false,
@@ -871,18 +1403,18 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/279044345581644/posts/3687360478083330",
-      "url": "https://www.facebook.com/groups/279044345581644/posts/3687360478083330",
-      "title": "$12 Carbondale energy Marion Harrisburg equality",
-      "snippet": "Yesterday I received a letter from Eastern Power & Gas about Marietta's aggregation program. ... You only have till the end of the month to opt out or you are",
+      "id": "https://www.facebook.com/groups/linemanjobs/posts/39672916092292535",
+      "url": "https://www.facebook.com/groups/linemanjobs/posts/39672916092292535",
+      "title": "Does anyone have any contacts for gridco in Florida or Ga",
+      "snippet": "who do you use and recommend? Who's the best and most affordable? Public Suggestions on internet provider and electric company please. deliver top- notch power",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Franklin County Swap",
-      "posted": "2026-10-09",
+      "group": "Lineman Jobs",
+      "posted": "2026-10-12",
       "first_seen": "2026-10-12",
       "last_seen": "2026-10-12",
       "queries": [
-        "site:facebook.com/groups (\"aggregation is ending\" OR \"aggregation ending\" OR \"opt out letter\" OR \"community aggregation\") Ohio"
+        "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -893,7 +1425,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "9730bce4e393"
+        "version": "2a832b93d558"
       },
       "production": {
         "accepted": false,
@@ -902,18 +1434,111 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/unioncountyresale/posts/28692362457083060",
-      "url": "https://www.facebook.com/groups/unioncountyresale/posts/28692362457083060",
-      "title": "$12 Carbondale energy Marion Harrisburg equality",
-      "snippet": "January 16, 2024 Forum on Carlisle's Electric Supply Program Carlisle's Community Choice Aggregation (CCA) program allows Carlisle to secure an electric",
+      "id": "https://www.facebook.com/groups/1399834230537724/posts/2508487806339022",
+      "url": "https://www.facebook.com/groups/1399834230537724/posts/2508487806339022",
+      "title": "Do you cook or heat your home with natural gas?",
+      "snippet": "Do you cook or heat your home with natural gas?",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Union County Illinois Resale",
+      "group": "LOVELAND 1877 LOVELANDERS",
+      "posted": "2026-10-12",
+      "first_seen": "2026-10-12",
+      "last_seen": "2026-10-12",
+      "queries": [
+        "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "2a832b93d558"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/619389758489669/posts/2654081195020505",
+      "url": "https://www.facebook.com/groups/619389758489669/posts/2654081195020505",
+      "title": "Contractor recommendations for fireplace hearth reduction ...",
+      "snippet": "Benmarc LLC General Contracting could help you with all of these or at least get you a good quote to reference off of ? 3h. Chico Ramirez.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "What's Up in Delaware, OH",
+      "posted": "2026-10-11",
+      "first_seen": "2026-10-12",
+      "last_seen": "2026-10-12",
+      "queries": [
+        "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "2a832b93d558"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/4513016938980864?__cft__=",
+      "url": "https://www.facebook.com/groups/4513016938980864?__cft__=",
+      "title": "Conserve Ohio - Sign the petition to limit data centers!",
+      "snippet": "This group provides information and coordination for the petition effort to ban large-scale data centers in Ohio over 25 megawatts.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "",
+      "posted": "",
+      "first_seen": "2026-10-12",
+      "last_seen": "2026-10-12",
+      "queries": [
+        "site:facebook.com/groups (\"no longer be part\" OR \"leaving the aggregation\" OR \"village aggregation\" OR \"township aggregation\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "2a832b93d558"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/Cohasset/posts/28463965576558100",
+      "url": "https://www.facebook.com/groups/Cohasset/posts/28463965576558100",
+      "title": "Cohasset, MA Select Board Agenda for October 13, 2026",
+      "snippet": "Good Energy recommends moving Cohasset's municipal electricity-aggregation plan into a new Department of Public Utilities template.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Cohasset143",
       "posted": "2026-10-09",
       "first_seen": "2026-10-12",
       "last_seen": "2026-10-12",
       "queries": [
-        "site:facebook.com/groups (\"aggregation is ending\" OR \"aggregation ending\" OR \"opt out letter\" OR \"community aggregation\") Ohio"
+        "site:facebook.com/groups (\"no longer be part\" OR \"leaving the aggregation\" OR \"village aggregation\" OR \"township aggregation\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -924,13 +1549,447 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "9730bce4e393"
+        "version": "2a832b93d558"
       },
       "production": {
         "accepted": false,
         "source": "rules",
         "reason": "geography"
       }
+    },
+    {
+      "id": "https://www.facebook.com/groups/522608943652239/posts/1120856270494167",
+      "url": "https://www.facebook.com/groups/522608943652239/posts/1120856270494167",
+      "title": "Cleveland Ohio was first US city lit by electricity in 1879",
+      "snippet": "On April 29, 1879, at 7:55 pm Cleveland became the first city to use electric streetlights to illuminate an outdoor space. The inventor, Charles Brush, also",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "All About Ohio",
+      "posted": "2026-10-12",
+      "first_seen": "2026-10-12",
+      "last_seen": "2026-10-12",
+      "queries": [
+        "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "intent",
+        "host": true,
+        "keyword": true,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "2a832b93d558"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "intent"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-12",
+      "group": "GoodNovel-Love Romance Stories",
+      "id": "https://www.facebook.com/groups/3542831095812945/posts/28431739586495418",
+      "last_seen": "2026-10-12",
+      "posted": "2026-10-11",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "9730bce4e393"
+      },
+      "snippet": "I ran straight into my adoptive sister, Domenica. The air reeked of damp concrete, gasoline, and motor oil. He was a monster who ruled the Blackmoon Dominion",
+      "source": "Facebook",
+      "title": "Claimed By His Uncle: The Lycan's Forbidden Mate Novel",
+      "url": "https://www.facebook.com/groups/3542831095812945/posts/28431739586495418"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-12",
+      "group": "What's Happening Pensacola, FL",
+      "id": "https://www.facebook.com/groups/whatshappeningpensacolafl/posts/1663791412005040",
+      "last_seen": "2026-10-12",
+      "posted": "2026-10-11",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "9730bce4e393"
+      },
+      "snippet": "Circle k on sorrento road is now 24/7 as of 730am and open ・ they have non ethanol, diesel and regular gas ・ fuel, food, & grocery stores open.",
+      "source": "Facebook",
+      "title": "Circle k on sorrento road is now 24/7 as of 730am and ...",
+      "url": "https://www.facebook.com/groups/whatshappeningpensacolafl/posts/1663791412005040"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-12",
+      "group": "Lancaster, SC Town Talk",
+      "id": "https://www.facebook.com/groups/lancasterscwhatsup/posts/4260049244294436",
+      "last_seen": "2026-10-12",
+      "posted": "2026-10-11",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "9730bce4e393"
+      },
+      "snippet": "Ok I'ma ask cause I don't know and I'm very interested to know the facts. Can our current electrical infrastructure support a data center? If so then",
+      "source": "Facebook",
+      "title": "Can Lancaster, SC's current electrical infrastructure ...",
+      "url": "https://www.facebook.com/groups/lancasterscwhatsup/posts/4260049244294436"
+    },
+    {
+      "id": "https://www.facebook.com/groups/194430493950148/posts/28882451674721314",
+      "url": "https://www.facebook.com/groups/194430493950148/posts/28882451674721314",
+      "title": "Brunswick receives $400000 ODNR grant for construction ...",
+      "snippet": "Total cost is expected to be $4.25 million. No new taxes required. Architect and Contractors are listed below.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "You know you're from Brunswick if...",
+      "posted": "2026-10-07",
+      "first_seen": "2026-10-12",
+      "last_seen": "2026-10-12",
+      "queries": [
+        "site:facebook.com/groups/194430493950148/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "2a832b93d558"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-12",
+      "group": "The Nottingham Gig Guide",
+      "id": "https://www.facebook.com/groups/41570683984/posts/10163894123048985",
+      "last_seen": "2026-10-12",
+      "posted": "2026-10-11",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "9730bce4e393"
+      },
+      "snippet": "2 weeks tonight Bank holiday Sunday 25th Oct Boys from the Black Stuff perform the songs of Shane MacGowan & The Pogues with guests Mundy Looking",
+      "source": "Facebook",
+      "title": "Boys from the Black Stuff perform Shane MacGowan & ...",
+      "url": "https://www.facebook.com/groups/41570683984/posts/10163894123048985"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-12",
+      "group": "All about Shepherdsville",
+      "id": "https://www.facebook.com/groups/AllAboutShepherdsville/posts/4491801244419303",
+      "last_seen": "2026-10-12",
+      "posted": "2026-10-11",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "9730bce4e393"
+      },
+      "snippet": "Columbia Gas of Ohio 1y · Public Assistance is available to customers who are struggling to pay their natural gas utility bill.",
+      "source": "Facebook",
+      "title": "Assistance programs for Salt River payments in ...",
+      "url": "https://www.facebook.com/groups/AllAboutShepherdsville/posts/4491801244419303"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-12",
+      "group": "troy ohio buy sale or trade",
+      "id": "https://www.facebook.com/groups/675562302480945/posts/28673243562286110",
+      "last_seen": "2026-10-12",
+      "posted": "2026-10-11",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "9730bce4e393"
+      },
+      "snippet": "Money goes toward gas to help me visit my father in the hospital. Public REQUEST: Lewisburg, Columbia, surrounding areas!",
+      "source": "Facebook",
+      "title": "Asking $20.00 Must PU in Lewisburg PM me if interested ...",
+      "url": "https://www.facebook.com/groups/675562302480945/posts/28673243562286110"
+    },
+    {
+      "id": "https://www.facebook.com/groups/1021246942204871/posts/1807634800232744",
+      "url": "https://www.facebook.com/groups/1021246942204871/posts/1807634800232744",
+      "title": "Anyone have a recommendation for a reasonably priced ...",
+      "snippet": "516-731-9755. We love Chimney MD! We have used them for the last 7 years and they're fantastic. Reliable and honest! Chimney MD highly recommend them!",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Commack Moms",
+      "posted": "2026-10-11",
+      "first_seen": "2026-10-12",
+      "last_seen": "2026-10-12",
+      "queries": [
+        "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "2a832b93d558"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/611747998559641/posts/1051533707914399",
+      "url": "https://www.facebook.com/groups/611747998559641/posts/1051533707914399",
+      "title": "Allen Township may not be able to avoid construction ...",
+      "snippet": "Under Ohio Revised Code, a PUD need not have “uniform” zoning, “but may vary in order to accommodate unified development” and promote public health and safety.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Findlay Get Involved",
+      "posted": "2026-10-08",
+      "first_seen": "2026-10-12",
+      "last_seen": "2026-10-12",
+      "queries": [
+        "site:facebook.com/groups (\"no longer be part\" OR \"leaving the aggregation\" OR \"village aggregation\" OR \"township aggregation\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "2a832b93d558"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-12",
+      "group": "What's Up Colerain",
+      "id": "https://www.facebook.com/groups/whatsupcolerain/posts/2357789648354128",
+      "last_seen": "2026-10-12",
+      "posted": "2026-10-05",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"aggregation is ending\" OR \"aggregation ending\" OR \"opt out letter\" OR \"community aggregation\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
+        "version": "9730bce4e393"
+      },
+      "snippet": "I had to cancel another aggregation for the gas and electric company this is the second or third time I've lost count in the last couple years what a",
+      "source": "Facebook",
+      "title": "AEP Energy aggregation issues in Colerain",
+      "url": "https://www.facebook.com/groups/whatsupcolerain/posts/2357789648354128"
+    },
+    {
+      "id": "https://www.facebook.com/groups/1557119015001224/posts/2031126477600473",
+      "url": "https://www.facebook.com/groups/1557119015001224/posts/2031126477600473",
+      "title": "38.6¢ vs 13.5¢ kWh rate comparison",
+      "snippet": "Forget the electric rate. Last year November through March, my gas bill was almost $500 a month for a 2 person residence. She did that!",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Citizens Against Eversource",
+      "posted": "2026-10-12",
+      "first_seen": "2026-10-12",
+      "last_seen": "2026-10-12",
+      "queries": [
+        "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "2a832b93d558"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-12",
+      "group": "Franklin County Swap",
+      "id": "https://www.facebook.com/groups/279044345581644/posts/3687360478083330",
+      "last_seen": "2026-10-12",
+      "posted": "2026-10-09",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"aggregation is ending\" OR \"aggregation ending\" OR \"opt out letter\" OR \"community aggregation\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "9730bce4e393"
+      },
+      "snippet": "Yesterday I received a letter from Eastern Power & Gas about Marietta's aggregation program. ... You only have till the end of the month to opt out or you are",
+      "source": "Facebook",
+      "title": "$12 Carbondale energy Marion Harrisburg equality",
+      "url": "https://www.facebook.com/groups/279044345581644/posts/3687360478083330"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-12",
+      "group": "Union County Illinois Resale",
+      "id": "https://www.facebook.com/groups/unioncountyresale/posts/28692362457083060",
+      "last_seen": "2026-10-12",
+      "posted": "2026-10-09",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"aggregation is ending\" OR \"aggregation ending\" OR \"opt out letter\" OR \"community aggregation\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "9730bce4e393"
+      },
+      "snippet": "January 16, 2024 Forum on Carlisle's Electric Supply Program Carlisle's Community Choice Aggregation (CCA) program allows Carlisle to secure an electric",
+      "source": "Facebook",
+      "title": "$12 Carbondale energy Marion Harrisburg equality",
+      "url": "https://www.facebook.com/groups/unioncountyresale/posts/28692362457083060"
     },
     {
       "context": "facebook.com",
@@ -3089,7 +4148,7 @@
       "id": "https://www.facebook.com/groups/876456022522279/posts/3656997397801447",
       "url": "https://www.facebook.com/groups/876456022522279/posts/3656997397801447",
       "title": "Ohio Edison miscellaneous fees after rate increase in July",
-      "snippet": "Edison has increased their rates by 47%- For those who are in the community aggregate electric supplier program, Ohio Edison rates went from 7.75 cents (May)",
+      "snippet": "I encourage everybody to call Public Utility Commission, the woman I talked to explain that there was a rate increase by Ohio Edison in July, they do these rate",
       "source": "Facebook",
       "context": "facebook.com",
       "group": "Mecca Twp Residents Staying Informed",
@@ -3101,7 +4160,8 @@
         "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio",
         "site:facebook.com/groups (\"Apples to Apples\" OR PUCO OR \"energy choice\") Ohio",
         "site:facebook.com/groups (\"setting up utilities\" OR \"set up electric\" OR \"start service\" OR \"transfer service\") Ohio",
-        "site:facebook.com/groups (\"aggregation is ending\" OR \"aggregation ending\" OR \"opt out letter\" OR \"community aggregation\") Ohio"
+        "site:facebook.com/groups (\"aggregation is ending\" OR \"aggregation ending\" OR \"opt out letter\" OR \"community aggregation\") Ohio",
+        "site:facebook.com/groups (\"no longer be part\" OR \"leaving the aggregation\" OR \"village aggregation\" OR \"township aggregation\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -3112,7 +4172,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "9730bce4e393"
+        "version": "2a832b93d558"
       },
       "production": {
         "accepted": false,
@@ -3121,16 +4181,17 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/397165520651572/posts/2926592511042181",
-      "url": "https://www.facebook.com/groups/397165520651572/posts/2926592511042181",
-      "title": "Natural gas usage and AOG bill increases in River Valley",
-      "snippet": "Natural Gas is a regional asset. In the when your AOG gas bill goes up in the winter because this gas sucking complex you can thank Sarah's team that",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "River Valley Resident's Forum",
-      "posted": "2026-10-09",
       "first_seen": "2026-10-10",
+      "group": "River Valley Resident's Forum",
+      "id": "https://www.facebook.com/groups/397165520651572/posts/2926592511042181",
       "last_seen": "2026-10-12",
+      "posted": "2026-10-09",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio",
         "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio",
@@ -3138,20 +4199,19 @@
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "9730bce4e393"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "Natural Gas is a regional asset. In the when your AOG gas bill goes up in the winter because this gas sucking complex you can thank Sarah's team that",
+      "source": "Facebook",
+      "title": "Natural gas usage and AOG bill increases in River Valley",
+      "url": "https://www.facebook.com/groups/397165520651572/posts/2926592511042181"
     },
     {
       "context": "facebook.com",
@@ -3562,35 +4622,36 @@
       "url": "https://www.facebook.com/groups/303228565353112/posts/1406747615001196"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-10-10",
-      "group": "You know you're from Brunswick if...",
       "id": "https://www.facebook.com/groups/194430493950148/posts/28919066174393197",
-      "last_seen": "2026-10-10",
+      "url": "https://www.facebook.com/groups/194430493950148/posts/28919066174393197",
+      "title": "Heating Assistance Available Application Deadline May 31 ...",
+      "snippet": "Individuals with income less than $25,515 or couples with income below $34,510 may qualify for energy assistance. Call 419-692-1331 for an appointment",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "You know you're from Brunswick if...",
       "posted": "2026-10-09",
-      "production": {
-        "accepted": false,
-        "reason": "geography",
-        "source": "rules"
-      },
+      "first_seen": "2026-10-10",
+      "last_seen": "2026-10-12",
       "queries": [
-        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio"
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio",
+        "site:facebook.com/groups/194430493950148/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": true,
-        "host": true,
-        "keyword": true,
-        "lead": false,
-        "ohio": false,
-        "reason": "geography",
         "semantic_accepted": false,
-        "version": "f4090a730acd"
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "2a832b93d558"
       },
-      "snippet": "The Home Energy Assistance Program (HEAP) provides a one-time payment on a household's utility bill during the program season to eligible low-income Ohioans.",
-      "source": "Facebook",
-      "title": "Heating Assistance Available Application Deadline May 31 ...",
-      "url": "https://www.facebook.com/groups/194430493950148/posts/28919066174393197"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
     },
     {
       "context": "healowpay.com",
@@ -4187,7 +5248,7 @@
       "id": "https://www.facebook.com/groups/1984741588560856/posts/2854687828232890",
       "url": "https://www.facebook.com/groups/1984741588560856/posts/2854687828232890",
       "title": "Are the citizens of Urbana going to get any of the $50 M for ...",
-      "snippet": "residents and eligible small businesses will receive opt-out notices in the mail in early October, and customers who do not opt out will be enrolled at the new",
+      "snippet": "The City of Urbana has achieved the lowest municipal electrical aggregation rate since 2014. The new lower price becomes effective in December.",
       "source": "Facebook",
       "context": "facebook.com",
       "group": "United Silent Majority",
@@ -4196,7 +5257,8 @@
       "last_seen": "2026-10-12",
       "queries": [
         "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio",
-        "site:facebook.com/groups (\"aggregation is ending\" OR \"aggregation ending\" OR \"opt out letter\" OR \"community aggregation\") Ohio"
+        "site:facebook.com/groups (\"aggregation is ending\" OR \"aggregation ending\" OR \"opt out letter\" OR \"community aggregation\") Ohio",
+        "site:facebook.com/groups (\"no longer be part\" OR \"leaving the aggregation\" OR \"village aggregation\" OR \"township aggregation\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -4207,7 +5269,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "9730bce4e393"
+        "version": "2a832b93d558"
       },
       "production": {
         "accepted": false,
@@ -11065,16 +12127,17 @@
       "url": "https://www.facebook.com/groups/246654173535663/posts/1629885488545851"
     },
     {
-      "id": "https://www.facebook.com/groups/212103655504977/posts/28554572330831397",
-      "url": "https://www.facebook.com/groups/212103655504977/posts/28554572330831397",
-      "title": "What is a normal bill for everyone for Ohio Edison",
-      "snippet": "What is a normal bill for everyone for Ohio Edison",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "You know you're from New Carlisle if....",
-      "posted": "2026-10-05",
       "first_seen": "2026-10-06",
+      "group": "You know you're from New Carlisle if....",
+      "id": "https://www.facebook.com/groups/212103655504977/posts/28554572330831397",
       "last_seen": "2026-10-12",
+      "posted": "2026-10-05",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com (\"electric supplier\" OR \"gas supplier\") Ohio",
         "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")",
@@ -11085,32 +12148,32 @@
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
         "version": "9730bce4e393"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
+      "snippet": "What is a normal bill for everyone for Ohio Edison",
+      "source": "Facebook",
+      "title": "What is a normal bill for everyone for Ohio Edison",
+      "url": "https://www.facebook.com/groups/212103655504977/posts/28554572330831397"
     },
     {
-      "id": "https://www.facebook.com/groups/2228800353/posts/10179310274255354",
-      "url": "https://www.facebook.com/groups/2228800353/posts/10179310274255354",
-      "title": "What electric suppliers are available in Bellevue, Ohio?",
-      "snippet": "I hate to ask… please don’t hate me… but could you please share what electric suppliers are being used around Bellevue? I signed up with Smart Energy",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "You know you're from Bellevue, Ohio when...",
-      "posted": "2026-10-05",
       "first_seen": "2026-10-06",
+      "group": "You know you're from Bellevue, Ohio when...",
+      "id": "https://www.facebook.com/groups/2228800353/posts/10179310274255354",
       "last_seen": "2026-10-12",
+      "posted": "2026-10-05",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"price to compare\" OR \"variable rate\" OR \"fixed rate\") Ohio energy",
         "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio",
@@ -11120,20 +12183,19 @@
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": false,
         "host": true,
         "keyword": false,
-        "ohio": true,
         "lead": true,
-        "hard_exclusion": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "9730bce4e393"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "snippet": "I hate to ask… please don’t hate me… but could you please share what electric suppliers are being used around Bellevue? I signed up with Smart Energy",
+      "source": "Facebook",
+      "title": "What electric suppliers are available in Bellevue, Ohio?",
+      "url": "https://www.facebook.com/groups/2228800353/posts/10179310274255354"
     },
     {
       "context": "facebook.com",
