@@ -1,82 +1,175 @@
 {
-  "updated": "2026-10-21T02:48:32Z",
-  "count": 935,
+  "updated": "2026-10-21T16:24:57Z",
+  "count": 973,
   "candidates": [
     {
+      "id": "https://www.facebook.com/groups/Medicareeveryone/posts/4162761983856319",
+      "url": "https://www.facebook.com/groups/Medicareeveryone/posts/4162761983856319",
+      "title": "🧠 It's Two Truths and a Lie Tuesday: Medicare Open ...",
+      "snippet": "During the window, a member may make one change: switch to a different Medicare Advantage plan, or drop the Advantage plan and return to Original Medicare",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "National Improved Medicare for All",
+      "posted": "2026-10-20",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-21",
+      "group": "Sale & Post Anything Midland/Odessa TX",
       "id": "https://www.facebook.com/groups/979946778695551/posts/29063813513215501",
-      "url": "https://www.facebook.com/groups/979946778695551/posts/29063813513215501",
-      "title": "🔥❄️ COLD NIGHTS ARE HERE! IS YOUR HEAT READY?",
+      "last_seen": "2026-10-21",
+      "posted": "2026-10-20",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "7587fb4ff063"
+      },
       "snippet": "✓ Clear the Area Around Your Furnace: Keep the space around your furnace clear for proper airflow and safety. ✓ Schedule a Heating Tune-Up: Regular",
       "source": "Facebook",
+      "title": "🔥❄️ COLD NIGHTS ARE HERE! IS YOUR HEAT READY?",
+      "url": "https://www.facebook.com/groups/979946778695551/posts/29063813513215501"
+    },
+    {
       "context": "facebook.com",
-      "group": "Sale & Post Anything Midland/Odessa TX",
-      "posted": "2026-10-20",
       "first_seen": "2026-10-21",
+      "group": "Sparta KY and Surrounding Areas, buy, sell, trade or free",
+      "id": "https://www.facebook.com/groups/244636298933945/posts/29138786195758904",
       "last_seen": "2026-10-21",
+      "posted": "2026-10-20",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
         "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "7587fb4ff063"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/244636298933945/posts/29138786195758904",
-      "url": "https://www.facebook.com/groups/244636298933945/posts/29138786195758904",
-      "title": "🏡 **LET'S TALK MINI SPLITS!** ❄️🔥 Did you know a ...",
       "snippet": "Saving you a gas bill and keeping your light bill low by avoiding heat strips! For any and all HVAC needs, give us a call. We would love to help design a system",
       "source": "Facebook",
+      "title": "🏡 **LET'S TALK MINI SPLITS!** ❄️🔥 Did you know a ...",
+      "url": "https://www.facebook.com/groups/244636298933945/posts/29138786195758904"
+    },
+    {
+      "id": "https://www.facebook.com/groups/385640754866053/posts/28708008392202577",
+      "url": "https://www.facebook.com/groups/385640754866053/posts/28708008392202577",
+      "title": "assignment of contract,handyman special. Looking for end ...",
+      "snippet": "Good morning, investors. I have an Assignment of Contract for sale. Asking $40,000. Light to medium rehab required. Plumbing and electrical systems are in good",
+      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Sparta KY and Surrounding Areas, buy, sell, trade or free",
+      "group": "Ohio Properties and Real Estate For Sale & For Sale by Owner",
       "posted": "2026-10-20",
       "first_seen": "2026-10-21",
       "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-21",
+      "group": "Willowick Neighborhood News",
+      "id": "https://www.facebook.com/groups/404430446900661/posts/2013697239307299",
+      "last_seen": "2026-10-21",
+      "posted": "2026-10-20",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
-        "host": true,
-        "keyword": true,
-        "ohio": false,
-        "lead": false,
         "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "7587fb4ff063"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/404430446900661/posts/2013697239307299",
-      "url": "https://www.facebook.com/groups/404430446900661/posts/2013697239307299",
-      "title": "Willowick HVAC help for cold weather",
       "snippet": "Before winter, clean your furnace and check the pilot light. Inspect the heat exchanger for cracks and ensure the thermostat is in top shape.",
       "source": "Facebook",
+      "title": "Willowick HVAC help for cold weather",
+      "url": "https://www.facebook.com/groups/404430446900661/posts/2013697239307299"
+    },
+    {
+      "id": "https://www.facebook.com/groups/1384635221822966/posts/4753536498266138",
+      "url": "https://www.facebook.com/groups/1384635221822966/posts/4753536498266138",
+      "title": "Who do you guys use for gas for your house. Startup cost? ...",
+      "snippet": "Who do you guys use for gas for your house. Startup cost? Or are there companies that include start up cost with first bill. Thank you.",
+      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Willowick Neighborhood News",
-      "posted": "2026-10-20",
+      "group": "Free Items in sulphur Springs, TX",
+      "posted": "2026-10-21",
       "first_seen": "2026-10-21",
       "last_seen": "2026-10-21",
       "queries": [
-        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
       ],
       "rules": {
         "accepted": false,
@@ -87,7 +180,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "7587fb4ff063"
+        "version": "8ecd790d0bb2"
       },
       "production": {
         "accepted": false,
@@ -96,18 +189,80 @@
       }
     },
     {
+      "id": "https://www.facebook.com/groups/1921703294767845/posts/4586125701658911",
+      "url": "https://www.facebook.com/groups/1921703294767845/posts/4586125701658911",
+      "title": "Who do yall use/go through for gas for yalls house?",
+      "snippet": "What people are saying. Most use Texas Gas, while some opt for propane with Wade's as a provider.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "MINERAL WELLS DISCUSSION",
+      "posted": "2026-10-21",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-21",
+      "group": "Ashville Unfriendly Nieghbors",
       "id": "https://www.facebook.com/groups/1268393294321573/posts/1860900675070829",
-      "url": "https://www.facebook.com/groups/1268393294321573/posts/1860900675070829",
-      "title": "What motivated Ohio Rep. Brian Stewart to try to limit air ...",
+      "last_seen": "2026-10-21",
+      "posted": "2026-10-20",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "7587fb4ff063"
+      },
       "snippet": ".That bill also instructed the Ohio EPA to withdraw the air nuisance rule and prohibit air monitoring",
       "source": "Facebook",
+      "title": "What motivated Ohio Rep. Brian Stewart to try to limit air ...",
+      "url": "https://www.facebook.com/groups/1268393294321573/posts/1860900675070829"
+    },
+    {
+      "id": "https://www.facebook.com/groups/686380388429753/posts/2789797778087993",
+      "url": "https://www.facebook.com/groups/686380388429753/posts/2789797778087993",
+      "title": "What is the vocational school ballot initiative in Ironton, OH?",
+      "snippet": "I VOTED EARLY: SAW A BALLOT INITIATIVE FOR THE VOCATIONAL SCHOOL.\nWhat is known about that?",
+      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Ashville Unfriendly Nieghbors",
+      "group": "Ironton & Lawrence Co OH Citizen's against Higher Taxes & Water Bill Fee's",
       "posted": "2026-10-20",
       "first_seen": "2026-10-21",
       "last_seen": "2026-10-21",
       "queries": [
-        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
       ],
       "rules": {
         "accepted": false,
@@ -118,7 +273,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "7587fb4ff063"
+        "version": "8ecd790d0bb2"
       },
       "production": {
         "accepted": false,
@@ -127,50 +282,143 @@
       }
     },
     {
+      "id": "https://www.tutorialspoint.com/article/what-is-switching-and-the-types-of-switching-techniques",
+      "url": "https://www.tutorialspoint.com/article/what-is-switching-and-the-types-of-switching-techniques",
+      "title": "What is switching and the types of switching techniques?",
+      "snippet": "### Packet Switching\n\nData is divided into small packets, each containing source and destination addresses. Packets are routed independently through the network and may take different paths to reach the destination.\n\nKey features: No pre-established path, dynamic routing, efficient bandwidth utiliza…",
+      "source": "tutorialspoint.com",
+      "context": "tutorialspoint.com",
+      "group": "",
+      "posted": "",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "host",
+        "host": false,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "host"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-21",
+      "group": "Xenia Community Open Forum",
       "id": "https://www.facebook.com/groups/XeniaOpenForum/posts/29197471486530132",
-      "url": "https://www.facebook.com/groups/XeniaOpenForum/posts/29197471486530132",
-      "title": "What is Greene County's electric aggregate rate for 2024?",
+      "last_seen": "2026-10-21",
+      "posted": "2026-10-20",
+      "production": {
+        "accepted": true,
+        "reason": "accepted",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
+      ],
+      "rules": {
+        "accepted": true,
+        "freshness": "fresh",
+        "hard_exclusion": false,
+        "host": true,
+        "keyword": true,
+        "lead": true,
+        "ohio": true,
+        "reason": "accepted",
+        "semantic_accepted": true,
+        "version": "7587fb4ff063"
+      },
       "snippet": "As winter is approaching and high electric bills are in the way, I have been looking at apples to apples to find a rate as good as last years rate of",
       "source": "Facebook",
+      "title": "What is Greene County's electric aggregate rate for 2024?",
+      "url": "https://www.facebook.com/groups/XeniaOpenForum/posts/29197471486530132"
+    },
+    {
       "context": "facebook.com",
-      "group": "Xenia Community Open Forum",
-      "posted": "2026-10-20",
       "first_seen": "2026-10-21",
+      "group": "The Edwardsville Connection",
+      "id": "https://www.facebook.com/groups/722622123619879/posts/1148737857674968",
       "last_seen": "2026-10-21",
+      "posted": "2026-10-20",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
       ],
       "rules": {
-        "accepted": true,
-        "semantic_accepted": true,
-        "reason": "accepted",
+        "accepted": false,
+        "hard_exclusion": true,
         "host": true,
-        "keyword": true,
-        "ohio": true,
-        "lead": true,
-        "hard_exclusion": false,
-        "version": "7587fb4ff063",
-        "freshness": "fresh"
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "7587fb4ff063"
       },
-      "production": {
-        "accepted": true,
-        "source": "rules",
-        "reason": "accepted"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/722622123619879/posts/1148737857674968",
-      "url": "https://www.facebook.com/groups/722622123619879/posts/1148737857674968",
-      "title": "What companies install exterior wood burning furnaces like ...",
       "snippet": "at (414) 491-3632. If you are looking to save BIG on your heating bills, don't hesitate to reach out. DM, call, text 360 492-8100. call, text 360 492-8100.",
       "source": "Facebook",
+      "title": "What companies install exterior wood burning furnaces like ...",
+      "url": "https://www.facebook.com/groups/722622123619879/posts/1148737857674968"
+    },
+    {
+      "id": "https://www.cisco.com/site/us/en/learn/topics/networking/what-is-network-switching.html",
+      "url": "https://www.cisco.com/site/us/en/learn/topics/networking/what-is-network-switching.html",
+      "title": "What Is Network Switching?",
+      "snippet": "Also, programmable switches can be used to supply enterprise-grade security, automation, segmentation, and management to operational technology (OT) environments, which typically don’t have those features and capabilities. [...] ### Broader functionality\n\nAs noted earlier, advanced modern switches t…",
+      "source": "cisco.com",
+      "context": "cisco.com",
+      "group": "",
+      "posted": "",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "host",
+        "host": false,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "host"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/844349265773036/posts/3385685461639391",
+      "url": "https://www.facebook.com/groups/844349265773036/posts/3385685461639391",
+      "title": "Utilities setup for new home in Granary Park, Clay County",
+      "snippet": "I close next week and need to figure out utilities so they can be in my name on closing day. I’m moving from Duval to Clay so need to know who to contact",
+      "source": "Facebook",
       "context": "facebook.com",
-      "group": "The Edwardsville Connection",
+      "group": "Lake Asbury Bulletin Board",
       "posted": "2026-10-20",
       "first_seen": "2026-10-21",
       "last_seen": "2026-10-21",
       "queries": [
-        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
       ],
       "rules": {
         "accepted": false,
@@ -181,7 +429,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "7587fb4ff063"
+        "version": "8ecd790d0bb2"
       },
       "production": {
         "accepted": false,
@@ -190,18 +438,576 @@
       }
     },
     {
+      "context": "facebook.com",
+      "first_seen": "2026-10-21",
+      "group": "Trotwood community",
       "id": "https://www.facebook.com/groups/1063689851195913/posts/2149946972570190",
-      "url": "https://www.facebook.com/groups/1063689851195913/posts/2149946972570190",
-      "title": "Trotwood community electric aggregation program with ...",
+      "last_seen": "2026-10-21",
+      "posted": "2026-10-20",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": false,
+        "host": true,
+        "keyword": true,
+        "lead": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "7587fb4ff063"
+      },
       "snippet": "To identify your current energy supplier, look at the back of the first page of your AES Ohio bill. You should see the name and logo of your supplier, as",
       "source": "Facebook",
+      "title": "Trotwood community electric aggregation program with ...",
+      "url": "https://www.facebook.com/groups/1063689851195913/posts/2149946972570190"
+    },
+    {
+      "id": "https://www.facebook.com/groups/398467061486028/posts/1833274174671969",
+      "url": "https://www.facebook.com/groups/398467061486028/posts/1833274174671969",
+      "title": "The Toledo city council meeting is in one hour. They're ...",
+      "snippet": "The Toledo city council meeting is in one hour. They're voting on a resolution that would urge the mayor to end the flock contract. Last time we had",
+      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Trotwood community",
+      "group": "Toledo Ohio",
       "posted": "2026-10-20",
       "first_seen": "2026-10-21",
       "last_seen": "2026-10-21",
       "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1494629470688212/posts/3619990731485398",
+      "url": "https://www.facebook.com/groups/1494629470688212/posts/3619990731485398",
+      "title": "The Conservative Patriot League of America, LLC 🇺🇸 📜✝️",
+      "snippet": "State auditors say Ohio's utility regulator is sitting on more reserve money than it needs while. 00:37. State auditors say Ohio's utility regulator is sitting",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "",
+      "posted": "2026-10-20",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.britannica.com/technology/switching",
+      "url": "https://www.britannica.com/technology/switching",
+      "title": "Switching, | Definition, Types, Examples, and How it Works in Networking, What is Switching? | Britannica",
+      "snippet": "In circuit-switched networks, data travels through a single physical path with a fixed bandwidth, maintaining the connection for the duration of the transmission. All information is sent sequentially.\n\n  In contrast, packet-switched networks divide data into smaller packets and transmit them through…",
+      "source": "britannica.com",
+      "context": "britannica.com",
+      "group": "",
+      "posted": "",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "host",
+        "host": false,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "host"
+      }
+    },
+    {
+      "id": "https://www.geeksforgeeks.org/computer-networks/what-is-switching",
+      "url": "https://www.geeksforgeeks.org/computer-networks/what-is-switching",
+      "title": "Switching | Computer Networks - GeeksforGeeks",
+      "snippet": "## Network Switching\n\nNetwork Switching is a specific type of switching used in computer networks. It is about transferring data packets from one device (node) to another across a network.\n\nworking of network switch\n\nIt involves the following steps: [...] Last Updated : 20 Dec, 2025\n\nSwitching is th…",
+      "source": "geeksforgeeks.org",
+      "context": "geeksforgeeks.org",
+      "group": "Switching",
+      "posted": "",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "host",
+        "host": false,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "host"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/lancasterfairfieldintheknow/posts/1119190130841045",
+      "url": "https://www.facebook.com/groups/lancasterfairfieldintheknow/posts/1119190130841045",
+      "title": "Switching to Medicare Advantage plans: recommendations ...",
+      "snippet": "Let’s discuss Medicare/Medicaid Annual Enrollment\nHave you been faced with switching Medicare plans and are confused or have you made the switch",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Lancaster & Fairfield County's IN THE KNOW",
+      "posted": "2026-10-20",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://networklessons.com/switching",
+      "url": "https://networklessons.com/switching",
+      "title": "Switching - NetworkLessons.com",
+      "snippet": "## Course Highlights\n\nIn this course you will learn:\n\n The basics of switching, how a switch learns MAC addresses.\n How we use VLANs and trunks to separate traffic.\n How to use VTP to synchronize VLAN information.\n How spanning-tree creates loop-free topologies.\n How to protect your switches against…",
+      "source": "networklessons.com",
+      "context": "networklessons.com",
+      "group": "",
+      "posted": "",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "host",
+        "host": false,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "host"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1219634021392380/posts/29097690749826666",
+      "url": "https://www.facebook.com/groups/1219634021392380/posts/29097690749826666",
+      "title": "Snow Removal! Looking to Sub out this contract* ...",
+      "snippet": "Snow Removal! Looking to Sub out this contract** We just landed a snow removal contract and need a subcontractor with a front end loader. What you",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Utah Side Hustle and Labor Gigs",
+      "posted": "2026-10-20",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/sigenergy/posts/1154745850227828",
+      "url": "https://www.facebook.com/groups/sigenergy/posts/1154745850227828",
+      "title": "Sigenergy battery usage during prolonged cloudy weather ...",
+      "snippet": "Several days ago I had to switch from Solar Power back to grid power when the rains and clouds moved into Central Ohio.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Sigenergy Customers & Installer Group - UK",
+      "posted": "2026-10-20",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.merriam-webster.com/dictionary/switching",
+      "url": "https://www.merriam-webster.com/dictionary/switching",
+      "title": "SWITCHING Definition & Meaning - Merriam-Webster",
+      "snippet": "4\n\n: a device made usually of two movable rails and necessary connections and designed to turn a train or streetcar from one track to another\n\n5\n\n: a device for making, breaking, or changing the connections in an electrical circuit\n\nswitch\n\n2 of 2\nverb\n\n1\n\n: to strike or whip with or as if with a sw…",
+      "source": "merriam-webster.com",
+      "context": "merriam-webster.com",
+      "group": "Definition of SWITCHING",
+      "posted": "",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "host",
+        "host": false,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "host"
+      }
+    },
+    {
+      "id": "https://networklessons.com/routing-switching",
+      "url": "https://networklessons.com/routing-switching",
+      "title": "Routing & Switching Courses - NetworkLessons.com",
+      "snippet": "Go to Quality of Service\n\n## MPLS\n\nMPLS (Multi Protocol Label Switching) is a mechanism that switches traffic based on labels instead of routing traffic. It’s typically seen in service provider networks and can transport pretty much everything…IP, IPv6, Ethernet, frame-relay, PPP. MPLS VPN is a popu…",
+      "source": "networklessons.com",
+      "context": "networklessons.com",
+      "group": "",
+      "posted": "",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "host",
+        "host": false,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "host"
+      }
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Packet_switching",
+      "url": "https://en.wikipedia.org/wiki/Packet_switching",
+      "title": "Packet switching - Wikipedia",
+      "snippet": "|  v  t  e | [...] ### Primary sources\n\n[edit] [...] Packet switching is used in the Internet and most local area networks. The Internet is implemented by the Internet Protocol Suite using a variety of link layer technologies. For example, Ethernet and Frame Relay are common. Newer mobile phone tech…",
+      "source": "en.wikipedia.org",
+      "context": "en.wikipedia.org",
+      "group": "",
+      "posted": "",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "host",
+        "host": false,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "host"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-21",
+      "group": "Secondhand OSWESTRY",
+      "id": "https://www.facebook.com/groups/494080806105658/posts/1416896580490738",
+      "last_seen": "2026-10-21",
+      "posted": "2026-10-20",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
         "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "7587fb4ff063"
+      },
+      "snippet": "If you don't have gas heat it's a must have.We are on day 3 without power.This little heater has kept my whole house at 69 to 70 degrees.Not the 85 I would like",
+      "source": "Facebook",
+      "title": "Only used for few times last winter. Gets really warm in ur ...",
+      "url": "https://www.facebook.com/groups/494080806105658/posts/1416896580490738"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-21",
+      "group": "Struggling in Dayton",
+      "id": "https://www.facebook.com/groups/3732851640363237/posts/4625889684392757",
+      "last_seen": "2026-10-21",
+      "posted": "2026-10-20",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": false,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
+        "version": "7587fb4ff063"
+      },
+      "snippet": "The Home Energy Assistance Program (HEAP) provides a one-time payment on a household's utility or bulk fuel bill during the program season.",
+      "source": "Facebook",
+      "title": "Ohio utility assistance for heat and electricity",
+      "url": "https://www.facebook.com/groups/3732851640363237/posts/4625889684392757"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Network_switch",
+      "url": "https://en.wikipedia.org/wiki/Network_switch",
+      "title": "Network switch - Wikipedia",
+      "snippet": "|  v  t  e Telecommunications | [...] The network switch plays an integral role in most modern Ethernet local area networks (LANs). Mid-to-large-sized LANs contain a number of linked managed switches. Small office/home office (SOHO) applications typically use a single switch, or an all-purpose devic…",
+      "source": "en.wikipedia.org",
+      "context": "en.wikipedia.org",
+      "group": "",
+      "posted": "",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "host",
+        "host": false,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "host"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/229100564350699/posts/2210568772870525",
+      "url": "https://www.facebook.com/groups/229100564350699/posts/2210568772870525",
+      "title": "Madeira city pays nearly $39000 for AI-generated clip art in ...",
+      "snippet": "October 20, 2019, Madeira City Council has awarded a $414,500.00 contract to Brandstetter Carroll Inc, without the benefit of a competitive bid according to the",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Madeiramessenger",
+      "posted": "2026-10-20",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/726385392310564/posts/1630744775207950",
+      "url": "https://www.facebook.com/groups/726385392310564/posts/1630744775207950",
+      "title": "Licensed electricians in Newark, OH for multi-switch wiring",
+      "snippet": "I need an electrician to wire a multi switch. Im in Newark. Must be licensed. If anyone know who I should NOT use, please post that also. I dont want a scammer.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Newark Heath & Licking County's IN THE KNOW",
+      "posted": "2026-10-20",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-21",
+      "group": "Pittston Community Page",
+      "id": "https://www.facebook.com/groups/1117169335159279/posts/3450319651844224",
+      "last_seen": "2026-10-21",
+      "posted": "2026-10-20",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "7587fb4ff063"
+      },
+      "snippet": "From furnace services to snow blower repairs, we offer comprehensive coverage for all your winter needs. We have the tools and experience necessary to",
+      "source": "Facebook",
+      "title": "Jamie Walsh Plumbing Heating & Cooling offers expert ...",
+      "url": "https://www.facebook.com/groups/1117169335159279/posts/3450319651844224"
+    },
+    {
+      "id": "https://www.facebook.com/groups/lebanon.open.forum/posts/29451936461065364",
+      "url": "https://www.facebook.com/groups/lebanon.open.forum/posts/29451936461065364",
+      "title": "Interesting discussion and information on Ameren contract.",
+      "snippet": "A flat energy charge base rate, where customers pay the same rate no matter how much electricity they use, will help incentivize efficient electric use",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Lebanon Illinois Open Forum for Lebanon Residents Only",
+      "posted": "2026-10-20",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
       ],
       "rules": {
         "accepted": false,
@@ -210,9 +1016,9 @@
         "host": true,
         "keyword": true,
         "ohio": false,
-        "lead": true,
-        "hard_exclusion": false,
-        "version": "7587fb4ff063"
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
       },
       "production": {
         "accepted": false,
@@ -221,18 +1027,111 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/494080806105658/posts/1416896580490738",
-      "url": "https://www.facebook.com/groups/494080806105658/posts/1416896580490738",
-      "title": "Only used for few times last winter. Gets really warm in ur ...",
-      "snippet": "If you don't have gas heat it's a must have.We are on day 3 without power.This little heater has kept my whole house at 69 to 70 degrees.Not the 85 I would like",
+      "id": "https://www.facebook.com/groups/242902447865190/posts/1550669620421793",
+      "url": "https://www.facebook.com/groups/242902447865190/posts/1550669620421793",
+      "title": "I can't believe our electric company here in Luray. ...",
+      "snippet": "Yes, electric companies can and do send disconnect notices for very small past due balances, sometimes as low as $1.98, though policies and timing vary by",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Secondhand OSWESTRY",
+      "group": "WHAT'S   UP    PAGE COUNTY   VA",
       "posted": "2026-10-20",
       "first_seen": "2026-10-21",
       "last_seen": "2026-10-21",
       "queries": [
-        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "id": "https://www.cisco.com/site/us/en/learn/topics/small-business/network-switch-how.html",
+      "url": "https://www.cisco.com/site/us/en/learn/topics/small-business/network-switch-how.html",
+      "title": "How Does a Switch Work?",
+      "snippet": "Learn more\n\n  \n\n Show more (1)\n\n  \n\n  \n\n## Resources\n\n### You may also like:\n\n   What is a switch vs. a router\n   How to set up a router\n   How to set up a network\n   How does a router work\n\n### Useful Links\n\n   Trials\n   Demos\n\n  \n\n Show more (1)\n\n  \n\nImage 42\n\n### Quick Links\n\n   About Cisco\n   Co…",
+      "source": "cisco.com",
+      "context": "cisco.com",
+      "group": "",
+      "posted": "",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "host",
+        "host": false,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "host"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1874568236014822/posts/3832825010189125",
+      "url": "https://www.facebook.com/groups/1874568236014822/posts/3832825010189125",
+      "title": "Hi everyone! We installed a $18000 solar panel system ...",
+      "snippet": "Switching power companies won't save you that much, using the power you generate and buying less power will. Aim to use the power you make, 138 kwh feed",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Solar Power NZ  questions, tech advice & help sourcing",
+      "posted": "2026-10-20",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/saaskalocal/posts/1799744134468669",
+      "url": "https://www.facebook.com/groups/saaskalocal/posts/1799744134468669",
+      "title": "Hey y'all looking for a good and reputable electrical ...",
+      "snippet": "Hey y'all looking for a good and reputable electrical company to come and give us a quote to install a new chimebox/transformer. Just looking to get ours",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "San Antonio - Ask A Local Not a place to sell things",
+      "posted": "2026-10-20",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -243,7 +1142,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "7587fb4ff063"
+        "version": "8ecd790d0bb2"
       },
       "production": {
         "accepted": false,
@@ -252,277 +1151,556 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/3732851640363237/posts/4625889684392757",
-      "url": "https://www.facebook.com/groups/3732851640363237/posts/4625889684392757",
-      "title": "Ohio utility assistance for heat and electricity",
-      "snippet": "The Home Energy Assistance Program (HEAP) provides a one-time payment on a household's utility or bulk fuel bill during the program season.",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Struggling in Dayton",
-      "posted": "2026-10-20",
       "first_seen": "2026-10-21",
+      "group": "Santa Clarita Life",
+      "id": "https://www.facebook.com/groups/thescvlife/posts/1270370065247079",
       "last_seen": "2026-10-21",
+      "posted": "2026-10-20",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
       ],
       "rules": {
         "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
         "semantic_accepted": false,
-        "reason": "intent",
+        "version": "7587fb4ff063"
+      },
+      "snippet": "My true up bill from Edison was supposed to be approximately $600-$800 per year it averages $ 3500. We pay about $400 monthly … $400 a month bill. I can help",
+      "source": "Facebook",
+      "title": "Hey everyone. Looking into solar panels for my house. ...",
+      "url": "https://www.facebook.com/groups/thescvlife/posts/1270370065247079"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-21",
+      "group": "Frugal Everything",
+      "id": "https://www.facebook.com/groups/769086996086566/posts/1116508888011040",
+      "last_seen": "2026-10-21",
+      "posted": "2026-10-20",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "7587fb4ff063"
+      },
+      "snippet": "Cold inside? Yes. Turning on the heat? Absolutely not. 😂 Somebody pass me another blanket! 🥶\n\nHave you had to turn your heat on yet?",
+      "source": "Facebook",
+      "title": "Have you turned on your heat yet?",
+      "url": "https://www.facebook.com/groups/769086996086566/posts/1116508888011040"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-21",
+      "group": "The Can-Am maverick Sport & Trail group.",
+      "id": "https://www.facebook.com/groups/438940453248674/posts/2526987477777284",
+      "last_seen": "2026-10-21",
+      "posted": "2026-10-20",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "7587fb4ff063"
+      },
+      "snippet": "In winter we like the heat so easy to remove so it has its uses. I used a basic heat/sound foam that sticks ・ made a huge difference in heat and engine noise",
+      "source": "Facebook",
+      "title": "Has anyone bought this? Wondering how good it is for ...",
+      "url": "https://www.facebook.com/groups/438940453248674/posts/2526987477777284"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-21",
+      "group": "Hinesville Ga Small Businesses",
+      "id": "https://www.facebook.com/groups/335443123171863/posts/28644667825156014",
+      "last_seen": "2026-10-21",
+      "posted": "2026-10-20",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "7587fb4ff063"
+      },
+      "snippet": "New, energy-efficient windows can help: ✓ Reduce heating costs ✓ Improve insulation ✓ Enhance comfort throughout the winter Don't wait until the cold hits!",
+      "source": "Facebook",
+      "title": "Good Tuesday afternoon with the chilly mornings ...",
+      "url": "https://www.facebook.com/groups/335443123171863/posts/28644667825156014"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-21",
+      "group": "The Ozarks Local News and Weather",
+      "id": "https://www.facebook.com/groups/1474624079297326/posts/28816888187977546",
+      "last_seen": "2026-10-21",
+      "posted": "2026-10-20",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "7587fb4ff063"
+      },
+      "snippet": "“Always keep at least a three-foot radius around space heaters, keep combustibles away from them,” Trent said. Residents should turn the heater off and unplug",
+      "source": "Facebook",
+      "title": "Fire crews urge furnace, space heater safety checks as Fall ...",
+      "url": "https://www.facebook.com/groups/1474624079297326/posts/28816888187977546"
+    },
+    {
+      "id": "https://www.facebook.com/groups/1506857543413521/posts/2292250898207511",
+      "url": "https://www.facebook.com/groups/1506857543413521/posts/2292250898207511",
+      "title": "Electrician needed to replace surface mounted LED ...",
+      "snippet": "Looking for an Electrician Hi everyone, I'm looking for an electrician to replace my 5 existing ceiling lights with LED spotlights or surface mounted",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "LANCASTER EVERYTHING",
+      "posted": "2026-10-20",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-21",
+      "group": "Movement for the Protection of Plateau Heritage MOPPLAH",
+      "id": "https://www.facebook.com/groups/mopplah/posts/29966210206301348",
+      "last_seen": "2026-10-21",
+      "posted": "2026-10-20",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "7587fb4ff063"
+      },
+      "snippet": "The House of Representatives on Saturday in Abuja said a fresh Stimulus Bill that will ensure that Nigerians get free electricity supply for two months would",
+      "source": "Facebook",
+      "title": "Ebola Case in Abuja, State Police Bill, and More",
+      "url": "https://www.facebook.com/groups/mopplah/posts/29966210206301348"
+    },
+    {
+      "id": "https://www.facebook.com/groups/HuntingtonBeachCommUNITYVoice/posts/29414317278174222",
+      "url": "https://www.facebook.com/groups/HuntingtonBeachCommUNITYVoice/posts/29414317278174222",
+      "title": "Does our City have trash-hauling contingency plans this ...",
+      "snippet": "... RENEW CONTRACT THAT EXPIRED 9.30.21. THE WORKERS ARE SEEKING A FAIR PAY & CONTRACT. NO WORD ON HOW LONG THIS WILL LAST. MEANWHILE OUR CITY POSTED THAT",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Huntington Beach CommUNITY Voice",
+      "posted": "2026-10-20",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/lowvoltagenation/posts/4668455820110877",
+      "url": "https://www.facebook.com/groups/lowvoltagenation/posts/4668455820110877",
+      "title": "D-Tools Cloud downgrade policy and contract terms",
+      "snippet": "Contract 2024 introduced protections specific to the “D” Flight Attendant when a downgrade occurs on their pairing.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Low Voltage Nation Group",
+      "posted": "2026-10-20",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/410311233286523/posts/1894179848232980",
+      "url": "https://www.facebook.com/groups/410311233286523/posts/1894179848232980",
+      "title": "Crossville Electric Service installs 200-amp ...",
+      "snippet": "We installed a complete new 200 amp system with a new outdoor 200 meter with disconnect, 2\" conduit to protect the wire from the weather,and a new 200 amp",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Crossville Chatter 3.0",
+      "posted": "2026-10-20",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/218864382174719/posts/2184829342244870",
+      "url": "https://www.facebook.com/groups/218864382174719/posts/2184829342244870",
+      "title": "Concerns about Vantage data center impact on Oregon ...",
+      "snippet": "Data centers have already raised electric bills over $50 a month, that's $600 a year. A Data Center will lower property values and inhibit future increases.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Oregon, Ohio Community Neighbors",
+      "posted": "2026-10-20",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1008628792654614/posts/3673686469482153",
+      "url": "https://www.facebook.com/groups/1008628792654614/posts/3673686469482153",
+      "title": "Captain Canada has a dirty little secret... Doug Ford loves ...",
+      "snippet": "This import contract “is the latest sign of an increasingly tight supply/demand balance. ... of that gas imported from Pennsylvania and Ohio. This isn't just bad",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Fridays for Future Toronto Supporters",
+      "posted": "2026-10-20",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/489088686314914/posts/1556386166251822",
+      "url": "https://www.facebook.com/groups/489088686314914/posts/1556386166251822",
+      "title": "CT Tech Contract Opportunities in Various Locations",
+      "snippet": "Starting pay is up to $40/hr plus up to a $15,000 relocation/bonus package. 13-to-26 week contract • Renewal chances available • Renewal opportunities",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Travel Allied Health Jobs, MRI,CT,Scrub Tech, CNA etc",
+      "posted": "2026-10-20",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-21",
+      "group": "Rochester Hills Business Happenings",
+      "id": "https://www.facebook.com/groups/514367343066986/posts/1895632688273771",
+      "last_seen": "2026-10-21",
+      "posted": "2026-10-20",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "7587fb4ff063"
+      },
+      "snippet": "With a clean duct system, your HVAC unit will have an easier time pushing the warm air into your home this winter and your energy bill will be lower.",
+      "source": "Facebook",
+      "title": "Breathe easier this fall! 🍂 Dust, allergens and buildup hide ...",
+      "url": "https://www.facebook.com/groups/514367343066986/posts/1895632688273771"
+    },
+    {
+      "id": "https://www.facebook.com/groups/139914006575257/posts/2306306793269290",
+      "url": "https://www.facebook.com/groups/139914006575257/posts/2306306793269290",
+      "title": "Assignment of contract, located in Springfield OH asking ...",
+      "snippet": "Assignment of contract, located in Springfield OH asking 134900. Fully renovated and currently rented on m2m basis. Could be sold separately or as a",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Ohio Real Estate",
+      "posted": "2026-10-21",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/385640754866053/posts/28711719591831457",
+      "url": "https://www.facebook.com/groups/385640754866053/posts/28711719591831457",
+      "title": "AUCTION: Extraordinary opportunity to own 14.65 acres ...",
+      "snippet": "AUCTION: Extraordinary opportunity to own 14.65 acres situated on Route 2 near Lake Erie & the Portage River. This exceptional property includes a",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Ohio Properties and Real Estate For Sale & For Sale by Owner",
+      "posted": "2026-10-21",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/latinosencarolinadelsur/posts/29361409246790336",
+      "url": "https://www.facebook.com/groups/latinosencarolinadelsur/posts/29361409246790336",
+      "title": "2021 eco sport Service only in ford dealership",
+      "snippet": "This vehicle has been carefully owned, regularly serviced, and comes with a Ford-backed extended 3- year / 36,000 mile warranty, providing peace of mind that's",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Latinos En Carolina Del Sur",
+      "posted": "2026-10-20",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8ecd790d0bb2"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/500029010036236/posts/29072203682392054",
+      "url": "https://www.facebook.com/groups/500029010036236/posts/29072203682392054",
+      "title": "2004 Honda Rancher 350 Clear ohio title it was electric ...",
+      "snippet": "We replaced the shift motor angle sensor electric shift & key switch and still doesn't recognize. The last thing to check is the neutral sensor. https://www.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Lucasville Pickers",
+      "posted": "2026-10-20",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "7587fb4ff063"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/1117169335159279/posts/3450319651844224",
-      "url": "https://www.facebook.com/groups/1117169335159279/posts/3450319651844224",
-      "title": "Jamie Walsh Plumbing Heating & Cooling offers expert ...",
-      "snippet": "From furnace services to snow blower repairs, we offer comprehensive coverage for all your winter needs. We have the tools and experience necessary to",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Pittston Community Page",
-      "posted": "2026-10-20",
-      "first_seen": "2026-10-21",
-      "last_seen": "2026-10-21",
-      "queries": [
-        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "7587fb4ff063"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/thescvlife/posts/1270370065247079",
-      "url": "https://www.facebook.com/groups/thescvlife/posts/1270370065247079",
-      "title": "Hey everyone. Looking into solar panels for my house. ...",
-      "snippet": "My true up bill from Edison was supposed to be approximately $600-$800 per year it averages $ 3500. We pay about $400 monthly … $400 a month bill. I can help",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Santa Clarita Life",
-      "posted": "2026-10-20",
-      "first_seen": "2026-10-21",
-      "last_seen": "2026-10-21",
-      "queries": [
-        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "7587fb4ff063"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/769086996086566/posts/1116508888011040",
-      "url": "https://www.facebook.com/groups/769086996086566/posts/1116508888011040",
-      "title": "Have you turned on your heat yet?",
-      "snippet": "Cold inside? Yes. Turning on the heat? Absolutely not. 😂 Somebody pass me another blanket! 🥶\n\nHave you had to turn your heat on yet?",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Frugal Everything",
-      "posted": "2026-10-20",
-      "first_seen": "2026-10-21",
-      "last_seen": "2026-10-21",
-      "queries": [
-        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "7587fb4ff063"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/438940453248674/posts/2526987477777284",
-      "url": "https://www.facebook.com/groups/438940453248674/posts/2526987477777284",
-      "title": "Has anyone bought this? Wondering how good it is for ...",
-      "snippet": "In winter we like the heat so easy to remove so it has its uses. I used a basic heat/sound foam that sticks ・ made a huge difference in heat and engine noise",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "The Can-Am maverick Sport & Trail group.",
-      "posted": "2026-10-20",
-      "first_seen": "2026-10-21",
-      "last_seen": "2026-10-21",
-      "queries": [
-        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "7587fb4ff063"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/335443123171863/posts/28644667825156014",
-      "url": "https://www.facebook.com/groups/335443123171863/posts/28644667825156014",
-      "title": "Good Tuesday afternoon with the chilly mornings ...",
-      "snippet": "New, energy-efficient windows can help: ✓ Reduce heating costs ✓ Improve insulation ✓ Enhance comfort throughout the winter Don't wait until the cold hits!",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Hinesville Ga Small Businesses",
-      "posted": "2026-10-20",
-      "first_seen": "2026-10-21",
-      "last_seen": "2026-10-21",
-      "queries": [
-        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "7587fb4ff063"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/1474624079297326/posts/28816888187977546",
-      "url": "https://www.facebook.com/groups/1474624079297326/posts/28816888187977546",
-      "title": "Fire crews urge furnace, space heater safety checks as Fall ...",
-      "snippet": "“Always keep at least a three-foot radius around space heaters, keep combustibles away from them,” Trent said. Residents should turn the heater off and unplug",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "The Ozarks Local News and Weather",
-      "posted": "2026-10-20",
-      "first_seen": "2026-10-21",
-      "last_seen": "2026-10-21",
-      "queries": [
-        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "7587fb4ff063"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/mopplah/posts/29966210206301348",
-      "url": "https://www.facebook.com/groups/mopplah/posts/29966210206301348",
-      "title": "Ebola Case in Abuja, State Police Bill, and More",
-      "snippet": "The House of Representatives on Saturday in Abuja said a fresh Stimulus Bill that will ensure that Nigerians get free electricity supply for two months would",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Movement for the Protection of Plateau Heritage MOPPLAH",
-      "posted": "2026-10-20",
-      "first_seen": "2026-10-21",
-      "last_seen": "2026-10-21",
-      "queries": [
-        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
-        "host": true,
-        "keyword": true,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "7587fb4ff063"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/514367343066986/posts/1895632688273771",
-      "url": "https://www.facebook.com/groups/514367343066986/posts/1895632688273771",
-      "title": "Breathe easier this fall! 🍂 Dust, allergens and buildup hide ...",
-      "snippet": "With a clean duct system, your HVAC unit will have an easier time pushing the warm air into your home this winter and your energy bill will be lower.",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Rochester Hills Business Happenings",
-      "posted": "2026-10-20",
-      "first_seen": "2026-10-21",
-      "last_seen": "2026-10-21",
-      "queries": [
-        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "7587fb4ff063"
+        "version": "8ecd790d0bb2"
       },
       "production": {
         "accepted": false,
