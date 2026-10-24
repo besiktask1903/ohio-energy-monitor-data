@@ -1,547 +1,237 @@
 {
-  "updated": "2026-10-24T02:48:29Z",
-  "count": 934,
+  "updated": "2026-10-24T15:11:27Z",
+  "count": 958,
   "candidates": [
     {
+      "context": "facebook.com",
+      "first_seen": "2026-10-24",
+      "group": "",
       "id": "https://www.facebook.com/groups/854581802803879/posts/1621942416067810",
-      "url": "https://www.facebook.com/groups/854581802803879/posts/1621942416067810",
-      "title": "why am I paying Aqua $50+ in a base fee but my usage is ...",
+      "last_seen": "2026-10-24",
+      "posted": "2026-10-22",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "e1fb38e0e466"
+      },
       "snippet": "I came on here and asked for help and if somebody is having similar issues. If the bill is $100 a month and I've lived here for a year, basically, it's saying",
       "source": "Facebook",
+      "title": "why am I paying Aqua $50+ in a base fee but my usage is ...",
+      "url": "https://www.facebook.com/groups/854581802803879/posts/1621942416067810"
+    },
+    {
+      "id": "https://www.facebook.com/groups/953837494772593/posts/3605062996316683",
+      "url": "https://www.facebook.com/groups/953837494772593/posts/3605062996316683",
+      "title": "what's wrong with electricity sewage area philo 1,2,3,4?",
+      "snippet": "The first 3 pictures show the solution an excavating company did to supply electrical to a new septic system. This is not okay, there is numerous code",
+      "source": "Facebook",
       "context": "facebook.com",
-      "group": "",
-      "posted": "2026-10-22",
+      "group": "Juja people united forum",
+      "posted": "2026-10-20",
       "first_seen": "2026-10-24",
       "last_seen": "2026-10-24",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "a9b539065e38"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "context": "business.facebook.com",
+      "first_seen": "2026-10-24",
+      "group": "",
+      "id": "https://business.facebook.com/groups/2228800353",
+      "last_seen": "2026-10-24",
+      "posted": "",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "e1fb38e0e466"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://business.facebook.com/groups/2228800353",
-      "url": "https://business.facebook.com/groups/2228800353",
-      "title": "You know you're from Bellevue, Ohio when... | Facebook",
       "snippet": "1 day ago · You’re completely used to the sound of train horns in the night, and have no trouble sleeping because of them. You knew what Little Italy was, and you miss it dearly. Your city center is located 2 miles from downtown (in a town that’s about 3 miles wide) You either see, hear, or wait for…",
       "source": "Facebook",
-      "context": "business.facebook.com",
-      "group": "",
-      "posted": "",
+      "title": "You know you're from Bellevue, Ohio when... | Facebook",
+      "url": "https://business.facebook.com/groups/2228800353"
+    },
+    {
+      "context": "facebook.com",
       "first_seen": "2026-10-24",
+      "group": "The Sidney Wire",
+      "id": "https://www.facebook.com/groups/sidneywire/posts/4539039909652206",
       "last_seen": "2026-10-24",
+      "posted": "2026-10-19",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
-        "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio"
+        "site:facebook.com/groups/sidneywire/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "e1fb38e0e466"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/sidneywire/posts/4539039909652206",
-      "url": "https://www.facebook.com/groups/sidneywire/posts/4539039909652206",
-      "title": "YWCA Piqua Christmas Day Trip to Indianapolis on ...",
       "snippet": "The cost of $165 includes your bus ride to and from the show, Payments can be made to Happy Travelers 242 Hel Mar Drive Mitchell IN 47446",
       "source": "Facebook",
+      "title": "YWCA Piqua Christmas Day Trip to Indianapolis on ...",
+      "url": "https://www.facebook.com/groups/sidneywire/posts/4539039909652206"
+    },
+    {
       "context": "facebook.com",
-      "group": "The Sidney Wire",
-      "posted": "2026-10-19",
       "first_seen": "2026-10-24",
+      "group": "",
+      "id": "https://www.facebook.com/groups/XeniaOpenForum",
       "last_seen": "2026-10-24",
+      "posted": "",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
-        "site:facebook.com/groups/sidneywire/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+        "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "e1fb38e0e466"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/XeniaOpenForum",
-      "url": "https://www.facebook.com/groups/XeniaOpenForum",
-      "title": "Xenia Community Open Forum - Facebook",
       "snippet": "23 hours ago · A moderated Forum open to all Xenia area residents, present, former, and future for civil discussion of the local and national topics of the day and",
       "source": "Facebook",
+      "title": "Xenia Community Open Forum - Facebook",
+      "url": "https://www.facebook.com/groups/XeniaOpenForum"
+    },
+    {
       "context": "facebook.com",
-      "group": "",
-      "posted": "",
       "first_seen": "2026-10-24",
+      "group": "Philippine Net-Metering Cooperative",
+      "id": "https://www.facebook.com/groups/539891210292159/posts/2156050278676236",
       "last_seen": "2026-10-24",
+      "posted": "2026-10-22",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": false,
         "host": true,
-        "keyword": false,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": true,
+        "keyword": true,
+        "lead": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "e1fb38e0e466"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/539891210292159/posts/2156050278676236",
-      "url": "https://www.facebook.com/groups/539891210292159/posts/2156050278676236",
-      "title": "Why is our electricity bill so high with minimal usage?",
       "snippet": "Can someone explain my electricity bill to me i don't have any major appliances as a stove and a normal size fridge do run heat and wash a couple of loads",
       "source": "Facebook",
+      "title": "Why is our electricity bill so high with minimal usage?",
+      "url": "https://www.facebook.com/groups/539891210292159/posts/2156050278676236"
+    },
+    {
       "context": "facebook.com",
-      "group": "Philippine Net-Metering Cooperative",
-      "posted": "2026-10-22",
       "first_seen": "2026-10-24",
+      "group": "West Carrollton/Moraine Neighborhood Chat",
+      "id": "https://www.facebook.com/groups/808432479335587/posts/3640911536087653",
       "last_seen": "2026-10-24",
+      "posted": "2026-10-17",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
-        "host": true,
-        "keyword": true,
-        "ohio": false,
-        "lead": true,
         "hard_exclusion": false,
+        "host": true,
+        "keyword": false,
+        "lead": true,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "e1fb38e0e466"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/808432479335587/posts/3640911536087653",
-      "url": "https://www.facebook.com/groups/808432479335587/posts/3640911536087653",
-      "title": "Why did my AES bill increase from $231 to $468?",
       "snippet": "WTF. My aes bill went from 231.00 to 468. 20 . I'm beyond frugal of my usage. Doors closed, light's off when not in use, air set at 77, led lighting, etc..",
       "source": "Facebook",
-      "context": "facebook.com",
-      "group": "West Carrollton/Moraine Neighborhood Chat",
-      "posted": "2026-10-17",
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24",
-      "queries": [
-        "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": true,
-        "hard_exclusion": false,
-        "version": "e1fb38e0e466"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "title": "Why did my AES bill increase from $231 to $468?",
+      "url": "https://www.facebook.com/groups/808432479335587/posts/3640911536087653"
     },
     {
-      "id": "https://www.facebook.com/groups/2805144586489731/posts/3003765966627591",
-      "url": "https://www.facebook.com/groups/2805144586489731/posts/3003765966627591",
-      "title": "Which household appliance doubles your electric bill?",
-      "snippet": "Electric appliances can do everything that gas appliances do in your home. The Columbus Dispatch 1y. The extra cost per household: $150 to $250 a year.",
+      "id": "https://www.facebook.com/groups/2083708724988514/posts/40417682191164355",
+      "url": "https://www.facebook.com/groups/2083708724988514/posts/40417682191164355",
+      "title": "Who provides utilities in McClure, Ohio?",
+      "snippet": "Happy Sunday everyone!\nI hope you all are well! My name is Justin and my wife and I recently just bought our first house and will be moving into the community",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Grew Up in the 70's and 80's",
-      "posted": "2026-10-22",
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24",
-      "queries": [
-        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
-        "host": true,
-        "keyword": true,
-        "ohio": false,
-        "lead": true,
-        "hard_exclusion": false,
-        "version": "e1fb38e0e466"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/194430493950148/posts/29110850348548111",
-      "url": "https://www.facebook.com/groups/194430493950148/posts/29110850348548111",
-      "title": "What is everyone thinking about NOPEC?",
-      "snippet": "What is everyone thinking about NOPEC?",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "You know you're from Brunswick if...",
-      "posted": "2026-10-23",
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24",
-      "queries": [
-        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
-        "host": true,
-        "keyword": true,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "e1fb38e0e466"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/voicesbehindwallsohio",
-      "url": "https://www.facebook.com/groups/voicesbehindwallsohio",
-      "title": "Voices for Those Incarcerated in Ohio Prisons | Facebook",
-      "snippet": "22 hours ago · This group is dedicated to raising awareness, sharing information, and advocating for transparency and accountability within Ohio’s prison system. It serves as a space for families, supporters, and advocates to come together, share experiences, and bring attention to concerns that oft…",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "",
-      "posted": "",
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24",
-      "queries": [
-        "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "e1fb38e0e466"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/2069179503525783/posts/2661227820987612",
-      "url": "https://www.facebook.com/groups/2069179503525783/posts/2661227820987612",
-      "title": "Utility companies and rising rates in Columbus, MS",
-      "snippet": "Columbus residents may see higher costs for electric, water and gas by 2027. an average customer can expect to pay an extra $36 a month by 2027 if they use",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Columbus, Ms UNFILTERED",
-      "posted": "2026-10-20",
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24",
-      "queries": [
-        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "e1fb38e0e466"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/1444684962459417/posts/4522713524656530",
-      "url": "https://www.facebook.com/groups/1444684962459417/posts/4522713524656530",
-      "title": "Understanding Coshocton Water Department Bill Calculation",
-      "snippet": "The math isn’t mathin’ …. Someone help me make sense of this for me please",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Coshocton Talks The Talk",
-      "posted": "2026-10-20",
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24",
-      "queries": [
-        "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "e1fb38e0e466"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/904509544135710/posts/1784293536157302",
-      "url": "https://www.facebook.com/groups/904509544135710/posts/1784293536157302",
-      "title": "This is the link to information regarding the PowerConneX ...",
-      "snippet": "Phone: 1-866-270-6772. Broad Street, Columbus, Ohio 43215 ・ a natural gas-powered electric generation facility ・ located in Ashville, Pickaway County, Ohio.",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Raccoon Creek Environmental Alliance Clean Air and Water for Alex/SA Twp",
-      "posted": "2026-10-22",
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24",
-      "queries": [
-        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
-        "host": true,
-        "keyword": true,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "e1fb38e0e466"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/sidneywire/posts/4539279572961573",
-      "url": "https://www.facebook.com/groups/sidneywire/posts/4539279572961573",
-      "title": "The Sidney Wire",
-      "snippet": "The trees will represent individuals, families and companies from around Indiana. Bill Thomas ► The Sidney Wire 11h",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "",
-      "posted": "2026-10-20",
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24",
-      "queries": [
-        "site:facebook.com/groups/sidneywire/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "e1fb38e0e466"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/sidneywire/posts/4539057182983812",
-      "url": "https://www.facebook.com/groups/sidneywire/posts/4539057182983812",
-      "title": "The Sidney Wire",
-      "snippet": "The trees will represent individuals, families and companies from around Indiana. Also at the Historical Center, we will have the opportunity to experience",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "",
-      "posted": "2026-10-19",
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24",
-      "queries": [
-        "site:facebook.com/groups/sidneywire/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "e1fb38e0e466"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/sidneywire/posts/4542603252629205",
-      "url": "https://www.facebook.com/groups/sidneywire/posts/4542603252629205",
-      "title": "Taking new clients on our schedule!! From interior remodel ...",
-      "snippet": "We take pride in our accomplishments and build on them daily! We are licensed and insured. BBB Accredited. A Rating We are Veteran Owned and Operated Services",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "The Sidney Wire",
-      "posted": "2026-10-23",
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24",
-      "queries": [
-        "site:facebook.com/groups/sidneywire/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "e1fb38e0e466"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/379988731167219/posts/1085201177312634",
-      "url": "https://www.facebook.com/groups/379988731167219/posts/1085201177312634",
-      "title": "THE CINCINNATI GAS & ELECTRIC COMPANY, 1902",
-      "snippet": "Cincinnati Gas and Electric building which was located at 4th and Main Streets in Cincinnati Ohio, the Cincinnati Gas and Electric company.",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "I grew up in Ohio",
-      "posted": "2026-10-22",
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24",
-      "queries": [
-        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
-        "host": true,
-        "keyword": true,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": false,
-        "version": "e1fb38e0e466"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/STRSOhioWatchdogs",
-      "url": "https://www.facebook.com/groups/STRSOhioWatchdogs",
-      "title": "STRS Ohio Watchdogs - Facebook",
-      "snippet": "12 hours ago · The STRS Ohio Watchdogs inform the public about what is happening at STRS Ohio, specifically about the suspension of the COLA, the 14% employee contribution rate, and the increase in years of service required for retirement.",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "",
-      "posted": "",
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24",
-      "queries": [
-        "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "e1fb38e0e466"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/sidneywire/posts/4537834596439404",
-      "url": "https://www.facebook.com/groups/sidneywire/posts/4537834596439404",
-      "title": "Package picture vs reality. Got it at a local gas station. 🤣",
-      "snippet": "Package picture vs reality. Got it at a local gas station. pic matched the actual product. Which one should I try first?",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "The Sidney Wire",
+      "group": "McClure, Ohio - Community Information",
       "posted": "2026-10-18",
       "first_seen": "2026-10-24",
       "last_seen": "2026-10-24",
       "queries": [
-        "site:facebook.com/groups/sidneywire/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -552,7 +242,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "e1fb38e0e466"
+        "version": "a9b539065e38"
       },
       "production": {
         "accepted": false,
@@ -561,49 +251,545 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/sidneywire/posts/4540375696185294",
-      "url": "https://www.facebook.com/groups/sidneywire/posts/4540375696185294",
-      "title": "New Point Church cannot wait to see you this Sunday! ...",
-      "snippet": "New Point Church cannot wait to see you this Sunday! Church service in the park!! 11 am.",
+      "context": "facebook.com",
+      "first_seen": "2026-10-24",
+      "group": "Grew Up in the 70's and 80's",
+      "id": "https://www.facebook.com/groups/2805144586489731/posts/3003765966627591",
+      "last_seen": "2026-10-24",
+      "posted": "2026-10-22",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": false,
+        "host": true,
+        "keyword": true,
+        "lead": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "e1fb38e0e466"
+      },
+      "snippet": "Electric appliances can do everything that gas appliances do in your home. The Columbus Dispatch 1y. The extra cost per household: $150 to $250 a year.",
+      "source": "Facebook",
+      "title": "Which household appliance doubles your electric bill?",
+      "url": "https://www.facebook.com/groups/2805144586489731/posts/3003765966627591"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-24",
+      "group": "You know you're from Brunswick if...",
+      "id": "https://www.facebook.com/groups/194430493950148/posts/29110850348548111",
+      "last_seen": "2026-10-24",
+      "posted": "2026-10-23",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
+        "version": "e1fb38e0e466"
+      },
+      "snippet": "What is everyone thinking about NOPEC?",
+      "source": "Facebook",
+      "title": "What is everyone thinking about NOPEC?",
+      "url": "https://www.facebook.com/groups/194430493950148/posts/29110850348548111"
+    },
+    {
+      "id": "https://www.facebook.com/groups/304360903693275/posts/2286710115458334",
+      "url": "https://www.facebook.com/groups/304360903693275/posts/2286710115458334",
+      "title": "What companies in Marion County offer light bill assistance?",
+      "snippet": "LIHEAP, Thrive, and some Catholic churches offer assistance, with payment plans and extensions also suggested. Call LIHEAP or Thrive Up, I've used them.",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "The Sidney Wire",
-      "posted": "2026-10-21",
+      "group": "Summerfield, Florida Word of Mouth",
+      "posted": "2026-10-22",
       "first_seen": "2026-10-24",
       "last_seen": "2026-10-24",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "a9b539065e38"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/724382954945568/posts/2037594343624416",
+      "url": "https://www.facebook.com/groups/724382954945568/posts/2037594343624416",
+      "title": "Water",
+      "snippet": "Water\nI know of a couple people living in California, and Texas both in major cities. So out of curiosity, I asked to see their water bills because I feel",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "We Love Canton, NC",
+      "posted": "2026-10-19",
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "a9b539065e38"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-24",
+      "group": "",
+      "id": "https://www.facebook.com/groups/voicesbehindwallsohio",
+      "last_seen": "2026-10-24",
+      "posted": "",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "e1fb38e0e466"
+      },
+      "snippet": "22 hours ago · This group is dedicated to raising awareness, sharing information, and advocating for transparency and accountability within Ohio’s prison system. It serves as a space for families, supporters, and advocates to come together, share experiences, and bring attention to concerns that oft…",
+      "source": "Facebook",
+      "title": "Voices for Those Incarcerated in Ohio Prisons | Facebook",
+      "url": "https://www.facebook.com/groups/voicesbehindwallsohio"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-24",
+      "group": "Columbus, Ms UNFILTERED",
+      "id": "https://www.facebook.com/groups/2069179503525783/posts/2661227820987612",
+      "last_seen": "2026-10-24",
+      "posted": "2026-10-20",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "e1fb38e0e466"
+      },
+      "snippet": "Columbus residents may see higher costs for electric, water and gas by 2027. an average customer can expect to pay an extra $36 a month by 2027 if they use",
+      "source": "Facebook",
+      "title": "Utility companies and rising rates in Columbus, MS",
+      "url": "https://www.facebook.com/groups/2069179503525783/posts/2661227820987612"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-24",
+      "group": "Coshocton Talks The Talk",
+      "id": "https://www.facebook.com/groups/1444684962459417/posts/4522713524656530",
+      "last_seen": "2026-10-24",
+      "posted": "2026-10-20",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "e1fb38e0e466"
+      },
+      "snippet": "The math isn’t mathin’ …. Someone help me make sense of this for me please",
+      "source": "Facebook",
+      "title": "Understanding Coshocton Water Department Bill Calculation",
+      "url": "https://www.facebook.com/groups/1444684962459417/posts/4522713524656530"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-24",
+      "group": "Raccoon Creek Environmental Alliance Clean Air and Water for Alex/SA Twp",
+      "id": "https://www.facebook.com/groups/904509544135710/posts/1784293536157302",
+      "last_seen": "2026-10-24",
+      "posted": "2026-10-22",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "e1fb38e0e466"
+      },
+      "snippet": "Phone: 1-866-270-6772. Broad Street, Columbus, Ohio 43215 ・ a natural gas-powered electric generation facility ・ located in Ashville, Pickaway County, Ohio.",
+      "source": "Facebook",
+      "title": "This is the link to information regarding the PowerConneX ...",
+      "url": "https://www.facebook.com/groups/904509544135710/posts/1784293536157302"
+    },
+    {
+      "id": "https://www.facebook.com/groups/vanwertvoice/posts/4501884763291359",
+      "url": "https://www.facebook.com/groups/vanwertvoice/posts/4501884763291359",
+      "title": "There has to be transparency of these corporations!",
+      "snippet": "Economic Burdens: Higher Bills and Lost Public Funds The promised jobs are minimal and temporary, while residents face rate hikes and communities lose out on",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Van Wert Voice",
+      "posted": "2026-10-22",
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "queries": [
+        "site:facebook.com/groups/vanwertvoice/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "a9b539065e38"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-24",
+      "group": "",
+      "id": "https://www.facebook.com/groups/sidneywire/posts/4539057182983812",
+      "last_seen": "2026-10-24",
+      "posted": "2026-10-19",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups/sidneywire/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "e1fb38e0e466"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "snippet": "The trees will represent individuals, families and companies from around Indiana. Also at the Historical Center, we will have the opportunity to experience",
+      "source": "Facebook",
+      "title": "The Sidney Wire",
+      "url": "https://www.facebook.com/groups/sidneywire/posts/4539057182983812"
     },
     {
-      "id": "https://www.facebook.com/groups/2083708724988514",
-      "url": "https://www.facebook.com/groups/2083708724988514",
-      "title": "McClure, Ohio - Community Information | Facebook",
-      "snippet": "14 hours ago · I hope you all are well! My name is Justin and my wife and I recently just bought our first house and will be moving into the community in the coming weeks! I was wondering who you fine people use for your utilities? Such as water and gas. I know Toledo Edison runs the yard for power …",
-      "source": "Facebook",
       "context": "facebook.com",
+      "first_seen": "2026-10-24",
       "group": "",
+      "id": "https://www.facebook.com/groups/sidneywire/posts/4539279572961573",
+      "last_seen": "2026-10-24",
+      "posted": "2026-10-20",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups/sidneywire/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "e1fb38e0e466"
+      },
+      "snippet": "The trees will represent individuals, families and companies from around Indiana. Bill Thomas ► The Sidney Wire 11h",
+      "source": "Facebook",
+      "title": "The Sidney Wire",
+      "url": "https://www.facebook.com/groups/sidneywire/posts/4539279572961573"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-24",
+      "group": "The Sidney Wire",
+      "id": "https://www.facebook.com/groups/sidneywire/posts/4542603252629205",
+      "last_seen": "2026-10-24",
+      "posted": "2026-10-23",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups/sidneywire/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "e1fb38e0e466"
+      },
+      "snippet": "We take pride in our accomplishments and build on them daily! We are licensed and insured. BBB Accredited. A Rating We are Veteran Owned and Operated Services",
+      "source": "Facebook",
+      "title": "Taking new clients on our schedule!! From interior remodel ...",
+      "url": "https://www.facebook.com/groups/sidneywire/posts/4542603252629205"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-24",
+      "group": "I grew up in Ohio",
+      "id": "https://www.facebook.com/groups/379988731167219/posts/1085201177312634",
+      "last_seen": "2026-10-24",
+      "posted": "2026-10-22",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": false,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
+        "version": "e1fb38e0e466"
+      },
+      "snippet": "Cincinnati Gas and Electric building which was located at 4th and Main Streets in Cincinnati Ohio, the Cincinnati Gas and Electric company.",
+      "source": "Facebook",
+      "title": "THE CINCINNATI GAS & ELECTRIC COMPANY, 1902",
+      "url": "https://www.facebook.com/groups/379988731167219/posts/1085201177312634"
+    },
+    {
+      "id": "https://cnmec.org/smarthub",
+      "url": "https://cnmec.org/smarthub",
+      "title": "SmartHub | Central New Mexico Electric Cooperative, Inc",
+      "snippet": "Pay Bill Online with SmartHub- Use your credit/debit card or your checking account to pay your bill online with SmartHub.  Please have a copy of your most recent electric or internet bill available to make the transaction as smooth as possible.\n\nFree Mobile Apps\n\nSimply search for \"SmartHub\" in the …",
+      "source": "cnmec.org",
+      "context": "cnmec.org",
+      "group": "SmartHub",
       "posted": "",
       "first_seen": "2026-10-24",
       "last_seen": "2026-10-24",
       "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "host",
+        "host": false,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "a9b539065e38"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "host"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-24",
+      "group": "",
+      "id": "https://www.facebook.com/groups/STRSOhioWatchdogs",
+      "last_seen": "2026-10-24",
+      "posted": "",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
         "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "e1fb38e0e466"
+      },
+      "snippet": "12 hours ago · The STRS Ohio Watchdogs inform the public about what is happening at STRS Ohio, specifically about the suspension of the COLA, the 14% employee contribution rate, and the increase in years of service required for retirement.",
+      "source": "Facebook",
+      "title": "STRS Ohio Watchdogs - Facebook",
+      "url": "https://www.facebook.com/groups/STRSOhioWatchdogs"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-24",
+      "group": "The Sidney Wire",
+      "id": "https://www.facebook.com/groups/sidneywire/posts/4537834596439404",
+      "last_seen": "2026-10-24",
+      "posted": "2026-10-18",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups/sidneywire/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "e1fb38e0e466"
+      },
+      "snippet": "Package picture vs reality. Got it at a local gas station. pic matched the actual product. Which one should I try first?",
+      "source": "Facebook",
+      "title": "Package picture vs reality. Got it at a local gas station. 🤣",
+      "url": "https://www.facebook.com/groups/sidneywire/posts/4537834596439404"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-24",
+      "group": "The Sidney Wire",
+      "id": "https://www.facebook.com/groups/sidneywire/posts/4540375696185294",
+      "last_seen": "2026-10-24",
+      "posted": "2026-10-21",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups/sidneywire/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "e1fb38e0e466"
+      },
+      "snippet": "New Point Church cannot wait to see you this Sunday! Church service in the park!! 11 am.",
+      "source": "Facebook",
+      "title": "New Point Church cannot wait to see you this Sunday! ...",
+      "url": "https://www.facebook.com/groups/sidneywire/posts/4540375696185294"
+    },
+    {
+      "id": "https://www.facebook.com/groups/62579401480/posts/10163435715846481",
+      "url": "https://www.facebook.com/groups/62579401480/posts/10163435715846481",
+      "title": "NRG reps in Geauga Lake neighborhood",
+      "snippet": "NRG (an “alternative energy supplier” for utilities) has two reps in the neighborhood tonight. gas and electric suppliers , and asking to see our most recent",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "GEAUGA LAKE NEIGHBORS",
+      "posted": "2026-10-21",
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -614,7 +800,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "e1fb38e0e466"
+        "version": "a9b539065e38"
       },
       "production": {
         "accepted": false,
@@ -623,60 +809,153 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/marionohiopolitics",
-      "url": "https://www.facebook.com/groups/marionohiopolitics",
-      "title": "Marion & Ohio Issues & Politics - Facebook",
-      "snippet": "1 day ago · I keep getting asked, so I'll provide the complete answer here: WHY I'M VOTING NO ON OHIO ISSUE 3. Ohio already requires photo ID for in-person voting. The Republican-controlled legislature passed HB 472 to extend photo-ID requirements to mail-in ballots. Governor DeWine vetoed it. But h…",
+      "id": "https://www.facebook.com/groups/livingintemplebeltontx/posts/1097568263275661",
+      "url": "https://www.facebook.com/groups/livingintemplebeltontx/posts/1097568263275661",
+      "title": "My electric bill was almost $500. Any recommendations on ...",
+      "snippet": "My electric bill was almost $500. Any recommendations on anyone cheaper?",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "",
-      "posted": "",
+      "group": "Living in Temple/Belton Tx",
+      "posted": "2026-10-23",
       "first_seen": "2026-10-24",
       "last_seen": "2026-10-24",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "a9b539065e38"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-24",
+      "group": "",
+      "id": "https://www.facebook.com/groups/2083708724988514",
+      "last_seen": "2026-10-24",
+      "posted": "",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": true,
-        "lead": false,
         "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
         "version": "e1fb38e0e466"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "snippet": "14 hours ago · I hope you all are well! My name is Justin and my wife and I recently just bought our first house and will be moving into the community in the coming weeks! I was wondering who you fine people use for your utilities? Such as water and gas. I know Toledo Edison runs the yard for power …",
+      "source": "Facebook",
+      "title": "McClure, Ohio - Community Information | Facebook",
+      "url": "https://www.facebook.com/groups/2083708724988514"
     },
     {
-      "id": "https://www.facebook.com/groups/sidneywire/posts/4541890676033796",
-      "url": "https://www.facebook.com/groups/sidneywire/posts/4541890676033796",
-      "title": "Looking to pickup Any non working or unwanted air ...",
-      "snippet": "$30 per item charge for items with freon. Weekly, monthly, or call for pick up schedules available. electric motors, any aluminum, copper, brass. Very capable",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "The Sidney Wire",
-      "posted": "2026-10-22",
       "first_seen": "2026-10-24",
+      "group": "",
+      "id": "https://www.facebook.com/groups/marionohiopolitics",
       "last_seen": "2026-10-24",
+      "posted": "",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "e1fb38e0e466"
+      },
+      "snippet": "1 day ago · I keep getting asked, so I'll provide the complete answer here: WHY I'M VOTING NO ON OHIO ISSUE 3. Ohio already requires photo ID for in-person voting. The Republican-controlled legislature passed HB 472 to extend photo-ID requirements to mail-in ballots. Governor DeWine vetoed it. But h…",
+      "source": "Facebook",
+      "title": "Marion & Ohio Issues & Politics - Facebook",
+      "url": "https://www.facebook.com/groups/marionohiopolitics"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-24",
+      "group": "The Sidney Wire",
+      "id": "https://www.facebook.com/groups/sidneywire/posts/4541890676033796",
+      "last_seen": "2026-10-24",
+      "posted": "2026-10-22",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups/sidneywire/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "e1fb38e0e466"
+      },
+      "snippet": "$30 per item charge for items with freon. Weekly, monthly, or call for pick up schedules available. electric motors, any aluminum, copper, brass. Very capable",
+      "source": "Facebook",
+      "title": "Looking to pickup Any non working or unwanted air ...",
+      "url": "https://www.facebook.com/groups/sidneywire/posts/4541890676033796"
+    },
+    {
+      "id": "https://www.facebook.com/groups/1488953951418913/posts/4619511118363165",
+      "url": "https://www.facebook.com/groups/1488953951418913/posts/4619511118363165",
+      "title": "Its Gas reason selling it because im switching to electric",
+      "snippet": "Its Gas reason selling it because im switching to electric. Her disconnection bill is $1000",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Buy/Sell/Trade Logan, Ohio",
+      "posted": "2026-10-18",
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
         "semantic_accepted": false,
         "reason": "keyword",
         "host": true,
         "keyword": false,
         "ohio": true,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "e1fb38e0e466"
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "a9b539065e38"
       },
       "production": {
         "accepted": false,
@@ -685,18 +964,80 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/362066169233785/posts/1439245371515854",
-      "url": "https://www.facebook.com/groups/362066169233785/posts/1439245371515854",
-      "title": "I went through a hardship last year and got behind on my ...",
-      "snippet": "I went through a hardship last year and got behind on my insane gas bill, resulting in disconnection. Now that it's getting cold I need to figure out how",
+      "id": "https://www.facebook.com/groups/hockingcountybuyselltrade/posts/2875151202857097",
+      "url": "https://www.facebook.com/groups/hockingcountybuyselltrade/posts/2875151202857097",
+      "title": "Its Gas reason selling it because im switching to electric",
+      "snippet": "Ive decided to sell my gas stove which I love & buy an electric. This way I can turn off my gas completely in the seasons I don't need my furnace. No more",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Hutchinson helping people for free",
-      "posted": "2026-10-17",
+      "group": "LOGAN HOCKING COUNTY OHIO BUY/SELL/TRADE/GIVEAWAY",
+      "posted": "2026-10-18",
       "first_seen": "2026-10-24",
       "last_seen": "2026-10-24",
       "queries": [
-        "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio"
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "a9b539065e38"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/2635341646765546/posts/4160304880935874",
+      "url": "https://www.facebook.com/groups/2635341646765546/posts/4160304880935874",
+      "title": "Is my electric meter out of date?",
+      "snippet": "Ask your provider for a smart meter this is free of charge and installation it will make your future bill cheaper. They do not work unless the supplier",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "park homes forum",
+      "posted": "2026-10-23",
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "a9b539065e38"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1636422637605823/posts/1827239055190846",
+      "url": "https://www.facebook.com/groups/1636422637605823/posts/1827239055190846",
+      "title": "I'm sharing the report below [The AI Gas Rush",
+      "snippet": "maybe it keeps your electric bill from spiking. Public AI's natural gas addiction could be deadly for Ohio's communities … raising electric rates nationwide.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "",
+      "posted": "2026-10-23",
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -707,7 +1048,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "e1fb38e0e466"
+        "version": "a9b539065e38"
       },
       "production": {
         "accepted": false,
@@ -716,159 +1057,376 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/1693616804443624/posts/2597438364061459",
-      "url": "https://www.facebook.com/groups/1693616804443624/posts/2597438364061459",
-      "title": "High water bills in Norwalk, CA: Any similar experiences?",
-      "snippet": "Hi neighbors, anybody live in the city of Norwalk with a ridiculous water bill? Ours is normally $200 and we got a $3,200 water bill. We had three plumbers",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Positively Norwalk California",
-      "posted": "2026-10-21",
       "first_seen": "2026-10-24",
+      "group": "Hutchinson helping people for free",
+      "id": "https://www.facebook.com/groups/362066169233785/posts/1439245371515854",
       "last_seen": "2026-10-24",
+      "posted": "2026-10-17",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
         "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "e1fb38e0e466"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "snippet": "I went through a hardship last year and got behind on my insane gas bill, resulting in disconnection. Now that it's getting cold I need to figure out how",
+      "source": "Facebook",
+      "title": "I went through a hardship last year and got behind on my ...",
+      "url": "https://www.facebook.com/groups/362066169233785/posts/1439245371515854"
     },
     {
-      "id": "https://www.facebook.com/groups/779220482206901/posts/28323506744018237",
-      "url": "https://www.facebook.com/groups/779220482206901/posts/28323506744018237",
-      "title": "General Electric's AC network analyzer models complex ...",
-      "snippet": "# AC Network Analyzer¹\n\nA huge dial-studded **analog computer** that mathematically models a **complex electric power system**² is given its first test",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "At The Controls",
-      "posted": "2026-10-19",
       "first_seen": "2026-10-24",
+      "group": "Positively Norwalk California",
+      "id": "https://www.facebook.com/groups/1693616804443624/posts/2597438364061459",
       "last_seen": "2026-10-24",
+      "posted": "2026-10-21",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "e1fb38e0e466"
+      },
+      "snippet": "Hi neighbors, anybody live in the city of Norwalk with a ridiculous water bill? Ours is normally $200 and we got a $3,200 water bill. We had three plumbers",
+      "source": "Facebook",
+      "title": "High water bills in Norwalk, CA: Any similar experiences?",
+      "url": "https://www.facebook.com/groups/1693616804443624/posts/2597438364061459"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-24",
+      "group": "At The Controls",
+      "id": "https://www.facebook.com/groups/779220482206901/posts/28323506744018237",
+      "last_seen": "2026-10-24",
+      "posted": "2026-10-19",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio"
       ],
       "rules": {
         "accepted": false,
+        "hard_exclusion": false,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "e1fb38e0e466"
+      },
+      "snippet": "# AC Network Analyzer¹\n\nA huge dial-studded **analog computer** that mathematically models a **complex electric power system**² is given its first test",
+      "source": "Facebook",
+      "title": "General Electric's AC network analyzer models complex ...",
+      "url": "https://www.facebook.com/groups/779220482206901/posts/28323506744018237"
+    },
+    {
+      "id": "https://www.facebook.com/groups/YoMarketPlace/posts/40505064699092718",
+      "url": "https://www.facebook.com/groups/YoMarketPlace/posts/40505064699092718",
+      "title": "GE Brand Gas Dryer only a few years old. We needed an ...",
+      "snippet": "The main content is a comparison of gas and electric dryers. A woman is thinking between two white dryers with \"GAS DRYER\" and \"ELECTRIC DRYER\" above them. The",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "A Youngstown Market Place",
+      "posted": "2026-10-18",
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
         "semantic_accepted": false,
         "reason": "keyword",
         "host": true,
         "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "a9b539065e38"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/2065648803685934/posts/4491856541065136",
+      "url": "https://www.facebook.com/groups/2065648803685934/posts/4491856541065136",
+      "title": "Eversource gas bill complaints and public benefits in ...",
+      "snippet": "Eversource has to go!!!!! $9.08 For supply the rest is for delivery and public benefits! WTF Take Maura with you!!!",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "West Springfield Community Forum",
+      "posted": "2026-10-20",
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
         "ohio": false,
         "lead": false,
         "hard_exclusion": false,
-        "version": "e1fb38e0e466"
+        "version": "a9b539065e38"
       },
       "production": {
         "accepted": false,
         "source": "rules",
-        "reason": "keyword"
+        "reason": "geography"
       }
     },
     {
+      "context": "facebook.com",
+      "first_seen": "2026-10-24",
+      "group": "The Sidney Wire",
       "id": "https://www.facebook.com/groups/sidneywire/posts/4539082162981314",
-      "url": "https://www.facebook.com/groups/sidneywire/posts/4539082162981314",
-      "title": "Erratic driver on Vandemark road incident",
+      "last_seen": "2026-10-24",
+      "posted": "2026-10-19",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups/sidneywire/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "e1fb38e0e466"
+      },
       "snippet": "What people are saying Erratic Porsche driver on Vandemark Road sparks outrage, with witnesses calling for license revocation and reporting similar incidents.",
       "source": "Facebook",
-      "context": "facebook.com",
-      "group": "The Sidney Wire",
-      "posted": "2026-10-19",
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24",
-      "queries": [
-        "site:facebook.com/groups/sidneywire/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "e1fb38e0e466"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "title": "Erratic driver on Vandemark road incident",
+      "url": "https://www.facebook.com/groups/sidneywire/posts/4539082162981314"
     },
     {
-      "id": "https://www.facebook.com/groups/sidneywire/posts/4541964242693106",
-      "url": "https://www.facebook.com/groups/sidneywire/posts/4541964242693106",
-      "title": "Christmas Minis with Santa! Three different dates and ...",
-      "snippet": "Christmas Minis with Santa! Three different dates and towns! Message me to book!",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "The Sidney Wire",
-      "posted": "2026-10-22",
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24",
-      "queries": [
-        "site:facebook.com/groups/sidneywire/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "e1fb38e0e466"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://business.facebook.com/groups/chip.news",
-      "url": "https://business.facebook.com/groups/chip.news",
-      "title": "Chippewa Township Gossip and News ! | Facebook",
-      "snippet": "1 day ago · Utility services (water, gas, sewer) do not extend throughout the \"City\". Four school districts service New Franklin. All roads are now managed by the City. Police have to cover the entire jurisdiction. That means increased costs, which generally means increased taxes. Doylestown uses RI…",
-      "source": "Facebook",
-      "context": "business.facebook.com",
+      "id": "https://www.britannica.com/science/electricity",
+      "url": "https://www.britannica.com/science/electricity",
+      "title": "Electricity | Definition, Facts, & Types | Britannica",
+      "snippet": "The magnitude of the force F on charge Q1 as calculated using equation (1) is 3.6 newtons; its direction is shown in Figure 1. The force on Q2 due to Q1 is −F, which also has a magnitude of 3.6 newtons; its direction, however, is opposite to that of F. The force F can be expressed in terms of its co…",
+      "source": "britannica.com",
+      "context": "britannica.com",
       "group": "",
       "posted": "",
       "first_seen": "2026-10-24",
       "last_seen": "2026-10-24",
       "queries": [
-        "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio"
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
       ],
       "rules": {
         "accepted": false,
         "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
+        "reason": "host",
+        "host": false,
+        "keyword": true,
         "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
-        "version": "e1fb38e0e466"
+        "hard_exclusion": false,
+        "version": "a9b539065e38"
       },
       "production": {
         "accepted": false,
         "source": "rules",
-        "reason": "keyword"
+        "reason": "host"
       }
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Electricity",
+      "url": "https://en.wikipedia.org/wiki/Electricity",
+      "title": "Electricity",
+      "snippet": "may be as high as 100 MV and have discharge energies as great as 250 kWh.( [...] ## References [...] Hidden categories: \n   Articles with short description\n   Short description is different from Wikidata\n   Wikipedia indefinitely semi-protected pages\n   Use British English from December 2024\n   All …",
+      "source": "en.wikipedia.org",
+      "context": "en.wikipedia.org",
+      "group": "",
+      "posted": "",
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "host",
+        "host": false,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "a9b539065e38"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "host"
+      }
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Electric_current",
+      "url": "https://en.wikipedia.org/wiki/Electric_current",
+      "title": "Electric current - Wikipedia",
+      "snippet": "In the International System of Units (SI), electric current is expressed in units of ampere (sometimes called an \"amp\", symbol A), which is equivalent to one coulomb per second. The ampere is an SI base unit and electric current is a base quantity in the International System of Quantities (ISQ).( El…",
+      "source": "en.wikipedia.org",
+      "context": "en.wikipedia.org",
+      "group": "",
+      "posted": "",
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "host",
+        "host": false,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "a9b539065e38"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "host"
+      }
+    },
+    {
+      "id": "https://electrek.co/",
+      "url": "https://electrek.co",
+      "title": "Electrek | EV and Tesla News, Green Energy, Ebikes, and more",
+      "snippet": "Will Sattelberg  Will Sattelberg Oct 8 2026\n   \n\n  9to5Mac\n\n  ### These US states just said ‘no’ to Apple Wallet driver’s licenses\n\n  Ryan Christoffel  Ryan Christoffel Oct 8 2026\n   \n\n  9to5Google\n\n  ### Next-gen Google TV Streamer in the works with microphones, presence sensing, & new remote\n\n  Ab…",
+      "source": "electrek.co",
+      "context": "electrek.co",
+      "group": "Electrek",
+      "posted": "",
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "host",
+        "host": false,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "a9b539065e38"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "host"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-24",
+      "group": "The Sidney Wire",
+      "id": "https://www.facebook.com/groups/sidneywire/posts/4541964242693106",
+      "last_seen": "2026-10-24",
+      "posted": "2026-10-22",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups/sidneywire/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "e1fb38e0e466"
+      },
+      "snippet": "Christmas Minis with Santa! Three different dates and towns! Message me to book!",
+      "source": "Facebook",
+      "title": "Christmas Minis with Santa! Three different dates and ...",
+      "url": "https://www.facebook.com/groups/sidneywire/posts/4541964242693106"
+    },
+    {
+      "context": "business.facebook.com",
+      "first_seen": "2026-10-24",
+      "group": "",
+      "id": "https://business.facebook.com/groups/chip.news",
+      "last_seen": "2026-10-24",
+      "posted": "",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "e1fb38e0e466"
+      },
+      "snippet": "1 day ago · Utility services (water, gas, sewer) do not extend throughout the \"City\". Four school districts service New Franklin. All roads are now managed by the City. Police have to cover the entire jurisdiction. That means increased costs, which generally means increased taxes. Doylestown uses RI…",
+      "source": "Facebook",
+      "title": "Chippewa Township Gossip and News ! | Facebook",
+      "url": "https://business.facebook.com/groups/chip.news"
     },
     {
       "id": "https://www.facebook.com/groups/515156996071243/posts/2194970158089910",
@@ -882,7 +1440,8 @@
       "first_seen": "2026-10-24",
       "last_seen": "2026-10-24",
       "queries": [
-        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio"
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio",
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -893,7 +1452,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "e1fb38e0e466"
+        "version": "a9b539065e38"
       },
       "production": {
         "accepted": false,
@@ -902,61 +1461,123 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/205788216142564/posts/28841650462129624",
-      "url": "https://www.facebook.com/groups/205788216142564/posts/28841650462129624",
-      "title": "Can someone please explain how the energy choice ...",
-      "snippet": "American Power & Gas of Ohio, LLC ・ 33777 (888) 593-4225 ・ s and switch to the 25% renewable energy fixed rate at $0.0839. Call (937) 754-3030",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Fairborn Friends And Neighbors",
-      "posted": "2026-10-22",
       "first_seen": "2026-10-24",
+      "group": "Fairborn Friends And Neighbors",
+      "id": "https://www.facebook.com/groups/205788216142564/posts/28841650462129624",
       "last_seen": "2026-10-24",
+      "posted": "2026-10-22",
+      "production": {
+        "accepted": true,
+        "reason": "accepted",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio"
       ],
       "rules": {
         "accepted": true,
-        "semantic_accepted": true,
-        "reason": "accepted",
+        "freshness": "fresh",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": true,
         "lead": true,
-        "hard_exclusion": false,
-        "version": "e1fb38e0e466",
-        "freshness": "fresh"
+        "ohio": true,
+        "reason": "accepted",
+        "semantic_accepted": true,
+        "version": "e1fb38e0e466"
+      },
+      "snippet": "American Power & Gas of Ohio, LLC ・ 33777 (888) 593-4225 ・ s and switch to the 25% renewable energy fixed rate at $0.0839. Call (937) 754-3030",
+      "source": "Facebook",
+      "title": "Can someone please explain how the energy choice ...",
+      "url": "https://www.facebook.com/groups/205788216142564/posts/28841650462129624"
+    },
+    {
+      "id": "https://www.facebook.com/groups/155997114522056/posts/28666047596423627",
+      "url": "https://www.facebook.com/groups/155997114522056/posts/28666047596423627",
+      "title": "Cable, Internet, power, utilities, all included - Loyalton",
+      "snippet": "Who does everyone have for cable and internet? Service Electric is charging us $270 for basic cable, internet and 1 dvr.... we only have 1 box in our home.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Loyalton/Sierra Valley Classifieds",
+      "posted": "2026-10-22",
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "a9b539065e38"
       },
       "production": {
-        "accepted": true,
+        "accepted": false,
         "source": "rules",
-        "reason": "accepted"
+        "reason": "keyword"
       }
     },
     {
-      "id": "https://www.facebook.com/groups/528042172315847/posts/1695517638901622",
-      "url": "https://www.facebook.com/groups/528042172315847/posts/1695517638901622",
-      "title": "Are high West Penn Power bills normal for a small house?",
-      "snippet": "My West Penn Power bills over the past year... is this normal?!\n\nI live in a very small 3 bedroom house (975sq ft) with my 12 yr old. We have central",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "across Westmoreland",
-      "posted": "2026-10-18",
       "first_seen": "2026-10-24",
+      "group": "across Westmoreland",
+      "id": "https://www.facebook.com/groups/528042172315847/posts/1695517638901622",
       "last_seen": "2026-10-24",
+      "posted": "2026-10-18",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio"
       ],
       "rules": {
         "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "e1fb38e0e466"
+      },
+      "snippet": "My West Penn Power bills over the past year... is this normal?!\n\nI live in a very small 3 bedroom house (975sq ft) with my 12 yr old. We have central",
+      "source": "Facebook",
+      "title": "Are high West Penn Power bills normal for a small house?",
+      "url": "https://www.facebook.com/groups/528042172315847/posts/1695517638901622"
+    },
+    {
+      "id": "https://www.facebook.com/groups/1925191958276019/posts/2265391367589408",
+      "url": "https://www.facebook.com/groups/1925191958276019/posts/2265391367589408",
+      "title": "Are Tremplo water and electric rates increasing for large ...",
+      "snippet": "Can someone give me some in-site. Did rates go up that much TMU? I've been struggling to bring this bill down! Do they set prices for a family of 7 that",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Tremplo Chatter",
+      "posted": "2026-10-21",
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
         "semantic_accepted": false,
         "reason": "keyword",
         "host": true,
         "keyword": false,
         "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
-        "version": "e1fb38e0e466"
+        "hard_exclusion": false,
+        "version": "a9b539065e38"
       },
       "production": {
         "accepted": false,
@@ -965,18 +1586,142 @@
       }
     },
     {
+      "id": "https://www.facebook.com/groups/369228190446898/posts/2082266729143027",
+      "url": "https://www.facebook.com/groups/369228190446898/posts/2082266729143027",
+      "title": "AEP representatives visiting Zanesville homes about rising ...",
+      "snippet": "Anyone else have AEP come to their door tonight asking about bills the last few months, talking about bills going up due to local data centers being",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Zanesvilles Finest",
+      "posted": "2026-10-19",
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "intent",
+        "host": true,
+        "keyword": true,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "a9b539065e38"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "intent"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/voiceofcanalfulton/posts/10163147513690807",
+      "url": "https://www.facebook.com/groups/voiceofcanalfulton/posts/10163147513690807",
+      "title": "A&J Electric Unveils Refreshed Brand with Expanded ...",
+      "snippet": "This post by J&J Plumbing & Heating Service showcases a complete 100-amp electrical service upgrade in Northeast Ohio. The video before and after images",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Voice of Canal Fulton",
+      "posted": "2026-10-22",
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "a9b539065e38"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-10-24",
+      "group": "The Sidney Wire",
       "id": "https://www.facebook.com/groups/sidneywire/posts/4542379585984905",
-      "url": "https://www.facebook.com/groups/sidneywire/posts/4542379585984905",
-      "title": "826 Clinton Avenue Sidney, Ohio Porch sale! Many ...",
+      "last_seen": "2026-10-24",
+      "posted": "2026-10-22",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups/sidneywire/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "e1fb38e0e466"
+      },
       "snippet": "Jersey electric scooter-needs battery $25 Prices are marked to sell. If you don't like the price make an offer! Everything must",
       "source": "Facebook",
+      "title": "826 Clinton Avenue Sidney, Ohio Porch sale! Many ...",
+      "url": "https://www.facebook.com/groups/sidneywire/posts/4542379585984905"
+    },
+    {
+      "id": "https://www.facebook.com/groups/freepmarathon/posts/2277136816191627",
+      "url": "https://www.facebook.com/groups/freepmarathon/posts/2277136816191627",
+      "title": "1st half and I loved it! Great energy, fun course. 10/10 ...",
+      "snippet": "He talked about saving me money on my electric bill but didn't mention Potomac Edison or First Energy. I sent him away. I think this might be some sort of scam",
+      "source": "Facebook",
       "context": "facebook.com",
-      "group": "The Sidney Wire",
-      "posted": "2026-10-22",
+      "group": "Detroit Free Press Marathon Runners",
+      "posted": "2026-10-18",
       "first_seen": "2026-10-24",
       "last_seen": "2026-10-24",
       "queries": [
-        "site:facebook.com/groups/sidneywire/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "a9b539065e38"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/316329591873176/posts/3468136600025777",
+      "url": "https://www.facebook.com/groups/316329591873176/posts/3468136600025777",
+      "title": "$25 firm or $30 for electric payment",
+      "snippet": "$30 for electric payment. Findlay, Ohio: Who is a good electric distribution company in Lorain, Ohio with lower bills?",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Jax Sell Everything no junk/no shoes",
+      "posted": "2026-10-17",
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -984,10 +1729,10 @@
         "reason": "keyword",
         "host": true,
         "keyword": false,
-        "ohio": true,
+        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
-        "version": "e1fb38e0e466"
+        "hard_exclusion": false,
+        "version": "a9b539065e38"
       },
       "production": {
         "accepted": false,
@@ -996,35 +1741,35 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/sidneywire/posts/4542200796002784",
-      "url": "https://www.facebook.com/groups/sidneywire/posts/4542200796002784",
-      "title": "$220000 Sidney home for sale with 4 bedrooms and 2200 ...",
-      "snippet": "Offered at $220,000, this Sidney home features 4 bedrooms, 2 full baths, Need financing? I can help with that as well! 567-356-1384. List price: $120,000. Call",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "The Sidney Wire",
-      "posted": "2026-10-22",
       "first_seen": "2026-10-24",
+      "group": "The Sidney Wire",
+      "id": "https://www.facebook.com/groups/sidneywire/posts/4542200796002784",
       "last_seen": "2026-10-24",
+      "posted": "2026-10-22",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups/sidneywire/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "e1fb38e0e466"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "snippet": "Offered at $220,000, this Sidney home features 4 bedrooms, 2 full baths, Need financing? I can help with that as well! 567-356-1384. List price: $120,000. Call",
+      "source": "Facebook",
+      "title": "$220000 Sidney home for sale with 4 bedrooms and 2200 ...",
+      "url": "https://www.facebook.com/groups/sidneywire/posts/4542200796002784"
     },
     {
       "context": "facebook.com",
@@ -1461,35 +2206,36 @@
       "url": "https://www.facebook.com/groups/632578850776926/posts/2040280736673390"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-10-23",
-      "group": "West Carrollton/Moraine Neighborhood Chat",
       "id": "https://www.facebook.com/groups/808432479335587/posts/3646800925498714",
-      "last_seen": "2026-10-23",
+      "url": "https://www.facebook.com/groups/808432479335587/posts/3646800925498714",
+      "title": "What companies offer fixed electric rates in West Carrollton ...",
+      "snippet": "Who are you contracting for your fixed electric rates?? I know everyone’s AES bills are out of control!!",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "West Carrollton/Moraine Neighborhood Chat",
       "posted": "2026-10-21",
-      "production": {
-        "accepted": false,
-        "reason": "keyword",
-        "source": "rules"
-      },
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-24",
       "queries": [
-        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio",
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
         "host": true,
         "keyword": false,
-        "lead": false,
         "ohio": false,
-        "reason": "keyword",
-        "semantic_accepted": false,
-        "version": "d42e6efc70a5"
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "a9b539065e38"
       },
-      "snippet": "Who are you contracting for your fixed electric rates?? I know everyone’s AES bills are out of control!!",
-      "source": "Facebook",
-      "title": "What companies offer fixed electric rates in West Carrollton ...",
-      "url": "https://www.facebook.com/groups/808432479335587/posts/3646800925498714"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
     },
     {
       "context": "facebook.com",
@@ -2623,7 +3369,8 @@
       "last_seen": "2026-10-24",
       "queries": [
         "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio",
-        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio"
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio",
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -2634,7 +3381,7 @@
         "ohio": false,
         "lead": true,
         "hard_exclusion": false,
-        "version": "e1fb38e0e466"
+        "version": "a9b539065e38"
       },
       "production": {
         "accepted": false,
@@ -2769,35 +3516,36 @@
       "url": "https://www.facebook.com/groups/1893738274271451/posts/4411135102531743"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-10-23",
-      "group": "Belpre In the Know",
       "id": "https://www.facebook.com/groups/3281312725461597/posts/4510975419161982",
-      "last_seen": "2026-10-23",
+      "url": "https://www.facebook.com/groups/3281312725461597/posts/4510975419161982",
+      "title": "Beware of door-to-door energy suppliers in Belpre claiming ...",
+      "snippet": "There are more 3rd party energy suppliers going around demanding to see your bill. AEP Ohio power verified they had nobody canvasing this area. You can look up",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Belpre In the Know",
       "posted": "2026-10-22",
-      "production": {
-        "accepted": false,
-        "reason": "geography",
-        "source": "rules"
-      },
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-24",
       "queries": [
-        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio",
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": false,
+        "semantic_accepted": false,
+        "reason": "geography",
         "host": true,
         "keyword": true,
-        "lead": true,
         "ohio": false,
-        "reason": "geography",
-        "semantic_accepted": false,
-        "version": "d42e6efc70a5"
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "a9b539065e38"
       },
-      "snippet": "You can look up your own rates online. Don't fall for these tactics and you don't EVER have to show anyone your bill. AEP now goes by Ohio Power and employees",
-      "source": "Facebook",
-      "title": "Beware of door-to-door energy suppliers in Belpre claiming ...",
-      "url": "https://www.facebook.com/groups/3281312725461597/posts/4510975419161982"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
     },
     {
       "context": "facebook.com",
@@ -3328,16 +4076,17 @@
       "url": "https://www.facebook.com/groups/233446980458453/posts/2559783577824770"
     },
     {
-      "id": "https://www.facebook.com/groups/733846214957453/posts/1663278152014250",
-      "url": "https://www.facebook.com/groups/733846214957453/posts/1663278152014250",
-      "title": "What's the average electricity bill for a house with no gas?",
-      "snippet": "Hi, whats your monthly electricity bill for house where there is no gas? Please give me estimate, I have a feeling where there is no gas, electricity charges",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Box Hill/The Gables Community Group Sydney, NSW",
-      "posted": "2026-10-22",
       "first_seen": "2026-10-22",
+      "group": "Box Hill/The Gables Community Group Sydney, NSW",
+      "id": "https://www.facebook.com/groups/733846214957453/posts/1663278152014250",
       "last_seen": "2026-10-24",
+      "posted": "2026-10-22",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"door to door\" OR \"knocked on my door\" OR scam) (electric OR gas OR energy) Ohio",
         "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)",
@@ -3345,20 +4094,19 @@
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": true,
-        "hard_exclusion": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "e1fb38e0e466"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "Hi, whats your monthly electricity bill for house where there is no gas? Please give me estimate, I have a feeling where there is no gas, electricity charges",
+      "source": "Facebook",
+      "title": "What's the average electricity bill for a house with no gas?",
+      "url": "https://www.facebook.com/groups/733846214957453/posts/1663278152014250"
     },
     {
       "context": "facebook.com",
@@ -3858,16 +4606,17 @@
       "url": "https://www.facebook.com/groups/405393253947626/posts/1842511573569113"
     },
     {
-      "id": "https://www.facebook.com/groups/1161149482498917/posts/1380712583875938",
-      "url": "https://www.facebook.com/groups/1161149482498917/posts/1380712583875938",
-      "title": "Politicians talk a good game about utility costs, but when ...",
-      "snippet": "“People are not wrong to worry about cost, and public leaders should never talk as if a tax bill, utility bill, fee, rate increase, bond payment, or capital",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "NIPSCO Monopoly Madness",
-      "posted": "2026-10-21",
       "first_seen": "2026-10-22",
+      "group": "NIPSCO Monopoly Madness",
+      "id": "https://www.facebook.com/groups/1161149482498917/posts/1380712583875938",
       "last_seen": "2026-10-24",
+      "posted": "2026-10-21",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"cancel my\" OR \"cancellation fee\" OR \"early termination fee\") (electric OR gas) Ohio",
         "site:facebook.com/groups (\"bill shock\" OR \"bill doubled\" OR \"bill tripled\" OR \"through the roof\") Ohio (electric OR gas)",
@@ -3875,20 +4624,19 @@
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "e1fb38e0e466"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "“People are not wrong to worry about cost, and public leaders should never talk as if a tax bill, utility bill, fee, rate increase, bond payment, or capital",
+      "source": "Facebook",
+      "title": "Politicians talk a good game about utility costs, but when ...",
+      "url": "https://www.facebook.com/groups/1161149482498917/posts/1380712583875938"
     },
     {
       "context": "facebook.com",
@@ -3922,36 +4670,36 @@
       "url": "https://www.facebook.com/groups/630526143723491/posts/28600584009624329"
     },
     {
-      "id": "https://www.facebook.com/groups/842311032505584/posts/39374544042188802",
-      "url": "https://www.facebook.com/groups/842311032505584/posts/39374544042188802",
-      "title": "New gas provider in Huber Heights: Is it mandatory?",
-      "snippet": "So we have a new gas provider? Of course it is more expensive than the one we had. Really Huber? Now we have no choice on who we use for utilities,? 🤬",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Anything and Everything Huber Heights",
-      "posted": "2026-10-21",
       "first_seen": "2026-10-22",
+      "group": "Anything and Everything Huber Heights",
+      "id": "https://www.facebook.com/groups/842311032505584/posts/39374544042188802",
       "last_seen": "2026-10-24",
+      "posted": "2026-10-21",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"locked in a rate\" OR \"signed up with\" OR \"should i lock in\" OR \"worth switching\") Ohio energy",
         "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "e1fb38e0e466"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "snippet": "So we have a new gas provider? Of course it is more expensive than the one we had. Really Huber? Now we have no choice on who we use for utilities,? 🤬",
+      "source": "Facebook",
+      "title": "New gas provider in Huber Heights: Is it mandatory?",
+      "url": "https://www.facebook.com/groups/842311032505584/posts/39374544042188802"
     },
     {
       "context": "facebook.com",
@@ -4235,35 +4983,36 @@
       "url": "https://www.facebook.com/groups/676291043116508/posts/2410114129734182"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-10-22",
-      "group": "Laclede County Traffic and Emergency Reports",
       "id": "https://www.facebook.com/groups/458689100952028/posts/3674016406085932",
-      "last_seen": "2026-10-22",
+      "url": "https://www.facebook.com/groups/458689100952028/posts/3674016406085932",
+      "title": "Impact of large data centers on municipal electricity usage ...",
+      "snippet": "POSSIBLE PRESSURE ON ELECTRIC BILLS When utilities must spend large amounts of money expanding the electrical system, regulators must determine how those costs",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Laclede County Traffic and Emergency Reports",
       "posted": "2026-10-21",
-      "production": {
-        "accepted": false,
-        "reason": "geography",
-        "source": "rules"
-      },
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-24",
       "queries": [
-        "site:facebook.com/groups (\"cancel my\" OR \"cancellation fee\" OR \"early termination fee\") (electric OR gas) Ohio"
+        "site:facebook.com/groups (\"cancel my\" OR \"cancellation fee\" OR \"early termination fee\") (electric OR gas) Ohio",
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": false,
+        "semantic_accepted": false,
+        "reason": "geography",
         "host": true,
         "keyword": true,
-        "lead": false,
         "ohio": false,
-        "reason": "geography",
-        "semantic_accepted": false,
-        "version": "871f808f4bc1"
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "a9b539065e38"
       },
-      "snippet": "POSSIBLE PRESSURE ON ELECTRIC BILLS When utilities must spend large amounts of money expanding the electrical system, regulators must determine how those costs",
-      "source": "Facebook",
-      "title": "Impact of large data centers on municipal electricity usage ...",
-      "url": "https://www.facebook.com/groups/458689100952028/posts/3674016406085932"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
     },
     {
       "context": "facebook.com",
@@ -4297,36 +5046,37 @@
       "url": "https://www.facebook.com/groups/212479695478647/posts/29203968085903089"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-10-22",
-      "group": "Willowick Neighborhood News",
       "id": "https://www.facebook.com/groups/404430446900661/posts/2014914732518883",
-      "last_seen": "2026-10-22",
+      "url": "https://www.facebook.com/groups/404430446900661/posts/2014914732518883",
+      "title": "I need little hello with electric supplier I have IGS",
+      "snippet": "Is anyone using IGS Energy for a gas & electric supplier? Higher or lower total monthly bills than Duke compared to same months in 2023? their rates?",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Willowick Neighborhood News",
       "posted": "2026-10-21",
-      "production": {
-        "accepted": false,
-        "reason": "geography",
-        "source": "rules"
-      },
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-24",
       "queries": [
         "site:facebook.com/groups (\"locked in a rate\" OR \"signed up with\" OR \"should i lock in\" OR \"worth switching\") Ohio energy",
-        "site:facebook.com/groups (\"door to door\" OR \"knocked on my door\" OR scam) (electric OR gas OR energy) Ohio"
+        "site:facebook.com/groups (\"door to door\" OR \"knocked on my door\" OR scam) (electric OR gas OR energy) Ohio",
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": false,
+        "semantic_accepted": false,
+        "reason": "geography",
         "host": true,
         "keyword": true,
-        "lead": false,
         "ohio": false,
-        "reason": "geography",
-        "semantic_accepted": false,
-        "version": "e537e305f96c"
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "a9b539065e38"
       },
-      "snippet": "IGS Energy door-to-door sales experience in Gettysburg area. Anyone have IGS Energy people come to their door? new electric company provider.",
-      "source": "Facebook",
-      "title": "I need little hello with electric supplier I have IGS",
-      "url": "https://www.facebook.com/groups/404430446900661/posts/2014914732518883"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
     },
     {
       "context": "facebook.com",
@@ -4515,35 +5265,36 @@
       "url": "https://www.facebook.com/groups/vendorsontherise/posts/1859129458418541"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-10-22",
-      "group": "PORT ST. LUCIE RECOMMENDATIONS",
       "id": "https://www.facebook.com/groups/1174823293639953/posts/1952661979189410",
-      "last_seen": "2026-10-22",
+      "url": "https://www.facebook.com/groups/1174823293639953/posts/1952661979189410",
+      "title": "Has anyone had a couple of guys come to their house to “ ...",
+      "snippet": "Has anyone had a couple of guys come to their house to “notify” them of their electric meters being switched out by FPL. & that they would come back",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "PORT ST. LUCIE RECOMMENDATIONS",
       "posted": "2026-10-21",
-      "production": {
-        "accepted": false,
-        "reason": "geography",
-        "source": "rules"
-      },
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-24",
       "queries": [
-        "site:facebook.com/groups (\"door to door\" OR \"knocked on my door\" OR scam) (electric OR gas OR energy) Ohio"
+        "site:facebook.com/groups (\"door to door\" OR \"knocked on my door\" OR scam) (electric OR gas OR energy) Ohio",
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": true,
-        "host": true,
-        "keyword": true,
-        "lead": false,
-        "ohio": false,
-        "reason": "geography",
         "semantic_accepted": false,
-        "version": "e537e305f96c"
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "a9b539065e38"
       },
-      "snippet": "A person posts a video questioning why a company would visit their door unprepared, asking for their electric bill and attempting to \"check the meters.\" The",
-      "source": "Facebook",
-      "title": "Has anyone had a couple of guys come to their house to “ ...",
-      "url": "https://www.facebook.com/groups/1174823293639953/posts/1952661979189410"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
     },
     {
       "context": "facebook.com",
@@ -4732,16 +5483,17 @@
       "url": "https://www.facebook.com/groups/301913630886156/posts/1767131167697721"
     },
     {
-      "id": "https://www.facebook.com/groups/togetherwenatchee/posts/2365826277291116",
-      "url": "https://www.facebook.com/groups/togetherwenatchee/posts/2365826277291116",
-      "title": "For anyone who doesn't want their utility rates to go up!!",
-      "snippet": "For anyone who doesn’t want their utility rates to go up!!",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Together Wenatchee",
-      "posted": "2026-10-21",
       "first_seen": "2026-10-22",
+      "group": "Together Wenatchee",
+      "id": "https://www.facebook.com/groups/togetherwenatchee/posts/2365826277291116",
       "last_seen": "2026-10-24",
+      "posted": "2026-10-21",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"locked in a rate\" OR \"signed up with\" OR \"should i lock in\" OR \"worth switching\") Ohio energy",
         "site:facebook.com/groups (\"bill shock\" OR \"bill doubled\" OR \"bill tripled\" OR \"through the roof\") Ohio (electric OR gas)",
@@ -4750,20 +5502,19 @@
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "e1fb38e0e466"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "snippet": "For anyone who doesn’t want their utility rates to go up!!",
+      "source": "Facebook",
+      "title": "For anyone who doesn't want their utility rates to go up!!",
+      "url": "https://www.facebook.com/groups/togetherwenatchee/posts/2365826277291116"
     },
     {
       "context": "facebook.com",
@@ -5855,35 +6606,36 @@
       "url": "https://www.facebook.com/groups/398467061486028/posts/1833274174671969"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-10-21",
-      "group": "",
       "id": "https://www.facebook.com/groups/1494629470688212/posts/3619990731485398",
-      "last_seen": "2026-10-21",
+      "url": "https://www.facebook.com/groups/1494629470688212/posts/3619990731485398",
+      "title": "The Conservative Patriot League of America, LLC 🇺🇸 📜✝️",
+      "snippet": "Act 373 lets utilities add a separate rider to monthly bills while construction is still underway on projects the Public Service Commission labels \"strategic",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "",
       "posted": "2026-10-20",
-      "production": {
-        "accepted": false,
-        "reason": "keyword",
-        "source": "rules"
-      },
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-24",
       "queries": [
-        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy",
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": true,
+        "semantic_accepted": false,
+        "reason": "keyword",
         "host": true,
         "keyword": false,
-        "lead": false,
         "ohio": false,
-        "reason": "keyword",
-        "semantic_accepted": false,
-        "version": "8ecd790d0bb2"
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "a9b539065e38"
       },
-      "snippet": "State auditors say Ohio's utility regulator is sitting on more reserve money than it needs while. 00:37. State auditors say Ohio's utility regulator is sitting",
-      "source": "Facebook",
-      "title": "The Conservative Patriot League of America, LLC 🇺🇸 📜✝️",
-      "url": "https://www.facebook.com/groups/1494629470688212/posts/3619990731485398"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
     },
     {
       "context": "britannica.com",
@@ -6199,7 +6951,7 @@
       "id": "https://www.facebook.com/groups/3732851640363237/posts/4625889684392757",
       "url": "https://www.facebook.com/groups/3732851640363237/posts/4625889684392757",
       "title": "Ohio utility assistance for heat and electricity",
-      "snippet": "Payment plans are required for amounts owed over needed, the $175 can be split between electric and gas companies.",
+      "snippet": "Payment plans are required for amounts owed over needed, the $175 can be split between electric and gas companies. Using the order can disconnection for up",
       "source": "Facebook",
       "context": "facebook.com",
       "group": "Struggling in Dayton",
@@ -6209,7 +6961,8 @@
       "queries": [
         "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio",
         "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)",
-        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio"
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio",
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -6220,7 +6973,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "e1fb38e0e466"
+        "version": "a9b539065e38"
       },
       "production": {
         "accepted": false,
@@ -6384,36 +7137,36 @@
       "url": "https://www.facebook.com/groups/lebanon.open.forum/posts/29451936461065364"
     },
     {
-      "id": "https://www.facebook.com/groups/242902447865190/posts/1550669620421793",
-      "url": "https://www.facebook.com/groups/242902447865190/posts/1550669620421793",
-      "title": "I can't believe our electric company here in Luray. ...",
-      "snippet": "You can pay a small remaining balance by using leftover gift or prepaid card funds, making small weekly payments, or checking if your utility considers",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "WHAT'S   UP    PAGE COUNTY   VA",
-      "posted": "2026-10-20",
       "first_seen": "2026-10-21",
+      "group": "WHAT'S   UP    PAGE COUNTY   VA",
+      "id": "https://www.facebook.com/groups/242902447865190/posts/1550669620421793",
       "last_seen": "2026-10-24",
+      "posted": "2026-10-20",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy",
         "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "e1fb38e0e466"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "You can pay a small remaining balance by using leftover gift or prepaid card funds, making small weekly payments, or checking if your utility considers",
+      "source": "Facebook",
+      "title": "I can't believe our electric company here in Luray. ...",
+      "url": "https://www.facebook.com/groups/242902447865190/posts/1550669620421793"
     },
     {
       "context": "cisco.com",
@@ -6819,35 +7572,36 @@
       "url": "https://www.facebook.com/groups/410311233286523/posts/1894179848232980"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-10-21",
-      "group": "Oregon, Ohio Community Neighbors",
       "id": "https://www.facebook.com/groups/218864382174719/posts/2184829342244870",
-      "last_seen": "2026-10-21",
+      "url": "https://www.facebook.com/groups/218864382174719/posts/2184829342244870",
+      "title": "Concerns about Vantage data center impact on Oregon ...",
+      "snippet": "Data centers have already raised electric bills over $50 a month, that's $600 a year. A Data Center will lower property values and inhibit future increases.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Oregon, Ohio Community Neighbors",
       "posted": "2026-10-20",
-      "production": {
-        "accepted": false,
-        "reason": "keyword",
-        "source": "rules"
-      },
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-24",
       "queries": [
-        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy",
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": true,
+        "semantic_accepted": false,
+        "reason": "keyword",
         "host": true,
         "keyword": false,
-        "lead": false,
         "ohio": true,
-        "reason": "keyword",
-        "semantic_accepted": false,
-        "version": "8ecd790d0bb2"
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "a9b539065e38"
       },
-      "snippet": "Data centers have already raised electric bills over $50 a month, that's $600 a year. A Data Center will lower property values and inhibit future increases.",
-      "source": "Facebook",
-      "title": "Concerns about Vantage data center impact on Oregon ...",
-      "url": "https://www.facebook.com/groups/218864382174719/posts/2184829342244870"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
     },
     {
       "context": "facebook.com",
@@ -7223,16 +7977,17 @@
       "url": "https://www.facebook.com/groups/1455682719631754/posts/1662311138968910"
     },
     {
-      "id": "https://www.facebook.com/groups/2443000835989869/posts/4220479881575280",
-      "url": "https://www.facebook.com/groups/2443000835989869/posts/4220479881575280",
-      "title": "What cities offer budget plans for electric or PIPP besides ...",
-      "snippet": "Utilities offers a budget plan, call 419-334-8911. If you heat with electricity, you pay 10% of your household income to your electric company. The balance of",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "BOWLING GREEN RAW UNCENSORED",
-      "posted": "2026-10-19",
       "first_seen": "2026-10-20",
+      "group": "BOWLING GREEN RAW UNCENSORED",
+      "id": "https://www.facebook.com/groups/2443000835989869/posts/4220479881575280",
       "last_seen": "2026-10-24",
+      "posted": "2026-10-19",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"summer electric bill\" OR \"AC bill\" OR \"air conditioning bill\" OR \"bill this summer\") Ohio",
         "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)",
@@ -7240,20 +7995,19 @@
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "e1fb38e0e466"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "Utilities offers a budget plan, call 419-334-8911. If you heat with electricity, you pay 10% of your household income to your electric company. The balance of",
+      "source": "Facebook",
+      "title": "What cities offer budget plans for electric or PIPP besides ...",
+      "url": "https://www.facebook.com/groups/2443000835989869/posts/4220479881575280"
     },
     {
       "context": "facebook.com",
@@ -7288,35 +8042,36 @@
       "url": "https://www.facebook.com/groups/osu.apartments/posts/1649023423597164"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-10-20",
-      "group": "Pennsylvania Data Center Resistance",
       "id": "https://www.facebook.com/groups/2350406885413177/posts/2607010176419512",
-      "last_seen": "2026-10-20",
+      "url": "https://www.facebook.com/groups/2350406885413177/posts/2607010176419512",
+      "title": "Understanding why our electric and natural gas bills WILL ...",
+      "snippet": "Understanding why our electric and natural gas bills WILL increase because of AI and Fracked gas power plants. Mr Global.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Pennsylvania Data Center Resistance",
       "posted": "2026-10-19",
-      "production": {
-        "accepted": false,
-        "reason": "geography",
-        "source": "rules"
-      },
+      "first_seen": "2026-10-20",
+      "last_seen": "2026-10-24",
       "queries": [
-        "site:facebook.com/groups (\"summer electric bill\" OR \"AC bill\" OR \"air conditioning bill\" OR \"bill this summer\") Ohio"
+        "site:facebook.com/groups (\"summer electric bill\" OR \"AC bill\" OR \"air conditioning bill\" OR \"bill this summer\") Ohio",
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": false,
+        "semantic_accepted": false,
+        "reason": "geography",
         "host": true,
         "keyword": true,
-        "lead": false,
         "ohio": false,
-        "reason": "geography",
-        "semantic_accepted": false,
-        "version": "9a00ee27940c"
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "a9b539065e38"
       },
-      "snippet": "The average monthly residential electricity bill increased from about $121 in 2021 to $156. Air conditioning loads surged, and in many regions, utilities had …",
-      "source": "Facebook",
-      "title": "Understanding why our electric and natural gas bills WILL ...",
-      "url": "https://www.facebook.com/groups/2350406885413177/posts/2607010176419512"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
     },
     {
       "context": "facebook.com",
@@ -7415,7 +8170,7 @@
       "id": "https://www.facebook.com/groups/vanwertvoice/posts/4495949233884912",
       "url": "https://www.facebook.com/groups/vanwertvoice/posts/4495949233884912",
       "title": "So Brent Stevens, any response?",
-      "snippet": "$16 BILLION IN HIGHER ELECTRIC BILLS. Ohio electric bills jumped 22% between February 2025 and February 2026 according to federal energy data,",
+      "snippet": "electric bills jumped 22% between February 2025 and February 2026 according to federal energy data, the second-highest increase in the entire country,",
       "source": "Facebook",
       "context": "facebook.com",
       "group": "Van Wert Voice",
@@ -7424,7 +8179,8 @@
       "last_seen": "2026-10-24",
       "queries": [
         "site:facebook.com/groups (\"summer electric bill\" OR \"AC bill\" OR \"air conditioning bill\" OR \"bill this summer\") Ohio",
-        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio"
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio",
+        "site:facebook.com/groups/vanwertvoice/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
@@ -7435,7 +8191,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "e1fb38e0e466"
+        "version": "a9b539065e38"
       },
       "production": {
         "accepted": false,
@@ -7475,36 +8231,36 @@
       "url": "https://www.facebook.com/groups/1054461799044851/posts/1852108419280181"
     },
     {
-      "id": "https://www.facebook.com/groups/1347863722403871/posts/2485263025330596",
-      "url": "https://www.facebook.com/groups/1347863722403871/posts/2485263025330596",
-      "title": "Should I budget my electric bill monthly or pay actual usage?",
-      "snippet": "Do you prefer budgeting your electric bill throughout the year or paying the actual bill each month?",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Frugal living tips and hacks",
-      "posted": "2026-10-19",
       "first_seen": "2026-10-20",
+      "group": "Frugal living tips and hacks",
+      "id": "https://www.facebook.com/groups/1347863722403871/posts/2485263025330596",
       "last_seen": "2026-10-24",
+      "posted": "2026-10-19",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"summer electric bill\" OR \"AC bill\" OR \"air conditioning bill\" OR \"bill this summer\") Ohio",
         "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": true,
-        "hard_exclusion": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "e1fb38e0e466"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "Do you prefer budgeting your electric bill throughout the year or paying the actual bill each month?",
+      "source": "Facebook",
+      "title": "Should I budget my electric bill monthly or pay actual usage?",
+      "url": "https://www.facebook.com/groups/1347863722403871/posts/2485263025330596"
     },
     {
       "context": "facebook.com",
@@ -7603,7 +8359,7 @@
       "id": "https://www.facebook.com/groups/faithinactiondaytoncincinnati/posts/2073261383395304",
       "url": "https://www.facebook.com/groups/faithinactiondaytoncincinnati/posts/2073261383395304",
       "title": "Ohio's Special Reconnect Order for utility assistance ...",
-      "snippet": "The order allows customers of regulated utilities to pay only $175 to maintain or reconnect services even if their outstanding balance is higher. 175 can be",
+      "snippet": "The order allows customers of regulated utilities to pay only $175 to maintain or reconnect services balance is higher. split between electric and gas",
       "source": "Facebook",
       "context": "facebook.com",
       "group": "Faith In Action Cincinnati and Dayton",
@@ -7612,7 +8368,8 @@
       "last_seen": "2026-10-24",
       "queries": [
         "site:facebook.com/groups (\"summer electric bill\" OR \"AC bill\" OR \"air conditioning bill\" OR \"bill this summer\") Ohio",
-        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio"
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio",
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -7623,7 +8380,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "e1fb38e0e466"
+        "version": "a9b539065e38"
       },
       "production": {
         "accepted": false,
@@ -8382,7 +9139,7 @@
       "id": "https://www.facebook.com/groups/406857619347832/posts/29393386030268272",
       "url": "https://www.facebook.com/groups/406857619347832/posts/29393386030268272",
       "title": "$35 firm or $40 for electric payment",
-      "snippet": "Here you can pay up to $65 or more as your monthly electricity bill ⚡. Yes ✓ people pay it conveniently because of their monthly income and the way",
+      "snippet": "$40 for electric payment. a good electric distribution company in Lorain, Ohio with lower bills? can pay up to $65 or more as your monthly electricity bill ⚡.",
       "source": "Facebook",
       "context": "facebook.com",
       "group": "Duval County Non Stop Garage Sale",
@@ -8391,7 +9148,8 @@
       "last_seen": "2026-10-24",
       "queries": [
         "site:facebook.com/groups (\"Santanna Energy\" OR \"Clearview\" OR \"Just Energy\" OR \"AEP Energy\" OR Constellation) Ohio",
-        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio"
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio",
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -8402,7 +9160,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "e1fb38e0e466"
+        "version": "a9b539065e38"
       },
       "production": {
         "accepted": false,
@@ -12079,36 +12837,36 @@
       "url": "https://www.facebook.com/groups/937611783018927/posts/29354030634283662"
     },
     {
-      "id": "https://www.facebook.com/groups/236211726908073/posts/2411528842709673",
-      "url": "https://www.facebook.com/groups/236211726908073/posts/2411528842709673",
-      "title": "How did the utility company not see the high usage??",
-      "snippet": "1. Formally dispute the charge with the utility company due to high usage increases that make no logical sense. 2. Get the dispute in front of a supervisor.",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "WHATS HAPPENING IN COLTON CA 92324",
-      "posted": "2026-10-17",
       "first_seen": "2026-10-18",
+      "group": "WHATS HAPPENING IN COLTON CA 92324",
+      "id": "https://www.facebook.com/groups/236211726908073/posts/2411528842709673",
       "last_seen": "2026-10-24",
+      "posted": "2026-10-17",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio",
         "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "e1fb38e0e466"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "snippet": "1. Formally dispute the charge with the utility company due to high usage increases that make no logical sense. 2. Get the dispute in front of a supervisor.",
+      "source": "Facebook",
+      "title": "How did the utility company not see the high usage??",
+      "url": "https://www.facebook.com/groups/236211726908073/posts/2411528842709673"
     },
     {
       "context": "facebook.com",
