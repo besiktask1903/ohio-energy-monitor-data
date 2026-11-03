@@ -1,12 +1,74 @@
 {
-  "updated": "2026-11-03T04:51:18Z",
-  "count": 836,
+  "updated": "2026-11-03T18:55:09Z",
+  "count": 860,
   "candidates": [
+    {
+      "id": "https://www.facebook.com/RockyRiverSeniorCenter/posts/learn-more-about-public-utilities-commission-of-ohio/1120514977346426",
+      "url": "https://www.facebook.com/RockyRiverSeniorCenter/posts/learn-more-about-public-utilities-commission-of-ohio/1120514977346426",
+      "title": "🔌Learn more about Public Utilities Commission of Ohio🔌",
+      "snippet": "Ohio electric distribution provider decided by PUCO Holmes-Wayne Electric Cooperative, Inc. PUCO's role in the gas and oil industry. Ohio has access to",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Learn more about Public... - Rocky River Senior Center",
+      "posted": "2026-11-02",
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "queries": [
+        "site:facebook.com (\"electric supplier\" OR \"gas supplier\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "intent",
+        "host": true,
+        "keyword": true,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "b2087782537e"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "intent"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/OOGA.org/posts/-ohio-sweater-weather-is-here-as-temperatures-drop-and-the-cozy-sweaters-come-ou/1556180863203169",
+      "url": "https://www.facebook.com/OOGA.org/posts/-ohio-sweater-weather-is-here-as-temperatures-drop-and-the-cozy-sweaters-come-ou/1556180863203169",
+      "title": "🍂🧥 Ohio sweater weather is here! 🍁 As temperatures drop ...",
+      "snippet": "In 2023, energy sector jobs in Ohio accounted for over 167,000 jobs - oil and gas represents nearly 35% of the total energy employment in the state! Did you ...Read more",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "",
+      "posted": "2026-11-02",
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "queries": [
+        "site:facebook.com (\"electric supplier\" OR \"gas supplier\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "b2087782537e"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
     {
       "id": "https://www.facebook.com/groups/1098639985849069/posts/1175807241465676",
       "url": "https://www.facebook.com/groups/1098639985849069/posts/1175807241465676",
       "title": "https://www.facebook.com/reel/1105600282248535",
-      "snippet": "Ohio bill in Columbus was $96.13. In September 2026, $168.95. Columbus: $96.13 in 2020, $168.95 5 2026. SATYA NADELLA, just hiked electricity prices by 22%,",
+      "snippet": "In September 2020, a typical AEP Ohio bill in Columbus was $96.13. In September 2026, $168.95. Part of that was the price of energy. But since the summer of",
       "source": "Facebook",
       "context": "facebook.com",
       "group": "No Grid Growth Fairfield County",
@@ -14,7 +76,8 @@
       "first_seen": "2026-11-03",
       "last_seen": "2026-11-03",
       "queries": [
-        "site:facebook.com/groups (\"Santanna Energy\" OR \"Clearview\" OR \"Just Energy\" OR \"AEP Energy\" OR Constellation) Ohio"
+        "site:facebook.com/groups (\"Santanna Energy\" OR \"Clearview\" OR \"Just Energy\" OR \"AEP Energy\" OR Constellation) Ohio",
+        "site:facebook.com/groups (\"summer electric bill\" OR \"AC bill\" OR \"air conditioning bill\" OR \"bill this summer\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -25,7 +88,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fec7495b3c4f"
+        "version": "b2087782537e"
       },
       "production": {
         "accepted": false,
@@ -34,35 +97,98 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/1891359841459884/posts/2194546431141222",
-      "url": "https://www.facebook.com/groups/1891359841459884/posts/2194546431141222",
-      "title": "What do I do with over 100 energy cards?",
-      "snippet": "What do I do with over 100 energy cards?",
+      "id": "https://www.facebook.com/groups/910978227184775/posts/1634565268159397",
+      "url": "https://www.facebook.com/groups/910978227184775/posts/1634565268159397",
+      "title": "Why was I charged for over 425 days on my utility bill?",
+      "snippet": "$381 And this is for an 800 square foot apartment. I know people with houses who don't pay that much for electric and gas combined. Ohio utility companies, what ...Read more",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Greater Seattle Pokemon Buy/Sell/Trade",
+      "group": "Niles Ohio Uncensoredish",
       "posted": "2026-10-29",
       "first_seen": "2026-11-03",
       "last_seen": "2026-11-03",
+      "queries": [
+        "site:facebook.com (\"electric supplier\" OR \"gas supplier\") Ohio"
+      ],
+      "rules": {
+        "accepted": true,
+        "semantic_accepted": true,
+        "reason": "accepted",
+        "host": true,
+        "keyword": true,
+        "ohio": true,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "b2087782537e",
+        "freshness": "fresh"
+      },
+      "production": {
+        "accepted": true,
+        "source": "rules",
+        "reason": "accepted"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/620439570677405/posts/1137074909013866",
+      "url": "https://www.facebook.com/groups/620439570677405/posts/1137074909013866",
+      "title": "What other electricity companies serve the Jarrell Sonterra ...",
+      "snippet": "Are there any other electricity companies available in this area?\nOther than Bartlett? My bill is $585 a month. 🫩",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Jarrell Sonterra HOA and COA Concerns",
+      "posted": "2026-10-28",
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "queries": [
+        "site:facebook.com (\"electric supplier\" OR \"gas supplier\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "b2087782537e"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-11-03",
+      "group": "Greater Seattle Pokemon Buy/Sell/Trade",
+      "id": "https://www.facebook.com/groups/1891359841459884/posts/2194546431141222",
+      "last_seen": "2026-11-03",
+      "posted": "2026-10-29",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Santanna Energy\" OR \"Clearview\" OR \"Just Energy\" OR \"AEP Energy\" OR Constellation) Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "fec7495b3c4f"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "snippet": "What do I do with over 100 energy cards?",
+      "source": "Facebook",
+      "title": "What do I do with over 100 energy cards?",
+      "url": "https://www.facebook.com/groups/1891359841459884/posts/2194546431141222"
     },
     {
       "id": "https://www.facebook.com/groups/516361366301468/posts/1838903860713872",
@@ -76,7 +202,8 @@
       "first_seen": "2026-11-03",
       "last_seen": "2026-11-03",
       "queries": [
-        "site:facebook.com/groups (\"price to compare\" OR \"variable rate\" OR \"fixed rate\") Ohio energy"
+        "site:facebook.com/groups (\"price to compare\" OR \"variable rate\" OR \"fixed rate\") Ohio energy",
+        "site:facebook.com (\"electric supplier\" OR \"gas supplier\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -87,7 +214,7 @@
         "ohio": false,
         "lead": true,
         "hard_exclusion": false,
-        "version": "fec7495b3c4f"
+        "version": "b2087782537e"
       },
       "production": {
         "accepted": false,
@@ -96,18 +223,298 @@
       }
     },
     {
+      "context": "facebook.com",
+      "first_seen": "2026-11-03",
+      "group": "Grove City / Surrounding Area Connection",
       "id": "https://www.facebook.com/groups/462687908066773/posts/1826325285036355",
-      "url": "https://www.facebook.com/groups/462687908066773/posts/1826325285036355",
-      "title": "What are electricity prices like at Keeneland Place ...",
+      "last_seen": "2026-11-03",
+      "posted": "2026-10-28",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"price to compare\" OR \"variable rate\" OR \"fixed rate\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": false,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "fec7495b3c4f"
+      },
       "snippet": "Hey everyone! 👋 I have moved from Indiana back to Ohio. I might be moving to Grove City soon and looking closely at the Keeneland Place apartments.",
       "source": "Facebook",
+      "title": "What are electricity prices like at Keeneland Place ...",
+      "url": "https://www.facebook.com/groups/462687908066773/posts/1826325285036355"
+    },
+    {
+      "id": "https://www.facebook.com/groups/411750169922289/preview/1426964629115047",
+      "url": "https://www.facebook.com/groups/411750169922289/preview/1426964629115047",
+      "title": "What are electric bills looking like over the past 3 months",
+      "snippet": "What are electric bills looking like over the past 3 months?",
+      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Grove City / Surrounding Area Connection",
-      "posted": "2026-10-28",
+      "group": "",
+      "posted": "",
       "first_seen": "2026-11-03",
       "last_seen": "2026-11-03",
       "queries": [
+        "site:facebook.com/groups (\"summer electric bill\" OR \"AC bill\" OR \"air conditioning bill\" OR \"bill this summer\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "b2087782537e"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-11-03",
+      "group": "Struthers, Ohio Community",
+      "id": "https://www.facebook.com/groups/1531600778678351/posts/1722582942913466",
+      "last_seen": "2026-11-03",
+      "posted": "2026-11-01",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Santanna Energy\" OR \"Clearview\" OR \"Just Energy\" OR \"AEP Energy\" OR Constellation) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
+        "version": "fec7495b3c4f"
+      },
+      "snippet": "... Electricity Electricity costs are rising due to a combination ... Energy Ohio) submitted a major base rate increase proposal to the PUCO.",
+      "source": "Facebook",
+      "title": "Welcome November Christmas The Season - Facebook",
+      "url": "https://www.facebook.com/groups/1531600778678351/posts/1722582942913466"
+    },
+    {
+      "id": "https://www.facebook.com/groups/967433580786510/posts/2246352766227912",
+      "url": "https://www.facebook.com/groups/967433580786510/posts/2246352766227912",
+      "title": "Utility costs across Mahoning County, Ohio are projected to ...",
+      "snippet": "Utility costs across Mahoning County, Ohio are projected to experience notable increases heading into 2027. Utility costs across Mahoning County, Ohio",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Smith Township, Mahoning County, OH",
+      "posted": "2026-10-29",
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "queries": [
+        "site:facebook.com/groups (\"summer electric bill\" OR \"AC bill\" OR \"air conditioning bill\" OR \"bill this summer\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "b2087782537e"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-11-03",
+      "group": "Lake Milton community",
+      "id": "https://www.facebook.com/groups/525272265152883/posts/1618039185876180",
+      "last_seen": "2026-11-03",
+      "posted": "2026-10-27",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Santanna Energy\" OR \"Clearview\" OR \"Just Energy\" OR \"AEP Energy\" OR Constellation) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "fec7495b3c4f"
+      },
+      "snippet": "Utility costs across Mahoning County, Ohio are projected to experience notable increases heading into 2027. These adjustments are driven by regional",
+      "source": "Facebook",
+      "title": "Utility cost increases projected for Mahoning County, Ohio ...",
+      "url": "https://www.facebook.com/groups/525272265152883/posts/1618039185876180"
+    },
+    {
+      "id": "https://www.facebook.com/groups/1062868021724371/posts/1850026983008467",
+      "url": "https://www.facebook.com/groups/1062868021724371/posts/1850026983008467",
+      "title": "The water usage at the New Albany Google Data Center is ...",
+      "snippet": "In September 2020, a typical AEP Ohio bill in Columbus was $96.13. In September 2026, $168.95. Part of that was the price of energy. But since the summer of",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Stop FW Data Center Campus",
+      "posted": "2026-11-02",
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "queries": [
+        "site:facebook.com/groups (\"summer electric bill\" OR \"AC bill\" OR \"air conditioning bill\" OR \"bill this summer\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "b2087782537e"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-11-03",
+      "group": "",
+      "id": "https://www.facebook.com/groups/1346993337458862/posts/1557026226455571",
+      "last_seen": "2026-11-03",
+      "posted": "2026-11-01",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Santanna Energy\" OR \"Clearview\" OR \"Just Energy\" OR \"AEP Energy\" OR Constellation) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
+        "version": "fec7495b3c4f"
+      },
+      "snippet": "Supplier Curren rate New rate Price per kWh Constellation Energy Price egy cents $0.09049 Contract 9.049c 11.53c Dec. ... rates for electricity from the Piqua",
+      "source": "Facebook",
+      "title": "Stop Piqua Data Centers",
+      "url": "https://www.facebook.com/groups/1346993337458862/posts/1557026226455571"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-11-03",
+      "group": "Cincinnati Bengals Fans",
+      "id": "https://www.facebook.com/groups/284424367883649/posts/1174923092167101",
+      "last_seen": "2026-11-03",
+      "posted": "2026-11-01",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Santanna Energy\" OR \"Clearview\" OR \"Just Energy\" OR \"AEP Energy\" OR Constellation) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "fec7495b3c4f"
+      },
+      "snippet": "The energy in Cincinnati hits different when the Bengals are locked in. This team has the stars, the fire, and the kind of fanbase that can",
+      "source": "Facebook",
+      "title": "Small but mighty, bringing BIG Bengal energy! Who's ready to cheer ...",
+      "url": "https://www.facebook.com/groups/284424367883649/posts/1174923092167101"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-11-03",
+      "group": "Riverside OHIO Community Page-Everything Riverside",
+      "id": "https://www.facebook.com/groups/983080879516381/posts/1877265933431200",
+      "last_seen": "2026-11-03",
+      "posted": "2026-11-02",
+      "production": {
+        "accepted": true,
+        "reason": "accepted",
+        "source": "rules"
+      },
+      "queries": [
         "site:facebook.com/groups (\"price to compare\" OR \"variable rate\" OR \"fixed rate\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": true,
+        "freshness": "fresh",
+        "hard_exclusion": false,
+        "host": true,
+        "keyword": true,
+        "lead": true,
+        "ohio": true,
+        "reason": "accepted",
+        "semantic_accepted": true,
+        "version": "fec7495b3c4f"
+      },
+      "snippet": "Attention: Everyone that has Natural Gas service. Riverside City Council has contracted SOPEC to negotiate your Natural Gas Aggregate price of $.639",
+      "source": "Facebook",
+      "title": "Riverside Natural Gas Aggregation Program Rate Details ...",
+      "url": "https://www.facebook.com/groups/983080879516381/posts/1877265933431200"
+    },
+    {
+      "id": "https://www.facebook.com/groups/134088260016508/posts/29092398657092083",
+      "url": "https://www.facebook.com/groups/134088260016508/posts/29092398657092083",
+      "title": "Rising Electricity Bills Are Becoming a Major Issue in the ...",
+      "snippet": "The issue is gaining attention in key states: Ohio: Electricity rates have risen 34% since 2022, while concerns grow over the impact of data centers on",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "NEW YORK - NEW YORK - NYC -  NY",
+      "posted": "2026-11-02",
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "queries": [
+        "site:facebook.com/groups (\"summer electric bill\" OR \"AC bill\" OR \"air conditioning bill\" OR \"bill this summer\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -118,7 +525,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": false,
-        "version": "fec7495b3c4f"
+        "version": "b2087782537e"
       },
       "production": {
         "accepted": false,
@@ -127,18 +534,49 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/1531600778678351/posts/1722582942913466",
-      "url": "https://www.facebook.com/groups/1531600778678351/posts/1722582942913466",
-      "title": "Welcome November Christmas The Season - Facebook",
-      "snippet": "... Electricity Electricity costs are rising due to a combination ... Energy Ohio) submitted a major base rate increase proposal to the PUCO.",
+      "id": "https://www.facebook.com/groups/openclawgroup/posts/2038448233528407",
+      "url": "https://www.facebook.com/groups/openclawgroup/posts/2038448233528407",
+      "title": "Quick one for anyone paying a power bill.",
+      "snippet": "Quick one for anyone paying a power bill. I've been using AI agents to pull the government's own energy data and turn it into charts and short films,",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Struthers, Ohio Community",
-      "posted": "2026-11-01",
+      "group": "AI Agents OpenClaw, Grok Bot, Hermes, Etc.",
+      "posted": "2026-10-28",
       "first_seen": "2026-11-03",
       "last_seen": "2026-11-03",
       "queries": [
-        "site:facebook.com/groups (\"Santanna Energy\" OR \"Clearview\" OR \"Just Energy\" OR \"AEP Energy\" OR Constellation) Ohio"
+        "site:facebook.com/groups (\"summer electric bill\" OR \"AC bill\" OR \"air conditioning bill\" OR \"bill this summer\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "b2087782537e"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/61560439781099/posts/article-from-the-logan-daily-news-utility-customers-could-foot-the-bill-for-thos/122120571536347992",
+      "url": "https://www.facebook.com/61560439781099/posts/article-from-the-logan-daily-news-utility-customers-could-foot-the-bill-for-thos/122120571536347992",
+      "title": "Ohio utility reconnect order could raise bills for paying ...",
+      "snippet": "The Winter Reconnect Order helps Ohioans who are facing financial hardship reconnect or maintain electric and natural gas service during the heating season.Read more",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "SEO LIVE - Article from The Logan Daily News \n\nUtility...",
+      "posted": "2026-10-29",
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "queries": [
+        "site:facebook.com (\"electric supplier\" OR \"gas supplier\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -149,7 +587,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fec7495b3c4f"
+        "version": "b2087782537e"
       },
       "production": {
         "accepted": false,
@@ -158,49 +596,80 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/525272265152883/posts/1618039185876180",
-      "url": "https://www.facebook.com/groups/525272265152883/posts/1618039185876180",
-      "title": "Utility cost increases projected for Mahoning County, Ohio ...",
-      "snippet": "Utility costs across Mahoning County, Ohio are projected to experience notable increases heading into 2027. These adjustments are driven by regional",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Lake Milton community",
-      "posted": "2026-10-27",
       "first_seen": "2026-11-03",
+      "group": "SAY HELL NO TO AI DATA CENTERS",
+      "id": "https://www.facebook.com/groups/952711453765632/posts/1152046567165452",
       "last_seen": "2026-11-03",
+      "posted": "2026-10-28",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Santanna Energy\" OR \"Clearview\" OR \"Just Energy\" OR \"AEP Energy\" OR Constellation) Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "fec7495b3c4f"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "snippet": "Ohio voters are pushing a proposed amendment to the state constitution, which would ban new facilities above a certain energy-use threshold. The",
+      "source": "Facebook",
+      "title": "Ohio residents push for ballot measure to ban large data centers",
+      "url": "https://www.facebook.com/groups/952711453765632/posts/1152046567165452"
     },
     {
-      "id": "https://www.facebook.com/groups/1346993337458862/posts/1557026226455571",
-      "url": "https://www.facebook.com/groups/1346993337458862/posts/1557026226455571",
-      "title": "Stop Piqua Data Centers",
-      "snippet": "Supplier Curren rate New rate Price per kWh Constellation Energy Price egy cents $0.09049 Contract 9.049c 11.53c Dec. ... rates for electricity from the Piqua",
+      "context": "facebook.com",
+      "first_seen": "2026-11-03",
+      "group": "Faith In Action Cincinnati and Dayton",
+      "id": "https://www.facebook.com/groups/faithinactiondaytoncincinnati/posts/2085931352128307",
+      "last_seen": "2026-11-03",
+      "posted": "2026-11-02",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"price to compare\" OR \"variable rate\" OR \"fixed rate\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": false,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
+        "version": "fec7495b3c4f"
+      },
+      "snippet": "“When we looked at the price forecasts, it became increasingly apparent that the Price to Compare rate would be a better place for our customers to be through ...Read more",
+      "source": "Facebook",
+      "title": "Ohio Electric Partnership Program for Energy Efficiency",
+      "url": "https://www.facebook.com/groups/faithinactiondaytoncincinnati/posts/2085931352128307"
+    },
+    {
+      "id": "https://www.facebook.com/OCC4Consumers/posts/thanks-to-mayores-senior-center-for-having-occ-we-shared-info-on-the-special-rec/122157585104996765",
+      "url": "https://www.facebook.com/OCC4Consumers/posts/thanks-to-mayores-senior-center-for-having-occ-we-shared-info-on-the-special-rec/122157585104996765",
+      "title": "OCC utility help at Mayores Senior Center Ohio",
+      "snippet": "The Office of the Ohio Consumers' Counsel (OCC) can help consumers learn where to start if they need help paying a utility bill, ContactthePUCO@puco.ohio.gov",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "",
-      "posted": "2026-11-01",
+      "group": "Thanks to Mayores... - Office of the Ohio Consumers' Counsel",
+      "posted": "2026-10-29",
       "first_seen": "2026-11-03",
       "last_seen": "2026-11-03",
       "queries": [
-        "site:facebook.com/groups (\"Santanna Energy\" OR \"Clearview\" OR \"Just Energy\" OR \"AEP Energy\" OR Constellation) Ohio"
+        "site:facebook.com (\"electric supplier\" OR \"gas supplier\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -211,7 +680,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fec7495b3c4f"
+        "version": "b2087782537e"
       },
       "production": {
         "accepted": false,
@@ -220,49 +689,204 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/284424367883649/posts/1174923092167101",
-      "url": "https://www.facebook.com/groups/284424367883649/posts/1174923092167101",
-      "title": "Small but mighty, bringing BIG Bengal energy! Who's ready to cheer ...",
-      "snippet": "The energy in Cincinnati hits different when the Bengals are locked in. This team has the stars, the fire, and the kind of fanbase that can",
+      "id": "https://www.facebook.com/groups/faithinactiondaytoncincinnati/posts/2085931795461596",
+      "url": "https://www.facebook.com/groups/faithinactiondaytoncincinnati/posts/2085931795461596",
+      "title": "Next year;",
+      "snippet": "Next year; The Home Energy Assistance Summer Crisis Program provides eligible Ohioans with a one-time cooling assistance benefit during the summer months.",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Cincinnati Bengals Fans",
-      "posted": "2026-11-01",
-      "first_seen": "2026-11-03",
-      "last_seen": "2026-11-03",
-      "queries": [
-        "site:facebook.com/groups (\"Santanna Energy\" OR \"Clearview\" OR \"Just Energy\" OR \"AEP Energy\" OR Constellation) Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "fec7495b3c4f"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/983080879516381/posts/1877265933431200",
-      "url": "https://www.facebook.com/groups/983080879516381/posts/1877265933431200",
-      "title": "Riverside Natural Gas Aggregation Program Rate Details ...",
-      "snippet": "Attention: Everyone that has Natural Gas service. Riverside City Council has contracted SOPEC to negotiate your Natural Gas Aggregate price of $.639",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Riverside OHIO Community Page-Everything Riverside",
+      "group": "Faith In Action Cincinnati and Dayton",
       "posted": "2026-11-02",
       "first_seen": "2026-11-03",
       "last_seen": "2026-11-03",
       "queries": [
+        "site:facebook.com/groups (\"summer electric bill\" OR \"AC bill\" OR \"air conditioning bill\" OR \"bill this summer\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "b2087782537e"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-11-03",
+      "group": "DFW GIRL PLUG new by Florina",
+      "id": "https://www.facebook.com/groups/1267886879734862/posts/1459640730559475",
+      "last_seen": "2026-11-03",
+      "posted": "2026-11-02",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Santanna Energy\" OR \"Clearview\" OR \"Just Energy\" OR \"AEP Energy\" OR Constellation) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": false,
+        "host": true,
+        "keyword": true,
+        "lead": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "fec7495b3c4f"
+      },
+      "snippet": "Need a new electricity company no deposit? · Other posts · Any light companies that don't require a deposit?? · Cheapest electric company with no",
+      "source": "Facebook",
+      "title": "Need a new electricity company no deposit? - Facebook",
+      "url": "https://www.facebook.com/groups/1267886879734862/posts/1459640730559475"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-11-03",
+      "group": "Erie Watch & Alerts",
+      "id": "https://www.facebook.com/groups/556880753806741/posts/1106218772206267",
+      "last_seen": "2026-11-03",
+      "posted": "2026-10-27",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
         "site:facebook.com/groups (\"price to compare\" OR \"variable rate\" OR \"fixed rate\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "fec7495b3c4f"
+      },
+      "snippet": "LOCAL\nNational Fuel rates rise Oct. 29: How much is the increase?\nPortrait of David BruceDavid Bruce\nErie Times-News\nUpdated Oct. 25, 2026, 9:05",
+      "source": "Facebook",
+      "title": "National Fuel gas rates to increase by 3.97% on Oct. 29",
+      "url": "https://www.facebook.com/groups/556880753806741/posts/1106218772206267"
+    },
+    {
+      "id": "https://www.facebook.com/getthecoast/posts/natural-gas-as-crews-worked-to-restore-electric-service-after-hurricane-isaias-m/1914578779672577",
+      "url": "https://www.facebook.com/getthecoast/posts/natural-gas-as-crews-worked-to-restore-electric-service-after-hurricane-isaias-m/1914578779672577",
+      "title": "NATURAL GAS: After Hurricane Isaias, Okaloosa ...",
+      "snippet": "NATURAL GAS: After Hurricane Isaias, Okaloosa Gas District leaders say underground natural gas lines can keep many appliances and generators running when",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Get The Coast - NATURAL GAS After Hurricane Isaias,...",
+      "posted": "2026-11-03",
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "queries": [
+        "site:facebook.com (\"electric supplier\" OR \"gas supplier\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "b2087782537e"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-11-03",
+      "group": "MIDDLETOWN Voice",
+      "id": "https://www.facebook.com/groups/downtownmiddletowndora/posts/2341231969970794",
+      "last_seen": "2026-11-03",
+      "posted": "2026-10-28",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"price to compare\" OR \"variable rate\" OR \"fixed rate\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": false,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "fec7495b3c4f"
+      },
+      "snippet": "Fixed energy rates for both electric and natural gas (cannot exceed) now offering a new rate of $0.5894 per ccf. This is a 30% decrease from the current",
+      "source": "Facebook",
+      "title": "Middletown to revert to Duke's default electric rate in ...",
+      "url": "https://www.facebook.com/groups/downtownmiddletowndora/posts/2341231969970794"
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-11-03",
+      "group": "Alliance buy sell and or trade alliance ohio and surrounding areas",
+      "id": "https://www.facebook.com/groups/514625309800099/posts/1775338403728777",
+      "last_seen": "2026-11-03",
+      "posted": "2026-10-30",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Santanna Energy\" OR \"Clearview\" OR \"Just Energy\" OR \"AEP Energy\" OR Constellation) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "fec7495b3c4f"
+      },
+      "snippet": "I don't think it has been used but I put like new just in case. No box. See photos for more info.",
+      "source": "Facebook",
+      "title": "I don't think it has been used but I put like new just in case. ...",
+      "url": "https://www.facebook.com/groups/514625309800099/posts/1775338403728777"
+    },
+    {
+      "id": "https://www.facebook.com/jwires0129/posts/columbia-gas-will-still-handle-the-delivery-and-maintain-the-pipes-but-you-can-c/10228177047971719",
+      "url": "https://www.facebook.com/jwires0129/posts/columbia-gas-will-still-handle-the-delivery-and-maintain-the-pipes-but-you-can-c/10228177047971719",
+      "title": "How to choose a cheaper gas supplier in Ohio",
+      "snippet": "To find a cheaper option, you can check the Energy Choice Ohio website. They have an \"Apples to Apples\" comparison chart where you can look at certified ...Read more",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Jurade Wires - Columbia Gas will still handle the delivery...",
+      "posted": "2026-10-31",
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "queries": [
+        "site:facebook.com (\"electric supplier\" OR \"gas supplier\") Ohio"
       ],
       "rules": {
         "accepted": true,
@@ -273,7 +897,7 @@
         "ohio": true,
         "lead": true,
         "hard_exclusion": false,
-        "version": "fec7495b3c4f",
+        "version": "b2087782537e",
         "freshness": "fresh"
       },
       "production": {
@@ -283,80 +907,18 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/952711453765632/posts/1152046567165452",
-      "url": "https://www.facebook.com/groups/952711453765632/posts/1152046567165452",
-      "title": "Ohio residents push for ballot measure to ban large data centers",
-      "snippet": "Ohio voters are pushing a proposed amendment to the state constitution, which would ban new facilities above a certain energy-use threshold. The",
+      "id": "https://www.facebook.com/groups/islamabadupdate/posts/2441055946635970",
+      "url": "https://www.facebook.com/groups/islamabadupdate/posts/2441055946635970",
+      "title": "How to avoid six-month electric bill penalty for high units?",
+      "snippet": "We are still experiencing an Increase for 487 to 681 to now 731 in just three months and have even stopped using our air conditioner to see if the pricing would",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "SAY HELL NO TO AI DATA CENTERS",
-      "posted": "2026-10-28",
+      "group": "Islamabad Updates",
+      "posted": "2026-10-30",
       "first_seen": "2026-11-03",
       "last_seen": "2026-11-03",
       "queries": [
-        "site:facebook.com/groups (\"Santanna Energy\" OR \"Clearview\" OR \"Just Energy\" OR \"AEP Energy\" OR Constellation) Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "fec7495b3c4f"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/faithinactiondaytoncincinnati/posts/2085931352128307",
-      "url": "https://www.facebook.com/groups/faithinactiondaytoncincinnati/posts/2085931352128307",
-      "title": "Ohio Electric Partnership Program for Energy Efficiency",
-      "snippet": "“When we looked at the price forecasts, it became increasingly apparent that the Price to Compare rate would be a better place for our customers to be through ...Read more",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Faith In Action Cincinnati and Dayton",
-      "posted": "2026-11-02",
-      "first_seen": "2026-11-03",
-      "last_seen": "2026-11-03",
-      "queries": [
-        "site:facebook.com/groups (\"price to compare\" OR \"variable rate\" OR \"fixed rate\") Ohio energy"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
-        "host": true,
-        "keyword": true,
-        "ohio": true,
-        "lead": false,
-        "hard_exclusion": false,
-        "version": "fec7495b3c4f"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/1267886879734862/posts/1459640730559475",
-      "url": "https://www.facebook.com/groups/1267886879734862/posts/1459640730559475",
-      "title": "Need a new electricity company no deposit? - Facebook",
-      "snippet": "Need a new electricity company no deposit? · Other posts · Any light companies that don't require a deposit?? · Cheapest electric company with no",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "DFW GIRL PLUG new by Florina",
-      "posted": "2026-11-02",
-      "first_seen": "2026-11-03",
-      "last_seen": "2026-11-03",
-      "queries": [
-        "site:facebook.com/groups (\"Santanna Energy\" OR \"Clearview\" OR \"Just Energy\" OR \"AEP Energy\" OR Constellation) Ohio"
+        "site:facebook.com/groups (\"summer electric bill\" OR \"AC bill\" OR \"air conditioning bill\" OR \"bill this summer\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -367,7 +929,7 @@
         "ohio": false,
         "lead": true,
         "hard_exclusion": false,
-        "version": "fec7495b3c4f"
+        "version": "b2087782537e"
       },
       "production": {
         "accepted": false,
@@ -376,49 +938,18 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/556880753806741/posts/1106218772206267",
-      "url": "https://www.facebook.com/groups/556880753806741/posts/1106218772206267",
-      "title": "National Fuel gas rates to increase by 3.97% on Oct. 29",
-      "snippet": "LOCAL\nNational Fuel rates rise Oct. 29: How much is the increase?\nPortrait of David BruceDavid Bruce\nErie Times-News\nUpdated Oct. 25, 2026, 9:05",
+      "id": "https://www.facebook.com/groups/805127472852844/posts/29598765753062299",
+      "url": "https://www.facebook.com/groups/805127472852844/posts/29598765753062299",
+      "title": "How do electricity bills work in America?",
+      "snippet": "Seeing a report this morning that the average household electricity bill in the US is a “record”$217 this summer. ... air conditioning use during a hot summer in",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Erie Watch & Alerts",
-      "posted": "2026-10-27",
-      "first_seen": "2026-11-03",
-      "last_seen": "2026-11-03",
-      "queries": [
-        "site:facebook.com/groups (\"price to compare\" OR \"variable rate\" OR \"fixed rate\") Ohio energy"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
-        "host": true,
-        "keyword": false,
-        "ohio": false,
-        "lead": false,
-        "hard_exclusion": true,
-        "version": "fec7495b3c4f"
-      },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/downtownmiddletowndora/posts/2341231969970794",
-      "url": "https://www.facebook.com/groups/downtownmiddletowndora/posts/2341231969970794",
-      "title": "Middletown to revert to Duke's default electric rate in ...",
-      "snippet": "Fixed energy rates for both electric and natural gas (cannot exceed) now offering a new rate of $0.5894 per ccf. This is a 30% decrease from the current",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "MIDDLETOWN Voice",
+      "group": "Jokes",
       "posted": "2026-10-28",
       "first_seen": "2026-11-03",
       "last_seen": "2026-11-03",
       "queries": [
-        "site:facebook.com/groups (\"price to compare\" OR \"variable rate\" OR \"fixed rate\") Ohio energy"
+        "site:facebook.com/groups (\"summer electric bill\" OR \"AC bill\" OR \"air conditioning bill\" OR \"bill this summer\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -427,9 +958,9 @@
         "host": true,
         "keyword": true,
         "ohio": false,
-        "lead": false,
+        "lead": true,
         "hard_exclusion": false,
-        "version": "fec7495b3c4f"
+        "version": "b2087782537e"
       },
       "production": {
         "accepted": false,
@@ -438,18 +969,18 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/514625309800099/posts/1775338403728777",
-      "url": "https://www.facebook.com/groups/514625309800099/posts/1775338403728777",
-      "title": "I don't think it has been used but I put like new just in case. ...",
-      "snippet": "I don't think it has been used but I put like new just in case. No box. See photos for more info.",
+      "id": "https://www.facebook.com/groups/localquestions/posts/28814823054865211",
+      "url": "https://www.facebook.com/groups/localquestions/posts/28814823054865211",
+      "title": "Hi all. Has anyone dealt with iienergy before? After some ...",
+      "snippet": "Are there any energy experts on my freinds list.. This is what i pay now. Ive been with same company for years but now they are increasing prices even further..",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Alliance buy sell and or trade alliance ohio and surrounding areas",
-      "posted": "2026-10-30",
+      "group": "Townsville Question And Answers",
+      "posted": "2026-11-03",
       "first_seen": "2026-11-03",
       "last_seen": "2026-11-03",
       "queries": [
-        "site:facebook.com/groups (\"Santanna Energy\" OR \"Clearview\" OR \"Just Energy\" OR \"AEP Energy\" OR Constellation) Ohio"
+        "site:facebook.com (\"electric supplier\" OR \"gas supplier\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -457,10 +988,10 @@
         "reason": "keyword",
         "host": true,
         "keyword": false,
-        "ohio": true,
+        "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fec7495b3c4f"
+        "version": "b2087782537e"
       },
       "production": {
         "accepted": false,
@@ -469,18 +1000,81 @@
       }
     },
     {
+      "context": "facebook.com",
+      "first_seen": "2026-11-03",
+      "group": "Oregon Ohio Community",
       "id": "https://www.facebook.com/groups/2611894735785130/posts/4023046844669905",
-      "url": "https://www.facebook.com/groups/2611894735785130/posts/4023046844669905",
-      "title": "Help us help our clients!! - Facebook",
+      "last_seen": "2026-11-03",
+      "posted": "2026-11-02",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"Santanna Energy\" OR \"Clearview\" OR \"Just Energy\" OR \"AEP Energy\" OR Constellation) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
+        "version": "fec7495b3c4f"
+      },
       "snippet": "... Ohio ... electricity, and make environmentally responsible choices to watching enormous technology companies invest billions in building energy",
       "source": "Facebook",
+      "title": "Help us help our clients!! - Facebook",
+      "url": "https://www.facebook.com/groups/2611894735785130/posts/4023046844669905"
+    },
+    {
+      "id": "https://www.facebook.com/CityOfGirardOhio/posts/questions-about-girards-natural-gas-aggregation-program-here-are-a-few-details-t/122242600868281792",
+      "url": "https://www.facebook.com/CityOfGirardOhio/posts/questions-about-girards-natural-gas-aggregation-program-here-are-a-few-details-t/122242600868281792",
+      "title": "Girard Ohio natural gas aggregation program rates 2026- ...",
+      "snippet": "City of Girard Ohio selects Eastern Power and Gas as natural gas supplier. City Of Girard Ohio. 12w · Public · **Natural Gas Aggregation Update** The ...Read more",
+      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Oregon Ohio Community",
-      "posted": "2026-11-02",
+      "group": "Questions about Girards natural gas... - City Of Girard Ohio",
+      "posted": "2026-11-01",
       "first_seen": "2026-11-03",
       "last_seen": "2026-11-03",
       "queries": [
-        "site:facebook.com/groups (\"Santanna Energy\" OR \"Clearview\" OR \"Just Energy\" OR \"AEP Energy\" OR Constellation) Ohio"
+        "site:facebook.com (\"electric supplier\" OR \"gas supplier\") Ohio"
+      ],
+      "rules": {
+        "accepted": true,
+        "semantic_accepted": true,
+        "reason": "accepted",
+        "host": true,
+        "keyword": true,
+        "ohio": true,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "b2087782537e",
+        "freshness": "fresh"
+      },
+      "production": {
+        "accepted": true,
+        "source": "rules",
+        "reason": "accepted"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1000775393594966/posts/3050109308661554",
+      "url": "https://www.facebook.com/groups/1000775393594966/posts/3050109308661554",
+      "title": "FirstEnergy to raise rates in Whiting due to contract non- ...",
+      "snippet": "Historically, National Grid's summer rates have been lower. If you use air conditioning in the summer and you do not have electric heat, you are likely better",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Living in Whiting",
+      "posted": "2026-10-29",
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "queries": [
+        "site:facebook.com/groups (\"summer electric bill\" OR \"AC bill\" OR \"air conditioning bill\" OR \"bill this summer\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -490,8 +1084,8 @@
         "keyword": true,
         "ohio": true,
         "lead": false,
-        "hard_exclusion": true,
-        "version": "fec7495b3c4f"
+        "hard_exclusion": false,
+        "version": "b2087782537e"
       },
       "production": {
         "accepted": false,
@@ -500,21 +1094,83 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/842311032505584/posts/39698962379746965",
-      "url": "https://www.facebook.com/groups/842311032505584/posts/39698962379746965",
-      "title": "Cut energy costs with Shipley Energy for Huber Heights ...",
-      "snippet": "Ohio businesses about significant upcoming energy price increases. *Low fixed prices for electricity & natural gas … an estimated $5,000 annually. Give us a",
+      "id": "https://www.facebook.com/groups/194430493950148/posts/29239654439001034",
+      "url": "https://www.facebook.com/groups/194430493950148/posts/29239654439001034",
+      "title": "Did anyone else's electric bill go down this month? Mine ...",
+      "snippet": "Did anyone else's electric bill go down this month? Mine went down $20.",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Anything and Everything Huber Heights",
-      "posted": "2026-11-03",
+      "group": "You know you're from Brunswick if...",
+      "posted": "2026-11-01",
       "first_seen": "2026-11-03",
       "last_seen": "2026-11-03",
+      "queries": [
+        "site:facebook.com/groups (\"summer electric bill\" OR \"AC bill\" OR \"air conditioning bill\" OR \"bill this summer\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "b2087782537e"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-11-03",
+      "group": "Anything and Everything Huber Heights",
+      "id": "https://www.facebook.com/groups/842311032505584/posts/39698962379746965",
+      "last_seen": "2026-11-03",
+      "posted": "2026-11-03",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"price to compare\" OR \"variable rate\" OR \"fixed rate\") Ohio energy"
       ],
       "rules": {
         "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
+        "version": "fec7495b3c4f"
+      },
+      "snippet": "Ohio businesses about significant upcoming energy price increases. *Low fixed prices for electricity & natural gas … an estimated $5,000 annually. Give us a",
+      "source": "Facebook",
+      "title": "Cut energy costs with Shipley Energy for Huber Heights ...",
+      "url": "https://www.facebook.com/groups/842311032505584/posts/39698962379746965"
+    },
+    {
+      "id": "https://www.facebook.com/newsandweatherforsouthernlohio/posts/rate-change-alert-columbia-gas-of-ohiorate-change-alertprice-as-of-october-27-20/2045176573426631",
+      "url": "https://www.facebook.com/newsandweatherforsouthernlohio/posts/rate-change-alert-columbia-gas-of-ohiorate-change-alertprice-as-of-october-27-20/2045176573426631",
+      "title": "Columbia gas of ohio rate change october 2026",
+      "snippet": "For most of Madison: ⚡ Electric Utility: FirstEnergy's The Illuminating Company 🔥 Natural Gas Utility: Enbridge Gas Ohio (formerly Dominion Energy Ohio)",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Rate Change Alert -... - News And Weather For Southern Ohio",
+      "posted": "2026-11-03",
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "queries": [
+        "site:facebook.com (\"electric supplier\" OR \"gas supplier\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
         "semantic_accepted": false,
         "reason": "intent",
         "host": true,
@@ -522,7 +1178,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fec7495b3c4f"
+        "version": "b2087782537e"
       },
       "production": {
         "accepted": false,
@@ -531,18 +1187,111 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/65220465435/posts/10176258216575436",
-      "url": "https://www.facebook.com/groups/65220465435/posts/10176258216575436",
-      "title": "BUILDING. . THE POWER . THE ROOM. . SEE YOU THERE.",
-      "snippet": "This is your official 24-hour warning! tomorrow evening at 7PM, and the energy is already off the charts. an incredible weekend of energy, growth, join us 3-5",
+      "id": "https://www.facebook.com/CityofSpringfieldOH/posts/did-you-knowcity-of-springfield-voters-will-decide-on-a-gas-aggregation-issue-to/1599427785546152",
+      "url": "https://www.facebook.com/CityofSpringfieldOH/posts/did-you-knowcity-of-springfield-voters-will-decide-on-a-gas-aggregation-issue-to/1599427785546152",
+      "title": "City of Springfield, Ohio - Government",
+      "snippet": "Green, Harmony, Moorefield, Pleasant, and Springfield townships are currently not operating an electric or natural gas aggregation through their township. To ...Read more",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "East Ohio Nazarene",
-      "posted": "2026-10-29",
+      "group": "Did You Know... - City of Springfield, Ohio - Government",
+      "posted": "2026-11-02",
       "first_seen": "2026-11-03",
       "last_seen": "2026-11-03",
       "queries": [
+        "site:facebook.com (\"electric supplier\" OR \"gas supplier\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "intent",
+        "host": true,
+        "keyword": true,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "b2087782537e"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "intent"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-11-03",
+      "group": "East Ohio Nazarene",
+      "id": "https://www.facebook.com/groups/65220465435/posts/10176258216575436",
+      "last_seen": "2026-11-03",
+      "posted": "2026-10-29",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
+      "queries": [
         "site:facebook.com/groups (\"Santanna Energy\" OR \"Clearview\" OR \"Just Energy\" OR \"AEP Energy\" OR Constellation) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "fec7495b3c4f"
+      },
+      "snippet": "This is your official 24-hour warning! tomorrow evening at 7PM, and the energy is already off the charts. an incredible weekend of energy, growth, join us 3-5",
+      "source": "Facebook",
+      "title": "BUILDING. . THE POWER . THE ROOM. . SEE YOU THERE.",
+      "url": "https://www.facebook.com/groups/65220465435/posts/10176258216575436"
+    },
+    {
+      "id": "https://www.facebook.com/groups/3459435521018611/posts/4025360807759410",
+      "url": "https://www.facebook.com/groups/3459435521018611/posts/4025360807759410",
+      "title": "Average monthly kWh usage in 850 sqft house?",
+      "snippet": "How much kWh does everyone use on average? I do not have the smart meter since I opted out but my average monthly is 975.. which I think is crazy..",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Citizens Against Rhode Island Energy",
+      "posted": "2026-11-02",
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "queries": [
+        "site:facebook.com/groups (\"summer electric bill\" OR \"AC bill\" OR \"air conditioning bill\" OR \"bill this summer\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "b2087782537e"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/lockhaven.newspaper/posts/an-electric-utility-wants-to-fix-pas-competitive-energy-market-regulators-say-mo/1570138195158456",
+      "url": "https://www.facebook.com/lockhaven.newspaper/posts/an-electric-utility-wants-to-fix-pas-competitive-energy-market-regulators-say-mo/1570138195158456",
+      "title": "An electric utility wants to fix Pa.'s competitive energy ...",
+      "snippet": "An electric utility wants to fix Pa.'s competitive energy market; regulators say more study needed",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "An electric utility wants to fix... - Lock Haven Express",
+      "posted": "2026-10-28",
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "queries": [
+        "site:facebook.com (\"electric supplier\" OR \"gas supplier\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -550,10 +1299,10 @@
         "reason": "keyword",
         "host": true,
         "keyword": false,
-        "ohio": true,
+        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
-        "version": "fec7495b3c4f"
+        "hard_exclusion": false,
+        "version": "b2087782537e"
       },
       "production": {
         "accepted": false,
@@ -822,7 +1571,8 @@
       "last_seen": "2026-11-03",
       "queries": [
         "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio",
-        "site:facebook.com/groups (\"price to compare\" OR \"variable rate\" OR \"fixed rate\") Ohio energy"
+        "site:facebook.com/groups (\"price to compare\" OR \"variable rate\" OR \"fixed rate\") Ohio energy",
+        "site:facebook.com (\"electric supplier\" OR \"gas supplier\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -833,7 +1583,39 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": false,
-        "version": "fec7495b3c4f"
+        "version": "b2087782537e"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/762987792153479/posts/1427599645692287",
+      "url": "https://www.facebook.com/groups/762987792153479/posts/1427599645692287",
+      "title": "What electric suppliers do people in Logan and Hocking ...",
+      "snippet": "Who’s everyone down here use as an electric supplier? Ours is running $400 a month…….",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Logan and Hocking County UNCENSORED",
+      "posted": "2026-10-30",
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-03",
+      "queries": [
+        "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio",
+        "site:facebook.com (\"electric supplier\" OR \"gas supplier\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "b2087782537e"
       },
       "production": {
         "accepted": false,
@@ -844,45 +1626,15 @@
     {
       "context": "facebook.com",
       "first_seen": "2026-11-02",
-      "group": "Logan and Hocking County UNCENSORED",
-      "id": "https://www.facebook.com/groups/762987792153479/posts/1427599645692287",
-      "last_seen": "2026-11-02",
-      "posted": "2026-10-30",
+      "group": "Chester Springs Area Community Network",
+      "id": "https://www.facebook.com/groups/970023226425607/posts/28845968355071053",
+      "last_seen": "2026-11-03",
+      "posted": "2026-11-01",
       "production": {
         "accepted": false,
         "reason": "geography",
         "source": "rules"
       },
-      "queries": [
-        "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "hard_exclusion": false,
-        "host": true,
-        "keyword": true,
-        "lead": false,
-        "ohio": false,
-        "reason": "geography",
-        "semantic_accepted": false,
-        "version": "b4edca40908b"
-      },
-      "snippet": "Who’s everyone down here use as an electric supplier? Ours is running $400 a month…….",
-      "source": "Facebook",
-      "title": "What electric suppliers do people in Logan and Hocking ...",
-      "url": "https://www.facebook.com/groups/762987792153479/posts/1427599645692287"
-    },
-    {
-      "id": "https://www.facebook.com/groups/970023226425607/posts/28845968355071053",
-      "url": "https://www.facebook.com/groups/970023226425607/posts/28845968355071053",
-      "title": "What are the pros and cons of PA Gas & Electric 12",
-      "snippet": "A 12 month fixed gas rate is currently a bit lower than PECO's standard rate, with offers around $0.49- $0.529/ccf compared to PECO's $0.5421/ccf.",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "Chester Springs Area Community Network",
-      "posted": "2026-11-01",
-      "first_seen": "2026-11-02",
-      "last_seen": "2026-11-03",
       "queries": [
         "site:facebook.com/groups (\"Columbia Gas\" OR \"Enbridge Gas\" OR \"Dominion Energy\" OR \"CenterPoint\" OR NOPEC) Ohio",
         "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio",
@@ -890,52 +1642,51 @@
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "fec7495b3c4f"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "A 12 month fixed gas rate is currently a bit lower than PECO's standard rate, with offers around $0.49- $0.529/ccf compared to PECO's $0.5421/ccf.",
+      "source": "Facebook",
+      "title": "What are the pros and cons of PA Gas & Electric 12",
+      "url": "https://www.facebook.com/groups/970023226425607/posts/28845968355071053"
     },
     {
-      "id": "https://www.facebook.com/groups/106695622698278/posts/29438543599086758",
-      "url": "https://www.facebook.com/groups/106695622698278/posts/29438543599086758",
-      "title": "What are the fixed natural gas rates for Belle Center ...",
-      "snippet": "The city established a 12-month fixed rate of $3.44 per Mcf of natural gas for program members. This new rate will run through the September 2025 meter reads.",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "You know you are from Belle Center, Ohio if...",
-      "posted": "2026-10-30",
       "first_seen": "2026-11-02",
+      "group": "You know you are from Belle Center, Ohio if...",
+      "id": "https://www.facebook.com/groups/106695622698278/posts/29438543599086758",
       "last_seen": "2026-11-03",
+      "posted": "2026-10-30",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio",
         "site:facebook.com/groups (\"price to compare\" OR \"variable rate\" OR \"fixed rate\") Ohio energy"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
         "version": "fec7495b3c4f"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
+      "snippet": "The city established a 12-month fixed rate of $3.44 per Mcf of natural gas for program members. This new rate will run through the September 2025 meter reads.",
+      "source": "Facebook",
+      "title": "What are the fixed natural gas rates for Belle Center ...",
+      "url": "https://www.facebook.com/groups/106695622698278/posts/29438543599086758"
     },
     {
       "context": "facebook.com",
@@ -969,35 +1720,36 @@
       "url": "https://www.facebook.com/groups/502659979434884/posts/1121546524212890"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-11-02",
-      "group": "Hamilton/Kirikiriroa Community Connection",
       "id": "https://www.facebook.com/groups/193702951370450/posts/2387189118688478",
-      "last_seen": "2026-11-02",
+      "url": "https://www.facebook.com/groups/193702951370450/posts/2387189118688478",
+      "title": "What are the best power companies in Hamilton for low ...",
+      "snippet": "Most recommended power company please.. I'm currently with 2 degrees, we are very conservative with our power and yet our monthly bill is still out the f gate !!",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Hamilton/Kirikiriroa Community Connection",
       "posted": "2026-10-27",
-      "production": {
-        "accepted": false,
-        "reason": "keyword",
-        "source": "rules"
-      },
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-03",
       "queries": [
-        "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio"
+        "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio",
+        "site:facebook.com/groups (\"summer electric bill\" OR \"AC bill\" OR \"air conditioning bill\" OR \"bill this summer\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": true,
+        "semantic_accepted": false,
+        "reason": "keyword",
         "host": true,
         "keyword": false,
-        "lead": false,
         "ohio": false,
-        "reason": "keyword",
-        "semantic_accepted": false,
-        "version": "b4edca40908b"
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "b2087782537e"
       },
-      "snippet": "Most recommended power company please.. I'm currently with 2 degrees, we are very conservative with our power and yet our monthly bill is still out the f gate !!",
-      "source": "Facebook",
-      "title": "What are the best power companies in Hamilton for low ...",
-      "url": "https://www.facebook.com/groups/193702951370450/posts/2387189118688478"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
     },
     {
       "context": "facebook.com",
@@ -1623,36 +2375,36 @@
       "url": "https://www.facebook.com/groups/MammothBishopBuySellTrade/posts/30449642781302230"
     },
     {
-      "id": "https://www.facebook.com/groups/910671455933843/posts/3072528463081454",
-      "url": "https://www.facebook.com/groups/910671455933843/posts/3072528463081454",
-      "title": "Mahoning County utility costs to rise in 2027",
-      "snippet": "Utility costs across Mahoning County, Ohio are projected to experience notable increases heading into 2027. These adjustments are driven by regional",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Jackson-Milton Parents",
-      "posted": "2026-10-27",
       "first_seen": "2026-11-02",
+      "group": "Jackson-Milton Parents",
+      "id": "https://www.facebook.com/groups/910671455933843/posts/3072528463081454",
       "last_seen": "2026-11-03",
+      "posted": "2026-10-27",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio",
         "site:facebook.com/groups (\"price to compare\" OR \"variable rate\" OR \"fixed rate\") Ohio energy"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "keyword",
+        "semantic_accepted": false,
         "version": "fec7495b3c4f"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "keyword"
-      }
+      "snippet": "Utility costs across Mahoning County, Ohio are projected to experience notable increases heading into 2027. These adjustments are driven by regional",
+      "source": "Facebook",
+      "title": "Mahoning County utility costs to rise in 2027",
+      "url": "https://www.facebook.com/groups/910671455933843/posts/3072528463081454"
     },
     {
       "context": "facebook.com",
@@ -2693,7 +3445,8 @@
       "queries": [
         "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio",
         "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio",
-        "site:facebook.com/groups (\"Santanna Energy\" OR \"Clearview\" OR \"Just Energy\" OR \"AEP Energy\" OR Constellation) Ohio"
+        "site:facebook.com/groups (\"Santanna Energy\" OR \"Clearview\" OR \"Just Energy\" OR \"AEP Energy\" OR Constellation) Ohio",
+        "site:facebook.com (\"electric supplier\" OR \"gas supplier\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -2704,7 +3457,7 @@
         "ohio": false,
         "lead": true,
         "hard_exclusion": false,
-        "version": "fec7495b3c4f"
+        "version": "b2087782537e"
       },
       "production": {
         "accepted": false,
@@ -3737,36 +4490,36 @@
       "url": "https://www.facebook.com/groups/360519000755280/posts/3950304638443347"
     },
     {
-      "id": "https://www.facebook.com/groups/1691020874263111/posts/29488416834096808",
-      "url": "https://www.facebook.com/groups/1691020874263111/posts/29488416834096808",
-      "title": "How to lower energy costs with solar power in Connecticut",
-      "snippet": "4️⃣ Rising Natural Gas Prices: The cost of natural gas (a primary fuel for power generation) is expected to remain high, which means higher electricity ...Read more",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Quiet Corner Community Forum Putnam Thompson Woodstock Pomfret Killingly",
-      "posted": "2026-10-31",
       "first_seen": "2026-11-01",
+      "group": "Quiet Corner Community Forum Putnam Thompson Woodstock Pomfret Killingly",
+      "id": "https://www.facebook.com/groups/1691020874263111/posts/29488416834096808",
       "last_seen": "2026-11-03",
+      "posted": "2026-10-31",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"rate increase\" OR \"bill went up\" OR \"rate hike\") (electric OR gas) Ohio",
         "site:facebook.com/groups (\"price to compare\" OR \"variable rate\" OR \"fixed rate\") Ohio energy"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "fec7495b3c4f"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "4️⃣ Rising Natural Gas Prices: The cost of natural gas (a primary fuel for power generation) is expected to remain high, which means higher electricity ...Read more",
+      "source": "Facebook",
+      "title": "How to lower energy costs with solar power in Connecticut",
+      "url": "https://www.facebook.com/groups/1691020874263111/posts/29488416834096808"
     },
     {
       "context": "facebook.com",
@@ -5913,16 +6666,17 @@
       "url": "https://www.facebook.com/groups/473038016496729/posts/2577493146051195"
     },
     {
-      "id": "https://www.facebook.com/groups/782098016440924/posts/1612537806730270",
-      "url": "https://www.facebook.com/groups/782098016440924/posts/1612537806730270",
-      "title": "Idiots going around trying to sell energy at a \"locked in\" rate...just FYI",
-      "snippet": "Just Google electricity suppliers. 3. The rate is only on usage. You ... Santanna Energy Services $0.11690 per kWh Santanna Energy",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Village of Bancroft Michigan Community",
-      "posted": "2026-10-30",
       "first_seen": "2026-10-31",
+      "group": "Village of Bancroft Michigan Community",
+      "id": "https://www.facebook.com/groups/782098016440924/posts/1612537806730270",
       "last_seen": "2026-11-03",
+      "posted": "2026-10-30",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio",
         "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio",
@@ -5930,20 +6684,19 @@
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "fec7495b3c4f"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "Just Google electricity suppliers. 3. The rate is only on usage. You ... Santanna Energy Services $0.11690 per kWh Santanna Energy",
+      "source": "Facebook",
+      "title": "Idiots going around trying to sell energy at a \"locked in\" rate...just FYI",
+      "url": "https://www.facebook.com/groups/782098016440924/posts/1612537806730270"
     },
     {
       "context": "facebook.com",
@@ -6912,35 +7665,36 @@
       "url": "https://www.facebook.com/groups/525349257640404/posts/3599224776919488"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-10-30",
-      "group": "Waterset Neighborhood Page",
       "id": "https://www.facebook.com/groups/202403039923998/posts/3476687352495534",
-      "last_seen": "2026-10-30",
+      "url": "https://www.facebook.com/groups/202403039923998/posts/3476687352495534",
+      "title": "What is the average light and water bill for a family of four ...",
+      "snippet": "xx Power Adj: $26.59 Water: $45 Sanitation (trash): $26 Sewer: $54.41 We have two adults, two kids. Both adults at home full time. Two HVAC units (one upstairs,",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Waterset Neighborhood Page",
       "posted": "2026-10-27",
-      "production": {
-        "accepted": false,
-        "reason": "geography",
-        "source": "rules"
-      },
+      "first_seen": "2026-10-30",
+      "last_seen": "2026-11-03",
       "queries": [
-        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)",
+        "site:facebook.com/groups (\"summer electric bill\" OR \"AC bill\" OR \"air conditioning bill\" OR \"bill this summer\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": true,
-        "host": true,
-        "keyword": true,
-        "lead": false,
-        "ohio": false,
-        "reason": "geography",
         "semantic_accepted": false,
-        "version": "dc5af9306d00"
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "b2087782537e"
       },
-      "snippet": "What are average gas and electric bills in Geneva, Ohio? paid 457.92 in level pay power, monthly gas bill. Our biggest charge is electrical at 251 a month",
-      "source": "Facebook",
-      "title": "What is the average light and water bill for a family of four ...",
-      "url": "https://www.facebook.com/groups/202403039923998/posts/3476687352495534"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
     },
     {
       "context": "facebook.com",
@@ -7067,67 +7821,68 @@
       "url": "https://www.facebook.com/groups/6382394711/posts/10165247216769712"
     },
     {
-      "id": "https://www.facebook.com/groups/2855943021301484/posts/4747154705513630",
-      "url": "https://www.facebook.com/groups/2855943021301484/posts/4747154705513630",
-      "title": "Ohio utility customers may pay for those who don't pay this ...",
-      "snippet": "FYI…….🤯\n\nArticle from The Logan Daily News 👇🏻\n\nUtility customers could foot the bill for those who don’t pay this winter\n\nDAVID BEASLEY",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Hocking County Information",
-      "posted": "2026-10-29",
       "first_seen": "2026-10-30",
+      "group": "Hocking County Information",
+      "id": "https://www.facebook.com/groups/2855943021301484/posts/4747154705513630",
       "last_seen": "2026-11-03",
+      "posted": "2026-10-29",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")",
         "site:facebook.com/groups (\"Santanna Energy\" OR \"Clearview\" OR \"Just Energy\" OR \"AEP Energy\" OR Constellation) Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
+        "lead": false,
+        "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "fec7495b3c4f"
+      },
+      "snippet": "FYI…….🤯\n\nArticle from The Logan Daily News 👇🏻\n\nUtility customers could foot the bill for those who don’t pay this winter\n\nDAVID BEASLEY",
+      "source": "Facebook",
+      "title": "Ohio utility customers may pay for those who don't pay this ...",
+      "url": "https://www.facebook.com/groups/2855943021301484/posts/4747154705513630"
+    },
+    {
+      "id": "https://www.facebook.com/groups/683662918892742/posts/2183170948941924",
+      "url": "https://www.facebook.com/groups/683662918892742/posts/2183170948941924",
+      "title": "Miami Valley Communications Council Community Electric ...",
+      "snippet": "Miami Valley Communications Council Community Electric Aggregation Notification \nWhy do you even exist? You are supposed to be getting a community group",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Xenia Community Chat & Information Forum",
+      "posted": "2026-10-30",
+      "first_seen": "2026-10-30",
+      "last_seen": "2026-11-03",
+      "queries": [
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio",
+        "site:facebook.com (\"electric supplier\" OR \"gas supplier\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "intent",
+        "host": true,
+        "keyword": true,
         "ohio": true,
         "lead": false,
-        "hard_exclusion": true,
-        "version": "fec7495b3c4f"
+        "hard_exclusion": false,
+        "version": "b2087782537e"
       },
       "production": {
         "accepted": false,
         "source": "rules",
-        "reason": "keyword"
+        "reason": "intent"
       }
-    },
-    {
-      "context": "facebook.com",
-      "first_seen": "2026-10-30",
-      "group": "Xenia Community Chat & Information Forum",
-      "id": "https://www.facebook.com/groups/683662918892742/posts/2183170948941924",
-      "last_seen": "2026-10-30",
-      "posted": "2026-10-30",
-      "production": {
-        "accepted": false,
-        "reason": "intent",
-        "source": "rules"
-      },
-      "queries": [
-        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
-      ],
-      "rules": {
-        "accepted": false,
-        "hard_exclusion": false,
-        "host": true,
-        "keyword": true,
-        "lead": false,
-        "ohio": true,
-        "reason": "intent",
-        "semantic_accepted": false,
-        "version": "d61b1f6724e1"
-      },
-      "snippet": "AES Ohio's rate is currently lower at 10.9 cents per kWh, The 11.53 cents per kWh. The rate is 5.05 cents/kWh which is the lowest rate I'm finding without a",
-      "source": "Facebook",
-      "title": "Miami Valley Communications Council Community Electric ...",
-      "url": "https://www.facebook.com/groups/683662918892742/posts/2183170948941924"
     },
     {
       "context": "facebook.com",
@@ -7348,36 +8103,37 @@
       "url": "https://www.facebook.com/groups/1592505321053981/posts/4073668622937626"
     },
     {
-      "context": "facebook.com",
-      "first_seen": "2026-10-30",
-      "group": "Berkeley County Growth & Development",
       "id": "https://www.facebook.com/groups/BerkeleyCountyGrowth/posts/4173005903004746",
-      "last_seen": "2026-10-30",
+      "url": "https://www.facebook.com/groups/BerkeleyCountyGrowth/posts/4173005903004746",
+      "title": "High electric bills in Berkeley County this month?",
+      "snippet": "is anybody’s electric/energy bill way higher than usual? I haven’t been home and my bill this month was over $500!",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Berkeley County Growth & Development",
       "posted": "2026-10-29",
-      "production": {
-        "accepted": false,
-        "reason": "keyword",
-        "source": "rules"
-      },
+      "first_seen": "2026-10-30",
+      "last_seen": "2026-11-03",
       "queries": [
         "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")",
-        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio",
+        "site:facebook.com/groups (\"summer electric bill\" OR \"AC bill\" OR \"air conditioning bill\" OR \"bill this summer\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "hard_exclusion": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
         "host": true,
         "keyword": false,
-        "lead": true,
         "ohio": false,
-        "reason": "keyword",
-        "semantic_accepted": false,
-        "version": "d61b1f6724e1"
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "b2087782537e"
       },
-      "snippet": "is anybody’s electric/energy bill way higher than usual? I haven’t been home and my bill this month was over $500!",
-      "source": "Facebook",
-      "title": "High electric bills in Berkeley County this month?",
-      "url": "https://www.facebook.com/groups/BerkeleyCountyGrowth/posts/4173005903004746"
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
     },
     {
       "context": "facebook.com",
@@ -7518,7 +8274,8 @@
       "queries": [
         "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)",
         "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio",
-        "site:facebook.com/groups (\"price to compare\" OR \"variable rate\" OR \"fixed rate\") Ohio energy"
+        "site:facebook.com/groups (\"price to compare\" OR \"variable rate\" OR \"fixed rate\") Ohio energy",
+        "site:facebook.com (\"electric supplier\" OR \"gas supplier\") Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -7529,7 +8286,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "fec7495b3c4f"
+        "version": "b2087782537e"
       },
       "production": {
         "accepted": false,
@@ -8036,16 +8793,17 @@
       "url": "https://www.facebook.com/groups/505907104451888/posts/1671100174599236"
     },
     {
-      "id": "https://www.facebook.com/groups/679527716239321/posts/2231120531080024",
-      "url": "https://www.facebook.com/groups/679527716239321/posts/2231120531080024",
-      "title": "What are the benefits of Centerville Ohio's new electricity ...",
-      "snippet": "If you sign up for a year now around $0.09-10/kWh, you run the risk of next year's renewal being even higher than the aggregation rate. Because of this, longer ...Read more",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "City of Centerville Ohio, Community and Neighbor Page",
-      "posted": "2026-10-28",
       "first_seen": "2026-10-29",
+      "group": "City of Centerville Ohio, Community and Neighbor Page",
+      "id": "https://www.facebook.com/groups/679527716239321/posts/2231120531080024",
       "last_seen": "2026-11-03",
+      "posted": "2026-10-28",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"cancel my\" OR \"cancellation fee\" OR \"early termination fee\") (electric OR gas) Ohio",
         "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio",
@@ -8053,20 +8811,19 @@
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
         "version": "fec7495b3c4f"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
+      "snippet": "If you sign up for a year now around $0.09-10/kWh, you run the risk of next year's renewal being even higher than the aggregation rate. Because of this, longer ...Read more",
+      "source": "Facebook",
+      "title": "What are the benefits of Centerville Ohio's new electricity ...",
+      "url": "https://www.facebook.com/groups/679527716239321/posts/2231120531080024"
     },
     {
       "context": "facebook.com",
@@ -8909,36 +9666,36 @@
       "url": "https://www.facebook.com/groups/3635826276555898/posts/3903753399763183"
     },
     {
-      "id": "https://www.facebook.com/groups/datacenterresistance/posts/1800654130996188",
-      "url": "https://www.facebook.com/groups/datacenterresistance/posts/1800654130996188",
-      "title": "Does your electric bill going up and up and up bother you as much ...",
-      "snippet": "... Santanna Energy Services $0.11690 per kWh Santanna Energy ... \" If clean energy were hurting the electric company's bottom line",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "National Data Center Resistance",
-      "posted": "2026-10-27",
       "first_seen": "2026-10-29",
+      "group": "National Data Center Resistance",
+      "id": "https://www.facebook.com/groups/datacenterresistance/posts/1800654130996188",
       "last_seen": "2026-11-03",
+      "posted": "2026-10-27",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"bill shock\" OR \"bill doubled\" OR \"bill tripled\" OR \"through the roof\") Ohio (electric OR gas)",
         "site:facebook.com/groups (\"Santanna Energy\" OR \"Clearview\" OR \"Just Energy\" OR \"AEP Energy\" OR Constellation) Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "fec7495b3c4f"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "... Santanna Energy Services $0.11690 per kWh Santanna Energy ... \" If clean energy were hurting the electric company's bottom line",
+      "source": "Facebook",
+      "title": "Does your electric bill going up and up and up bother you as much ...",
+      "url": "https://www.facebook.com/groups/datacenterresistance/posts/1800654130996188"
     },
     {
       "context": "facebook.com",
@@ -9314,16 +10071,17 @@
       "url": "https://www.facebook.com/groups/vanwertvoice/posts/4504411553038680"
     },
     {
-      "id": "https://www.facebook.com/groups/751671239030921/posts/2230898507774846",
-      "url": "https://www.facebook.com/groups/751671239030921/posts/2230898507774846",
-      "title": "AES vs. Miami Electric Aggregation rate comparison",
-      "snippet": "Did anyone else get a notification like this? I just moved here in August. My current rate with AES is 10.9. This looks like a good deal since it’s locked",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Eaton community talk",
-      "posted": "2026-10-27",
       "first_seen": "2026-10-29",
+      "group": "Eaton community talk",
+      "id": "https://www.facebook.com/groups/751671239030921/posts/2230898507774846",
       "last_seen": "2026-11-03",
+      "posted": "2026-10-27",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"locked in a rate\" OR \"signed up with\" OR \"should i lock in\" OR \"worth switching\") Ohio energy",
         "site:facebook.com/groups (\"bill shock\" OR \"bill doubled\" OR \"bill tripled\" OR \"through the roof\") Ohio (electric OR gas)",
@@ -9332,20 +10090,19 @@
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": true,
-        "hard_exclusion": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "fec7495b3c4f"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "Did anyone else get a notification like this? I just moved here in August. My current rate with AES is 10.9. This looks like a good deal since it’s locked",
+      "source": "Facebook",
+      "title": "AES vs. Miami Electric Aggregation rate comparison",
+      "url": "https://www.facebook.com/groups/751671239030921/posts/2230898507774846"
     },
     {
       "context": "facebook.com",
@@ -9472,16 +10229,17 @@
       "url": "https://www.facebook.com/groups/1994792310735262/posts/4522540927960375"
     },
     {
-      "id": "https://www.facebook.com/groups/xeniacommunityforum/posts/1439995550842345",
-      "url": "https://www.facebook.com/groups/xeniacommunityforum/posts/1439995550842345",
-      "title": "Xenia electric rate to increase by 23.4% in 2027",
-      "snippet": "# **XENIA RESIDENTS: YOUR ELECTRIC RATE IS GOING UP,  AND IT'S WORTH PAYING ATTENTION.**\n\nI did a little digging into Xenia's electric aggregation",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Xenia Community Forum",
-      "posted": "2026-10-27",
       "first_seen": "2026-10-28",
+      "group": "Xenia Community Forum",
+      "id": "https://www.facebook.com/groups/xeniacommunityforum/posts/1439995550842345",
       "last_seen": "2026-11-03",
+      "posted": "2026-10-27",
+      "production": {
+        "accepted": false,
+        "reason": "intent",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio",
         "site:facebook.com/groups (\"cancel my\" OR \"cancellation fee\" OR \"early termination fee\") (electric OR gas) Ohio",
@@ -9490,20 +10248,19 @@
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "intent",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": true,
         "lead": false,
-        "hard_exclusion": false,
+        "ohio": true,
+        "reason": "intent",
+        "semantic_accepted": false,
         "version": "fec7495b3c4f"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "intent"
-      }
+      "snippet": "# **XENIA RESIDENTS: YOUR ELECTRIC RATE IS GOING UP,  AND IT'S WORTH PAYING ATTENTION.**\n\nI did a little digging into Xenia's electric aggregation",
+      "source": "Facebook",
+      "title": "Xenia electric rate to increase by 23.4% in 2027",
+      "url": "https://www.facebook.com/groups/xeniacommunityforum/posts/1439995550842345"
     },
     {
       "context": "facebook.com",
