@@ -1,7 +1,69 @@
 {
-  "updated": "2026-11-18T05:28:07Z",
-  "count": 891,
+  "updated": "2026-11-18T19:49:51Z",
+  "count": 921,
   "candidates": [
+    {
+      "id": "https://www.facebook.com/groups/2360090810939289/posts/4624094314538916",
+      "url": "https://www.facebook.com/groups/2360090810939289/posts/4624094314538916",
+      "title": "👋 Which is the best power company to use in Grafton? 🍻",
+      "snippet": "What people are saying. Red Energy is the most recommended power company in the comments.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Clarence Needs 2 Know",
+      "posted": "2026-11-18",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8aa5d0a34cd6"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/saynotodatacenters/posts/1737160234882141",
+      "url": "https://www.facebook.com/groups/saynotodatacenters/posts/1737160234882141",
+      "title": "“Private Communications Utility” becoming data centers newest path ...",
+      "snippet": "Ohio flips the switch on data centers Ohio has the sixth most data centers in the country, but mounting pressure form residents could force a change by Victoria",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Say NO to Data Centers",
+      "posted": "2026-11-18",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8aa5d0a34cd6"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
     {
       "id": "https://www.facebook.com/groups/524825494342016/posts/3667691776722023",
       "url": "https://www.facebook.com/groups/524825494342016/posts/3667691776722023",
@@ -25,7 +87,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -37,7 +99,7 @@
       "id": "https://www.facebook.com/groups/722943498257874/posts/2230284514190424",
       "url": "https://www.facebook.com/groups/722943498257874/posts/2230284514190424",
       "title": "who needs cheaper electricity ⚡️ i have free activation no bill until ...",
-      "snippet": "After much research, I found a solution on how to lower your monthly energy bills! {Yes, both gas and electric!} It's totally to lower your",
+      "snippet": "This post advertises a new, lower-cost electricity rate offered by the author, Kimberly Mcneary, in partnership with the company Go4Power.",
       "source": "Facebook",
       "context": "facebook.com",
       "group": "Moving to Texas",
@@ -45,7 +107,9 @@
       "first_seen": "2026-11-18",
       "last_seen": "2026-11-18",
       "queries": [
-        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
+        "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio",
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio",
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
       ],
       "rules": {
         "accepted": false,
@@ -56,7 +120,38 @@
         "ohio": false,
         "lead": true,
         "hard_exclusion": false,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1018085996002850/posts/1847778189700289",
+      "url": "https://www.facebook.com/groups/1018085996002850/posts/1847778189700289",
+      "title": "who needs cheaper electricity ⚡️ i have free activation no bill until ...",
+      "snippet": "This post advertises a new, lower-cost electricity rate offered by the author, Kimberly Mcneary, in partnership with the company Go4Power. The",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Small Business DFW",
+      "posted": "2026-11-17",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -87,7 +182,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -118,12 +213,43 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
         "source": "rules",
         "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/778766775601723/posts/4347345925410439",
+      "url": "https://www.facebook.com/groups/778766775601723/posts/4347345925410439",
+      "title": "current events in defiance county, ohio - Facebook",
+      "snippet": "YOUR NATURAL GAS BILL COULD BE GOING UP! Ohio Gas Company has requested a rate increase from the Public Utilities Commission of Ohio",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "current events in defiance county, ohio",
+      "posted": "2026-11-18",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "intent",
+        "host": true,
+        "keyword": true,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8aa5d0a34cd6"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "intent"
       }
     },
     {
@@ -149,7 +275,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -180,7 +306,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -211,7 +337,38 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1072209104111576/posts/1815756936423452",
+      "url": "https://www.facebook.com/groups/1072209104111576/posts/1815756936423452",
+      "title": "Who can help switch from well to public water in Granger, Ohio?",
+      "snippet": "Ohio Environmental Protection Agency are offering a new grant opportunity to help drinking water systems pay for equipment.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Medina, Ohio News and Street Talk",
+      "posted": "2026-11-18",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -242,7 +399,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -251,65 +408,127 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/884010409969880/posts/1688469869523926",
-      "url": "https://www.facebook.com/groups/884010409969880/posts/1688469869523926",
-      "title": "Which household appliance significantly increases electricity bills?",
-      "snippet": "Certain appliances are bigger power vampires than others and ignoring them can add 10 per cent to your bill · No photo description available.",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "I grew up in Idaho State",
-      "posted": "2026-11-17",
       "first_seen": "2026-11-18",
+      "group": "I grew up in Idaho State",
+      "id": "https://www.facebook.com/groups/884010409969880/posts/1688469869523926",
       "last_seen": "2026-11-18",
+      "posted": "2026-11-17",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
+        "lead": true,
         "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "c376a2eb323b"
+      },
+      "snippet": "Certain appliances are bigger power vampires than others and ignoring them can add 10 per cent to your bill · No photo description available.",
+      "source": "Facebook",
+      "title": "Which household appliance significantly increases electricity bills?",
+      "url": "https://www.facebook.com/groups/884010409969880/posts/1688469869523926"
+    },
+    {
+      "id": "https://www.facebook.com/groups/424146027213558/posts/1150258914602262",
+      "url": "https://www.facebook.com/groups/424146027213558/posts/1150258914602262",
+      "title": "When did Cleveland become the first US city with electric streetlights?",
+      "snippet": "\"The first city in the United States to successfully demonstrate electric lighting was Cleveland, Ohio, with twelve electric lights around the Public Square",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Usa Old History",
+      "posted": "2026-11-17",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
         "lead": true,
         "hard_exclusion": false,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
         "source": "rules",
-        "reason": "geography"
+        "reason": "keyword"
       }
     },
     {
-      "id": "https://www.facebook.com/groups/798107244889596/posts/1928435115190131",
-      "url": "https://www.facebook.com/groups/798107244889596/posts/1928435115190131",
-      "title": "What is the difference between kW and kWh? - Facebook",
-      "snippet": "a kWh reflects the total amount of electricity used, whereas a kW reflects the rate of electricity usage.",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "ELECTRICIAN HIRING",
-      "posted": "2026-11-17",
       "first_seen": "2026-11-18",
+      "group": "ELECTRICIAN HIRING",
+      "id": "https://www.facebook.com/groups/798107244889596/posts/1928435115190131",
       "last_seen": "2026-11-18",
+      "posted": "2026-11-17",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"Provision Power\" OR \"Shipley Choice\" OR \"Powervine\" OR \"Eligo Energy\" OR \"CleanSky\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": true,
-        "hard_exclusion": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "c376a2eb323b"
+      },
+      "snippet": "a kWh reflects the total amount of electricity used, whereas a kW reflects the rate of electricity usage.",
+      "source": "Facebook",
+      "title": "What is the difference between kW and kWh? - Facebook",
+      "url": "https://www.facebook.com/groups/798107244889596/posts/1928435115190131"
+    },
+    {
+      "id": "https://www.facebook.com/groups/136916964280988/posts/1661748608464475",
+      "url": "https://www.facebook.com/groups/136916964280988/posts/1661748608464475",
+      "title": "What companies in Michigan, Ohio, and Indiana offer power unit only jobs?",
+      "snippet": "Companies taking on power unit only in Michigan, Ohio and Indiana … 269-978-9788. Non- expired state issued photo ID, -855-852-WORK (9675) for more weekly job",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Flatbed Gang",
+      "posted": "2026-11-18",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
         "source": "rules",
-        "reason": "geography"
+        "reason": "keyword"
       }
     },
     {
@@ -335,7 +554,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -366,7 +585,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -397,7 +616,38 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1740894472847470/posts/4492745884328968",
+      "url": "https://www.facebook.com/groups/1740894472847470/posts/4492745884328968",
+      "title": "Till the end of November (excludes diesels) call or text",
+      "snippet": "Ohio Business and Community Events. Boost, Aldi and JBHIFI will not receive the text message. The promotion will last as long as you want it to be and contract",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Carroll County, Indiana Events and Happenings",
+      "posted": "2026-11-18",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -428,7 +678,38 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/imaginelebanon/posts/1910723363429828",
+      "url": "https://www.facebook.com/groups/imaginelebanon/posts/1910723363429828",
+      "title": "These changes may impact the new developments on the east side of ...",
+      "snippet": "Flock Group Inc., The City's current annual contract expense is $60,000, The contract is scheduled to expire in May 2027. Lebanon's municipally owned electric",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Imagine Lebanon Group",
+      "posted": "2026-11-18",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -459,7 +740,38 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/515156996071243/posts/2224763538443905",
+      "url": "https://www.facebook.com/groups/515156996071243/posts/2224763538443905",
+      "title": "There are over 650 energy projects stuck in permitting purgatory.",
+      "snippet": "There are over 650 energy projects stuck in permitting purgatory.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Troy Ohio Citizens",
+      "posted": "2026-11-18",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -490,7 +802,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -521,7 +833,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -552,7 +864,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -583,7 +895,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -592,34 +904,96 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/883614447630574",
-      "url": "https://www.facebook.com/groups/883614447630574",
-      "title": "Oregon Ohio Community | Facebook",
-      "snippet": "Oregon Ohio community. we learn about the bigger plan that put Oregon on the map.",
+      "id": "https://www.facebook.com/groups/1904955366273471/posts/28313475071661474",
+      "url": "https://www.facebook.com/groups/1904955366273471/posts/28313475071661474",
+      "title": "Our electric bills have gone up drastically the last couple years ...",
+      "snippet": "The program is free, it never expires ・ and has no cancellation fees ・ at 610-389- rebates for them. chose Energy Harbor thats in Akron Ohio.",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "",
-      "posted": "",
+      "group": "Arrowhead Lakes PA- Uncensored",
+      "posted": "2026-11-18",
       "first_seen": "2026-11-18",
       "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "8aa5d0a34cd6"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-11-18",
+      "group": "",
+      "id": "https://www.facebook.com/groups/883614447630574",
+      "last_seen": "2026-11-18",
+      "posted": "",
+      "production": {
+        "accepted": false,
+        "reason": "keyword",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "keyword",
+        "hard_exclusion": true,
         "host": true,
         "keyword": false,
+        "lead": false,
         "ohio": true,
+        "reason": "keyword",
+        "semantic_accepted": false,
+        "version": "c376a2eb323b"
+      },
+      "snippet": "Oregon Ohio community. we learn about the bigger plan that put Oregon on the map.",
+      "source": "Facebook",
+      "title": "Oregon Ohio Community | Facebook",
+      "url": "https://www.facebook.com/groups/883614447630574"
+    },
+    {
+      "id": "https://www.facebook.com/groups/2204714151/posts/10168654519089152",
+      "url": "https://www.facebook.com/groups/2204714151/posts/10168654519089152",
+      "title": "More SPICY jams added today! - Facebook",
+      "snippet": "If you receive this notice and your electric utility is AEP Ohio (Ohio Power Company) be sure you read it thoroughly !!! ‼️YOU •MUST •OPT",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "PATASKALA",
+      "posted": "2026-11-17",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
         "source": "rules",
-        "reason": "keyword"
+        "reason": "geography"
       }
     },
     {
@@ -645,7 +1019,165 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/635869761194443/posts/1938033644311375",
+      "url": "https://www.facebook.com/groups/635869761194443/posts/1938033644311375",
+      "title": "Magnolia Coalition | Today, November 16, PJM and its transmission owners submitted three proposals to FERC: | Facebook",
+      "snippet": "Three things would change:\n\n1. Valley North: Amos–Welton Spring–Rocky Point: Study power supply and demand together. Instead of looking separately at a proposed data center and a proposed power plant, PJM would study them together to determine what new lines are needed. Developers would also face re…",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Magnolia Coalition",
+      "posted": "2026-11-17",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio",
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8aa5d0a34cd6"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/398270723662362/posts/3865740873581979",
+      "url": "https://www.facebook.com/groups/398270723662362/posts/3865740873581979",
+      "title": "Lincoln Electric ac-225 Arc welder, model number #K 1170 a widely ...",
+      "snippet": "It produces a smooth AC arc for welding a wide variety of materials, including carbon, low alloy, and stainless steels, as well as cast iron I",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Sugar Grove Garage Sale",
+      "posted": "2026-11-17",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8aa5d0a34cd6"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/3042429799480702/posts/3375480472842298",
+      "url": "https://www.facebook.com/groups/3042429799480702/posts/3375480472842298",
+      "title": "Let's welcome our new members! Heather Reed",
+      "snippet": "Residents may be receiving mailers from third-party electric suppliers offering gift cards or other incentives to switch providers. fixed rate of 9.5¢/kWh",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Cleves Village neighborhood",
+      "posted": "2026-11-17",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8aa5d0a34cd6"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/4450690691822493/posts/4632417443649816",
+      "url": "https://www.facebook.com/groups/4450690691822493/posts/4632417443649816",
+      "title": "JJ Henderson on Facebook: \"Hello y’all. I’d like to introduce myself as James, I’m your licensed energy consultant for the stat…\"",
+      "snippet": "# JJ Henderson on Facebook: \"Hello y’all. I’d like to introduce myself as James, I’m your licensed energy consultant for the stat…\"\n\nHello y’all. I’d like to introduce myself as James, I’m your licensed energy consultant for the state of Ohio ( yes I have my permit for Barberton as you can see🤣) I h…",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Barberton Neighbors 2.0",
+      "posted": "2026-11-17",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"Provision Power\" OR \"Shipley Choice\" OR \"Powervine\" OR \"Eligo Energy\" OR \"CleanSky\") Ohio",
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio",
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8aa5d0a34cd6"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/3042429799480702/posts/3375738259483186",
+      "url": "https://www.facebook.com/groups/3042429799480702/posts/3375738259483186",
+      "title": "It's back!",
+      "snippet": "Residents may be receiving mailers from third-party electric suppliers offering gift cards or other incentives to switch providers.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Cleves Village neighborhood",
+      "posted": "2026-11-18",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -676,7 +1208,101 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/clevelandrei/posts/1006148988595999",
+      "url": "https://www.facebook.com/groups/clevelandrei/posts/1006148988595999",
+      "title": "Investing in Ohio? Here's what's happening in Cleveland and Akron. ...",
+      "snippet": "Investing in Ohio from in or out of state? Here's what's happening in Cleveland and Akron.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Cleveland Real Estate Investors",
+      "posted": "2026-11-18",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8aa5d0a34cd6"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/397624567515232/posts/2190572081553796",
+      "url": "https://www.facebook.com/groups/397624567515232/posts/2190572081553796",
+      "title": "I have said this once before and I am going to say it again the ...",
+      "snippet": "For instance, If you think you have AEP, then you have AEP Energy but the bills still come from AEP, regardless of who your supplier is. And",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Colerain Talks",
+      "posted": "2026-11-18",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio",
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8aa5d0a34cd6"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/214462471166042/posts/1193277953284484",
+      "url": "https://www.facebook.com/groups/214462471166042/posts/1193277953284484",
+      "title": "I have a question. Do I need to change the name on the utilities ...",
+      "snippet": "No, you don't need to, but you may want to. If you decided to move, and wanted to turn utilities on in your new place, you may be charged",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "My Husband In Heaven - Grief Support",
+      "posted": "2026-11-17",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -707,12 +1333,43 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
         "source": "rules",
         "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/3408045965956188/posts/29409002105433885",
+      "url": "https://www.facebook.com/groups/3408045965956188/posts/29409002105433885",
+      "title": "How to review and compare electricity rates in Galveston County",
+      "snippet": "Best utility electric service company in Galveston? My contract with Summer Energy expired . I don't want to pay 15.1 cents when I was",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Latinos En Galveston County",
+      "posted": "2026-11-17",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "8aa5d0a34cd6"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
       }
     },
     {
@@ -738,7 +1395,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -769,7 +1426,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -800,7 +1457,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -831,7 +1488,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -840,34 +1497,65 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/4450690691822493/posts/4632417443649816",
-      "url": "https://www.facebook.com/groups/4450690691822493/posts/4632417443649816",
-      "title": "Hello y'all. I'd like to introduce myself as James, I'm your licensed ...",
-      "snippet": "Amanda Robertson offers a free energy consultation to help people in Ohio with their electric and natural gas services.",
+      "id": "https://www.facebook.com/groups/249473151806390/posts/29319533384373647",
+      "url": "https://www.facebook.com/groups/249473151806390/posts/29319533384373647",
+      "title": "Heatstar High-Intensity Infrared Heater with Millivolt Thermostat ...",
+      "snippet": "This heater can provide instant heat up to 9,500 BTUs. It can easily be mounted on a wall and requires no chimney or electrical connections. As an added bonus,",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Barberton Neighbors 2.0",
-      "posted": "2026-11-17",
+      "group": "Newcomerstown sales and more",
+      "posted": "2026-11-18",
       "first_seen": "2026-11-18",
       "last_seen": "2026-11-18",
       "queries": [
-        "site:facebook.com/groups (\"Provision Power\" OR \"Shipley Choice\" OR \"Powervine\" OR \"Eligo Energy\" OR \"CleanSky\") Ohio"
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
       ],
       "rules": {
         "accepted": false,
         "semantic_accepted": false,
-        "reason": "intent",
+        "reason": "keyword",
         "host": true,
-        "keyword": true,
-        "ohio": true,
+        "keyword": false,
+        "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
         "source": "rules",
-        "reason": "intent"
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/2104749433680859/posts/2340201103469023",
+      "url": "https://www.facebook.com/groups/2104749433680859/posts/2340201103469023",
+      "title": "Has anyone used Arka Energy for solar? | Facebook",
+      "snippet": "Log in\n\nLog in\n\nForgotten account?\n\n installed my system, they did a great job, I have no complaints.\n\n   7h \n\nView more comments\n\n3 of 5\n\nSee more on Facebook\n\nSee more on Facebook\n\nEmail address or phone number\n\n \n\nPassword\n\n \n\nLog in\n\nForgotten password?\n\nor\n\nCreate new account",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Rockhampton Community notice board",
+      "posted": "2026-11-18",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8aa5d0a34cd6"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
       }
     },
     {
@@ -893,7 +1581,39 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/726385392310564/posts/1659304852351942",
+      "url": "https://www.facebook.com/groups/726385392310564/posts/1659304852351942",
+      "title": "HEADS UP!!!",
+      "snippet": "HEADS UP!!!",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Newark Heath & Licking County's IN THE KNOW",
+      "posted": "2026-11-18",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio",
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -924,7 +1644,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -955,7 +1675,69 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/EastBostonNetwork/posts/3703080816526032",
+      "url": "https://www.facebook.com/groups/EastBostonNetwork/posts/3703080816526032",
+      "title": "East Boston Network (EBN) | # **[New England Utilities Owe Electric Customers About $1.5 Billion for Overcharges Dating to 2011, and Refunds Are Due by May 20, 2027](https://p.fe... | Facebook",
+      "snippet": "Email or phone number\n\n \n\nPassword\n\n \n\nLog In\n\nForgot password?\n\nor\n\nCreate new account [...] The total is estimated at about $1.5 billion, according to Massachusetts Gov. Maura Healey’s office, which is pressing Eversource, National Grid and Unitil to start paying it back. The Federal Energy Regula…",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "East Boston Network EBN",
+      "posted": "2026-11-18",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "8aa5d0a34cd6"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/2347767252110778/posts/4781603048727174",
+      "url": "https://www.facebook.com/groups/2347767252110778/posts/4781603048727174",
+      "title": "Data centers aren't just building facilities in Ohio. They're reshaping ...",
+      "snippet": "This news report from 13 Action News explores the significant economic growth of data centers in Ohio, presenting them as a key foundational industry that",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Etna Community",
+      "posted": "2026-11-18",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -986,7 +1768,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -1017,7 +1799,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -1029,7 +1811,7 @@
       "id": "https://www.facebook.com/groups/saynotodatacenters/posts/1736521294946035",
       "url": "https://www.facebook.com/groups/saynotodatacenters/posts/1736521294946035",
       "title": "Corporations Taking Land? Ohio lawmakers are considering ...",
-      "snippet": "Corporations Taking Land? Ohio lawmakers are considering legislation that could expand eminent domain powers for companies building",
+      "snippet": "To energy infrastructure projects. The same infrastructure that AI data centers need to operate. “We are aware of efforts to further erode the",
       "source": "Facebook",
       "context": "facebook.com",
       "group": "Say NO to Data Centers",
@@ -1037,7 +1819,8 @@
       "first_seen": "2026-11-18",
       "last_seen": "2026-11-18",
       "queries": [
-        "site:facebook.com/groups (\"Provision Power\" OR \"Shipley Choice\" OR \"Powervine\" OR \"Eligo Energy\" OR \"CleanSky\") Ohio"
+        "site:facebook.com/groups (\"Provision Power\" OR \"Shipley Choice\" OR \"Powervine\" OR \"Eligo Energy\" OR \"CleanSky\") Ohio",
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
       ],
       "rules": {
         "accepted": false,
@@ -1048,7 +1831,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -1079,12 +1862,43 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
         "source": "rules",
         "reason": "intent"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1646335429029747/posts/4601637303499530",
+      "url": "https://www.facebook.com/groups/1646335429029747/posts/4601637303499530",
+      "title": "Compañía De Luz / Light Company ☎️ (214) 860-7014 - Facebook",
+      "snippet": "... SWITCH ELECTRICITY PROVIDERS?       OR START NEW SERVICE? ☎️ (214) 860-7014 House  》Apartment 》Business FIXED RATES ACCELERATED",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "CraigslistFace Abilene TX",
+      "posted": "2026-11-17",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8aa5d0a34cd6"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
       }
     },
     {
@@ -1110,7 +1924,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -1119,35 +1933,35 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/273821537435387/posts/1747123120105214",
-      "url": "https://www.facebook.com/groups/273821537435387/posts/1747123120105214",
-      "title": "CleanServ Carpet and Property Maintenance ✨️ 👌🏿",
-      "snippet": "The City negotiated a fixed rate with Archer Energy for the natural gas supply portion of your bill. Columbia Gas of Ohio will continue to deliver your gas and",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "",
-      "posted": "",
       "first_seen": "2026-11-18",
+      "group": "",
+      "id": "https://www.facebook.com/groups/273821537435387/posts/1747123120105214",
       "last_seen": "2026-11-18",
+      "posted": "",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups/273821537435387/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "c376a2eb323b"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "The City negotiated a fixed rate with Archer Energy for the natural gas supply portion of your bill. Columbia Gas of Ohio will continue to deliver your gas and",
+      "source": "Facebook",
+      "title": "CleanServ Carpet and Property Maintenance ✨️ 👌🏿",
+      "url": "https://www.facebook.com/groups/273821537435387/posts/1747123120105214"
     },
     {
       "id": "https://www.facebook.com/groups/wearegc/posts/4687746861542322",
@@ -1172,7 +1986,38 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/zeelandcommunityinformed/posts/2034900880532946",
+      "url": "https://www.facebook.com/groups/zeelandcommunityinformed/posts/2034900880532946",
+      "title": "Cadence Kathleen DeVree on Facebook: \"Zeeland City Council & School Board Meeting Recap: November 16, 2026 Good morning, Zeeland, and happ…\"",
+      "snippet": "Gentex Substation Settlement: Council approved Addendum #2 to the Gentex North Riley Campus Development Agreement, closing out the $4.94 million Northside electrical substation project. Under the finalized cost-sharing split, Gentex is responsible for 45% (approximately $2.23 million) and the Zeelan…",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Zeeland Community Informed",
+      "posted": "2026-11-17",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -1203,7 +2048,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -1212,34 +2057,65 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/283205409894395/posts/1459683852246539",
-      "url": "https://www.facebook.com/groups/283205409894395/posts/1459683852246539",
-      "title": "BTU comparison of common heating fuels like firewood, heating oil ...",
-      "snippet": "For a typical home this winter that is about: $763 for natural gas $1,013 for firewood (2.9 cords) $1,220 for a heat pump $1,704 for propane",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "I'm so Bullard no posts deleted group.",
-      "posted": "2026-11-18",
       "first_seen": "2026-11-18",
+      "group": "I'm so Bullard no posts deleted group.",
+      "id": "https://www.facebook.com/groups/283205409894395/posts/1459683852246539",
       "last_seen": "2026-11-18",
+      "posted": "2026-11-18",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "c376a2eb323b"
+      },
+      "snippet": "For a typical home this winter that is about: $763 for natural gas $1,013 for firewood (2.9 cords) $1,220 for a heat pump $1,704 for propane",
+      "source": "Facebook",
+      "title": "BTU comparison of common heating fuels like firewood, heating oil ...",
+      "url": "https://www.facebook.com/groups/283205409894395/posts/1459683852246539"
+    },
+    {
+      "id": "https://www.facebook.com/groups/711529887027465/posts/1463249288522184",
+      "url": "https://www.facebook.com/groups/711529887027465/posts/1463249288522184",
+      "title": "Anyone use AOS Energy to install their panels? - Facebook",
+      "snippet": "Hoping to find a local installer that would be willing to throw these panels on my roof so i can get more sun hours. In Northeast Ohio, if yall",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Solar Panel Owners Ireland",
+      "posted": "2026-11-18",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
         "source": "rules",
-        "reason": "geography"
+        "reason": "keyword"
       }
     },
     {
@@ -1265,7 +2141,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -1296,7 +2172,39 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/XeniaOpenForum/posts/29594660783477865",
+      "url": "https://www.facebook.com/groups/XeniaOpenForum/posts/29594660783477865",
+      "title": "Alternatives to AES power in Xenia - Facebook",
+      "snippet": "Sharing to share, but also looking for tips or dos or don'ts for switching! Also, if you aren't on Xenia's aggregate contract, you can call and",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Xenia Community Open Forum",
+      "posted": "2026-11-17",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio",
+        "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -1327,7 +2235,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -1358,7 +2266,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -1389,7 +2297,38 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/250955362079205/posts/2637436633431054",
+      "url": "https://www.facebook.com/groups/250955362079205/posts/2637436633431054",
+      "title": "#PermissionToPostAdmin ⚡ #electricalequipmentcompany ...",
+      "snippet": "✓ FREE Delivery ✓ Fastest Fabrication ✓ Affordable Prices ✓ Brand New Breakers ✓ Quality Workmanship ✓ Ideal For: 🏗️ Construction sites, equipment",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "HARDWARE, ELECTRICAL, INDUSTRIAL SUPPLIER",
+      "posted": "2026-11-17",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "queries": [
+        "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -1420,7 +2359,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -1451,7 +2390,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -1482,7 +2421,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -1513,7 +2452,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -1544,7 +2483,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -1575,7 +2514,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -1637,7 +2576,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -1668,7 +2607,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -1730,7 +2669,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -1792,7 +2731,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -1823,7 +2762,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -1854,7 +2793,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -1917,7 +2856,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -1948,7 +2887,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -1979,7 +2918,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -2011,7 +2950,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -2042,7 +2981,7 @@
         "ohio": false,
         "lead": true,
         "hard_exclusion": false,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -2166,7 +3105,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -2228,7 +3167,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -2291,7 +3230,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -2322,7 +3261,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -2384,7 +3323,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -2415,7 +3354,7 @@
         "ohio": true,
         "lead": true,
         "hard_exclusion": false,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -2478,7 +3417,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -2509,7 +3448,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -2540,7 +3479,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -2571,7 +3510,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -2602,7 +3541,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -2664,7 +3603,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -2695,7 +3634,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -2726,7 +3665,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -2851,7 +3790,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -2882,7 +3821,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -2913,7 +3852,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -2944,7 +3883,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -3006,7 +3945,7 @@
         "ohio": false,
         "lead": true,
         "hard_exclusion": false,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -3037,7 +3976,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -3068,7 +4007,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -3193,7 +4132,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -3224,7 +4163,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -3256,7 +4195,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": false,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -3287,7 +4226,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -3320,7 +4259,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -3351,7 +4290,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -3477,7 +4416,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -3508,7 +4447,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -3539,7 +4478,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -3571,7 +4510,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -3665,7 +4604,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -3696,7 +4635,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -3727,7 +4666,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -3790,7 +4729,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -3821,7 +4760,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -3852,7 +4791,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -3883,7 +4822,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -3914,7 +4853,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -3976,7 +4915,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -4038,7 +4977,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -4069,7 +5008,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -4100,7 +5039,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -4131,7 +5070,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -4162,7 +5101,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -4257,7 +5196,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -4319,7 +5258,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -4506,7 +5445,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -4537,7 +5476,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -4631,7 +5570,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -4693,7 +5632,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -4817,7 +5756,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -4848,7 +5787,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -4879,7 +5818,7 @@
         "ohio": false,
         "lead": true,
         "hard_exclusion": false,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -4910,7 +5849,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -4941,7 +5880,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -4972,7 +5911,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -5003,7 +5942,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -5034,7 +5973,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -5065,7 +6004,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -5096,7 +6035,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -5189,7 +6128,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -5220,7 +6159,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -5315,7 +6254,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -5346,7 +6285,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -5377,7 +6316,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -5408,7 +6347,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -5470,7 +6409,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -5563,7 +6502,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -5594,7 +6533,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -5625,7 +6564,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -5656,7 +6595,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -5687,7 +6626,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -5718,7 +6657,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -5749,7 +6688,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -5780,7 +6719,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -5811,7 +6750,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -5842,7 +6781,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -5904,7 +6843,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -5936,7 +6875,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -5967,7 +6906,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -5998,7 +6937,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -6068,7 +7007,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -6130,7 +7069,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -6161,7 +7100,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -6192,7 +7131,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -6223,7 +7162,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -6254,7 +7193,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -6285,7 +7224,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -6316,7 +7255,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -6347,7 +7286,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -6409,7 +7348,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -6440,7 +7379,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -6566,7 +7505,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -6630,7 +7569,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -6661,7 +7600,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -6723,7 +7662,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -6754,7 +7693,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -6785,7 +7724,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -6816,7 +7755,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -6847,7 +7786,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -6878,7 +7817,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -6909,7 +7848,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -6940,7 +7879,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -6971,7 +7910,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -7002,7 +7941,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -7064,7 +8003,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -7126,7 +8065,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -7189,7 +8128,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -7220,7 +8159,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -7251,7 +8190,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -7315,7 +8254,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -7346,7 +8285,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -7409,7 +8348,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -7440,7 +8379,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -7471,7 +8410,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -7502,7 +8441,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -7533,7 +8472,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -7598,7 +8537,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": false,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -7629,7 +8568,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -7660,7 +8599,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -7817,7 +8756,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -7848,7 +8787,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -7880,7 +8819,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -7911,7 +8850,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -7942,7 +8881,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -7973,7 +8912,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -8036,7 +8975,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -8067,7 +9006,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -8131,7 +9070,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -8162,7 +9101,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -8193,7 +9132,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -8351,7 +9290,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -8382,7 +9321,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -8413,7 +9352,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -8444,7 +9383,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": false,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -8475,7 +9414,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -8506,7 +9445,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -8599,7 +9538,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -8630,7 +9569,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -8661,7 +9600,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -8692,7 +9631,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -8754,7 +9693,7 @@
         "ohio": false,
         "lead": true,
         "hard_exclusion": false,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -8785,7 +9724,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -8816,7 +9755,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -8847,7 +9786,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -8878,7 +9817,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -8909,7 +9848,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -8940,7 +9879,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -8971,7 +9910,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -9002,7 +9941,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -9065,7 +10004,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -9190,7 +10129,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -9284,7 +10223,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -9377,7 +10316,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -9532,7 +10471,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -9563,7 +10502,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -9594,7 +10533,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -9687,7 +10626,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -9718,7 +10657,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -9749,7 +10688,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -9780,7 +10719,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -9842,7 +10781,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -9873,7 +10812,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -9936,7 +10875,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -10031,7 +10970,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -10093,7 +11032,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -10187,7 +11126,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -10249,7 +11188,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -10311,7 +11250,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -10342,7 +11281,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -10373,7 +11312,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -10405,7 +11344,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -10436,7 +11375,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -10467,7 +11406,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -10596,7 +11535,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -10689,7 +11628,7 @@
         "ohio": false,
         "lead": true,
         "hard_exclusion": false,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -10720,7 +11659,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -10813,7 +11752,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -10875,7 +11814,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -10906,7 +11845,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -10937,7 +11876,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -10968,7 +11907,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -10999,7 +11938,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -11095,7 +12034,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -11126,7 +12065,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -11343,7 +12282,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -11655,7 +12594,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -11686,7 +12625,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -12188,7 +13127,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -12219,7 +13158,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -12250,7 +13189,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -12281,7 +13220,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -12346,7 +13285,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
@@ -12470,7 +13409,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "c376a2eb323b"
+        "version": "8aa5d0a34cd6"
       },
       "production": {
         "accepted": false,
