@@ -1,37 +1,130 @@
 {
-  "updated": "2026-11-27T06:06:54Z",
-  "count": 797,
+  "updated": "2026-11-27T20:32:33Z",
+  "count": 833,
   "candidates": [
     {
-      "id": "https://www.facebook.com/groups/844205588999279/posts/29264865216506603",
-      "url": "https://www.facebook.com/groups/844205588999279/posts/29264865216506603",
-      "title": "area 49 new gulliver townhouses for rent two bedrooms fully tiled ...",
-      "snippet": "We have a 3 bedroom 1.5 bath town home available at the complex. Brand new kitchen, fresh paint. Low heat bill- natural gas furnace. Snow, lawn,",
+      "id": "https://www.facebook.com/groups/298802200295822/posts/3579006345608708",
+      "url": "https://www.facebook.com/groups/298802200295822/posts/3579006345608708",
+      "title": "january could bring a 26% energy price rise!",
+      "snippet": "26% ENERGY PRICE RISE! keeping my costs lower than PECO's skyrocketing rates—for. Energy bills are expected to rise 18–22% this summer—maybe. Public ENERGY",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Agricultural Produce Market Centre - Malawi",
-      "posted": "2026-11-26",
+      "group": "Belle Vale and Netherley",
+      "posted": "2026-11-27",
       "first_seen": "2026-11-27",
       "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/2698899477011832/posts/4694188220816271",
+      "url": "https://www.facebook.com/groups/2698899477011832/posts/4694188220816271",
+      "title": "if you elected to stay with Fairfield's energy aggregation ...",
+      "snippet": "Evening folks, let's talk gas bills.\n\nAs many of you probably saw if you watch your bills -- if you elected to stay with Fairfield's energy aggregation",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Fairfield City, Ohio Residents",
+      "posted": "2026-11-27",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "intent",
+        "host": true,
+        "keyword": true,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "intent"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/233021862590859/posts/1161880269705009",
+      "url": "https://www.facebook.com/groups/233021862590859/posts/1161880269705009",
+      "title": "happy thanksgiving from bf configurations! - Facebook",
+      "snippet": "BF Configurations specialize in quality and reliable service, custom-tailored to meet our client's specific needs. We provide professionalism",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "This is Mesquite",
+      "posted": "2026-11-24",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups/233021862590859/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-11-27",
+      "group": "Agricultural Produce Market Centre - Malawi",
+      "id": "https://www.facebook.com/groups/844205588999279/posts/29264865216506603",
+      "last_seen": "2026-11-27",
+      "posted": "2026-11-26",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "fbea03a84a33"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "We have a 3 bedroom 1.5 bath town home available at the complex. Brand new kitchen, fresh paint. Low heat bill- natural gas furnace. Snow, lawn,",
+      "source": "Facebook",
+      "title": "area 49 new gulliver townhouses for rent two bedrooms fully tiled ...",
+      "url": "https://www.facebook.com/groups/844205588999279/posts/29264865216506603"
     },
     {
       "id": "https://www.facebook.com/groups/275820807431199/posts/1456529639360304",
@@ -56,12 +149,293 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
         "source": "rules",
         "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/swimspaowners/posts/1722385692637788",
+      "url": "https://www.facebook.com/groups/swimspaowners/posts/1722385692637788",
+      "title": "Will swim spa usage increase our electric bill in the NE US?",
+      "snippet": "My time-based electricity rates are $0.09 / $0.15 / $0.19 off-peak / mid-peak / peak. With all that said, my swim spa costs $5-7 / day this time",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Swim Spa Owners",
+      "posted": "2026-11-26",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio",
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1940868540094543/posts/2351563942358332",
+      "url": "https://www.facebook.com/groups/1940868540094543/posts/2351563942358332",
+      "title": "Which household appliance significantly increases ...",
+      "snippet": "A single 1,500-watt space heater running eight hours a day can add approximately $86 to your monthly electric bill at a rate of 24¢ per kWh.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Texas History",
+      "posted": "2026-11-26",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/404644733014395/posts/4621299354682224",
+      "url": "https://www.facebook.com/groups/404644733014395/posts/4621299354682224",
+      "title": "What is the cheapest gas you've seen in the city? Anything ...",
+      "snippet": "Ohio Vendors. 2.3K members. Join · LaTasha Nicole ▻ Harrisburg Midtown. 1y · Public · Hey midtown family, gas is $2.99 at Sunoco on N. Parkway Drive and Herr",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Toledo,Ohio",
+      "posted": "2026-11-26",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1250808275601237/posts/2096283067720416",
+      "url": "https://www.facebook.com/groups/1250808275601237/posts/2096283067720416",
+      "title": "What are current gas and electric rates in North Prospect, Keyham ...",
+      "snippet": "NOPEC's current month Standard Program Price per kilowatt hour is $0.12. The utility's price to compare is $0.06786. Numerous factors are",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "North Prospect, Keyham, Ham and Surrounding Areas.",
+      "posted": "2026-11-26",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio",
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/middletowncalifornia/posts/2086626108716561",
+      "url": "https://www.facebook.com/groups/middletowncalifornia/posts/2086626108716561",
+      "title": "WHAT IF YOUR ELECTRIC BILL WAS NO LONGER RUNNING ...",
+      "snippet": "Learn more about how POWUR & Team Williams Solar can help you break away from utility rate hikes and save money on your energy bill today! Just",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Middletown California Residents and Neighbors Group",
+      "posted": "2026-11-26",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/462192990567129/posts/29190099287349783",
+      "url": "https://www.facebook.com/groups/462192990567129/posts/29190099287349783",
+      "title": "Used works very well just can't use it in our new home since we now ...",
+      "snippet": "we are required to purchase an electric heat pump starting. They are super expensive. Around 4 to 6 k a unit. The lighting is dim and warm,",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Buy Sell Trade Elk city , Sayre , Clinton , Weatherford",
+      "posted": "2026-11-27",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/214413508651509/posts/29278053795194094",
+      "url": "https://www.facebook.com/groups/214413508651509/posts/29278053795194094",
+      "title": "Used works very well just can't use it in our new home ...",
+      "snippet": "Our heat pump is out too. Heat pumps reduce electric bills. My electric bill was over $800 last month!😡 … required to purchase an electric heat pump starting",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Clinton OK Community Buy, Sell Trade",
+      "posted": "2026-11-27",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/233021862590859/posts/1161910863035283",
+      "url": "https://www.facebook.com/groups/233021862590859/posts/1161910863035283",
+      "title": "Urgent contractors needed today in Balch Springs for inspection ...",
+      "snippet": "The post provides contact information and details about their free inspections and estimates for both home and business repairs. The video",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "This is Mesquite",
+      "posted": "2026-11-24",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups/233021862590859/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/162054587769511/posts/2193992104575739",
+      "url": "https://www.facebook.com/groups/162054587769511/posts/2193992104575739",
+      "title": "This price include electricity,water and gas . - Facebook",
+      "snippet": "This price include electricity,water and gas . Electric and Water for one month 446.00c! ($12 US 😊) £200 a month Electric … pay at least $45 to",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Apartments & Rooms for Rent in Portugal",
+      "posted": "2026-11-26",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
       }
     },
     {
@@ -87,12 +461,43 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
         "source": "rules",
         "reason": "intent"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/ticketmasterltickets/posts/1859834538491900",
+      "url": "https://www.facebook.com/groups/ticketmasterltickets/posts/1859834538491900",
+      "title": "The One Household Appliance That Quietly Drives Up ...",
+      "snippet": "This is the appliance in your home that doubles your electricity bill. It consumes as much in a minute as others do in hours!!",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Daily stories & Positive Quotes",
+      "posted": "2026-11-27",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
       }
     },
     {
@@ -118,7 +523,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -149,7 +554,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -158,34 +563,96 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/MiamiRoomForRents/posts/2539025396508155",
-      "url": "https://www.facebook.com/groups/MiamiRoomForRents/posts/2539025396508155",
-      "title": "Pets Allowed. Rent includes lawn maintenance. No association ...",
-      "snippet": "The tenant is responsible for electricity, Gas, and Water and renters insurance. We use a Ratio - Utility - Billing - System to bill the",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "House/Apt/Room for rent Miami,Hialeah,Homestead,Doral in Miami-Dade Co FL",
-      "posted": "2026-11-26",
       "first_seen": "2026-11-27",
+      "group": "House/Apt/Room for rent Miami,Hialeah,Homestead,Doral in Miami-Dade Co FL",
+      "id": "https://www.facebook.com/groups/MiamiRoomForRents/posts/2539025396508155",
       "last_seen": "2026-11-27",
+      "posted": "2026-11-26",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
+        "lead": false,
         "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "fbea03a84a33"
+      },
+      "snippet": "The tenant is responsible for electricity, Gas, and Water and renters insurance. We use a Ratio - Utility - Billing - System to bill the",
+      "source": "Facebook",
+      "title": "Pets Allowed. Rent includes lawn maintenance. No association ...",
+      "url": "https://www.facebook.com/groups/MiamiRoomForRents/posts/2539025396508155"
+    },
+    {
+      "id": "https://www.facebook.com/groups/1117516852268519/posts/2034092753944253",
+      "url": "https://www.facebook.com/groups/1117516852268519/posts/2034092753944253",
+      "title": "Open house Sunday, November 29 th 12-2! - Facebook",
+      "snippet": "Ohio Rural Property For Sale. Ohio homes and land for sale … $190,000 | 3,300 SQ. St, Kenton, OH. Water and electric ready. No hunting",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Ohio Rural Property For Sale anyone can post",
+      "posted": "2026-11-26",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
         "source": "rules",
-        "reason": "geography"
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1098639985849069/posts/1204341781945555",
+      "url": "https://www.facebook.com/groups/1098639985849069/posts/1204341781945555",
+      "title": "Ohio Power Siting Board: Grid Growth Transmission Line Rebuild ...",
+      "snippet": "The project involves rebuilding and rerouting sections of an existing 14-mile line, and the applicant's materials list a right-of-way width of",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "No Grid Growth Fairfield County",
+      "posted": "2026-11-26",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
       }
     },
     {
@@ -211,7 +678,131 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/ohiosmallbusinessnetworking/posts/1969849637326767",
+      "url": "https://www.facebook.com/groups/ohiosmallbusinessnetworking/posts/1969849637326767",
+      "title": "Need an Electrician You Can Trust? - Facebook",
+      "snippet": "(216)-375-4396 From electrical work to full home improvements, CALL OR TEXT 216-375-4396 FREE. Northeast Ohio 4.4K members. All estimates are",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Ohio Small Business Networking",
+      "posted": "2026-11-26",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1319867792608256/posts/1623430588918640",
+      "url": "https://www.facebook.com/groups/1319867792608256/posts/1623430588918640",
+      "title": "NERGY RISE Energy Bills Rise 26% And You're Paying ... - Facebook",
+      "snippet": "Home heating costs are up 11% this winter. Electric heating? Up 14% — averaging $1,242. Natural gas? Up 9.5% — around $712. Heating oil? Nearly",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Welsh Politics - Open Debate Forum",
+      "posted": "2026-11-27",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/771914848092993/posts/1526059566011847",
+      "url": "https://www.facebook.com/groups/771914848092993/posts/1526059566011847",
+      "title": "Miniature cottages and houses for sale in NW Ohio - Facebook",
+      "snippet": "Tiny House /Cabin **Price Decrease Cabin $13 500 or Cabin with Land $28,500. 12x30 freshly painted, propane heat, insulated walls, electric,",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "The Talk of Fremont Uncut NW Ohio",
+      "posted": "2026-11-26",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/233021862590859/posts/1157749560118080",
+      "url": "https://www.facebook.com/groups/233021862590859/posts/1157749560118080",
+      "title": "MAKE YOUR HOME SHINE BRIGHT THIS CHRISTMAS! - Facebook",
+      "snippet": "❤️   PRICING A professional company will have a project minimum. this minimum typically includes all aspects of the service (design,",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "This is Mesquite",
+      "posted": "2026-11-20",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups/233021862590859/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -242,7 +833,38 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/233021862590859/posts/1158155413410828",
+      "url": "https://www.facebook.com/groups/233021862590859/posts/1158155413410828",
+      "title": "Live at Ollie's Azul House!!! It's not too late to join us for Justin Myers ...",
+      "snippet": "August 29th 2024 Get ready to immerse yourself in the electrifying atmosphere of a live Tejano, Conjunto and Latin party. Feel the pulsating",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "This is Mesquite",
+      "posted": "2026-11-21",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups/233021862590859/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -273,7 +895,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -304,7 +926,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": false,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -335,7 +957,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -366,7 +988,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -375,96 +997,97 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/383266836422803/posts/1899860218096783",
-      "url": "https://www.facebook.com/groups/383266836422803/posts/1899860218096783",
-      "title": "How much do you pay for your gas and electric? - Facebook",
-      "snippet": "I'm posting my actual billing amount for electricity and natural gas for my home in 2024. Would anyone care to share how this compares to yours?",
+      "id": "https://www.facebook.com/groups/233021862590859/posts/1158725320020504",
+      "url": "https://www.facebook.com/groups/233021862590859/posts/1158725320020504",
+      "title": "How to prepare your roof for winter storms in Mesquite? - Facebook",
+      "snippet": "** We use a catch-all system on every job, so your plants, patio and yard don't pay the price for your new roof. ✓ **A clean, professional crew",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Wembury Life - Notice Board",
-      "posted": "2026-11-26",
+      "group": "This is Mesquite",
+      "posted": "2026-11-21",
       "first_seen": "2026-11-27",
       "last_seen": "2026-11-27",
       "queries": [
-        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+        "site:facebook.com/groups/233021862590859/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
       ],
       "rules": {
         "accepted": false,
         "semantic_accepted": false,
-        "reason": "geography",
+        "reason": "keyword",
         "host": true,
-        "keyword": true,
+        "keyword": false,
         "ohio": false,
-        "lead": true,
-        "hard_exclusion": false,
-        "version": "fbea03a84a33"
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
         "source": "rules",
-        "reason": "geography"
+        "reason": "keyword"
       }
     },
     {
-      "id": "https://www.facebook.com/groups/374937743368302/posts/2258177325044325",
-      "url": "https://www.facebook.com/groups/374937743368302/posts/2258177325044325",
-      "title": "How much do you pay for your gas and electric? - Facebook",
-      "snippet": "I know ppl complain about electric bills, but my electric bill is almost as much as my gas bill with our whole house being electric. · No",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Southway Plymouth Community News and Info",
-      "posted": "2026-11-26",
       "first_seen": "2026-11-27",
+      "group": "Southway Plymouth Community News and Info",
+      "id": "https://www.facebook.com/groups/374937743368302/posts/2258177325044325",
       "last_seen": "2026-11-27",
+      "posted": "2026-11-26",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "fbea03a84a33"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "I know ppl complain about electric bills, but my electric bill is almost as much as my gas bill with our whole house being electric. · No",
+      "source": "Facebook",
+      "title": "How much do you pay for your gas and electric? - Facebook",
+      "url": "https://www.facebook.com/groups/374937743368302/posts/2258177325044325"
     },
     {
-      "id": "https://www.facebook.com/groups/1762073224618600/posts/2454242452068337",
-      "url": "https://www.facebook.com/groups/1762073224618600/posts/2454242452068337",
-      "title": "How much a day is everyone paying on there gas and electric ...",
-      "snippet": "We do budget billing. Example my gas last month was $173 this month $251 Electric last month was $285 this month $374 $625 for gas and electric",
+      "id": "https://www.facebook.com/groups/378023920838111/posts/1517571973549961",
+      "url": "https://www.facebook.com/groups/378023920838111/posts/1517571973549961",
+      "title": "How much do you pay for your gas and electric? - Facebook",
+      "snippet": "Hi what do you guys pay for gas/electric. Looking at a 2500sqft home and I'm curious what to expect price wise for utilities.",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Filipino-UK Community",
+      "group": "YEALMPTON",
       "posted": "2026-11-26",
       "first_seen": "2026-11-27",
       "last_seen": "2026-11-27",
       "queries": [
-        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio",
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
       ],
       "rules": {
         "accepted": false,
         "semantic_accepted": false,
-        "reason": "geography",
+        "reason": "keyword",
         "host": true,
-        "keyword": true,
+        "keyword": false,
         "ohio": false,
         "lead": true,
         "hard_exclusion": false,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
         "source": "rules",
-        "reason": "geography"
+        "reason": "keyword"
       }
     },
     {
@@ -490,7 +1113,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -499,18 +1122,49 @@
       }
     },
     {
+      "context": "facebook.com",
+      "first_seen": "2026-11-27",
+      "group": "Harrison County WV Rant/Discussions No State or National Politics Allowed",
       "id": "https://www.facebook.com/groups/3019696348158160/posts/28900583016309472",
-      "url": "https://www.facebook.com/groups/3019696348158160/posts/28900583016309472",
-      "title": "Hope Gas bill increase and poor furnace repair service - Facebook",
+      "last_seen": "2026-11-27",
+      "posted": "2026-11-26",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "fbea03a84a33"
+      },
       "snippet": "I am on a budget payment with Hope Gas. My bill was running $80 a month. For the last few months,my bill has been $162. I called and asked",
       "source": "Facebook",
+      "title": "Hope Gas bill increase and poor furnace repair service - Facebook",
+      "url": "https://www.facebook.com/groups/3019696348158160/posts/28900583016309472"
+    },
+    {
+      "id": "https://www.facebook.com/groups/2930162863712843/posts/29432081476427621",
+      "url": "https://www.facebook.com/groups/2930162863712843/posts/29432081476427621",
+      "title": "Herbie Balboa on Facebook: \"Nearly 3,000 customers lost power in the Middletown Valley on Thanksgiving due to weather, according…\"",
+      "snippet": "# Herbie Balboa on Facebook: \"Nearly 3,000 customers lost power in the Middletown Valley on Thanksgiving due to weather, according…\"\n\nNearly 3,000 customers lost power in the Middletown Valley on Thanksgiving due to weather, according to the FirstEnergy outage map.\n\n- Author: Herbie Balboa\n- Group: …",
+      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Harrison County WV Rant/Discussions No State or National Politics Allowed",
+      "group": "Frederick Unplugged",
       "posted": "2026-11-26",
       "first_seen": "2026-11-27",
       "last_seen": "2026-11-27",
       "queries": [
-        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
       ],
       "rules": {
         "accepted": false,
@@ -521,7 +1175,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -530,18 +1184,206 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/2070531489926023/posts/4442495096062972",
-      "url": "https://www.facebook.com/groups/2070531489926023/posts/4442495096062972",
-      "title": "DOUBLE OR SINGLE ROOM AVAILABLE NOW - Facebook",
-      "snippet": "The electricity bill is shared equally among all tenants. Our tenants primarily include language students, university students, and young",
+      "id": "https://www.facebook.com/groups/233021862590859/posts/1158087363417633",
+      "url": "https://www.facebook.com/groups/233021862590859/posts/1158087363417633",
+      "title": "Heating repair services in Mesquite, TX for 24/7 emergency ...",
+      "snippet": "Son's Heating and Cooling System Maintenance, 24/7 Emergency Service, HVAC Inspection ection & Repair, 469 469-657-7204",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Saggart / Rathcoole / City West / Cheeverstown / Fettercairn  Buy & Sell",
+      "group": "This is Mesquite",
+      "posted": "2026-11-21",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups/233021862590859/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/233021862590859/posts/1162941732932196",
+      "url": "https://www.facebook.com/groups/233021862590859/posts/1162941732932196",
+      "title": "Good morning everyone my name is Roy with Morales automotive ...",
+      "snippet": "We are a mobile mechanic business where we bring the shop to your front door. We specialize in suspension work and motor work, water pumps,",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "This is Mesquite",
+      "posted": "2026-11-25",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups/233021862590859/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/washingtoncountydatacenterawareness/posts/1122568420772996",
+      "url": "https://www.facebook.com/groups/washingtoncountydatacenterawareness/posts/1122568420772996",
+      "title": "Farrer Susan on Facebook: \"Duquesne light shares with Data Center hot beds in Ohio & Loudoun County. Their Ai Complexes are big…\"",
+      "snippet": "don’t want to fight industry for fun. They just don’t want unnecessary permanent health problems and an unsafe environment. That used to be a common sense understanding to partner with industry as a better neighbor. .. Some members here posted their electric bill rate hike note. We are all sorry tog…",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Washington County Data Center Awareness & Community Action",
+      "posted": "2026-11-27",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "intent",
+        "host": true,
+        "keyword": true,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "intent"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1762073224618600/posts/2454242452068337",
+      "url": "https://www.facebook.com/groups/1762073224618600/posts/2454242452068337",
+      "title": "Elena Adrias Quing on Facebook: \"How much a day is everyone paying on there gas and electric separate ?\"",
+      "snippet": "- BM Raine: We're paying less than £70 monthly for a household of 2.\n- Theresa Sapon: £295 a month for both\n- Eala Kimmuel: £100 gas £50 electic\n- Adnileb Otit Llehctim: Depends how big is the house 🏡\n- MsOrchidsH2O: £130 electric only as the house doesn't have gas. But our usage only cost roughly £…",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Filipino-UK Community",
       "posted": "2026-11-26",
       "first_seen": "2026-11-27",
       "last_seen": "2026-11-27",
       "queries": [
-        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
+        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)",
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio",
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/601808837525921/posts/1844681853238607",
+      "url": "https://www.facebook.com/groups/601808837525921/posts/1844681853238607",
+      "title": "Electric heater. Two door adjustable temp fire lighting with or without ...",
+      "snippet": "Saves money with lower heat bills using zone heating. High heat setting = 1,500 watts / 4606 BTUs Heats an 18' x 18' room.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Skowhegan Area Online Marketplace",
+      "posted": "2026-11-26",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/193726970836809/posts/3300660806810061",
+      "url": "https://www.facebook.com/groups/193726970836809/posts/3300660806810061",
+      "title": "ENDLESS POTENTIAL IN KENTON! $190,000 | 3,300 SQ FT | AS-IS",
+      "snippet": "Homes for Sale in Northwest Ohio … at 714 S Detroit St, Kenton, OH. Some new electrical outlets • Asking Price: $59,900 **Entry Fee Only**",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Homes for Sale in Northwest Ohio",
+      "posted": "2026-11-27",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/145823108583031/posts/1030452516786748",
+      "url": "https://www.facebook.com/groups/145823108583031/posts/1030452516786748",
+      "title": "Dish Heater Wholesale Rates Available Designed for elegance and ...",
+      "snippet": "for $80 @Home Depot, Ohio and Michigan Garage. Save on energy and the electric bill, this quiet heater uses less energy than your conventional",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "All Pakistan Electrical Products and Fan Dealers",
+      "posted": "2026-11-26",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
       ],
       "rules": {
         "accepted": false,
@@ -552,12 +1394,167 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
         "source": "rules",
         "reason": "geography"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-11-27",
+      "group": "Saggart / Rathcoole / City West / Cheeverstown / Fettercairn  Buy & Sell",
+      "id": "https://www.facebook.com/groups/2070531489926023/posts/4442495096062972",
+      "last_seen": "2026-11-27",
+      "posted": "2026-11-26",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "fbea03a84a33"
+      },
+      "snippet": "The electricity bill is shared equally among all tenants. Our tenants primarily include language students, university students, and young",
+      "source": "Facebook",
+      "title": "DOUBLE OR SINGLE ROOM AVAILABLE NOW - Facebook",
+      "url": "https://www.facebook.com/groups/2070531489926023/posts/4442495096062972"
+    },
+    {
+      "id": "https://www.facebook.com/groups/233021862590859/posts/1159725816587121",
+      "url": "https://www.facebook.com/groups/233021862590859/posts/1159725816587121",
+      "title": "D's Trees & Landcare 26 years Mesquite tree service - Facebook",
+      "snippet": "We are your local tree & landscaping company. We are D's Trees &Landcare 214-951-5122. We are insured with 26 years experience. We service",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "This is Mesquite",
+      "posted": "2026-11-22",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups/233021862590859/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/233021862590859/posts/1158053853420984",
+      "url": "https://www.facebook.com/groups/233021862590859/posts/1158053853420984",
+      "title": "Country rock takes over the stage at Ollie's tonight! - Facebook",
+      "snippet": "Justin Myers Band is LIVE at 7 PM with a mix of country grit, rock energy, and the kind of music made for a Friday night. Come early, grab",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "This is Mesquite",
+      "posted": "2026-11-20",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups/233021862590859/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1952000015681714/posts/2146019222946458",
+      "url": "https://www.facebook.com/groups/1952000015681714/posts/2146019222946458",
+      "title": "Brian Belcherforlickingcounty on Facebook: \"Brian Belcher Digging Deeper With Johnstown's January 5 vote approaching, I wanted to take a closer …\"",
+      "snippet": "# Brian Belcherforlickingcounty on Facebook: \"Brian Belcher Digging Deeper With Johnstown's January 5 vote approaching, I wanted to take a closer …\"\n\nBrian Belcher \nDigging Deeper\nWith Johnstown's January 5 vote approaching, I wanted to take a closer look at something we haven't talked much about.\n\n…",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "CONSERVE OHIO",
+      "posted": "2026-11-26",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/141009286088990/posts/3305056949684192",
+      "url": "https://www.facebook.com/groups/141009286088990/posts/3305056949684192",
+      "title": "Beautiful 4-Bedroom, 2.5-Bathroom Home for Rent in Galloway, Ohio!",
+      "snippet": "4 Beds 2.5 Baths - House $2,975 ・ anchored by an electric fireplace. Located in South Euclid, Ohio, Monthly Rent: $2,000.00/mo ・ tenants pay",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Gas Station, C-Store, Hotel Motel For Sale USA",
+      "posted": "2026-11-26",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
       }
     },
     {
@@ -583,7 +1580,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -592,65 +1589,128 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/598914894578685/posts/1844677143335781",
-      "url": "https://www.facebook.com/groups/598914894578685/posts/1844677143335781",
-      "title": "Anyone wanting to lower your electric bill and you are not on co-op ...",
-      "snippet": "Currently the default price is $0.1004 per KWH, this is going up 7% to $0.10771 per KWH. The PPL Standard Offer Program is 7% off the default",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Red River Area Information",
-      "posted": "2026-11-25",
       "first_seen": "2026-11-27",
+      "group": "Red River Area Information",
+      "id": "https://www.facebook.com/groups/598914894578685/posts/1844677143335781",
       "last_seen": "2026-11-27",
-      "queries": [
-        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
-      ],
-      "rules": {
-        "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
-        "host": true,
-        "keyword": true,
-        "ohio": false,
-        "lead": true,
-        "hard_exclusion": false,
-        "version": "fbea03a84a33"
-      },
+      "posted": "2026-11-25",
       "production": {
         "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
-    },
-    {
-      "id": "https://www.facebook.com/groups/nowindturbines/posts/29504388135869079",
-      "url": "https://www.facebook.com/groups/nowindturbines/posts/29504388135869079",
-      "title": "And the cost will be added to your already excessive power bills...",
-      "snippet": "Electricity prices will probably continue increasing just as oil and gas does. Switch to solar and cut those electric bill either completely or",
-      "source": "Facebook",
-      "context": "facebook.com",
-      "group": "NO WIND TURBINES",
-      "posted": "2026-11-25",
-      "first_seen": "2026-11-27",
-      "last_seen": "2026-11-27",
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
+        "lead": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "fbea03a84a33"
+      },
+      "snippet": "Currently the default price is $0.1004 per KWH, this is going up 7% to $0.10771 per KWH. The PPL Standard Offer Program is 7% off the default",
+      "source": "Facebook",
+      "title": "Anyone wanting to lower your electric bill and you are not on co-op ...",
+      "url": "https://www.facebook.com/groups/598914894578685/posts/1844677143335781"
+    },
+    {
+      "id": "https://www.facebook.com/groups/233021862590859/posts/1160987259794310",
+      "url": "https://www.facebook.com/groups/233021862590859/posts/1160987259794310",
+      "title": "Any hot tub tech around veterans way area - Facebook",
+      "snippet": "Can anyone recommend an experienced hot tub repair man? We have a large salt water hot tub that needs some attention. Thanks in advance!",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "This is Mesquite",
+      "posted": "2026-11-23",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups/233021862590859/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
         "source": "rules",
-        "reason": "geography"
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-11-27",
+      "group": "NO WIND TURBINES",
+      "id": "https://www.facebook.com/groups/nowindturbines/posts/29504388135869079",
+      "last_seen": "2026-11-27",
+      "posted": "2026-11-25",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
+      "queries": [
+        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
+      ],
+      "rules": {
+        "accepted": false,
+        "hard_exclusion": true,
+        "host": true,
+        "keyword": true,
+        "lead": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "fbea03a84a33"
+      },
+      "snippet": "Electricity prices will probably continue increasing just as oil and gas does. Switch to solar and cut those electric bill either completely or",
+      "source": "Facebook",
+      "title": "And the cost will be added to your already excessive power bills...",
+      "url": "https://www.facebook.com/groups/nowindturbines/posts/29504388135869079"
+    },
+    {
+      "id": "https://www.facebook.com/groups/383266836422803/posts/1899860218096783",
+      "url": "https://www.facebook.com/groups/383266836422803/posts/1899860218096783",
+      "title": "Amy Lou on Facebook: \"How much do you pay for your gas and electric? 🏡\"",
+      "snippet": "# Amy Lou on Facebook: \"How much do you pay for your gas and electric? 🏡\"\n\nHow much do you pay for your gas and electric? 🏡\n\n- Author: Amy Lou\n- Group: Wembury Life - Notice Board\n- Posted: 2026-11-26T10:17:00+00:00\n- Reactions: 3\n- Comment count: 1\n- Shares: 0\n- Privacy: Public group\n\n## Comments […",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Wembury Life - Notice Board",
+      "posted": "2026-11-26",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)",
+        "site:facebook.com/groups (\"cheapest electric\" OR \"lowest rate\" OR \"good rate\") Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
       }
     },
     {
@@ -676,7 +1736,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -685,35 +1745,66 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/933504640085813/posts/28259843747025200",
-      "url": "https://www.facebook.com/groups/933504640085813/posts/28259843747025200",
-      "title": "308 E 18th St apartment #5. One bedroom one bath ... - Facebook",
-      "snippet": "Water, garbage, sewer, gas, electricity and heat are paid. $525 rent and building/security deposit. Tenant is responsible for electricity.",
+      "id": "https://www.facebook.com/groups/233021862590859/posts/1158421563384213",
+      "url": "https://www.facebook.com/groups/233021862590859/posts/1158421563384213",
+      "title": "AC/Heater. - Facebook",
+      "snippet": "AC/Heater. All Brands - gas and electric furnace maintenance -inducer ,ignite, coil,Fans,filters, Repair and Maintenance, and more .",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Kentucky Real Estate  Buy, Sell, Rent",
-      "posted": "2026-11-26",
+      "group": "This is Mesquite",
+      "posted": "2026-11-21",
       "first_seen": "2026-11-27",
       "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups/233021862590859/posts (\"electric bill\" OR \"gas bill\" OR \"electric supplier\" OR \"gas supplier\" OR \"energy supplier\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-11-27",
+      "group": "Kentucky Real Estate  Buy, Sell, Rent",
+      "id": "https://www.facebook.com/groups/933504640085813/posts/28259843747025200",
+      "last_seen": "2026-11-27",
+      "posted": "2026-11-26",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"landlord\" OR \"tenant\" OR \"rental\" OR \"new apartment\") Ohio (\"electric bill\" OR \"put utilities\")"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "fbea03a84a33"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "Water, garbage, sewer, gas, electricity and heat are paid. $525 rent and building/security deposit. Tenant is responsible for electricity.",
+      "source": "Facebook",
+      "title": "308 E 18th St apartment #5. One bedroom one bath ... - Facebook",
+      "url": "https://www.facebook.com/groups/933504640085813/posts/28259843747025200"
     },
     {
       "id": "https://www.facebook.com/groups/lakecountyohio/posts/2681266812323111",
@@ -738,7 +1829,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -769,7 +1860,38 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/993976324119592/posts/3426429720874228",
+      "url": "https://www.facebook.com/groups/993976324119592/posts/3426429720874228",
+      "title": "1 Bath home located in Hamilton Ohio. Detached 2-car garage with ...",
+      "snippet": "1 Bath home located in Hamilton Ohio. 1 Bath House $1,800 · Complete remodel includes new appliances, new windows, new paint & new floors.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Cincinnati Real Estate",
+      "posted": "2026-11-26",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "queries": [
+        "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -800,7 +1922,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -893,7 +2015,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -924,7 +2046,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -986,7 +2108,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -1017,7 +2139,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -1141,7 +2263,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -1203,7 +2325,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -1327,7 +2449,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -1358,7 +2480,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -1482,7 +2604,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -1575,7 +2697,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -1606,7 +2728,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -1615,37 +2737,37 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/352863917272077/posts/1018504310708031",
-      "url": "https://www.facebook.com/groups/352863917272077/posts/1018504310708031",
-      "title": "George Monroe III on Facebook: \"⚡ MARYSVILLE RESIDENTS – HAVE YOU CHECKED YOUR ELECTRICITY OR NATURAL GAS RATES LATELY? With energy …\"",
-      "snippet": "# George Monroe III on Facebook: \"⚡ MARYSVILLE RESIDENTS – HAVE YOU CHECKED YOUR ELECTRICITY OR NATURAL GAS RATES LATELY? With energy …\"\n\n⚡ MARYSVILLE RESIDENTS – HAVE YOU CHECKED YOUR ELECTRICITY OR NATURAL GAS RATES LATELY?\n\nWith energy costs becoming a growing concern for Ohio families, now is a …",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Marysville People In The Know Somewhat Censored",
-      "posted": "2026-11-25",
       "first_seen": "2026-11-26",
+      "group": "Marysville People In The Know Somewhat Censored",
+      "id": "https://www.facebook.com/groups/352863917272077/posts/1018504310708031",
       "last_seen": "2026-11-27",
+      "posted": "2026-11-25",
+      "production": {
+        "accepted": true,
+        "reason": "accepted",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"bill shock\" OR \"bill doubled\" OR \"bill tripled\" OR \"through the roof\") Ohio (electric OR gas)",
         "site:facebook.com/groups (\"budget billing\" OR \"levelized\" OR \"bill is so high\") Ohio (electric OR gas)"
       ],
       "rules": {
         "accepted": true,
-        "semantic_accepted": true,
-        "reason": "accepted",
+        "freshness": "fresh",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": true,
         "lead": true,
-        "hard_exclusion": false,
-        "version": "fbea03a84a33",
-        "freshness": "fresh"
+        "ohio": true,
+        "reason": "accepted",
+        "semantic_accepted": true,
+        "version": "fbea03a84a33"
       },
-      "production": {
-        "accepted": true,
-        "source": "rules",
-        "reason": "accepted"
-      }
+      "snippet": "# George Monroe III on Facebook: \"⚡ MARYSVILLE RESIDENTS – HAVE YOU CHECKED YOUR ELECTRICITY OR NATURAL GAS RATES LATELY? With energy …\"\n\n⚡ MARYSVILLE RESIDENTS – HAVE YOU CHECKED YOUR ELECTRICITY OR NATURAL GAS RATES LATELY?\n\nWith energy costs becoming a growing concern for Ohio families, now is a …",
+      "source": "Facebook",
+      "title": "George Monroe III on Facebook: \"⚡ MARYSVILLE RESIDENTS – HAVE YOU CHECKED YOUR ELECTRICITY OR NATURAL GAS RATES LATELY? With energy …\"",
+      "url": "https://www.facebook.com/groups/352863917272077/posts/1018504310708031"
     },
     {
       "context": "facebook.com",
@@ -1858,7 +2980,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -2044,7 +3166,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -2106,7 +3228,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -2137,7 +3259,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -2168,7 +3290,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -2199,7 +3321,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -2323,7 +3445,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -2354,7 +3476,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -2385,7 +3507,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -2416,7 +3538,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -2447,7 +3569,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -2478,7 +3600,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -2509,7 +3631,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -2571,7 +3693,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -2602,7 +3724,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -2665,7 +3787,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -2696,7 +3818,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -2758,7 +3880,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -2882,7 +4004,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -2913,7 +4035,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -2945,7 +4067,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -2978,7 +4100,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -3010,7 +4132,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -3263,7 +4385,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -3272,16 +4394,17 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/manchesterwhitinglakehurstchatter/posts/1182166187488360",
-      "url": "https://www.facebook.com/groups/manchesterwhitinglakehurstchatter/posts/1182166187488360",
-      "title": "Frank Matusik on Facebook: \"Another happy homeowner just reduced their average monthly electric bill 56%. Now they are protected…\"",
-      "snippet": "# Frank Matusik on Facebook: \"Another happy homeowner just reduced their average monthly electric bill 56%. Now they are protected…\"\n\nAnother happy homeowner just reduced their average monthly electric bill 56%. Now they are protected against every electric company increases for the next 25 years — …",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Manchester, Whiting, Lakehurst Chatter",
-      "posted": "2026-11-22",
       "first_seen": "2026-11-25",
+      "group": "Manchester, Whiting, Lakehurst Chatter",
+      "id": "https://www.facebook.com/groups/manchesterwhitinglakehurstchatter/posts/1182166187488360",
       "last_seen": "2026-11-27",
+      "posted": "2026-11-22",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"renewal notice\" OR \"contract is up\" OR \"rate is expiring\" OR \"contract expired\") Ohio energy",
         "site:facebook.com/groups (\"locked in a rate\" OR \"signed up with\" OR \"should i lock in\" OR \"worth switching\") Ohio energy",
@@ -3289,20 +4412,19 @@
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "fbea03a84a33"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "# Frank Matusik on Facebook: \"Another happy homeowner just reduced their average monthly electric bill 56%. Now they are protected…\"\n\nAnother happy homeowner just reduced their average monthly electric bill 56%. Now they are protected against every electric company increases for the next 25 years — …",
+      "source": "Facebook",
+      "title": "Frank Matusik on Facebook: \"Another happy homeowner just reduced their average monthly electric bill 56%. Now they are protected…\"",
+      "url": "https://www.facebook.com/groups/manchesterwhitinglakehurstchatter/posts/1182166187488360"
     },
     {
       "id": "https://www.facebook.com/groups/194430493950148/posts/29524469257186216",
@@ -3327,7 +4449,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -3358,7 +4480,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -3452,7 +4574,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -3576,7 +4698,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -3638,7 +4760,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -3669,7 +4791,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -3731,7 +4853,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -3793,7 +4915,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -3824,7 +4946,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -3917,7 +5039,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -3953,7 +5075,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -3984,7 +5106,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -4046,7 +5168,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -4077,7 +5199,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -4110,7 +5232,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -4141,7 +5263,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -4172,7 +5294,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -4236,7 +5358,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -4298,7 +5420,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -4329,7 +5451,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -4391,7 +5513,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -4453,7 +5575,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -4516,7 +5638,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -4547,7 +5669,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -4610,7 +5732,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -4645,7 +5767,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -4707,7 +5829,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -4802,7 +5924,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -4833,7 +5955,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -4864,7 +5986,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -4873,16 +5995,17 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/1197110820678861/posts/3336824603374128",
-      "url": "https://www.facebook.com/groups/1197110820678861/posts/3336824603374128",
-      "title": "Facebook on Facebook: \"$423 November electric bill in Starke normal? Anyone else in the City of Starke received an extremel…\"",
-      "snippet": "- DeterminedSquirrel2486: Mine has continued to get lower and lower, I have starke utilities my bill last month with gas, trash, water, electric and whatever the hell else they charge for was 217$. So yall aint doing something right my guy.\n- Darkhorse153: That’s close to what mine runs\n- Skyler Sul…",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Bradford County, Word of Mouth",
-      "posted": "2026-11-24",
       "first_seen": "2026-11-24",
+      "group": "Bradford County, Word of Mouth",
+      "id": "https://www.facebook.com/groups/1197110820678861/posts/3336824603374128",
       "last_seen": "2026-11-27",
+      "posted": "2026-11-24",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"summer electric bill\" OR \"AC bill\" OR \"air conditioning bill\" OR \"bill this summer\") Ohio",
         "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio",
@@ -4891,20 +6014,19 @@
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": true,
-        "hard_exclusion": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "fbea03a84a33"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "- DeterminedSquirrel2486: Mine has continued to get lower and lower, I have starke utilities my bill last month with gas, trash, water, electric and whatever the hell else they charge for was 217$. So yall aint doing something right my guy.\n- Darkhorse153: That’s close to what mine runs\n- Skyler Sul…",
+      "source": "Facebook",
+      "title": "Facebook on Facebook: \"$423 November electric bill in Starke normal? Anyone else in the City of Starke received an extremel…\"",
+      "url": "https://www.facebook.com/groups/1197110820678861/posts/3336824603374128"
     },
     {
       "id": "https://www.facebook.com/groups/398138568002543/posts/1900404987775886",
@@ -4930,7 +6052,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -4961,7 +6083,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -4993,7 +6115,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -5024,7 +6146,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -5055,7 +6177,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -5086,7 +6208,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -5117,7 +6239,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -5179,7 +6301,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -5210,7 +6332,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -5303,7 +6425,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -5334,7 +6456,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -5365,7 +6487,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -5396,7 +6518,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -5427,7 +6549,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -5458,7 +6580,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -5489,7 +6611,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -5520,7 +6642,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -5551,7 +6673,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -5613,7 +6735,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -5644,7 +6766,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -5675,7 +6797,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -5706,7 +6828,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -5737,7 +6859,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -5799,7 +6921,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -5830,7 +6952,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -5893,7 +7015,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -5924,7 +7046,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -6050,7 +7172,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -6081,7 +7203,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": false,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -6112,7 +7234,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -6121,16 +7243,17 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/399889090189137/posts/3654773271367353",
-      "url": "https://www.facebook.com/groups/399889090189137/posts/3654773271367353",
-      "title": "Frank Matusik on Facebook: \"Another happy homeowner just reduced their average monthly electric bill 56%. Now they are protected…\"",
-      "snippet": "# Frank Matusik on Facebook: \"Another happy homeowner just reduced their average monthly electric bill 56%. Now they are protected…\"\n\nAnother happy homeowner just reduced their average monthly electric bill 56%. Now they are protected against every electric company increases for the next 25 years — …",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Bayville/ Beachwood/ Pine Beach/ Ocean Gate NJ News and Events",
-      "posted": "2026-11-22",
       "first_seen": "2026-11-23",
+      "group": "Bayville/ Beachwood/ Pine Beach/ Ocean Gate NJ News and Events",
+      "id": "https://www.facebook.com/groups/399889090189137/posts/3654773271367353",
       "last_seen": "2026-11-27",
+      "posted": "2026-11-22",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"who do you use\" OR \"best rate\" OR recommend) (electric OR gas) Ohio",
         "site:facebook.com/groups (\"switch electric\" OR \"switching suppliers\" OR \"change suppliers\") Ohio",
@@ -6140,20 +7263,19 @@
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "fbea03a84a33"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "# Frank Matusik on Facebook: \"Another happy homeowner just reduced their average monthly electric bill 56%. Now they are protected…\"\n\nAnother happy homeowner just reduced their average monthly electric bill 56%. Now they are protected against every electric company increases for the next 25 years — …",
+      "source": "Facebook",
+      "title": "Frank Matusik on Facebook: \"Another happy homeowner just reduced their average monthly electric bill 56%. Now they are protected…\"",
+      "url": "https://www.facebook.com/groups/399889090189137/posts/3654773271367353"
     },
     {
       "id": "https://www.facebook.com/groups/2698899477011832/posts/4689801361254957",
@@ -6178,7 +7300,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -6209,7 +7331,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -6240,7 +7362,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -6271,7 +7393,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -6302,7 +7424,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -6334,7 +7456,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -6368,7 +7490,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -6399,7 +7521,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -6430,7 +7552,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -6462,7 +7584,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -6493,7 +7615,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -6524,7 +7646,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -6586,7 +7708,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -6934,7 +8056,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -7120,7 +8242,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -7151,7 +8273,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -7182,7 +8304,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -7368,7 +8490,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -7401,7 +8523,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -7463,7 +8585,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -7587,7 +8709,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -7711,7 +8833,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -7813,16 +8935,17 @@
       "url": "https://www.facebook.com/groups/1479144882364066/posts/4732262700385585"
     },
     {
-      "id": "https://www.facebook.com/groups/1665402333732608/posts/4628447384094740",
-      "url": "https://www.facebook.com/groups/1665402333732608/posts/4628447384094740",
-      "title": "Why did my AES electric bill suddenly double in Decatur Township?",
-      "snippet": "Start by checking your meter reading against your bill and call AES to file a complaint, then escalate to the Ohio Public Utilities Commission",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Decatur Township Chat",
-      "posted": "2026-11-20",
       "first_seen": "2026-11-21",
+      "group": "Decatur Township Chat",
+      "id": "https://www.facebook.com/groups/1665402333732608/posts/4628447384094740",
       "last_seen": "2026-11-27",
+      "posted": "2026-11-20",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio",
         "site:facebook.com/groups (\"winter gas bill\" OR \"heating bill\" OR \"furnace bill\" OR \"bill this winter\") Ohio",
@@ -7830,20 +8953,19 @@
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": false,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": true,
-        "hard_exclusion": false,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "fbea03a84a33"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "Start by checking your meter reading against your bill and call AES to file a complaint, then escalate to the Ohio Public Utilities Commission",
+      "source": "Facebook",
+      "title": "Why did my AES electric bill suddenly double in Decatur Township?",
+      "url": "https://www.facebook.com/groups/1665402333732608/posts/4628447384094740"
     },
     {
       "context": "facebook.com",
@@ -7934,7 +9056,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -8377,7 +9499,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -8625,7 +9747,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -8849,7 +9971,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -8884,7 +10006,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -9601,7 +10723,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -9702,7 +10824,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -10200,7 +11322,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
@@ -10581,7 +11703,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "fbea03a84a33"
+        "version": "0c2ce21e12fe"
       },
       "production": {
         "accepted": false,
