@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-28T05:48:06Z",
-  "count": 786,
+  "updated": "2026-11-28T19:26:25Z",
+  "count": 817,
   "candidates": [
     {
       "id": "https://www.facebook.com/groups/247621002336639/posts/2734359046996143",
@@ -25,7 +25,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -56,7 +56,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -87,12 +87,43 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
         "source": "rules",
         "reason": "intent"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/790653501680071/posts/2429922344419837",
+      "url": "https://www.facebook.com/groups/790653501680071/posts/2429922344419837",
+      "title": "When you shop local, you support local families, local jobs, and ...",
+      "snippet": "City Wide Facility Solutions is a company based in Findlay, Ohio, that provides facility maintenance solutions, including HVAC services, for",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Columbus  Ohio contractors",
+      "posted": "2026-11-28",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
       }
     },
     {
@@ -118,12 +149,76 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
         "source": "rules",
         "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/222442833582028/posts/1189120403580928",
+      "url": "https://www.facebook.com/groups/222442833582028/posts/1189120403580928",
+      "title": "Wael T Bitar on Facebook: \"Good lighting changes a whole home. Corporate Power Electric handles residential lighting — chandeli…\"",
+      "snippet": "# Wael T Bitar on Facebook: \"Good lighting changes a whole home. Corporate Power Electric handles residential lighting — chandeli…\"\n\nGood lighting changes a whole home.\n\nCorporate Power Electric handles residential lighting — chandeliers, sconces, and recessed lights, installs, repairs, and upgrades…",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Contractors and Subcontractors Network",
+      "posted": "2026-11-27",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio",
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio",
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1056560007806414/posts/28914873544881686",
+      "url": "https://www.facebook.com/groups/1056560007806414/posts/28914873544881686",
+      "title": "Used Hayward Gas Pool Heater for Sale in Amadeo, Cavite",
+      "snippet": "used Hayward Gas Pool Heater. This pool heater is approx 4 years old. We used it with natural gas. Same heater new is $900.00. Text 330-329-",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Airbnb Philippines",
+      "posted": "2026-11-28",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
       }
     },
     {
@@ -149,7 +244,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -180,7 +275,38 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/658098884371773/posts/3572992372882395",
+      "url": "https://www.facebook.com/groups/658098884371773/posts/3572992372882395",
+      "title": "The New Cheney Flats 3 Bedroom 1.5 Bathrooms - Facebook",
+      "snippet": "The New Cheney Flats 3 Bedroom 1.5 Bathrooms $950 Monthly. You pay electric and gas. Special: 1/2 off your 1st month of rent.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "University Of Toledo Student Sales",
+      "posted": "2026-11-27",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -211,7 +337,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -242,7 +368,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -273,12 +399,105 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
         "source": "rules",
         "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/2038191386747489/posts/2272542759979016",
+      "url": "https://www.facebook.com/groups/2038191386747489/posts/2272542759979016",
+      "title": "Soburr AF on Facebook: \"82% of voters in Ashville, Ohio, rejected the village's deal with a data center developer. 16 days l…\"",
+      "snippet": "# Soburr AF on Facebook: \"82% of voters in Ashville, Ohio, rejected the village's deal with a data center developer. 16 days l…\"\n\n82% of voters in Ashville, Ohio, rejected the village's deal with a data center developer.\n\n16 days later, the state approved an 800-megawatt natural gas plant to power t…",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Stark County Residents Against Data Centers",
+      "posted": "2026-11-28",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "intent",
+        "host": true,
+        "keyword": true,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "intent"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/278271492315963/posts/3933979210078488",
+      "url": "https://www.facebook.com/groups/278271492315963/posts/3933979210078488",
+      "title": "Selling lasko electric heaters . Different models and sizes available ...",
+      "snippet": "Selling lasko electric heaters . Different models and sizes available. Also there are combo heaters/fan. Some are used and the new ones are",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "SAN ELIZARIO",
+      "posted": "2026-11-28",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/624629585834239/posts/1496133132017209",
+      "url": "https://www.facebook.com/groups/624629585834239/posts/1496133132017209",
+      "title": "Seaport this electric bill for you - Facebook",
+      "snippet": "Seaport this electric bill for you. I'm currently paying 29 cents. 11 to 15 cents. These 300 dollar electric bills",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Y celeb world wide music fans",
+      "posted": "2026-11-28",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
       }
     },
     {
@@ -304,7 +523,38 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/518258159093897/posts/2246774579575571",
+      "url": "https://www.facebook.com/groups/518258159093897/posts/2246774579575571",
+      "title": "Reliable help needed to patch above ground pool in Findlay",
+      "snippet": "Im in Ohio (Near the Football Hall of Fame) need to find a private company who can replace a pool liner (above ground) the pool is 45 years old",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Findlay, Ohio Neighbors Helping Neighbors",
+      "posted": "2026-11-28",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -335,12 +585,74 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
         "source": "rules",
         "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/298306206171488/posts/1197614842907282",
+      "url": "https://www.facebook.com/groups/298306206171488/posts/1197614842907282",
+      "title": "Reliable Lincoln Electric Pro-MIG 135 wire-feed welder is ...",
+      "snippet": "Lima, OH Reliable Lincoln Electric Pro-MIG 135. This unit includes a rolling metal cart, a gas cylinder, and a ground clamp with cables. Supplies For Sale or",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Ohio cars for sale",
+      "posted": "2026-11-28",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/662717436755426/posts/1173521235675041",
+      "url": "https://www.facebook.com/groups/662717436755426/posts/1173521235675041",
+      "title": "Published: November 27, 2026 - Facebook",
+      "snippet": "The bill would directly benefit Columbus-based American Electric Power, would possibly benefit FirstEnergy Corp. of Akron too. Right now, Ohio",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Voice of Ohio Teachers",
+      "posted": "2026-11-27",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "intent",
+        "host": true,
+        "keyword": true,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "intent"
       }
     },
     {
@@ -366,12 +678,43 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
         "source": "rules",
         "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/295956283355927/posts/1134517279499819",
+      "url": "https://www.facebook.com/groups/295956283355927/posts/1134517279499819",
+      "title": "Offering 12acre next to a Walmart in toledo Ohio already approved ...",
+      "snippet": "All Utilities at the Line: electric (Toledo Edison), and gas (Columbia Gas) are already stubbed at the boundary. (~$5.23/buildable NRSF land",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Commercial Real Estate Network",
+      "posted": "2026-11-27",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "intent",
+        "host": true,
+        "keyword": true,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "intent"
       }
     },
     {
@@ -397,7 +740,69 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1244604336728130/posts/1893095851878972",
+      "url": "https://www.facebook.com/groups/1244604336728130/posts/1893095851878972",
+      "title": "New Premier 8x16' Enclosed Cargo Trailer 7k GVWR - Facebook",
+      "snippet": "This is what you need if you buy!! Valid Drivers License 2. Vehicle Insurance 3. Second ID (ss card, carry permit etc.) 4. Utility Bill or other",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Trailers For Sale",
+      "posted": "2026-11-27",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1776414565923060/posts/4754549624776191",
+      "url": "https://www.facebook.com/groups/1776414565923060/posts/4754549624776191",
+      "title": "New Premier 18ft Car Trailers 7k Gvwr 2”ball hookup Electric brakes ...",
+      "snippet": "The video is a sales advertisement filmed outdoors in Nicholasville, KY, showcasing an 18-foot black car hauler trailer with a wooden deck.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Sales of Tuscarawas county",
+      "posted": "2026-11-27",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -428,7 +833,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -459,12 +864,44 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
         "source": "rules",
         "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/771914848092993/posts/1527339675883836",
+      "url": "https://www.facebook.com/groups/771914848092993/posts/1527339675883836",
+      "title": "Jim Kuli on Facebook: \"IGS energy? What is the consensus with the igs energy notice for our gas bills; join or opt out?\"",
+      "snippet": "# Jim Kuli on Facebook: \"IGS energy? What is the consensus with the igs energy notice for our gas bills; join or opt out?\"\n\nIGS energy?\nWhat is the consensus with the igs energy notice for our gas bills; join or opt out?\n\n- Author: Jim Kuli\n- Group: The Talk of Fremont (Uncut) NW Ohio\n- Posted: 2026…",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "The Talk of Fremont Uncut NW Ohio",
+      "posted": "2026-11-28",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
+      ],
+      "rules": {
+        "accepted": true,
+        "semantic_accepted": true,
+        "reason": "accepted",
+        "host": true,
+        "keyword": true,
+        "ohio": true,
+        "lead": true,
+        "hard_exclusion": false,
+        "version": "05e2a2e2ae24",
+        "freshness": "fresh"
+      },
+      "production": {
+        "accepted": true,
+        "source": "rules",
+        "reason": "accepted"
       }
     },
     {
@@ -490,7 +927,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -499,34 +936,96 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/397624567515232/posts/2200507823893555",
-      "url": "https://www.facebook.com/groups/397624567515232/posts/2200507823893555",
-      "title": "Hi Colerain! My name is Cortney and i work for Thomas ... - Facebook",
-      "snippet": "Feel free to text/call me at 513.580.4028. Their negotiated price 6.890 cents per kWh. My current bill using Duke Energy as my supplier is 6.",
+      "id": "https://www.facebook.com/groups/1004318131087838/posts/1689428059243505",
+      "url": "https://www.facebook.com/groups/1004318131087838/posts/1689428059243505",
+      "title": "Hope everybody's having a good thanksgiving week! - Facebook",
+      "snippet": "For small jobs in Findlay, locals recommend Mr. Kelly's handyman service, which is insured and certified, AVAILABILITY THROUGH THE WEEK",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Colerain Talks",
+      "group": "Actual Findlay Helping Neighbors",
       "posted": "2026-11-27",
       "first_seen": "2026-11-28",
       "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "context": "facebook.com",
+      "first_seen": "2026-11-28",
+      "group": "Colerain Talks",
+      "id": "https://www.facebook.com/groups/397624567515232/posts/2200507823893555",
+      "last_seen": "2026-11-28",
+      "posted": "2026-11-27",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
+        "lead": false,
         "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
+        "version": "ef51175e5380"
+      },
+      "snippet": "Feel free to text/call me at 513.580.4028. Their negotiated price 6.890 cents per kWh. My current bill using Duke Energy as my supplier is 6.",
+      "source": "Facebook",
+      "title": "Hi Colerain! My name is Cortney and i work for Thomas ... - Facebook",
+      "url": "https://www.facebook.com/groups/397624567515232/posts/2200507823893555"
+    },
+    {
+      "id": "https://www.facebook.com/groups/ohioartcraftmakershows/posts/3043169172700777",
+      "url": "https://www.facebook.com/groups/ohioartcraftmakershows/posts/3043169172700777",
+      "title": "Happy Small Business Saturday: Support Local Businesses in Ohio",
+      "snippet": "Small businesses can review offers and choose to select a electric or natural gas supplier on EnergyChoice.Ohio.gov.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Ohio Art, Craft, and Makers Shows",
+      "posted": "2026-11-28",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "intent",
+        "host": true,
+        "keyword": true,
+        "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
         "source": "rules",
-        "reason": "geography"
+        "reason": "intent"
       }
     },
     {
@@ -552,7 +1051,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -561,18 +1060,49 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/222442833582028/posts/1189120403580928",
-      "url": "https://www.facebook.com/groups/222442833582028/posts/1189120403580928",
-      "title": "Corporate Power Electric handles residential lighting installations ...",
-      "snippet": "tel.216-242-7499 tel. Gas Furnaces. Columbus Ohio contractors. We do charge $20 for estimates. Calls start @ $249 for the first hour … accept",
+      "id": "https://www.facebook.com/groups/695667073851087/posts/29275494195441660",
+      "url": "https://www.facebook.com/groups/695667073851087/posts/29275494195441660",
+      "title": "Gas double oven . Upgraded to a different one. Needs to go",
+      "snippet": "Selling an electric double oven if anyone is interested! Nothing wrong with it but switching to gas.",
       "source": "Facebook",
       "context": "facebook.com",
-      "group": "Contractors and Subcontractors Network",
+      "group": "Twin Falls Online Classifieds",
       "posted": "2026-11-27",
       "first_seen": "2026-11-28",
       "last_seen": "2026-11-28",
       "queries": [
-        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio"
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/630236800419146/posts/28971376895878424",
+      "url": "https://www.facebook.com/groups/630236800419146/posts/28971376895878424",
+      "title": "Gas and electric stoves starting at $220, $250, $285 ... - Facebook",
+      "snippet": "We have gas and electric stoves. Each one is professionally refurbished, tested, and ready to go.' Visually, the camera shows multiple models",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Newark Selling Wall Too",
+      "posted": "2026-11-27",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -583,12 +1113,322 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": false,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
         "source": "rules",
         "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/369228190446898/posts/2121280975241602",
+      "url": "https://www.facebook.com/groups/369228190446898/posts/2121280975241602",
+      "title": "Free electric stove for haul away in Zanesville - Facebook",
+      "snippet": "Free electric stove needs hauled away. Free non-working electric stove in Cambridge | Zanesville, OH. YOUR Local Community!",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Zanesvilles Finest",
+      "posted": "2026-11-27",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": false,
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/249473151806390/posts/29438113462515638",
+      "url": "https://www.facebook.com/groups/249473151806390/posts/29438113462515638",
+      "title": "Flooring Solutions LLC Zanesville Flooring installation services",
+      "snippet": "Companies for LVP flooring installation in duplex | Grove City, OH. Glen Martin ▻ Grove City Connect. 12w · Public · Looking for companies that",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Newcomerstown sales and more",
+      "posted": "2026-11-27",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/426883408599930/posts/1827448475210076",
+      "url": "https://www.facebook.com/groups/426883408599930/posts/1827448475210076",
+      "title": "Excavation services in Findlay, including drainage solutions and ...",
+      "snippet": "Gibr us a call at ⚡️740-503-1185⚡️ We are an Excavation company out of Zanesville Ohio that has over +20 years of experience. We are",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Findlay and Surrounding Community Talk",
+      "posted": "2026-11-27",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/518258159093897/posts/2245933779659651",
+      "url": "https://www.facebook.com/groups/518258159093897/posts/2245933779659651",
+      "title": "Excavation services in Findlay, Ohio, including drainage solutions ...",
+      "snippet": "All your excavating needs ,underground utilities, grading, land clearing ,driveway maintenance , and much more Phone number-513-908-9345 Gravel",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Findlay, Ohio Neighbors Helping Neighbors",
+      "posted": "2026-11-27",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1284454463031434/posts/1479422840201261",
+      "url": "https://www.facebook.com/groups/1284454463031434/posts/1479422840201261",
+      "title": "Does Ohio still offer HEAP for heating bills - Facebook",
+      "snippet": "If you need immediate assistance with your energy bills, please contact your local Energy Assistance Provider. A list of providers can be found",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Helping people in need of help / bills / rent / money / stuff / groceries",
+      "posted": "2026-11-27",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/1367524866920046/posts/3098309620508220",
+      "url": "https://www.facebook.com/groups/1367524866920046/posts/3098309620508220",
+      "title": "DRC Maintenance is adding local crews for steady work on single ...",
+      "snippet": "We send out plumbing and handyman repairs, HVAC and electrical calls, make -ready turns (paint, drywall, flooring), move-out cleaning, cleanouts",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Ohio Contractors Platform",
+      "posted": "2026-11-27",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/518258159093897/posts/2246718039581225",
+      "url": "https://www.facebook.com/groups/518258159093897/posts/2246718039581225",
+      "title": "Custom apparel and gifts available in Findlay, Ohio - Facebook",
+      "snippet": "✨ WHAT DO I OFFER? CUSTOM EMBROIDERY • Personalized sweatshirts, hoodies & tees • Hats, beanies & polos • Business logos & company apparel •",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Findlay, Ohio Neighbors Helping Neighbors",
+      "posted": "2026-11-28",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/111536819200985/posts/3078350199186284",
+      "url": "https://www.facebook.com/groups/111536819200985/posts/3078350199186284",
+      "title": "Corvette kids' electric ride-on Power Wheels car. Runs off a dewalt ...",
+      "snippet": "Corvette kids' electric ride-on Power Wheels car. $100 · Findlay, OH Corvette kids' electric ride-on. Comes with a 12V rechargeable battery.",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "allen county online garage sale",
+      "posted": "2026-11-27",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/PointPlace/posts/10168941924139488",
+      "url": "https://www.facebook.com/groups/PointPlace/posts/10168941924139488",
+      "title": "Come shop today!!!! - Facebook",
+      "snippet": "Collectique Unique Gifts 5111 North Summit Street Toledo, Ohio 43611 HOURS: 12PM 12PM-6PM - 6PM. Other posts. Related groups. Point Place And",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Point Place",
+      "posted": "2026-11-27",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/810031734292425/posts/1556827819612809",
+      "url": "https://www.facebook.com/groups/810031734292425/posts/1556827819612809",
+      "title": "Cheap used furnaces or space heaters for winter in Toledo?",
+      "snippet": "Does anyone know who the cheapest gas supplier in Toledo is? My bill was almost 300 this month when the furnace is set at 68. Jenny Pollock",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Toledo Free Stuff",
+      "posted": "2026-11-27",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "intent",
+        "host": true,
+        "keyword": true,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "intent"
       }
     },
     {
@@ -614,7 +1454,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -623,10 +1463,72 @@
       }
     },
     {
+      "id": "https://www.facebook.com/groups/1550174251900766/posts/4445168905734605",
+      "url": "https://www.facebook.com/groups/1550174251900766/posts/4445168905734605",
+      "title": "COMING SOON 2018 Perth St, Toledo, Ohio 43607 Offered at ...",
+      "snippet": "Tenant covers gas and electric, and reimburses for the water bill. Situated on a double lot, it's a low-maintenance addition to your",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Northwest Ohio Real Estate FOR SALE",
+      "posted": "2026-11-27",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/6189425137788992/posts/29587627684208741",
+      "url": "https://www.facebook.com/groups/6189425137788992/posts/29587627684208741",
+      "title": "Before Amazon, smartphones and shopping from your couch, Black ...",
+      "snippet": "Who remembers gas stations in Toledo, Ohio? Jeffrey John ▻ HISTORIC TOLEDO Then and Now, Downtown Toledo Area Has Everything. 1w · Public",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "HISTORIC TOLEDO Then and Now, Downtown Toledo Area Has Everything",
+      "posted": "2026-11-27",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
       "id": "https://www.facebook.com/groups/1854210748209867/posts/4312991385665112",
       "url": "https://www.facebook.com/groups/1854210748209867/posts/4312991385665112",
       "title": "Barry L Johnson Sr. on Facebook: \"🚨 Power Outages Central Ohio — About 6,700 AEP Ohio customers lost power in Franklin County, which i…\"",
-      "snippet": "# Barry L Johnson Sr. on Facebook: \"🚨 Power Outages Central Ohio — About 6,700 AEP Ohio customers lost power in Franklin County, which i…\"\n\n🚨 Power Outages\n\nCentral Ohio — About 6,700 AEP Ohio customers lost power in Franklin County, which includes Columbus. A utility-data tracker showed 6,663 custo…",
+      "snippet": "[Image: May be an image of text]\n\n- Author: Barry L Johnson Sr.\n- Group: Electrify Everything\n- Posted: 2026-11-28T03:10:37+00:00\n- Shared link: \n- Links: \n- Reactions: 0\n- Comment count: 0\n- Shares: 0\n- Privacy: Public group [...] # Barry L Johnson Sr. on Facebook: \"🚨 Power Outages Central Ohio — A…",
       "source": "Facebook",
       "context": "facebook.com",
       "group": "Electrify Everything",
@@ -634,7 +1536,8 @@
       "first_seen": "2026-11-28",
       "last_seen": "2026-11-28",
       "queries": [
-        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio"
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Columbus OR Cincinnati OR Cleveland OR Dayton) Ohio",
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
       ],
       "rules": {
         "accepted": false,
@@ -645,7 +1548,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -676,7 +1579,39 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/portageresponsibledevelopment/posts/1508373304482671",
+      "url": "https://www.facebook.com/groups/portageresponsibledevelopment/posts/1508373304482671",
+      "title": "82% of voters in Ashville, Ohio, rejected the village's deal with a data ...",
+      "snippet": "82% of voters in Ashville, Ohio, rejected the village's deal with a data center developer. 16 days later, the state approved an 800-megawatt",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Portage Residents for Responsible Development",
+      "posted": "2026-11-28",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Akron OR Toledo OR Canton OR Youngstown) Ohio",
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "keyword",
+        "host": true,
+        "keyword": false,
+        "ohio": true,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -707,12 +1642,43 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
         "source": "rules",
         "reason": "keyword"
+      }
+    },
+    {
+      "id": "https://www.facebook.com/groups/189902351120792/posts/29727289590288677",
+      "url": "https://www.facebook.com/groups/189902351120792/posts/29727289590288677",
+      "title": "2018 Ford Escape · SE - gas saver • financing available!",
+      "snippet": "ONLY $6,995! BUY, SELL & TRADE IN LIMA OHIO 10w … 419-529-0118. BUY HERE & PAY HERE (Bank statement, phone, utility bill, etc.) 304-267",
+      "source": "Facebook",
+      "context": "facebook.com",
+      "group": "Buy, Sell , Trade Items in Northern Kentucky",
+      "posted": "2026-11-28",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "queries": [
+        "site:facebook.com/groups (\"electric bill\" OR \"gas bill\" OR \"electric supplier\") (Lima OR Findlay OR Zanesville OR Mansfield) Ohio"
+      ],
+      "rules": {
+        "accepted": false,
+        "semantic_accepted": false,
+        "reason": "geography",
+        "host": true,
+        "keyword": true,
+        "ohio": false,
+        "lead": false,
+        "hard_exclusion": true,
+        "version": "05e2a2e2ae24"
+      },
+      "production": {
+        "accepted": false,
+        "source": "rules",
+        "reason": "geography"
       }
     },
     {
@@ -738,7 +1704,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -769,7 +1735,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -800,7 +1766,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -862,7 +1828,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -956,7 +1922,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -1050,7 +2016,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -1112,7 +2078,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -1174,7 +2140,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -1236,7 +2202,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -1267,7 +2233,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -1329,7 +2295,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -1360,7 +2326,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -1391,7 +2357,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -1422,7 +2388,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -1431,36 +2397,36 @@
       }
     },
     {
-      "id": "https://www.facebook.com/groups/1319867792608256/posts/1623430588918640",
-      "url": "https://www.facebook.com/groups/1319867792608256/posts/1623430588918640",
-      "title": "NERGY RISE Energy Bills Rise 26% And You're Paying ...",
-      "snippet": "Home heating costs are up 11% this winter. Electric heating? Up 14% — averaging $1,242. Natural gas? Up 9.5% — around $712. Heating oil? Nearly $1,600. One in",
-      "source": "Facebook",
       "context": "facebook.com",
-      "group": "Welsh Politics - Open Debate Forum",
-      "posted": "2026-11-27",
       "first_seen": "2026-11-27",
+      "group": "Welsh Politics - Open Debate Forum",
+      "id": "https://www.facebook.com/groups/1319867792608256/posts/1623430588918640",
       "last_seen": "2026-11-28",
+      "posted": "2026-11-27",
+      "production": {
+        "accepted": false,
+        "reason": "geography",
+        "source": "rules"
+      },
       "queries": [
         "site:facebook.com/groups (\"all electric home\" OR \"all-electric\" OR \"heat pump\" OR \"electric heat\") Ohio (\"electric bill\" OR rate)",
         "site:facebook.com/groups (\"why is my electric bill\" OR \"why is my gas bill\" OR \"makes no sense\" OR \"explain my bill\") Ohio"
       ],
       "rules": {
         "accepted": false,
-        "semantic_accepted": false,
-        "reason": "geography",
+        "hard_exclusion": true,
         "host": true,
         "keyword": true,
-        "ohio": false,
         "lead": false,
-        "hard_exclusion": true,
+        "ohio": false,
+        "reason": "geography",
+        "semantic_accepted": false,
         "version": "ef51175e5380"
       },
-      "production": {
-        "accepted": false,
-        "source": "rules",
-        "reason": "geography"
-      }
+      "snippet": "Home heating costs are up 11% this winter. Electric heating? Up 14% — averaging $1,242. Natural gas? Up 9.5% — around $712. Heating oil? Nearly $1,600. One in",
+      "source": "Facebook",
+      "title": "NERGY RISE Energy Bills Rise 26% And You're Paying ...",
+      "url": "https://www.facebook.com/groups/1319867792608256/posts/1623430588918640"
     },
     {
       "id": "https://www.facebook.com/groups/771914848092993/posts/1526059566011847",
@@ -1485,7 +2451,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -1547,7 +2513,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -1578,7 +2544,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -1609,7 +2575,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -1640,7 +2606,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": false,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -1671,7 +2637,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -1702,7 +2668,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -1733,7 +2699,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -1796,7 +2762,7 @@
         "ohio": false,
         "lead": true,
         "hard_exclusion": false,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -1827,7 +2793,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -1920,7 +2886,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -1951,7 +2917,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -1982,7 +2948,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -2015,7 +2981,7 @@
         "ohio": false,
         "lead": true,
         "hard_exclusion": false,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -2046,7 +3012,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": false,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -2077,7 +3043,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -2170,7 +3136,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -2232,7 +3198,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -2263,7 +3229,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -2294,7 +3260,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -2356,7 +3322,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -2419,7 +3385,7 @@
         "ohio": false,
         "lead": true,
         "hard_exclusion": false,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -2450,7 +3416,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -2481,7 +3447,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -2543,7 +3509,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -2574,7 +3540,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -2605,7 +3571,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -2636,7 +3602,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -2729,7 +3695,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -2760,7 +3726,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -3039,7 +4005,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -3163,7 +4129,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -3194,7 +4160,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -3318,7 +4284,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -3411,7 +4377,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -3442,7 +4408,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -3880,7 +4846,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -3942,7 +4908,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -4159,7 +5125,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -4190,7 +5156,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -4221,7 +5187,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -4252,7 +5218,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -4314,7 +5280,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -4345,7 +5311,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -4407,7 +5373,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -4438,7 +5404,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -4594,7 +5560,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -4749,7 +5715,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -4781,7 +5747,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -4814,7 +5780,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -4846,7 +5812,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -5163,7 +6129,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -5194,7 +6160,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -5288,7 +6254,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -5412,7 +6378,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -5474,7 +6440,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -5505,7 +6471,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -5567,7 +6533,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -5629,7 +6595,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -5660,7 +6626,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -5753,7 +6719,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -5789,7 +6755,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -5820,7 +6786,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -5882,7 +6848,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -5913,7 +6879,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -5946,7 +6912,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -5977,7 +6943,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -6008,7 +6974,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -6072,7 +7038,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -6134,7 +7100,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -6165,7 +7131,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -6227,7 +7193,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -6289,7 +7255,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -6352,7 +7318,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -6383,7 +7349,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -6446,7 +7412,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -6481,7 +7447,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -6543,7 +7509,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -6638,7 +7604,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -6669,7 +7635,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -6700,7 +7666,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -6766,7 +7732,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -6797,7 +7763,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -6829,7 +7795,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -6860,7 +7826,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -6891,7 +7857,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -6922,7 +7888,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -6953,7 +7919,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -7015,7 +7981,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -7046,7 +8012,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -7139,7 +8105,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -7170,7 +8136,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -7201,7 +8167,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -7232,7 +8198,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -7263,7 +8229,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -7294,7 +8260,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -7325,7 +8291,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -7356,7 +8322,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -7387,7 +8353,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -7449,7 +8415,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -7480,7 +8446,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -7511,7 +8477,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -7542,7 +8508,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -7573,7 +8539,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -7635,7 +8601,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -7666,7 +8632,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -7729,7 +8695,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -7760,7 +8726,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -7886,7 +8852,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -7917,7 +8883,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": false,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -7948,7 +8914,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -8014,7 +8980,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": false,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -8045,7 +9011,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -8076,7 +9042,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -8107,7 +9073,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -8138,7 +9104,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -8235,7 +9201,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -8266,7 +9232,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -8298,7 +9264,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -8329,7 +9295,7 @@
         "ohio": false,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -8360,7 +9326,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -8422,7 +9388,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -8987,7 +9953,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
@@ -9018,7 +9984,7 @@
         "ohio": true,
         "lead": false,
         "hard_exclusion": true,
-        "version": "ef51175e5380"
+        "version": "05e2a2e2ae24"
       },
       "production": {
         "accepted": false,
